@@ -12,5 +12,12 @@ technologies: "electronics, sense-hat, physical computing, html/css, scratch, py
 site_areas:
 steps:
   - title: Introduction
-  - title: What you will need
-  - title: Step title
+  - title: Getting Setup
+  - title: All the colours!
+  - title: Organising your page
+  - title: Design some themes
+  - title: Individual style
+  - title: Inspector Gadget
+  - title: Sizing it up
+  - title: Animation
+  - title: Teach Tito to roll over!

@@ -2,7 +2,8 @@
 
  Let's jazz up the homepage a bit! 
  
- - Go to `index.html` and add the following **attribute** to the first paragraph tag:
+- Go to `index.html` and add the following **attribute** to the first paragraph tag:
+
 ```html
     <p id="myCoolText">
         My website is about Ireland.
@@ -11,7 +12,7 @@
 
 The `id` is a name you give to **identify** this particular element. No two elements on a page should ever have the same `id`.
 
-2. Now go to your stylesheet and add the following code
+- Now go to your stylesheet and add the following code
 
 ```css
     #myCoolText {

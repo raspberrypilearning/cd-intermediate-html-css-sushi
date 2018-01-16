@@ -1,19 +1,19 @@
 ## Organising your page
 
-- So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
++ So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
  
 **Content** is all the "stuff" on your web page, like information and pictures
 
-- Go to the `attractions.html` file \(or one of your own pages if you're not using the example Trinket project\). Near the top, just **underneath** the opening `<main>` tag, type the following on a new line: 
++ Go to the `attractions.html` file \(or one of your own pages if you're not using the example Trinket project\). Near the top, just **underneath** the opening `<main>` tag, type the following on a new line: 
 
 ```html
   <main>
     <article>
 ```
 
-- Delete the closing tag that Trinket automatically adds in for you.
++ Delete the closing tag that Trinket automatically adds in for you.
 
-- At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
 
 ```html
   </article>
@@ -39,7 +39,7 @@ Remember when you created a menu and then put it in between `<nav> </nav>` tags?
   </article>
 ```
 
-- Now look at the content in your `article`: can you break it up into chunks or sections? Another HTML element called `section` lets you do exactly this! I've put the information about each different attraction in between its own set of `<section> </section>` tags:
++ Now look at the content in your `article`: can you break it up into chunks or sections? Another HTML element called `section` lets you do exactly this! I've put the information about each different attraction in between its own set of `<section> </section>` tags:
 
 ```html
   <article>
@@ -62,7 +62,7 @@ Remember when you created a menu and then put it in between `<nav> </nav>` tags?
 
 Once your content has been organised into `article`s and `section`s you can create CSS rules in the stylesheet to control how the different bits look! 
 
-- Here's some example CSS styling. See if you can understand it and then make some of your own.
++ Here's some example CSS styling. See if you can understand it and then make some of your own.
 
 ```css
   section {
@@ -79,4 +79,4 @@ Once your content has been organised into `article`s and `section`s you can crea
   }
 ```
 
-- Have a go at organising all of your HTML files in this way. In my example I've added an `article` with a bunch of `section`s onto the Food page. On the next card you'll design a different theme for each page that's organised into `articles` and `section`s!
++ Have a go at organising all of your HTML files in this way. In my example I've added an `article` with a bunch of `section`s onto the Food page. On the next card you'll design a different theme for each page that's organised into `articles` and `section`s!

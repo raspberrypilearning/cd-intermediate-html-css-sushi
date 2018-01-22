@@ -1,84 +1,109 @@
-## Design some themes
+## Organising your page
 
-+ Let's design a theme for the Attractions page that's different from the other pages. Go to your stylesheet file and add the following. Be sure to include the dot in front!
-   
-```css
-  .pupleBackground {
-      background-color: #9f80ff;
-  }
-```
+So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+ 
+**Content** is all the "stuff" on your web page, like information and pictures
 
-The dot makes this into a **class selector**. With a CSS **class** you can apply a set of CSS rules to any element on your website by adding an **attribute** to the element.
-
-+ If you want to, you could pick the colour to match the background of your page!
-
-+ Now go to `attractions.html` \(or the page you're working on if you're using your own project\) and add the following **attribute** to the `article` tag:
++ Go to the `attractions.html` file \(or one of your own pages if you're not using the example project\) and, near the top, just **underneath** the opening `<main>` tag, type the following on a new line: 
 
 ```html
-  <article class="purpleBackground">
+  <main>
+    <article>
 ```
 
-You should see the background change around the text on the page.
++ If your editor automatically added in a closing tag `</article>` for you, delete it.
 
-+ Add the following class to your stylesheet:
-
-```css
-  .greenBackground {
-      background-color: #48D1CC;
-  }
-```
-
-+ Back in the **html** file, add the **attribute** `class="greenBackground"` to each of the `section` tags, just like you did for the `article` element. Look at your web page on the right and compare it to the other pages that have `section` elements.
-
-When you use a CSS **element selector** such as `section`, the style rules apply to **all** the elements of that type on your website. With CSS **classes** you're able to just change **some** of them. You can add more than one class to an element too. 
-
-+ Let's make another CSS **class** to give the sections some margin and padding. In `styles.css`, add the following code:
-
-```css
-    .sectionSpacing {
-      padding: 10px;
-      margin-top: 20px;
-    }
-```
-
-+ In the **html** page you were working on, add the new class to each of the sections like this:
++ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
 
 ```html
-  <section class="greenBackground sectionSpacing">
+  </article>
+    </main>
 ```
 
-You can add as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the **class attribute**, and separate them with spaces.
+Your `main` element should look something like this now:
 
-+ How about re-vamping the Food page? \(If you're using your own website, you'll need another page with some **sections** on it\) Add the following classes to your stylesheet:
+```html
+  <main>
+    <article>
+      <h1>My favourite places to see in Ireland</h1>
+        <h2>The Cliffs of Moher</h2>
+        <p>
+        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+        <h2>Achill Island</h2>
+        <p>This is a large island off the coast of County Mayo. It has a wild and
+        beautiful landscape of mountains, bogs and cliffs.
+        </p>
+        <img src="achill.JPG" width="200px" />
+    </article>
+  </main>
+```
+
+--- collapse ---
+---
+title: What's the article for?
+---
+
+Think of the `article` element as a **container** for a piece of content, in this case a set of information about attractions in my home country, Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+
+If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. 
+
+What you are doing is telling the browser that everything in between these tags belongs together. Like organising things in boxes and shelves in your home!
+
+--- /collapse ---
+
+Depending on your content, you might want to break up your `article` into chunks or sections. Another HTML element called `section` lets you do exactly this!
+
+Here, I've put the information about each different attraction in between its own set of `<section> </section>` tags:
+
+```html
+  <article>
+    <h1>My favourite places to see in Ireland</h1>
+    <section>
+      <h2>The Cliffs of Moher</h2>
+      <p>
+      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+    </section>
+    <section>
+      <h2>Achill Island</h2>
+      <p>This is a large island off the coast of County Mayo. It has a wild and
+      beautiful landscape of mountains, bogs and cliffs.
+      </p>
+      <img src="achill.JPG" width="200px" />
+    </section>
+  </article>
+```
+
++ Look at the content in your `article` and see if you can break it up into sections using this new tag.
+
+Once your content has been organised into `article`s and `section`s you can create CSS rules in the stylesheet to control how the different bits look! 
+
++ Here's some example CSS styling. See if you can understand it and then try to make some of your own.
 
 ```css
-  .yellowBackground {
-    background-color: #FFFFCC;
-    color: #A52A2A;
+  section {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
   }
 
-  .solidRoundBorders {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #F5FFFA;
+  article {
     border-radius: 10px;
+    background-color: #48D1CC;
+    padding: 10px;
   }
 ```
 
-+ Go to the `food.html` file \(or your own file\) and add the new classes as well as the `.sectionSpacing` class to each section:
+--- challenge ---
 
-```html
-  <section class="yellowBackground sectionSpacing solidRoundBorders">
-```
+## Challenge: Organise all your content
 
-Notice how you can mix and match the classes in your element's class attribute? Using CSS classes lets you **reuse** the same set of style rules on lots of elements. You can apply them to any element that has the properties you've set. 
++ Have a go at organising all of your HTML files in this way. 
 
-+ Go to `index.html` and add the `solidRoundBorders` class to the picture of Tito.
+In my example I've added an `article` with a bunch of `section`s onto the Food page. 
 
-```html
-    <img class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px" />
-```
+On the next card you'll design a different theme for each page that's organised into `articles` and `section`s!
 
-+ Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
-
-+ Extra challenge: use CSS **classes** to define a few different picture sizes for the website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
+--- /challenge ---

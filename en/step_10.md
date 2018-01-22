@@ -1,75 +1,88 @@
-## Teach Tito to roll over!
+## Animation
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! 
-
-+ Find your CSS rules for the **img** elements, or create some if you don't have any. Add in a border, and then add a new block of rules right underneath:
++ Go to the bottom of your CSS file and add the following code
 
 ```css
-  img {
-    border: 2px solid White;
-  }
-  img:hover {
-    border: 2px dashed Navy;
-  }
+    @keyframes myFirstAnimation {
+        from {
+            width: 100px;
+        }
+        to {
+            width: 300px;
+        }
+    }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**. The `:hover` bit is the **pseudo-class**. It's a bit like a **class**, but it comes built in: you can add `:hover` style rules to any **element**, **class** or **id** selector in your stylesheet without needing to add anything extra in your HTML code.
+This code creates an animation called `myFirstAnimation` that you can add to any element on your website. 
 
-+ What do you think will happen? Check what pages on your website have pictures on them \(add a picture if there aren't any!\), then move the mouse over a picture to find out!
++ What do you think it does?
 
-+ Let's use this new `:hover` **pseudo-class** together with a **CSS class** to make links glow when you hover over them! Add a link to your web page and include an **attribute** to specify the **class** name. Remember, links are defined using the **a** tag.
-
-```html
-    <p>
-      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
-    </p>
-```
-
-+ Add the following code to your stylesheet, then run your code to see your lovely links in action.
++ Find your CSS rules for the ID `#imgTito` and add the following three properties:
 
 ```css
-  .niceLinks {
-    text-decoration: none;
-    color: magenta;
-  }
-  .niceLinks:hover {
-    color: deepskyblue;
-  }
-```
-
-+ Why not add the **attribute** `class="niceLinks"` to all of the links in your menu bar as well?
-
-You can combine all of these tricks with animations too! 
-
-+ Find the `#imgTito` CSS block in your stylesheet again \(if you are working with your own project you can use any picture and `id`\). Add the following code to your stylesheet file:
-
-```css
-  #imgTito {
-    border-radius: 100%;
-    width: 100px;
-  }
-  #imgTito:hover {
-    animation-name: rollOver;
-    animation-duration: 1s;
+    animation-name: myFirstAnimation;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-  }
-  @keyframes rollOver {
+```
+
++ Watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
+
++ Let's try another animation! Add the following code to the end of your CSS file:
+
+```css
+    @keyframes glowPulse {
+        0% {
+            color: DeepSkyBlue;
+        }
+        50% {
+            color: LightGreen;
+        }
+        100% {
+            color: DeepSkyBlue;
+        }
+    }
+```
+   
++ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
+
+```css
+    #myCoolText {
+            animation-name: glowPulse;
+            animation-duration: 1.5s;
+            animation-iteration-count: 1;
+    }
+```
+
+When you use **percentages** instead of `from` and `to`, you're able to set in between values as well as just start and end values. You can set as many in between values as you like using different percentages. 
+
++ Try adding in more colours to the glowing sequence above, for example at _25%_ and _75%_!
+
++ Change the value of `animation-iteration-count` to `infinite`. What do you think will happen? You can also play with different values for `animation-duration` to speed up or slow down your animation.
+
++ One final trick! Add this animation code:
+
+```css
+    @keyframes slide {
     0% {
-      transform: rotate(0deg);
+        background-position-x: 0;
     }
     100% {
-      transform: rotate(-360deg);
+        background-position-x: 600vw;
     }
-  }
+    }
 ```
 
-+ Can you guess what will happen?
++ Now find the `#frontPage` CSS rules from earlier and change them to:
 
-+ Now shout "Roll over!" as you move the mouse over the picture!
+```css
+    #frontPage {
+        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+        background-size: 600vw 600vw;
+        animation: slide 10s infinite linear forwards;
+    }
+```
 
-+ Can you use the `glowPulse` animation from the previous card to make the `niceLinks` keep changing colours when the mouse is hovering over them? \(Hint: use a value of `infinite` for the `animation-iteration-count`\)
+Don't worry about understanding all of the code above... just sit back and enjoy!!
 
-![](images/badge-footer-image-html-intermed.png)
-
-
++ Try making your own new animation using the `@keyframes` keyword and a name that you choose. How about animating your nav menu? To learn about more things you can do with animation, visit [dojo.soy/html2-css-animation](http://dojo.soy/html2-css-animation). Have fun!
 

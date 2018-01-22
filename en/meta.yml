@@ -12,7 +12,8 @@ technologies: "electronics, sense-hat, physical computing, html/css, scratch, py
 site_areas:
 steps:
   - title: Introduction
-  - title: Getting Setup
+  - title: What you will need
+  - title: Getting setup
   - title: All the colours!
   - title: Organising your page
   - title: Design some themes

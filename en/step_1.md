@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Build upon your existing skills to make a website and gain more control over how it looks.
 
 ### What you will make
 

@@ -1,11 +1,40 @@
-## Getting Setup
+## Getting setup
 
-1. This Sushi Card series uses Trinket for writing the website code. If you do not have an account on Trinket, it is recommended that you create one. It is free: all you need is an email address. Go to [dojo.soy/html2-trinket](http://dojo.soy/html2-trinket) to sign up.
++ Go to [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start). 
 
-2. To work through the examples in the Sushi Cards, **Remix** this trinket: [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start). Then click on your username and go to "My Trinkets". You will see the remixed project there. Open it and change the name if you like, then click "Save".
+--- collapse ---
+---
+title: I have an account on Trinket
+---
 
-3. The Sushi Cards mainly use examples from the above trinket, but if you prefer you can work with a website that you already made, for example the one that you made in the Beginner HTML and CSS series. To make a copy of your own website in Trinket, open it and click the "Duplicate" button. Change the name if you like, and then click "Save".
+- Click the "Remix" button at the top right of the project \(if you are not signed in, you will be prompted to do so. Once you've signed in you will then need to click the Remix button again\). This creates a copy of the project for you to work with. 
 
-4. Just above the tabs in the code panel, click the icon and select either "Click to Run" or "Autorun".
-   * _Click to Run_: Recommended. Any time you have made changes to your code, click the button to see the results.
-   * _Autorun_: Your website will be automatically updated every time you make a change to the code. It doesn't always wait for you to stop typing, so this usually results in a lot of flashing of the page while you type! It also thinks there's errors when you haven't finished typing yet, which can be confusing.
+![Remix button](images/tktRemixButtonArrow.png)
+
+It should say "remixed" after you click it:
+
+![Button now says "remixed"](images/tktRemixedSmall.png)
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: I don't have an account on Trinket
+---
+
+You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can either store somewhere, for example, in a document or send to someone via email.
+Note: each time you make a change, you will get a new link.
+
+If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **Remix** a project somebody else has shared with you (i.e. save a copy so you can make your own changes to it).
+
+
+- Go to [dojo.soy/html2-trinket](http://dojo.soy/html2-trinket) and click "Sign Up For Your Free Account". You will need an email address to sign up. 
+
+- Enter your email address and choose a password, or ask somebody to do this for you.
+
+- You can now access all your saved or remixed projects by clicking on your username and going to "My Trinkets".
+!["My Trinkets" menu item](images/MyTrinketsMenuWide.png)
+
+--- /collapse ---
+
+The examples in these Sushi Cards are mainly based on the project above, but if you prefer you can work with a website that you already made.

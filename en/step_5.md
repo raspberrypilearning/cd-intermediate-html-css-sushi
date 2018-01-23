@@ -1,8 +1,15 @@
 ## Organising your page
 
 So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
- 
-**Content** is all the "stuff" on your web page, like information and pictures
+
+--- collapse ---
+---
+title: What is content?
+---
+
+**Content** is all the "stuff" on your web page, like information and pictures.
+
+--- /collapse ---
 
 + Go to the `attractions.html` file \(or one of your own pages if you're not using the example project\) and, near the top, just **underneath** the opening `<main>` tag, type the following on a new line: 
 
@@ -11,13 +18,13 @@ So far you've used **headings** and **paragraphs** to make your **content** look
     <article>
 ```
 
-+ If your editor automatically added in a closing tag `</article>` for you, delete it.
++ If your editor automatically added in a closing `</article>` tag for you, delete it.
 
 + At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
 
 ```html
-  </article>
-    </main>
+    </article>
+  </main>
 ```
 
 Your `main` element should look something like this now:
@@ -39,22 +46,7 @@ Your `main` element should look something like this now:
   </main>
 ```
 
---- collapse ---
----
-title: What's the article for?
----
-
-Think of the `article` element as a **container** for a piece of content, in this case a set of information about attractions in my home country, Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
-
-If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. 
-
-What you are doing is telling the browser that everything in between these tags belongs together. Like organising things in boxes and shelves in your home!
-
---- /collapse ---
-
-Depending on your content, you might want to break up your `article` into chunks or sections. Another HTML element called `section` lets you do exactly this!
-
-Here, I've put the information about each different attraction in between its own set of `<section> </section>` tags:
++ Now look at the content in your `article`: can you break it up into chunks or sections? If so, put this new set of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
 
 ```html
   <article>
@@ -75,11 +67,29 @@ Here, I've put the information about each different attraction in between its ow
   </article>
 ```
 
-+ Look at the content in your `article` and see if you can break it up into sections using this new tag.
+--- collapse ---
+---
+title: What are the new tags for?
+---
 
-Once your content has been organised into `article`s and `section`s you can create CSS rules in the stylesheet to control how the different bits look! 
+Think of these new elements as **containers**. They are used to group things together.
 
-+ Here's some example CSS styling. See if you can understand it and then try to make some of your own.
+The `article` element is a container for a whole piece of content, in this case a set of information about attractions in my home country, Ireland. 
+
+If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+
+The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+
+
+Anything can go in between the tags. Usually it will be more than one element but it doesn't have to be, and they can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together. Like organising things in boxes and shelves in your home!
+
+If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. 
+
+--- /collapse ---
+
+Once your content has been organised into `article`s and `section`s you can create CSS rules in the stylesheet to control how the different bits look! The `article` and `section` elements can be styled just like any other HTML element.
+
++ See if you can understand the CSS rules below and then try to make some of your own.
 
 ```css
   section {
@@ -98,12 +108,84 @@ Once your content has been organised into `article`s and `section`s you can crea
 
 --- challenge ---
 
-## Challenge: Organise all your content
+## Challenge: Organise your website
 
-+ Have a go at organising all of your HTML files in this way. 
++ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
 
-In my example I've added an `article` with a bunch of `section`s onto the Food page. 
+--- hints ---
 
-On the next card you'll design a different theme for each page that's organised into `articles` and `section`s!
+--- hint ---
+
+Look at the Food page of the example project. You'll see I've added an `article` with a bunch of `section`s onto the Food page. 
+
+--- /hint ---
+
+--- hint ---
+
+The file `food.html` in my website contains the following code:
+
+```html
+  <main>
+    <article>
+      <h1>Food in Ireland</h1>
+      <p>
+        These are some of my favourite Irish foods!
+      </p>  
+      <section>
+        <h2>Traditional Irish Breakfast</h2>
+        <p>
+          A "Full Irish" breakfast consists of sausages, rashers (bacon),
+          eggs, black pudding, white pudding and toast.
+        </p>
+        <p>
+          Often there will be a grilled tomato as well as mushrooms,
+          and baked beans.
+        </p>
+        <p>
+          And of course, no breakfast is complete without a lovely pot 
+          of tea!
+        </p>
+      </section>
+        
+      <section>
+        <h2>Bangers and Mash</h2>
+        <p>
+          This classic of sausages, mashed potato and gravy is not
+          unique to Ireland, but what makes it special is the Irish
+          sausages. Most countries have their own way of making sausages,
+          and they are one thing I miss from home if I'm away travelling!
+        </p>
+      </section>
+        
+      <section>
+        <h2>Bacon and Cabbage</h2>
+        <p>
+          I couldn't possibly make a list of Irish food without including
+          this very traditional dish!
+        </p>
+        <p>
+          It might not sound very interesting, but this hearty meal of
+          boiled ham, potatoes and green cabbage is tasty and filling.
+          I love to smother the potatoes in butter, and I also like a
+          little mustard with the bacon.
+        </p>
+        <p>
+          My mum always made it extra special by cooking the cabbage in
+          the water that the ham was boiled in.
+        </p>
+        <p>
+          If there are any leftovers you can make another one of my
+          favourites: <strong>fried cabbage</strong>!
+        </p>
+      </section>
+    </article>     
+  </main>
+```
+
+--- /hint ---
+
+--- /hints ---
+
+On the next card you'll design a different theme for each page that's organised into `article`s and `section`s!
 
 --- /challenge ---

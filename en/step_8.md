@@ -30,11 +30,16 @@ Here's the fun part!
 
 Note: You can also click the coloured square instead of the text: this lets you use a colour picker tool. 
 
-How is this special? Surely it's the same as changing your code?! 
+--- collapse ---
+---
+title: How is this special? Surely it's the same as changing your code?! 
+---
 
 + To see why it's different, Refresh the page. Notice how the text went back to its original colour? 
 
 When you change code using the Dev Tools you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files in your website. This is handy because it means you can **test** out loads of different values and **instantly** see what they look like, **without touching your code files**.
+
+--- /collapse ---
 
 + Click in the space after the colour. A new line starts, where you can type more CSS. Enter the following:
 

@@ -45,42 +45,6 @@ If you don't give **section** elements a width, they fill up all the space avail
 
 + You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the **section** element instead of the **article** element \(which is roughly the width of the page\).
 
-Another **relative** unit of measurement is `em`, which is related to the size of your text. 
++ Experiment with different `%` values for the size of the picture.
 
-+ **Cut** the heading `<h1>Welcome to Ireland!</h1>` and **paste** it on a new line **above** the opening `<article>` tag, so that it's outside of the `article` element. Add a class **attribute** to the heading as well.
-
-```html
-  <main>	
-    <h1 class="funsize">Welcome to Ireland!</h1>
-    <article id="frontPageArticle">
-```
-
-+ Then, in your CSS file, add the following code. There is a border so you can see the spacing more easily.
-
-```css
-  .funsize {
-    border: 2px solid #FFFFFF;
-    padding: 5px;
-    font-size: small;
-  }
-```
-
-+ Set the font-size to different values for example `smaller`, `small`, `medium`, `larger`, `xx-large`. Can you see that the `padding` \(space between the border and the text\) doesn't change?
-
-With the padding staying the same, the space starts to look small as the text gets bigger. 
-
-+ Let's give it a **relative** value instead of the **absolute** pixel value. Change it to
-
-```css
-  padding: 1em;
-```
-
-+ Now experiment again with different values for **font-size**. You should see the spacing change to match the font size this time.
-
-Setting the size of anything to `1em` makes it the same size as the text; setting it to `2em` makes it twice the size of the text, and so on \(specifically, `1em` is the width of the letter `m`!\).
-
-You can use **em** values for anything you can set the size of, not just padding. 
-
-+ Experiment with using it instead of **px** on borders, or instead of **%** on your image!
-
-+ Once you're done experimenting, delete the `section` tags you added around the image and also delete the `#titoSection` CSS block! Set the size of the Tito picture back to `100px` as well.
++ Before moving onto the next card, delete the `section` tags you added around the image and also delete the `#titoSection` CSS block! Set the size of the Tito picture back to `100px` as well.

@@ -60,7 +60,9 @@ Sometimes you might make a CSS class that does only one thing. For example, you 
 
 --- /collapse ---
 
-+ Let's make another CSS **class** to give the sections some margin and padding. In `styles.css`, add the following code:
+You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+
++ Let's make another CSS class to give the sections some margin and padding. In `styles.css`, add the following code:
 
 ```css
   .sectionSpacing {
@@ -74,8 +76,6 @@ Sometimes you might make a CSS class that does only one thing. For example, you 
 ```html
   <section class="greenBackground sectionSpacing">
 ```
-
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
 
 + Let's give another page a makeover! Add the following classes to your stylesheet:
 
@@ -99,7 +99,7 @@ You can apply as many CSS classes to an element as you like. Just write the name
   <section class="yellowBackground sectionSpacing solidRoundBorders">
 ```
 
-Using CSS classes lets you **reuse** the same set of style rules on lots of elements. They don't even have to be the same type of element: you can apply the same class to any element that has the properties you've set in that class. 
+So you've seen that using CSS classes lets you **reuse** the same set of style rules on lots of elements. But what's more, they don't even have to be the same type of element: you can apply the same class to any element that has the properties you've set in that class. 
 
 + Go to `index.html` and add the `solidRoundBorders` class to the picture of Tito, or another picture on your website.
 
@@ -110,9 +110,6 @@ Using CSS classes lets you **reuse** the same set of style rules on lots of elem
 --- challenge ---
 
 ## Challenge: Make some new classes
-
-
-Choose another page and design some different styles for the elements on that page. You could use some of the same CSS classes 
 
 + Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
 

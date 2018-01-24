@@ -1,6 +1,6 @@
 ## Design some themes
 
-Let's design a theme for the Attractions page that's different from the other pages. 
+Let's design a different theme for each page that's different from the other pages.
 
 + Go to your stylesheet file and add the following. Be sure to include the dot in front!
   

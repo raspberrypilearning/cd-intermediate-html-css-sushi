@@ -72,18 +72,23 @@ Your `main` element should look something like this now:
 title: What are the new tags for?
 ---
 
-Think of these new elements as **containers**. They are used to group things together.
-
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in my home country, Ireland. 
-
-If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
-
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
-
+Think of these new elements as **containers**. They are used to group things together. 
 
 Anything can go in between the tags. Usually it will be more than one element but it doesn't have to be, and they can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together. Like organising things in boxes and shelves in your home!
 
-If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. 
+### Article
+
+The `article` element is a container for a whole piece of content, in this case a set of information about attractions in my home country, Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+
+### Section
+
+The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+
+### Others exist too!
+
+These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. 
+
+Using the container elements like this makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, lets you really get creative with the styling.
 
 --- /collapse ---
 
@@ -116,13 +121,7 @@ Once your content has been organised into `article`s and `section`s you can crea
 
 --- hint ---
 
-Look at the Food page of the example project. You'll see I've added an `article` with a bunch of `section`s onto the Food page. 
-
---- /hint ---
-
---- hint ---
-
-The file `food.html` in my website contains the following code:
+Look at the Food page of the example project. You'll see I've added an `article` with a bunch of `section`s into the file `food.html`:
 
 ```html
   <main>

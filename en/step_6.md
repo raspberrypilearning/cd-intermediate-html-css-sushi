@@ -1,6 +1,6 @@
 ## Design some themes
 
-Let's design a different theme for each page that's different from the other pages.
+On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
 
 + Go to your stylesheet file and add the following. Be sure to include the dot in front!
   
@@ -31,15 +31,24 @@ With CSS **classes** you're able to just change **some** of them.
 
 Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, it doesn't have to be the name of a HTML element.
 
-You choose which elements the style rules apply to by adding the `class` **attribute** to those elements, in the HTML code.
-
-The `class` attribute looks like this:
-
-```html
-  class="greenBackground"
+```css
+  .myAwesomeClass {
+    /* my cool style rules go here */
+  }
 ```
 
-You put the name of the class (that's the selector name in your stylesheet) in as the value for the attribute, **without** the dot.
+You choose which elements the style rules apply to by adding the `class` **attribute** to those elements, in the HTML code. You put the name of the class in as the value for the attribute, **without** the dot, like this:
+
+```html
+  class="myAwesomeClass"
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Stuff to rewrite or cut out
+---
 
 The class can contain any rules you like. Sometimes you might make a bunch of CSS classes that each do only one or two things.
 
@@ -66,7 +75,9 @@ Sometimes you might make a CSS class that does only one thing. For example, you 
   <section class="greenBackground sectionSpacing">
 ```
 
-+ Let's give the Food page a makeover! \(If you're using your own website, you'll need another page with some **sections** on it\) Add the following classes to your stylesheet:
+You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+
++ Let's give another page a makeover! Add the following classes to your stylesheet:
 
 ```css
   .yellowBackground {
@@ -82,13 +93,13 @@ Sometimes you might make a CSS class that does only one thing. For example, you 
   }
 ```
 
-+ Go to the `food.html` file \(or your own file\) and add the new classes as well as the `.sectionSpacing` class to each section:
++ Go to the `food.html` file \(or, if you're using your own website, you'll need another `html` file with some **sections** on it\) and add the new classes as well as the `.sectionSpacing` class to each section:
 
 ```html
   <section class="yellowBackground sectionSpacing solidRoundBorders">
 ```
 
-Notice how you can mix and match the classes in your element's `class` attribute? Using CSS classes lets you **reuse** the same set of style rules on lots of elements. You can apply them to any element that has the properties you've set. 
+Using CSS classes lets you **reuse** the same set of style rules on lots of elements. They don't even have to be the same type of element: you can apply the same class to any element that has the properties you've set in that class. 
 
 + Go to `index.html` and add the `solidRoundBorders` class to the picture of Tito, or another picture on your website.
 
@@ -104,6 +115,8 @@ Notice how you can mix and match the classes in your element's `class` attribute
 Choose another page and design some different styles for the elements on that page. You could use some of the same CSS classes 
 
 + Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
+
++ Try applying the classes to other elements too, such as `<article>` or `<p>`.
 
 + As an extra challenge, use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
 

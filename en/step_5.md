@@ -69,12 +69,14 @@ Your `main` element should look something like this now:
 
 --- collapse ---
 ---
-title: What are the new tags for?
+title: What are the new tags all about?
 ---
 
-Think of these new elements as **containers**. They are used to group things together. 
+Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home! 
 
-Anything can go in between the tags. Usually it will be more than one element but it doesn't have to be, and they can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together. Like organising things in boxes and shelves in your home!
+This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, lets you really get creative with the styling.
+
+Anything can go in between the tags. Usually it will be more than one element but it doesn't have to be, and they can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together. 
 
 ### Article
 
@@ -86,9 +88,7 @@ The `section` element lets you divide up related content into smaller chunks and
 
 ### Others exist too!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. 
-
-Using the container elements like this makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, lets you really get creative with the styling.
+These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` – can you think of any more?
 
 --- /collapse ---
 

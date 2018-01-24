@@ -10,25 +10,54 @@ Let's design a different theme for each page that's different from the other pag
   }
 ```
 
-The dot makes this into a **class selector**. With a CSS **class** you can apply a set of CSS rules to any element on your website by adding an **attribute** to the element.
-
 + Now go to `attractions.html` \(or the page you're working on if you're using your own project\) and add the following **attribute** to each `section` tag:
 
 ```html
   <section class="greenBackground">
 ```
 
-You should see the background change around the text on the page.
+You should see the background change around the text on the page. Congratulations – you've just used your first **CSS class**!
 
 + Look at how your web page looks now and compare it to the other pages that have `section` elements.
+
+--- collapse ---
+---
+title: How does it work?
+---
+
+Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website. That's not always what you want.
+
+With CSS **classes** you're able to just change **some** of them. 
+
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, it doesn't have to be the name of a HTML element.
+
+You choose which elements the style rules apply to by adding the `class` **attribute** to those elements, in the HTML code.
+
+The `class` attribute looks like this:
+
+```html
+  class="greenBackground"
+```
+
+You put the name of the class (that's the selector name in your stylesheet) in as the value for the attribute, **without** the dot.
+
+The class can contain any rules you like. Sometimes you might make a bunch of CSS classes that each do only one or two things.
+
+You can add more than one class to an element too; in fact, you can add as many CSS CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute, and separate them with spaces.
+
+Sometimes you might make a CSS class that does only one thing. For example, you might want to easily apply the same borders to several different elements. On some of those elements, maybe you also want to make the text stand out, but not on others. In that case you would make one CSS class that defines the border styling, and another that defines the text styling. You can apply any or both of the classes to whichever elements you like on your website.
+
+- note about using them to separate different parts of the styling? don't have to define **all** the rules for an element, just a particular set that you might want to reuse on other elements ???
+
+--- /collapse ---
 
 + Let's make another CSS **class** to give the sections some margin and padding. In `styles.css`, add the following code:
 
 ```css
-    .sectionSpacing {
-      padding: 10px;
-      margin-top: 20px;
-    }
+  .sectionSpacing {
+    padding: 10px;
+    margin-top: 20px;
+  }
 ```
 
 + In the `html` page you were working on, add the new class to each of the sections like this:
@@ -36,17 +65,6 @@ You should see the background change around the text on the page.
 ```html
   <section class="greenBackground sectionSpacing">
 ```
-
---- collapse ---
----
-title: How does it work?
----
-
-When you use a CSS **element selector** such as `section`, the style rules apply to **all** the elements of that type on your website. With CSS **classes** you're able to just change **some** of them. 
-
-You can add more than one class to an element too; in fact, you can add as many CSS CSS classes to an element as you like. Just write the names of all the classes you want to use inside the **class attribute**, and separate them with spaces.
-
---- /collapse ---
 
 + Let's give the Food page a makeover! \(If you're using your own website, you'll need another page with some **sections** on it\) Add the following classes to your stylesheet:
 
@@ -81,6 +99,9 @@ Notice how you can mix and match the classes in your element's `class` attribute
 --- challenge ---
 
 ## Challenge: Make some new classes
+
+
+Choose another page and design some different styles for the elements on that page. You could use some of the same CSS classes 
 
 + Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
 

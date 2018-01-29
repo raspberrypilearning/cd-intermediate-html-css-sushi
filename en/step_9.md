@@ -1,6 +1,6 @@
 ## Sizing it up
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. This is called an **absolute** measurement. It means you set an exact size and it doesn't change. Another way to set the size of things is using **relative** measurements. That means how big elements are in relation to each other. So when one thing changes size, everything else will automatically change as well to keep the same **proportions**. 
+Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
 
 + Go to `index.html` and find the `img` element with the picture of Tito. Delete the width attribute if `width="100px"` if it's there, and give the element an `id` of `imgTito`.
 
@@ -19,7 +19,19 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
 
 + 50% (50 percent) is **half**. Try a few different percentages and see if you can work out what it's doing.
 
+--- collapse ---
+---
+title: How does it work?
+---
+
+When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement. 
+
+Another way you could set size is by defining how big they should be compared to other elements. the size of elements is by how big they are compared to other elements.
+Another way to set the size of things is using **relative** measurements. That means how big elements are in relation to each other. So when one thing changes size, everything else will automatically change as well to keep the same **proportions**. 
+
 When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, **parent** of the image above is the `article` element because the `img` element is in between the `<article></article>` tags.
+
+--- /collapse ---
 
 + Now in your html file, put the image inside a `section` element with `id` `titoSection`. Include some text in the section too. 
 
@@ -41,7 +53,7 @@ When you're using **relative** measurements it's important to know what the **pa
   }
 ```
 
-If you don't give **section** elements a width, they fill up all the space available, which is usually a good thing!
+Note: If you don't give **section** elements a width, they fill up all the space available, which is usually a good thing!
 
 + You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the **section** element instead of the **article** element \(which is roughly the width of the page\).
 

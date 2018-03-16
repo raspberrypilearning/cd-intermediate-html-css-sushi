@@ -26,7 +26,6 @@ title: How does it work?
 
 When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement. 
 
-Another way you could set size is by defining how big they should be compared to other elements. the size of elements is by how big they are compared to other elements.
 Another way to set the size of things is using **relative** measurements. That means how big elements are in relation to each other. So when one thing changes size, everything else will automatically change as well to keep the same **proportions**. 
 
 When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, **parent** of the image above is the `article` element because the `img` element is in between the `<article></article>` tags.
@@ -53,7 +52,7 @@ When you're using **relative** measurements it's important to know what the **pa
   }
 ```
 
-Note: If you don't give **section** elements a width, they fill up all the space available, which is usually a good thing!
+Note: If you don't define any width for **section** elements, they fill up all the space available. Usually that's a good thing!
 
 + You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the **section** element instead of the **article** element \(which is roughly the width of the page\).
 

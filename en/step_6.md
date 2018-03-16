@@ -17,12 +17,12 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
 + Now go to `attractions.html` \(or the page you're working on if you're using your own project\) and add the following **attribute** to each `section` tag:
 
 ```html
-  <section class="topDividers">
+  <section class="topDivider">
 ```
 
 You should see a line appear above each section on the page. Congratulations – you've just used your first **CSS class**!
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDividers"` will have the line on top.
++ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
 
 --- collapse ---
 ---
@@ -88,7 +88,7 @@ You can apply as many CSS classes to an element as you like. Just write the name
 + Let's make another CSS class to give the sections some margin and padding. In `styles.css`, create the following CSS class:
 
 ```css
-  .sectionSpacing {
+  .someSpacing {
     padding: 10px;
     margin-top: 20px;
   }
@@ -97,8 +97,10 @@ You can apply as many CSS classes to an element as you like. Just write the name
 + In your `html` code, add the new class to each of the elements you were working on, like this:
 
 ```html
-  <section class="stylishBox sectionSpacing">
+  <section class="stylishBox someSpacing">
 ```
+
+![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
 So you've seen that using CSS classes lets you **reuse** the same set of style rules on lots of elements. But what's more, they don't even have to be the same type of element: you can apply the same class to any element that has the properties you've set in that class. 
 
@@ -107,6 +109,10 @@ So you've seen that using CSS classes lets you **reuse** the same set of style r
 ```html
     <main class="stylishBox">	
 ```
+
+Here's what my home page looks like now. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+
+![CSS classes being used on the home page](images/homePageWithClasses.png)
 
 --- challenge ---
 

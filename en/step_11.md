@@ -67,7 +67,66 @@ You can combine all of these tricks with animations too!
 
 + Now shout "Roll over!" as you move the mouse over the picture!
 
-+ Can you use the `glowPulse` animation from the previous card to make the `niceLinks` keep changing colours when the mouse is hovering over them? \(Hint: use a value of `infinite` for the `animation-iteration-count`\)
+--- challenge ---
+
+## Challenge: Make glowing rainbow links
+
++ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the mouse is hovering over them?
+
+--- hints ---
+
+--- hint ---
+
+Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+
+```css
+    @keyframes rainbowGlow {
+        0% {
+            color: DeepSkyBlue;
+        }
+        25% {
+            color: LightGreen;
+        }
+        50% {
+            color: #eeeeaf;
+        }
+        75% {
+            color: #eeafee;
+        }
+        100% {
+            color: DeepSkyBlue;
+        }
+    }
+```
+   
+--- /hint ---
+
+
+--- hint ---
+
+To animate something, you add the three `animation` properties to the style rules of it as you've done above, making sure the `animation-name` matches the name of the animation you wish to use.
+
+--- /hint ---
+
+--- hint ---
+
+You can add hover effects directly to the nav menu like this:
+
+```css
+    nav ul li a:hover {
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    }
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /challenge ---
+
+
 
 ![](images/badge-footer-image-html-intermed.png)
 

@@ -90,12 +90,11 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-![A round picture of Tito with a white border](images/frontPageStyleAll.png)
-
 --- /hint ---
 
 --- /hints ---
 
+![A round picture of Tito with a white border](images/frontPageStyleAll.png)
 
 --- /challenge ---
 

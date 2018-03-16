@@ -138,13 +138,13 @@ You can make a CSS class that defines just the width of an element like this:
 
 --- hint ---
 
-The size of this picture is being controlled by the `width` attribute:
+Here's an `img` tag with a `width` attribute:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />  		
 ```
 
-Below, the `width` attribute has been removed and the size is controlled by the CSS class instead:
+When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />  		

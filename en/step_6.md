@@ -102,7 +102,7 @@ You can apply as many CSS classes to an element as you like. Just write the name
 
 ![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-So you've seen that using CSS classes lets you **reuse** the same set of style rules on lots of elements. But what's more, they don't even have to be the same type of element: you can apply the same class to any element that has the properties you've set in that class. 
+So CSS classes let you **choose** which elements to style, and **reuse** the same set of style rules on any elements you want.
 
 + Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page.
 
@@ -120,8 +120,41 @@ Here's what my home page looks like now. I've also added the `topDivider` class 
 
 + Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
 
-+ Try applying the classes to other elements too, such as `<article>` or `<p>`.
-
 + As an extra challenge, use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
+
+--- hints ---
+
+--- hint ---
+
+You can make a CSS class that defines just the width of an element like this:
+
+```css
+  .smallPictures {
+    width: 100px;
+  }
+```
+
+--- /hint ---
+
+--- hint ---
+
+The size of this picture is being controlled by the `width` attribute:
+
+```html
+  <img src="tito.png" alt="Tito the dog" width="100px" />  		
+```
+
+Here, the `width` attribute has been removed and the size is controlled by the CSS class instead:
+
+```html
+  <img src="tito.png" class="smallPictures" alt="Tito the dog" width="100px" />  		
+```
+
+By using a CSS class you can easily change the width of all the pictures at once just by changing one line of code your stylesheet!
+
+--- /hint ---
+
+--- /hints ---
+
 
 --- /challenge ---

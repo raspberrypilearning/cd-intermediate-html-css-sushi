@@ -27,7 +27,7 @@ title: What is content?
   </main>
 ```
 
-Your `main` element should look something like this now:
+Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
 
 ```html
   <main>
@@ -92,26 +92,9 @@ These aren't the only container elements in HTML. If you've ever created a menu 
 
 --- /collapse ---
 
-Once your content has been organised into `article`s and `section`s you can create CSS rules in the stylesheet to control how the different bits look! The `article` and `section` elements can be styled just like any other HTML element.
-
-+ See if you can understand the CSS rules below and then try to make some of your own.
-
-```css
-  section {
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #F5FFFA;
-    padding-bottom: 10px;
-  }
-
-  article {
-    border-radius: 10px;
-    background-color: #48D1CC;
-    padding: 10px;
-  }
-```
-
 --- challenge ---
+
+You might not see much of a difference just yet in how your website looks, but once the content has been organised into `article`s and `container`s you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised and CSS controls how it looks. 
 
 ## Challenge: Organise your website
 

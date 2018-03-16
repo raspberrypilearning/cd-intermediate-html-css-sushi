@@ -24,9 +24,7 @@ Your website should now have a purple background.
 
 HEX codes allow you to mix any colour, even if it's not on any list of colours. 
 
-+ Try making up your own colour code
-   * The code must start with a `#`. This tells the browser that it is a HEX code instead of a colour name.
-   * The rest of the code is made up of six characters. They can be  any number from **0-9** and any letter from **A-F**.
++ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a HEX code instead of a colour name. The rest of the code is made up of six characters. They can be  any number from **0-9** and any letter from **A-F**.
 
 --- collapse ---
 ---
@@ -52,11 +50,10 @@ You don't need to worry too much about learning to count with Hexadecimal number
 
 You can mix HEX colours just like you can mix paint, by adding different amounts of red, green, or blue.
 
-+ Try mixing **red** and **blue**, like this: `#FF00FF`. 
-
-+ How about **red** and **green**? It looks like this: `#FFFF00`.
-
-+ Try mixing with more of one colour and less of the other, for example `#FF8800`
++ Try experimenting with mixing colours now. Here are a few suggestions:
+ Mix **red** and **blue** like this: `#FF00FF` 
+ Mix **red** and **green**: `#FFFF00`
+ Mix with more of one colour and less of the other colour, for example: `#FF8800`
 
 --- /collapse ---
 

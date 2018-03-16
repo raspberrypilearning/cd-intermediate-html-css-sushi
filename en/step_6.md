@@ -1,24 +1,28 @@
 ## Design some themes
 
-On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+
 
 + Go to your stylesheet file and add the following. Be sure to include the dot in front!
   
 ```css
-  .greenBackground {
-      background-color: #48D1CC;
+  .topDivider {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
   }
 ```
 
 + Now go to `attractions.html` \(or the page you're working on if you're using your own project\) and add the following **attribute** to each `section` tag:
 
 ```html
-  <section class="greenBackground">
+  <section class="topDividers">
 ```
 
-You should see the background change around the text on the page. Congratulations – you've just used your first **CSS class**!
+You should see a line appear above each section on the page. Congratulations – you've just used your first **CSS class**!
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements.
++ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDividers"` will have the line on top.
 
 --- collapse ---
 ---
@@ -60,9 +64,28 @@ Sometimes you might make a CSS class that does only one thing. For example, you 
 
 --- /collapse ---
 
+ + Ready to try another? Add the following CSS code to `styles.css`
+
+```css
+  .stylishBox {
+    background-color: #FFFFCC;
+    color: #A52A2A;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F5FFFA;
+    border-radius: 10px;
+  }
+```
+
++ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`
+
+It looks great, but my sections are all squashed together.
+
+![Nice looking sections squashed together](images/squashedSections.png)
+
 You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
 
-+ Let's make another CSS class to give the sections some margin and padding. In `styles.css`, add the following code:
++ Let's make another CSS class to give the sections some margin and padding. In `styles.css`, create the following CSS class:
 
 ```css
   .sectionSpacing {
@@ -71,40 +94,18 @@ You can apply as many CSS classes to an element as you like. Just write the name
   }
 ```
 
-+ In the `html` page you were working on, add the new class to each of the sections like this:
++ In your `html` code, add the new class to each of the elements you were working on, like this:
 
 ```html
-  <section class="greenBackground sectionSpacing">
-```
-
-+ Let's give another page a makeover! Add the following classes to your stylesheet:
-
-```css
-  .yellowBackground {
-    background-color: #FFFFCC;
-    color: #A52A2A;
-  }
-
-  .solidRoundBorders {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #F5FFFA;
-    border-radius: 10px;
-  }
-```
-
-+ Go to the `food.html` file \(or, if you're using your own website, you'll need another `html` file with some **sections** on it\) and add the new classes as well as the `.sectionSpacing` class to each section:
-
-```html
-  <section class="yellowBackground sectionSpacing solidRoundBorders">
+  <section class="stylishBox sectionSpacing">
 ```
 
 So you've seen that using CSS classes lets you **reuse** the same set of style rules on lots of elements. But what's more, they don't even have to be the same type of element: you can apply the same class to any element that has the properties you've set in that class. 
 
-+ Go to `index.html` and add the `solidRoundBorders` class to the picture of Tito, or another picture on your website.
++ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page.
 
 ```html
-    <img class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px" />
+    <main class="stylishBox">	
 ```
 
 --- challenge ---

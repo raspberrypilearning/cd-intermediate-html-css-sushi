@@ -104,13 +104,13 @@ You can apply as many CSS classes to an element as you like. Just write the name
 
 So CSS classes let you **choose** which elements to style, and **reuse** the same set of style rules on any elements you want.
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page.
++ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
 
 ```html
     <main class="stylishBox">	
 ```
 
-Here's what my home page looks like now. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
 
 ![CSS classes being used on the home page](images/homePageWithClasses.png)
 
@@ -144,10 +144,10 @@ The size of this picture is being controlled by the `width` attribute:
   <img src="tito.png" alt="Tito the dog" width="100px" />  		
 ```
 
-Here, the `width` attribute has been removed and the size is controlled by the CSS class instead:
+Below, the `width` attribute has been removed and the size is controlled by the CSS class instead:
 
 ```html
-  <img src="tito.png" class="smallPictures" alt="Tito the dog" width="100px" />  		
+  <img src="tito.png" class="smallPictures" alt="Tito the dog" />  		
 ```
 
 By using a CSS class you can easily change the width of all the pictures at once just by changing one line of code your stylesheet!

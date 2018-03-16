@@ -13,7 +13,20 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**. The `:hover` bit is the **pseudo-class**. It's a bit like a **class**, but it comes built in: you can add `:hover` style rules to any **element**, **class** or **id** selector in your stylesheet without needing to add anything extra in your HTML code.
+You've just used a special type of CSS block called a **pseudo-class**.
+
+--- collapse ---
+---
+title: How does it work?
+---
+
+A **pseudo-class** is a bit different from a **class** that you create yourself.
+
+You can recognise it by the `:`.
+
+**pseudo-classes** come built in to HTML elements: you can add `:hover` style rules to any **element**, **class** or **id** selector in your stylesheet without needing to add anything extra in your HTML code.
+
+--- /collapse ---
 
 + What do you think will happen? Check what pages on your website have pictures on them \(add a picture if there aren't any!\), then move the mouse over a picture to find out!
 
@@ -113,11 +126,22 @@ To animate something, you add the three `animation` properties to the style rule
 You can add hover effects directly to the nav menu like this:
 
 ```css
-    nav ul li a:hover {
+  nav ul li a:hover {
     animation-name: rainbowGlow;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    }
+  }
+```
+
+Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+
+```css
+  .niceLinks:hover {
+    color: deepskyblue;
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
 ```
 
 --- /hint ---

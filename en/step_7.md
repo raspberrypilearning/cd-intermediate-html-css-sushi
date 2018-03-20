@@ -16,8 +16,8 @@ The `id` is a name you give to **identify** this particular element. No two elem
 
 ```css
     #myCoolText {
-        color: rgb(0, 51, 102);
-        border: 2px ridge rgb(204, 255, 255);
+        color: #003366;
+        border: 2px ridge #ccffff;
         padding: 15px;
         text-align: center;
     }
@@ -27,18 +27,14 @@ Here you're using an **ID selector**. You can tell because of the `#` in front o
 
 Your text should look like this now:
 
-![](images/paragraphIdStyle.png)
+![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
 By giving an element an `id` and using an **ID selector** in your stylesheet, you can make **unique** CSS rules that just apply to that one specific thing on your website. 
 
-+ Let's do one for the `body` of the homepage. Go to `index.html` and add an `id` to the `body` tag and one the `article` tag.
++ Let's do one for the `body` of the homepage. Go to `index.html` and add an `id` to the `body` tag.
 
 ```html
     <body id="frontPage">
-```
-
-```html
-    <article id="frontPageArticle">
 ```
 
 + In the stylesheet, add CSS rules for the body of the homepage.

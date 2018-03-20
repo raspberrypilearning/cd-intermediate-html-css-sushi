@@ -39,8 +39,8 @@ You don't need to worry too much about learning to count with Hexadecimal number
 
 * Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
 
-| \#|R |G |B  | Result     |
-|---|--|--|---|------------|
+|   |R |G |B  | Result     |
+|---|--|--|---|:----------:|
 | \#|FF|00|00 | Red        |
 | \#|00|FF|00 | Green      |
 | \#|00|00|FF | Blue       |

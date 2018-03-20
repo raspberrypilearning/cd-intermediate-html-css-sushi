@@ -46,7 +46,7 @@ Your `main` element should look something like this now (you might have differen
   </main>
 ```
 
-+ Now look at the content in your `article`: can you break it up into chunks or sections? If so, put this new set of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ Now look at the content in your `article` and try to break it up into chunks or sections. Put this new set of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
 
 ```html
   <article>

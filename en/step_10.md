@@ -51,15 +51,11 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentages** instead of `from` and `to`, you're able to set in between values as well as just start and end values. You can set as many in between values as you like using different percentages. 
+When you use **percentage values** instead of `from` and `to`, you're able to set in between values as well as just start and end values. You can set as many in between values as you like using different percentage values from `0` all the way up to `100`. 
 
-+ Try adding in more colours to the glowing sequence above, for example at `25%` and `75%`.
++ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
 
-
-
-+ Change the value of `animation-iteration-count` to `infinite`. What do you think will happen? 
-
-+ You can also play with different values for `animation-duration` to speed up or slow down your animation.
++ Try out different values for `animation-duration` to speed up or slow down your animation.
 
 + One final trick! Add this animation code:
 

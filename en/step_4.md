@@ -1,6 +1,6 @@
 ## All the colours!
 
-As you have seen, you can type in many different colour names as words and the browser will recognise them. But a more common way to set colours is to use something called a **HEX** code.
+As you have seen, you can type in many different colour names as words and the browser will recognise them. But a more common way to set colours is to use something called a **HEX** code (HEX is short for **hexadecimal**, a special way of counting).
 
 + Take a look at your **stylesheet**. That's the file that has `.css` in the name.
 
@@ -22,7 +22,7 @@ Your website should now have a purple background.
 
 ![](images/ColorNamesHex.png)
 
-HEX codes allow you to mix any colour, even if it's not on any list of colours. 
+Colour codes allow you to mix any colour, even if it's not on any list of colours. 
 
 + Try making up your own colour code. It must start with a `#`. This tells the browser that it is a HEX code instead of a colour name. The rest of the code is made up of six characters. They can be  any number from **0-9** and any letter from **A-F**.
 
@@ -31,29 +31,25 @@ HEX codes allow you to mix any colour, even if it's not on any list of colours.
 title: How does it work? 
 ---
 
-Every colour is made by mixing three colors: **Red**, **Green**, and **Blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. The higher the number, the more of the colour there is.
+Every colour is made by mixing different amounts of **Red**, **Green**, and **Blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is none and `FF` is the maximum.
 
-The HEX colour code doesn't use ordinary numbers that we're used to counting with, but another type called **Hexadecimal**. It's a special way of counting that uses the letters A-F as **extra digits** higher than 9. This makes the numbers shorter to write. 
+**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. 
 
-Colours go from `0` up to `255`, or in Hexadecimal: from `00` up to `FF`. If you wrote the colour `#9ADC32` using plain RGB numbers, it would be `rgb(154,205,50)`.
+You don't need to worry too much about learning to count with Hexadecimal numbers. Instead, experiment with different colour codes to get used to using them.
 
-You don't need to worry too much about learning to count with Hexadecimal numbers, but do experiment to get used to a few colours! Below are the three most basic colours. 
+The table below shows some basic colours. They've been broken up so you can more clearly see the red, green, and blue parts.
 
-+ Try setting your background to each of these colours in turn. 
- `#FF0000` is red
- `#00FF00` is green
- `#0000FF` is blue
- 
-`FF` is the highest value you can set for a colour. What do you think will happen if you use **less** of a colour? 
+| \# | Red | Green | Blue | Colour     |
+|----|-----|-------|------|------------|
+| \# | FF  |   00  |  00  | Red        |
+| \# | 00  |   FF  |  00  | Green      |
+| \# | 00  |   00  |  FF  | Blue       |
+| \# | FF  |   FF  |  00  | Yellow     |
+| \# | FF  |   00  |  FF  | Magenta    |
+| \# | 00  |   FF  |  FF  | Cyan       |
+| \# | FF  |   8c  |  00  | DarkOrange |
 
-+ Change `FF` to something smaller like `88` or `33` in each of the above colours and see.
-
-You can mix HEX colours just like you can mix paint, by adding different amounts of red, green, or blue.
-
-+ Try experimenting with mixing colours now. Here are a few suggestions:
- Mix **red** and **blue** like this: `#FF00FF` 
- Mix **red** and **green**: `#FFFF00`
- Mix with more of one colour and less of the other colour, for example: `#FF8800`
++ Try some of them out in your website and then try putting in smaller numbers instead of `FF` to see how the shades change.
 
 --- /collapse ---
 

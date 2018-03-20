@@ -37,19 +37,17 @@ Every colour is made by mixing different amounts of **Red**, **Green**, and **Bl
 
 You don't need to worry too much about learning to count with Hexadecimal numbers. Instead, experiment with different colour codes to get used to using them.
 
-The table below shows some basic colours. They've been broken up so you can more clearly see the red, green, and blue parts.
+* Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
 
-| \# | Red | Green | Blue | Colour     |
-|----|-----|-------|------|------------|
-| \# | FF  |   00  |  00  | Red        |
-| \# | 00  |   FF  |  00  | Green      |
-| \# | 00  |   00  |  FF  | Blue       |
-| \# | FF  |   FF  |  00  | Yellow     |
-| \# | FF  |   00  |  FF  | Magenta    |
-| \# | 00  |   FF  |  FF  | Cyan       |
-| \# | FF  |   8c  |  00  | DarkOrange |
-
-+ Try some of them out in your website and then try putting in smaller numbers instead of `FF` to see how the shades change.
+| \#|R |G |B  | Result     |
+|---|--|--|---|------------|
+| \#|FF|00|00 | Red        |
+| \#|00|FF|00 | Green      |
+| \#|00|00|FF | Blue       |
+| \#|FF|FF|00 | Yellow     |
+| \#|FF|00|FF | Magenta    |
+| \#|00|FF|FF | Cyan       |
+| \#|FF|8c|00 | DarkOrange |
 
 --- /collapse ---
 

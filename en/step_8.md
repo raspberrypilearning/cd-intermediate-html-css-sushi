@@ -16,38 +16,17 @@ A whole new box will appear in your web browser with lots of tabs and code: the 
 
 ![Inspector showing a text element](images/inspectTextHtml.png)
 
-![Previous screenshot showing same thing](images/devToolsMyCoolText.png)
-
 + Double click on the text in between the tags. You should be able to edit it now! Type something in and press enter.
 
 ![Editing text using the inspector tool](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website?
++ Do you see the text update on your website? Note: only you can see these changes.
 
 ![Website with edited text](images/inspectEditHtmlTextResult.png)
 
 + Now **refresh** the page and watch what happens. Your changes should disappear!
 
---- collapse ---
----
-title: How does it work? 
----
-
-+ To see why it's different, Refresh the page. Notice how the text went back to its original colour? 
-
-When you change code using the Dev Tools you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files in the website.
-
-You can use the Developer Tools to check out the code on other websites too! 
-
-+ Why not visit a few websites, right click and Inspect. See if you understand any of the code you see. You can even make temporary changes! It's not going to change the website itself: Everything you do here is **local** \(in your browser\), which means only you see it.
-
-Remember, all these changes are **temporary**. When you reload the page, it will all reset. 
-
---- /collapse ---
-
-Once the Developer Tools box is open, you can more easily inspect any part of the website.
-
-+ In the top left corner of the Dev Tools box, click the tiny square icon with the arrow. Then click on the piece of text as before, the one with the border you added.
++ In the top left corner of the Dev Tools box, click the tiny square icon with the arrow. Then click on the same piece of text as before, the one with the border you added.
 
 ![The icon to select elements](images/inspectorSelectIcon.png)
 ![Selecting an element](images/inspectorSelectElement.png)
@@ -56,20 +35,32 @@ Once the Developer Tools box is open, you can more easily inspect any part of th
 
 ![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-+ Click on the colour name or the HEX code next to the **color** property of `#myCoolText`. Now you can type in a different value. Try `red`. If you like you can choose one of the suggestions that appear while you type. Watch the text on your webpage change colour straight away! 
++ Click on the value next to the **color** property of `#myCoolText`. Try typing in a different value. Watch the text on your webpage change colour straight away! 
 
-![](images/devToolsChangeColour.png)
+![Editing the CSS code for the text colour using the inspector](images/inspectEditCssColor)
 
-Note: You can also click the coloured square instead of the text: this lets you use a colour picker tool. 
+Note: You can also click the coloured square to change the colour using a colour picker tool. 
 
-
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Enter the following:
++ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press Enter:
 
 ```css
-  background-color: LightBlue;
+  background-color: #660066;
 ```
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, any changes you make will disappear when you refresh the page, and only will see them.
+--- collapse ---
+---
+title: How does it work? 
+---
+
+When you change code using the Developer Tools you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files in the website.
+
+When you refresh the page, you are loading up the website again from its files on the internet. That's why your changes disappear.
+
+Now that you know that, you can have some fun messing with the code on other websites!
+
+--- /collapse ---
+
++ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
 
 
 

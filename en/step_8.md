@@ -31,13 +31,13 @@ A whole new box will appear in your web browser with lots of tabs and code: the 
 ![The icon to select elements](images/inspectorSelectIcon.png)
 ![Selecting an element](images/inspectorSelectElement.png)
 
-+  Let's have a look at the CSS code for the text now. Look for the **Styles** tab in the Developer Tools box. You should see a bunch of CSS code, including the rules you created for that paragraph, `#myCoolText`.
++  Let's have a look at the CSS code next. Look for the **Styles** tab in the Developer Tools box. You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
 
 ![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-+ Click on the value next to the **color** property of `#myCoolText`. Try typing in a different value. Watch the text on your webpage change colour straight away! 
++ In the `#myCoolText` rules, click on the value next to the **color** property. Try typing in a different value. Watch the text on your webpage change colour straight away! 
 
-![Editing the CSS code for the text colour using the inspector](images/inspectEditCssColor)
+![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
 Note: You can also click the coloured square to change the colour using a colour picker tool. 
 
@@ -46,6 +46,11 @@ Note: You can also click the coloured square to change the colour using a colour
 ```css
   background-color: #660066;
 ```
+
+You should see the background change on that piece of text.
+
+![Adding the background colour property](images/inspectorEditingBgCol.png) 
+![The new background colour](images/inspectorEditBgResult.png)
 
 --- collapse ---
 ---

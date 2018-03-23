@@ -43,10 +43,10 @@ You can recognise it by the `:`.
 ```css
   .niceLinks {
     text-decoration: none;
-    color: magenta;
+    color: #FFFAF0;
   }
   .niceLinks:hover {
-    color: deepskyblue;
+    color: #00FF7F;
   }
 ```
 
@@ -54,10 +54,10 @@ You can recognise it by the `:`.
 
 You can combine all of these tricks with animations too! 
 
-+ Find the `#imgTito` CSS block in your stylesheet again \(if you are working with your own project you can use any picture and `id`\). Add the following code to your stylesheet file:
++ Find the CSS block for the picture of Tito again \(if you are working with your own project you can use any picture and `id`\). Add the following code to your stylesheet file:
 
 ```css
-  #imgTito {
+  #titoPicture {
     border-radius: 100%;
     width: 100px;
   }

@@ -2,7 +2,7 @@
 
  Let's jazz up the homepage a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
  
-+ Go to `index.html` and add the following **attribute** to the first paragraph tag:
++ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
 
 ```html
     <p id="myCoolText">
@@ -22,14 +22,12 @@ The `id` is a name you give to **identify** this particular element. No two elem
         text-align: center;
     }
 ```
-    
-Here you're using an **ID selector**. You can tell because of the `#` in front of it.
 
 Your text should look like this now:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-By giving an element an `id` and using an **ID selector** in your stylesheet, you can make **unique** CSS rules that just apply to that one specific thing on your website. 
+A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website using the name which you defined in the element's `id` attribute.
 
 + Let's do one for the `body` of the homepage. Go to `index.html` and add an `id` to the `body` tag.
 
@@ -37,7 +35,7 @@ By giving an element an `id` and using an **ID selector** in your stylesheet, yo
     <body id="frontPage">
 ```
 
-+ In the stylesheet, add CSS rules for the body of the homepage.
++ In the stylesheet, add the following CSS rules:
 
 ```css
     #frontPage {
@@ -46,11 +44,14 @@ By giving an element an `id` and using an **ID selector** in your stylesheet, yo
     }
 ```
 
+You should get something that looks like this: 
 ![Rainbow gradient background](images/frontPageIdStyles.png)
     
-You just used a **gradient**! Note: The first `background` property sets a default colour for browsers that don't support gradients.
+You just used a **gradient**! That's the name given to the effect where one colour fades into another colour. Note: The first `background` property above sets a default colour for browsers that don't support gradients.
 
-You can make lots of different effects with gradients. If you want to learn more, go to [dojo.soy/html2-css-gradients](http://dojo.soy/html2-css-gradients).
+If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+
+You can make lots of different effects with gradients. If you want to learn more, go to [dojo.soy/html2-css-gradients](http://dojo.soy/html2-css-gradients){:target="_blank"}.
 
 
 --- challenge ---
@@ -58,8 +59,6 @@ You can make lots of different effects with gradients. If you want to learn more
 ## Challenge: Style some more elements
 
 + Try giving another element an `id` and styling that element using the id selector with `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
-
-Note that just like with CSS classes, the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
 
 --- hints ---
 
@@ -80,17 +79,19 @@ Choose any name you like.
 To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element for its `id`.
 
 ```css
-  .titoPicture {
+  #titoPicture {
     border-radius: 100%;
     border: solid 1px white;
   }
 ```
 
+Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+
 --- /hint ---
 
 --- /hints ---
 
-![A round picture of Tito with a white border](images/frontPageStyleAll.png)
+![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
 
 --- /challenge ---
 

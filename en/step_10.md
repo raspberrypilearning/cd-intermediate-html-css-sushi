@@ -1,5 +1,17 @@
 ## Animation
 
+Did you know you could use CSS to make things move around? You'll learn how on this card!
+
++ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
+
+```css
+    #titoPicture {
+        border-radius: 100%;
+        border: solid 1px white;
+        width: 100px;
+    }
+```
+
 + Go to the bottom of your CSS file and add the following code
 
 ```css
@@ -15,7 +27,7 @@
 
 This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
 
-+ Find your CSS rules for the ID `#imgTito` and add the following three properties:
++ Find your CSS rules for the picture and add the following three properties:
 
 ```css
     animation-name: myFirstAnimation;
@@ -30,13 +42,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
 ```css
     @keyframes rainbowGlow {
         0% {
-            color: DeepSkyBlue;
+            color: #FFD700;
         }
         50% {
-            color: LightGreen;
+            color: #663399;
         }
         100% {
-            color: DeepSkyBlue;
+            color: #FFD700;
         }
     }
 ```
@@ -44,10 +56,14 @@ This code creates an animation called `myFirstAnimation` that you can add to any
 + Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
 
 ```css
-    #myCoolText {
-            animation-name: rainbowGlow;
-            animation-duration: 1.5s;
-            animation-iteration-count: 1;
+    #myCoolText {        
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+        animation-name: rainbowGlow;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
     }
 ```
 
@@ -61,12 +77,12 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
 
 ```css
     @keyframes slide {
-    0% {
-        background-position-x: 0;
-    }
-    100% {
-        background-position-x: 600vw;
-    }
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 600vw;
+        }
     }
 ```
 
@@ -82,6 +98,6 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
 
 Don't worry about understanding all of the code above... just sit back and enjoy!!
 
-To learn about more things you can do with animation, visit [dojo.soy/html2-css-animation](http://dojo.soy/html2-css-animation). Have fun!
+To learn about more things you can do with animation, visit [dojo.soy/html2-css-animation](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
 
 On the next card you'll learn how to make cool things happen when you hover the mouse over things!

@@ -1,6 +1,8 @@
 ## Getting setup
 
-+ Go to [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start). 
++ Go to [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project. 
+
++ If you prefer you can work with a website that you already made.
 
 --- collapse ---
 ---
@@ -28,7 +30,7 @@ Note: each time you make a change, you will get a new link.
 If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **Remix** a project somebody else has shared with you (i.e. save a copy so you can make your own changes to it).
 
 
-- Go to [dojo.soy/html2-trinket](http://dojo.soy/html2-trinket) and click "Sign Up For Your Free Account". You will need an email address to sign up. 
+- Go to [dojo.soy/html2-trinket](http://dojo.soy/html2-trinket){:target="_blank"} and click "Sign Up For Your Free Account". You will need an email address to sign up. 
 
 - Enter your email address and choose a password, or ask somebody to do this for you.
 
@@ -37,4 +39,3 @@ If you want to create an account on Trinket, follow the steps below. This will a
 
 --- /collapse ---
 
-The examples in these Sushi Cards are mainly based on the project above, but if you prefer you can work with a website that you already made.

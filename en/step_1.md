@@ -4,13 +4,13 @@ Build upon your existing skills to make a website and gain more control over how
 
 ### What you will make
 
-Add something here to showcase here, for example:
+Here is an example of how your website might look after completing these Sushi Cards:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://trinket.io/embed/html/9391a81c3b" frameborder="0"></iframe>
 </div>
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+
 
 ### What you will learn
 

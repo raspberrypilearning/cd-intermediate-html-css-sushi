@@ -18,7 +18,7 @@ Your website should now have a purple background.
 ![](images/HexColourFirstResult.png)
 
 
-+ Not a fan of purple? Go to [dojo.soy/html2-colors](http://dojo.soy/html2-colors) and choose another colour for your stylesheet. But instead of typing the name of the colour, type in the **HEX** code. 
++ Not a fan of purple? Go to [dojo.soy/html2-colors](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your stylesheet. But instead of typing the name of the colour, type in the **HEX** code. 
 
 ![](images/ColorNamesHex.png)
 
@@ -55,7 +55,7 @@ Mixing the perfect colour can take a lot of experimenting. Luckily, there are pl
 
 ![](images/W3ColorPicker.png)
 
-+ Go to [dojo.soy/html2-color-picker](http://dojo.soy/html2-color-picker) and try out the colour picker to choose some HEX colour codes to use for the rest of the styles on your website.
++ Go to [dojo.soy/html2-color-picker](http://dojo.soy/html2-color-picker){:target="_blank"} and try out the colour picker to choose some HEX colour codes to use for the rest of the styles on your website.
 
 
 

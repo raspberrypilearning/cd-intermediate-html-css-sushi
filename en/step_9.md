@@ -4,18 +4,19 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
 
 + Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` of `imgTito`.
++ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one..
 
 ```html
-  <img id="imgTito" src="tito.png" alt="Tito the dog" />
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ``` 
 
-+ In your CSS file find the `#imgTito` code block and add the `width` property below:
++ In your CSS file define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
 
 ```css
-  #imgTito {
-    border-radius: 100%;
+  #titoPicture {
     width: 50%;
+    border-radius: 100%;
+    border: solid 1px white;
   }
 ```
 
@@ -23,7 +24,7 @@ Note: 50% (50 percent) is **half**.
 
 + Try resizing your browser window and watch what happens to the picture.
 
-+ You should notice that the picture gets bigger and smaller when you make the window bigger and smaller. is much smaller now. That is because it is taking up `50%` (or **half**) of the width of the **main** element \(which is roughly the width of the page\).
+You should see that the picture gets bigger and smaller when you make the window bigger and smaller. is much smaller now. That is because it is taking up `50%` (or **half**) of the width of the **main** element \(which is roughly the width of the page\).
 
 
 --- collapse ---
@@ -44,4 +45,4 @@ When you're using **relative** measurements it's important to know what the **pa
 
 + Experiment with different numbers in front of the `%`.
 
-+ Before moving onto the next card, set the size of the Tito picture back to `100px` as well.
++ Before moving onto the next card, change the value of the `width` property to `100px`.

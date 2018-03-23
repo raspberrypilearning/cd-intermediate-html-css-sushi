@@ -1,6 +1,6 @@
 ## Design some themes
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
 
 
 + Go to your stylesheet file and add the following. Be sure to include the dot in front!
@@ -21,6 +21,8 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
 ```
 
 You should see a line appear above each section on the page. Congratulations – you've just used your first **CSS class**!
+
+![Page with lines in between the sections](images/sectionsWithTopBorder.png)
 
 + Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
 

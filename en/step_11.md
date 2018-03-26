@@ -54,14 +54,14 @@ You can recognise it by the `:`.
 
 You can combine all of these tricks with animations too! 
 
-+ Find the CSS block for the picture of Tito again \(if you are working with your own project you can use any picture and `id`\). Add the following code to your stylesheet file:
++ Find the CSS block for the picture of Tito again \(or whatever picture you were working on earlier\). Add the following code to your stylesheet file:
 
 ```css
   #titoPicture {
     border-radius: 100%;
     width: 100px;
   }
-  #imgTito:hover {
+  #titoPicture:hover {
     animation-name: rollOver;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -95,10 +95,10 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 ```css
     @keyframes rainbowGlow {
         0% {
-            color: DeepSkyBlue;
+            color: #00BFFF;
         }
         25% {
-            color: LightGreen;
+            color: #00FF7F;
         }
         50% {
             color: #eeeeaf;
@@ -107,7 +107,7 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
             color: #eeafee;
         }
         100% {
-            color: DeepSkyBlue;
+            color: #00BFFF;
         }
     }
 ```
@@ -117,7 +117,7 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 --- hint ---
 
-To animate something, you add the three `animation` properties to the style rules of it as you've done above, making sure the `animation-name` matches the name of the animation you wish to use.
+To animate something, you add the three `animation` properties to its style rules as you've done above, making sure the `animation-name` matches the name of the animation you wish to use.
 
 --- /hint ---
 
@@ -137,7 +137,7 @@ Or, if you want to make other links on your website flash rainbow colours too, y
 
 ```css
   .niceLinks:hover {
-    color: deepskyblue;
+    color: #00BFFF;
     animation-name: rainbowGlow;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;

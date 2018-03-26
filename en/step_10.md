@@ -7,7 +7,6 @@ Did you know you could use CSS to make things move around? You'll learn how on t
 ```css
     #titoPicture {
         border-radius: 100%;
-        border: solid 1px white;
         width: 100px;
     }
 ```

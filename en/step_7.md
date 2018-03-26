@@ -81,7 +81,6 @@ To define style rules for a specific element, you use the `#` symbol, and the na
 ```css
   #titoPicture {
     border-radius: 100%;
-    border: solid 1px white;
   }
 ```
 

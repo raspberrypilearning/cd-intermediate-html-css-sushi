@@ -16,7 +16,6 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   #titoPicture {
     width: 50%;
     border-radius: 100%;
-    border: solid 1px white;
   }
 ```
 
@@ -45,4 +44,3 @@ When you're using **relative** measurements it's important to know what the **pa
 
 + Experiment with different numbers in front of the `%`.
 
-+ Before moving onto the next card, change the value of the `width` property to `100px`.

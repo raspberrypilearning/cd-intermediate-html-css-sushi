@@ -31,7 +31,7 @@ You should see a line appear above each section on the page. Congratulations –
 title: How does it work?
 ---
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website. That's not always what you want.
+Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
 
 With CSS **classes** you're able to just change **some** of them. 
 
@@ -48,21 +48,6 @@ You choose which elements the style rules apply to by adding the `class` **attri
 ```html
   class="myAwesomeClass"
 ```
-
---- /collapse ---
-
---- collapse ---
----
-title: Stuff to rewrite or cut out
----
-
-The class can contain any rules you like. Sometimes you might make a bunch of CSS classes that each do only one or two things.
-
-You can add more than one class to an element too; in fact, you can add as many CSS CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute, and separate them with spaces.
-
-Sometimes you might make a CSS class that does only one thing. For example, you might want to easily apply the same borders to several different elements. On some of those elements, maybe you also want to make the text stand out, but not on others. In that case you would make one CSS class that defines the border styling, and another that defines the text styling. You can apply any or both of the classes to whichever elements you like on your website.
-
-- note about using them to separate different parts of the styling? don't have to define **all** the rules for an element, just a particular set that you might want to reuse on other elements ???
 
 --- /collapse ---
 

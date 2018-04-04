@@ -1,8 +1,8 @@
 ## Teach Tito to roll over!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! 
+You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor! 
 
-+ Find your CSS rules for the **img** elements, or create some if you don't have any. Add in a border, and then add a new block of rules right underneath:
++ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
 
 ```css
   img {
@@ -20,17 +20,15 @@ You've just used a special type of CSS block called a **pseudo-class**.
 title: How does it work?
 ---
 
-A **pseudo-class** is a bit different from a **class** that you create yourself.
+A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
 
-You can recognise it by the `:`.
-
-**pseudo-classes** come built in to HTML elements: you can add `:hover` style rules to any **element**, **class** or **id** selector in your stylesheet without needing to add anything extra in your HTML code.
+Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
 
 --- /collapse ---
 
-+ What do you think will happen? Check what pages on your website have pictures on them \(add a picture if there aren't any!\), then move the mouse over a picture to find out!
++ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
 
-+ Let's use this new `:hover` **pseudo-class** together with a **CSS class** to make links glow when you hover over them! Add a link to your web page and include an **attribute** to specify the **class** name. Remember, links are defined using the **a** tag.
++ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
 
 ```html
     <p>
@@ -38,7 +36,7 @@ You can recognise it by the `:`.
     </p>
 ```
 
-+ Add the following code to your stylesheet, then run your code to see your lovely links in action.
++ Add the following code to your style sheet, then run your code to see your lovely links in action.
 
 ```css
   .niceLinks {
@@ -50,11 +48,11 @@ You can recognise it by the `:`.
   }
 ```
 
-+ Why not add the **attribute** `class="niceLinks"` to all of the links in your menu bar as well?
++ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
 
 You can combine all of these tricks with animations too! 
 
-+ Find the CSS block for the picture of Tito again \(or whatever picture you were working on earlier\). Add the following code to your stylesheet file:
++ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
 
 ```css
   #titoPicture {
@@ -78,13 +76,13 @@ You can combine all of these tricks with animations too!
 
 + Can you guess what will happen?
 
-+ Now shout "Roll over!" as you move the mouse over the picture!
++ Now shout "Roll over!" as you move the cursor over the picture!
 
 --- challenge ---
 
-## Challenge: Make glowing rainbow links
+## Challenge: make glowing rainbow links
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the mouse is hovering over them?
++ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
 
 --- hints ---
 
@@ -114,16 +112,15 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
    
 --- /hint ---
 
-
 --- hint ---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above, making sure the `animation-name` matches the name of the animation you wish to use.
+To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
 
 --- /hint ---
 
 --- hint ---
 
-You can add hover effects directly to the nav menu like this:
+You can add `hover` effects directly to the `nav` menu like this:
 
 ```css
   nav ul li a:hover {
@@ -150,9 +147,4 @@ Or, if you want to make other links on your website flash rainbow colours too, y
 
 --- /challenge ---
 
-
-
 ![](images/badge-footer-image-html-intermed.png)
-
-
-

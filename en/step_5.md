@@ -7,11 +7,11 @@ So far you've used **headings** and **paragraphs** to make your **content** look
 title: What is content?
 ---
 
-**Content** is all the "stuff" on your web page, like information and pictures.
+**Content** is all the stuff on your web page, such astext and pictures.
 
 --- /collapse ---
 
-+ Go to the `attractions.html` file \(or one of your own pages if you're not using the example project\) and, near the top, just **underneath** the opening `<main>` tag, type the following on a new line: 
++ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
 
 ```html
   <main>
@@ -46,7 +46,7 @@ Your `main` element should look something like this now (you might have differen
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into chunks or sections. Put this new set of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
 
 ```html
   <article>
@@ -74,13 +74,13 @@ title: What are the new tags all about?
 
 Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home! 
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, lets you really get creative with the styling.
+This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
 
-Anything can go in between the tags. Usually it will be more than one element but it doesn't have to be, and they can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together. 
+Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together. 
 
 ### Article
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in my home country, Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
 
 ### Section
 
@@ -88,15 +88,15 @@ The `section` element lets you divide up related content into smaller chunks and
 
 ### Others exist too!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` – can you think of any more?
+These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
 
 --- /collapse ---
 
 --- challenge ---
 
-You might not see much of a difference just yet in how your website looks, but once the content has been organised into `article`s and `container`s you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised and CSS controls how it looks. 
+Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks. 
 
-## Challenge: Organise your website
+## Challenge: organise your website
 
 + Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
 
@@ -104,7 +104,7 @@ You might not see much of a difference just yet in how your website looks, but o
 
 --- hint ---
 
-Look at the Food page of the example project. You'll see I've added an `article` with a bunch of `section`s into the file `food.html`:
+Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
 
 ```html
   <main>
@@ -168,6 +168,6 @@ Look at the Food page of the example project. You'll see I've added an `article`
 
 --- /hints ---
 
-On the next card you'll design a different theme for each page that's organised into `article`s and `section`s!
+On the next card, you'll design a different theme for each page that's organised into articles and sections!
 
 --- /challenge ---

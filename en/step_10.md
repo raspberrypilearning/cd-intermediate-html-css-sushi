@@ -1,6 +1,6 @@
 ## Animation
 
-Did you know you could use CSS to make things move around? You'll learn how on this card!
+Did you know you can use CSS to make things move around? You'll learn how on this card!
 
 + Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
 
@@ -11,7 +11,7 @@ Did you know you could use CSS to make things move around? You'll learn how on t
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code
++ Go to the bottom of your CSS file and add the following code:
 
 ```css
     @keyframes myFirstAnimation {
@@ -34,7 +34,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
 
 + Let's try another animation! Add the following code to the end of your CSS file:
 
@@ -66,7 +66,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in between values as well as just start and end values. You can set as many in between values as you like using different percentage values from `0` all the way up to `100`. 
+When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`. 
 
 + Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
 
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules from earlier and change them to:
++ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
 
 ```css
     #frontPage {
@@ -97,6 +97,6 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
 
 Don't worry about understanding all of the code above... just sit back and enjoy!!
 
-To learn about more things you can do with animation, visit [dojo.soy/html2-css-animation](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+To learn about more things you can do with animation, visit [the web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse over things!
+On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!

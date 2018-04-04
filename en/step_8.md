@@ -1,6 +1,8 @@
 ## See the code on other websites!
 
-On this card you'll learn how to sneak a peek at the code on any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+
+On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
 
 + Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser. 
 
@@ -9,8 +11,6 @@ On this card you'll learn how to sneak a peek at the code on any website using t
 ![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 
 A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
-
-+ Press the <kbd>Esc</kbd> key once or twice until the **Console** tab disappears. A mentor can help you move things around or resize the tabs if you can't see them properly.
 
 + Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
 
@@ -24,14 +24,14 @@ A whole new box will appear in your web browser with lots of tabs and code: the 
 
 ![Website with edited text](images/inspectEditHtmlTextResult.png)
 
-+ Now **refresh** the page and watch what happens. Your changes should disappear!
++ Now **reload** the page and watch what happens. Your changes should disappear!
 
-+ In the top left-hand corner of the dev tools box, click icon that looks like a tiny rectangle with an arrow. Then click on the same piece of text as before, the one with the border you added.
++ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Then click on the same piece of text as before, the one with the border you added.
 
 ![The icon to select elements](images/inspectorSelectIcon.png)
 ![Selecting an element](images/inspectorSelectElement.png)
 
-+  Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools box (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++  Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
 
 ![Viewing the CSS code for an element](images/inspectCssBlock.png)
 

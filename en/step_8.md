@@ -12,6 +12,8 @@ On this card you'll learn how to sneak a peek at the code of any website using t
 
 A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
 
+### Inspecting the HTML code
+
 + Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
 
 ![Inspector showing a text element](images/inspectTextHtml.png)
@@ -26,10 +28,12 @@ A whole new box will appear in your web browser with lots of tabs and code: the 
 
 + Now **reload** the page and watch what happens. Your changes should disappear!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Then click on the same piece of text as before, the one with the border you added.
++ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
 
 ![The icon to select elements](images/inspectorSelectIcon.png)
 ![Selecting an element](images/inspectorSelectElement.png)
+
+### Inspecting the CSS code
 
 +  Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
 

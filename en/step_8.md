@@ -6,7 +6,7 @@ On this card you'll learn how to sneak a peek at the code of any website using t
 
 + Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser. 
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using.)
++ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
 
 ![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 

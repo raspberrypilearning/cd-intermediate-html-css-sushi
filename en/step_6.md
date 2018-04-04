@@ -2,8 +2,7 @@
 
 Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
 
-
-+ Go to your stylesheet file and add the following. Be sure to include the dot in front!
++ Go to your style sheet file and add the following — be sure to include the dot in front!
   
 ```css
   .topDivider {
@@ -14,13 +13,13 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
   }
 ```
 
-+ Now go to `attractions.html` \(or the page you're working on if you're using your own project\) and add the following **attribute** to each `section` tag:
++ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations – you've just used your first **CSS class**!
+You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
 
 ![Page with lines in between the sections](images/sectionsWithTopBorder.png)
 
@@ -33,9 +32,9 @@ title: How does it work?
 
 Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
 
-With CSS **classes** you're able to just change **some** of them. 
+With CSS **classes**, you're able to change the style of just **some** of the elements. 
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, it doesn't have to be the name of a HTML element.
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
 
 ```css
   .myAwesomeClass {
@@ -43,7 +42,7 @@ Putting a dot in front of your selector makes it into a **class selector**. A cl
   }
 ```
 
-You choose which elements the style rules apply to by adding the `class` **attribute** to those elements, in the HTML code. You put the name of the class in as the value for the attribute, **without** the dot, like this:
+To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
 
 ```html
   class="myAwesomeClass"
@@ -51,7 +50,7 @@ You choose which elements the style rules apply to by adding the `class` **attri
 
 --- /collapse ---
 
- + Ready to try another? Add the following CSS code to `styles.css`
+ + Ready to try another class? Add the following CSS code to `styles.css`:
 
 ```css
   .stylishBox {
@@ -64,15 +63,15 @@ You choose which elements the style rules apply to by adding the `class` **attri
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`
++ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
 
-It looks great, but my sections are all squashed together.
+It looks great, but now my sections are all squashed together.
 
 ![Nice looking sections squashed together](images/squashedSections.png)
 
 You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
 
-+ Let's make another CSS class to give the sections some margin and padding. In `styles.css`, create the following CSS class:
++ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
 
 ```css
   .someSpacing {
@@ -89,7 +88,7 @@ You can apply as many CSS classes to an element as you like. Just write the name
 
 ![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and **reuse** the same set of style rules on any elements you want.
+So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
 
 + Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
 
@@ -103,7 +102,7 @@ Here's what my home page looks like with the CSS class. I've also added the `top
 
 --- challenge ---
 
-## Challenge: Make some new classes
+## Challenge: make some new classes
 
 + Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
 
@@ -135,11 +134,10 @@ When you remove the `width` attribute and control the size with the CSS class in
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />  		
 ```
 
-By using a CSS class you can easily change the width of all the pictures at once just by changing one line of code your stylesheet!
+By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
 
 --- /hint ---
 
 --- /hints ---
-
 
 --- /challenge ---

@@ -1,6 +1,6 @@
 ## Individual style
 
- Let's jazz up the homepage a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+ Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
  
 + Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
 
@@ -10,9 +10,9 @@
     </p> 
 ```
 
-The `id` is a name you give to **identify** this particular element. No two elements on a page should ever have the same `id`.
+The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
 
-+ Now go to your stylesheet and add the following code
++ Now go to your style sheet and add the following code:
 
 ```css
     #myCoolText {
@@ -27,15 +27,15 @@ Your text should look like this now:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website using the name which you defined in the element's `id` attribute.
+A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
 
-+ Let's do one for the `body` of the homepage. Go to `index.html` and add an `id` to the `body` tag.
++ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the stylesheet, add the following CSS rules:
++ In the style sheet, add the following CSS rules:
 
 ```css
     #frontPage {
@@ -44,39 +44,40 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this: 
+You should get something that looks like this:
+
 ![Rainbow gradient background](images/frontPageIdStyles.png)
     
-You just used a **gradient**! That's the name given to the effect where one colour fades into another colour. Note: The first `background` property above sets a default colour for browsers that don't support gradients.
+You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
 
 If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
 
-You can make lots of different effects with gradients. If you want to learn more, go to [dojo.soy/html2-css-gradients](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
 
 
 --- challenge ---
 
-## Challenge: Style some more elements
+## Challenge: style some more elements
 
-+ Try giving another element an `id` and styling that element using the id selector with `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
 
 --- hints ---
 
 --- hint ---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this: can make a CSS class that defines just the width of an element like this:
+You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />  		
 ```
 
-Choose any name you like.
+Choose any `id` name you like.
 
 --- /hint ---
 
 --- hint ---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element for its `id`.
+To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
 
 ```css
   #titoPicture {

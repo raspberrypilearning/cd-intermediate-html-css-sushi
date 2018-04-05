@@ -6,8 +6,9 @@ Build upon your existing HTML/CSS skills to make a website and gain more control
 
 Here is an example of how your website might look after completing these Sushi Cards:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://trinket.io/embed/html/9391a81c3b" frameborder="0"></iframe>
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 </div>
 
 ### What you will learn

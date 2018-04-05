@@ -54,7 +54,7 @@ To choose which elements the style rules apply to, you add the `class` **attribu
 
 ```css
   .stylishBox {
-    background-color: #FFFFCC;
+    background-color: #87CEFA;
     color: #A52A2A;
     border-style: solid;
     border-width: 2px;

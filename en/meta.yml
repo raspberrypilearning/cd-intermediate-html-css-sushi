@@ -1,0 +1,28 @@
+title: HTML/CSS Intermediate Sushi Cards
+hero_image: images/banner.png
+description: Take your website design skills further!
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: false
+ingredient: false
+copyedit: true
+curriculum: 0, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: animals, art, humour, space, photography, outdoors, music, games
+technologies: html-css-javascript
+site_areas: coderdojo
+hardware: 
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps: 
+- title: Introduction
+- title: What you will need
+- title: Getting set up
+- title: All the colours!
+- title: Organising your page
+- title: Design some themes
+- title: Individual style
+- title: See the code on other websites!
+- title: Automatically adjust the size
+- title: Animation
+- title: Teach Tito to roll over!

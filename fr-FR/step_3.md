@@ -1,41 +1,41 @@
-## Getting set up
+## Se mettre en place
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Rendez-vous au projet starter bijou à [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){: target = "_ blank"}. Les exemples de ces cartes de sushi sont principalement basés sur ce projet.
 
-- If you prefer, you can work with a website that you already made.
+- Si vous préférez, vous pouvez travailler avec un site Web que vous avez déjà créé.
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: I have an account on Trinket
+## titre: J'ai un compte sur Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Cliquez sur le bouton **Remix** dans le coin supérieur droit du projet (si vous n'êtes pas connecté, vous serez invité à le faire. Une fois connecté, vous devrez cliquer à nouveau sur le bouton **Remix**). Cela crée une copie du projet pour que vous puissiez travailler avec. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Bouton Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Il devrait dire **remixé** après que vous l'ayez cliqué:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![Le bouton dit maintenant "remixé"](images/tktRemixedSmall.png)
 
-\--- /collapse \---
+\--- /effondrer \---
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: I don't have an account on Trinket
+## titre: Je n'ai pas de compte sur Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Même si vous n'avez pas de compte, vous pouvez toujours travailler avec Trinket.
 
-### Saving your work
+### Sauvegarder votre travail
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Vous pouvez enregistrer votre travail en utilisant l'une des options du menu **Partager**. Vous pouvez télécharger le projet ou obtenir un lien que vous pouvez enregistrer, par exemple dans un document, ou envoyer par courrier électronique. **Note**: chaque fois que vous apportez une modification au projet, vous obtiendrez un nouveau lien.
 
-### How to sign up for an account
+### Comment s'inscrire pour un compte
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Si vous souhaitez créer un compte sur Trinket, suivez les étapes ci-dessous. Cela vous permettra d'accéder facilement à votre travail à partir de n'importe quel ordinateur, et à **remixer** projets que quelqu'un d'autre a partagé avec vous (ce qui signifie enregistrer une copie à laquelle vous pouvez apporter des modifications).
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- Dans l'onglet du navigateur avec le projet de démarrage du bijou, cliquez sur **S'inscrire à votre compte gratuit**. Vous aurez besoin d'une adresse e-mail pour vous inscrire.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Entrez votre adresse e-mail et choisissez un mot de passe, ou demandez à quelqu'un de le faire pour vous.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Vous pouvez maintenant accéder à tous vos projets sauvegardés ou remixés en cliquant sur votre nom d'utilisateur et en allant à **Mes bibelots**. !["Mon menu Bijou"](images/myTrinketsMenu.png)
 
-\--- /collapse \---
+\--- /effondrer \---

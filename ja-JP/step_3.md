@@ -1,41 +1,41 @@
-## Getting set up
+## セットアップを開始する
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){：target = "_ blank"}でスターター・トリンケット・プロジェクトに行きます。 これらの寿司カードの例は、主にこのプロジェクトに基づいています。
 
-- If you prefer, you can work with a website that you already made.
+- 必要に応じて、すでに作成したWebサイトで作業することもできます。
 
-## \--- collapse \---
+## \---崩壊\---
 
-## title: I have an account on Trinket
+## title：私はTrinketに関するアカウントを持っています
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- プロジェクトの右上隅にある **リミックス** ボタンをクリックします（ログインしていない場合は、これを行うように求められます）。 ログインしたら、もう一度 **Remix** ボタンをクリックする必要があります）。 これにより、作業するプロジェクトのコピーが作成されます。 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![リミックスボタン](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+それは言うべき **リミックス** あなたがそれをクリックした後：
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![ボタンは、今言い "リミックス"](images/tktRemixedSmall.png)
 
-\--- /collapse \---
+\--- /崩壊\---
 
-## \--- collapse \---
+## \---崩壊\---
 
-## title: I don't have an account on Trinket
+## title：私はTrinketのアカウントを持っていません
 
-Even if you don't have an account, you can still work with Trinket.
+あなたがアカウントを持っていなくても、あなたはまだTrinketで働くことができます。
 
-### Saving your work
+### あなたの仕事を保存する
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+**Share** メニューのオプションのいずれかを使用して作業を保存できます。 プロジェクトをダウンロードするか、ドキュメントなどに保存したり、電子メールで送信したりすることができます。 **注**：プロジェクトを変更するたびに、新しいリンクが表示されます。
 
-### How to sign up for an account
+### アカウントにサインアップする方法
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Trinketでアカウントを作成する場合は、以下の手順に従ってください。 これにより、どのコンピュータからでも簡単に作業にアクセスでき、他の誰かがあなたと共有している</strong> プロジェクトをリミックスして **にすることができます（変更を加えることができるコピーを保存することを意味します）。</p> 
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- スターター小物プロジェクトとブラウザのタブで、クリックしてください **あなたの無料アカウントにサインアップ**。 登録するにはメールアドレスが必要です。
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- あなたのメールアドレスを入力し、パスワードを選択するか、誰かにあなたのためにこれをするように頼んでください。
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- ユーザー名をクリックして **My Trinkets**移動して、保存済みまたはリミックスされたすべてのプロジェクトにアクセスできるようになりました。 !["My Trinkets" メニュー項目](images/myTrinketsMenu.png)
 
-\--- /collapse \---
+\--- /崩壊\---

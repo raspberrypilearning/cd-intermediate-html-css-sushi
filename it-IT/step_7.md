@@ -1,95 +1,85 @@
-## Individual style
+## Stile individuale
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Diamo un po 'di jazz alla home page! Con un altro tipo di selettore CSS, puoi applicare un unico set di regole CSS a solo **un elemento specifico**.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ Vai a `index.html` e trova un paragrafo (`p`) elemento, o aggiungi uno in se non ne hai. Aggiungere il seguente **attributo** al tag:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+        mio sito web parla dell'Irlanda.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id` è un nome a cui attribuisci un elemento particolare **identifica** it. Nessun elemento in una pagina dovrebbe mai avere lo stesso `id`!
 
-+ Now go to your style sheet and add the following code:
++ Ora vai al tuo foglio di stile e aggiungi il seguente codice:
 
 ```css
-    #myCoolText {
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-    }
+    #myCoolText {color: # 003366; border: 2px ridge #ccffff; imbottitura: 15px; allineamento del testo: centro; }
 ```
 
-Your text should look like this now:
+Il tuo testo dovrebbe apparire così ora:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![Testo con un colore diverso e un bordo attorno ad esso](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Un selettore con uno `#` davanti ad esso viene utilizzato per applicare le regole CSS a un elemento specifico sul tuo sito web. Si specifica l'elemento con l'aiuto del nome assegnato dell'elemento `id` attributo.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ Facciamo una per il `corpo` della home page. Vai a `index.html` e aggiungi un `id` al tag `body`.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ Nel foglio di stile, aggiungi le seguenti regole CSS:
 
 ```css
-    #frontPage {
-        background: #48D1CC;
-        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
-    }
+    #frontPage {background: # 48D1CC; sfondo: sfumatura lineare (# fea3aa, # f8b88b, # faf884, # baed91, # baed91, # b2cefe, # f2a2e8, # fea3aa); }
 ```
 
-You should get something that looks like this:
+Dovresti ottenere qualcosa che assomigli a questo:
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![Sfondo sfumato arcobaleno](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+Abbiamo appena utilizzato un **gradiente di**! Questo è il nome dato all'effetto in cui un colore si sfuma in un altro. Nota: Il primo `sfondo` di proprietà di sopra di quella sfumatura determina un colore predefinito per i browser che non supportano i gradienti.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+Se hai digitato perfettamente il codice e non hai ottenuto l'effetto arcobaleno sopra, potrebbe essere che il tuo browser non supporti gradienti.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+Puoi fare molti effetti diversi con i gradienti. Se vuoi saperne di più, vai [qui](http://dojo.soy/html2-css-gradients){: target = "_ blank"}.
 
-\--- challenge \---
+\--- sfida \---
 
-## Challenge: style some more elements
+## Sfida: crea altri elementi
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ Prova a dare a un altro elemento un `id` e lo styling usando il selettore ID con un `#` come sopra. Che ne dite di fare una foto hanno un `border-radius` su `100%` in modo che sia completamente arrotondato? Qualsiasi altra foto sul sito web rimarrà la stessa come sono. 
 
-\--- hints \---
+\--- suggerimenti \---
 
-\--- hint \---
+\--- suggerimento \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+Dai un elemento a `id` aggiungendo l'attributo `id` al tag HTML, in questo modo:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+Scegli un qualsiasi `id` nome che ti piace.
 
-\--- /hint \---
+\--- / suggerimento \---
 
-\--- hint \---
+\--- suggerimento \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+Per definire le regole di stile per un elemento specifico, usa il simbolo `#` e il nome che hai dato all'elemento come suo `id`.
 
 ```css
-  #titoPicture {
-    border-radius: 100%;
-  }
+  #titoPicture {border-radius: 100%; }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+Nota: Il nome digitato davanti alle regole CSS dovrebbero **esattamente** corrisponde al nome si mette nel dell'elemento `id` attributo.
 
-\--- /hint \---
+\--- / suggerimento \---
 
-\--- /hints \---
+\--- / suggerimenti \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![Un'immagine rotonda di Tito con un bordo bianco](images/titoPictureIdStyle.png)
 
-\--- /challenge \---
+\--- / challenge \---

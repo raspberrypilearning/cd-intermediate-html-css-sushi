@@ -1,142 +1,123 @@
-## Design some themes
+## Proiectați câteva teme
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+Scrierea regulilor CSS pentru elemente cum ar fi `secțiunea` și `p` este mare, dar ce dacă doriți să faceți ca unele dintre ele să arate diferit de altele? Pe acest card veți învăța cum să aplicați diferite seturi de reguli de stil elementelor de același tip și să creați o temă diferită pentru fiecare pagină de pe site-ul dvs. web!
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ Du-te la fișierul foaie de stil și adăugați următoarele - asigurați-vă că includeți punct în față!
 
 ```css
-  .topDivider {
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #F5FFFA;
-    padding-bottom: 10px;
-  }
+  .topDivider {stil de frontieră: solid; frontieră-top-lățime: 2px; frontal-culoarea de sus: # F5FFFA; padding-bottom: 10px; }
 ```
 
-+ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ Acum du - te la `attractions.html` (sau fișierul HTML care lucrați , dacă utilizați propriul proiect), și se adaugă următoarele **atribut** la fiecare `secțiunea` tag - ul:
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+Ar trebui să vedeți o linie care să apară deasupra fiecărei secțiuni din pagină. Felicitări - ai folosit doar prima dvs. **CSS clasa**!
 
-![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+![Pagina cu linii între secțiuni](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ Uită-te la modul în care arată pagina dvs. web acum și comparați-l cu celelalte pagini care au `elemente din secțiunea`. Veți vedea că numai acelea în care ați adăugat atributul `class = "topDivider"` vor avea linia de sus.
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: How does it work?
+## titlu: Cum funcționează?
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+Amintiți-vă că atunci când utilizați un selector CSS **** cum ar fi `secțiunea` sau `p` sau `nav ul`, regulile de stil se aplică la **toate cele** elemente de tipul respectiv de pe site-ul dvs. Web.
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+Cu CSS **clasele**, poți schimba stilul de doar **din** elemente.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+Punerea unui punct în fața selectorului dvs. o face într-un selector de clasă ****. O clasă poate avea orice nume, deci nu trebuie să fie numele unui element HTML. De exemplu:
 
 ```css
-  .myAwesomeClass {
-    /* my cool style rules go here */
-  }
+  .myAwesomeClass {/ * regulile mele de stil cool merg aici * /}
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+Pentru a alege ce elemente se aplică regulile de stil la, adăugați `clasa` **Atributul** la acele elemente în codul HTML: pune numele clasei în ca valoare pentru atributul, **fără a** punct, astfel:
 
 ```html
-  class="myAwesomeClass"
+  class = "myAwesomeClass"
 ```
 
-\--- /collapse \---
+\--- / colaps \---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ Sunteți gata să încercați altă clasă? Adăugați următorul cod CSS la `stiles.css`:
 
 ```css
-  .stylishBox {
-    background-color: #87CEFA;
-    color: #A52A2A;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #F5FFFA;
-    border-radius: 10px;
-  }
+  .stylishBox {background-color: # 87CEFA; culoare: # A52A2A; stilul frontal: solid; lățimea frontală: 2px; culoare frontală: # F5FFFA; raza de graniță: 10 pixeli; }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ Apoi, pe o altă pagină a site-ului dvs., adăugați clasa la unele elemente acolo. O să o adaug pe elementele `secțiunea` pe pagina alimentară a site-ului meu web, după cum urmează: `<section class="stylishBox">`.
 
-It looks great, but now my sections are all squashed together.
+Arată grozav, dar acum secțiunile mele sunt toate sparte împreună.
 
-![Nice looking sections squashed together](images/squashedSections.png)
+![Secțiuni frumoase înfățișate s-au zdrobit împreună](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+Puteți aplica cât mai multe clase CSS unui element pe care îl doriți. Doar scrieți toate clasele pe care doriți să le utilizați în cadrul atributului `class` (amintiți-vă fără punct!), Separându-le cu spații.
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ Să facem o altă clasă CSS pentru a oferi secțiunilor o marjă și o umplutură. În fișierul `styles.css` , creați următoarea clasă CSS:
 
 ```css
-  .someSpacing {
-    padding: 10px;
-    margin-top: 20px;
-  }
+  .someSpacing {padding: 10px; margin-top: 20px; }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ În codul dvs. `html` , adăugați noua clasă la fiecare dintre elementele pe care lucrați, cum ar fi:
 
 ```html
   <section class="stylishBox someSpacing">
 ```
 
-![Sections with margin and padding added](images/sectionsWithSpacing.png)
+![Au fost adăugate secțiuni cu margini și cusături](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+Deci , clase CSS vă permit să **alegeți** care elemente de stil, și vă lăsați **reutilizarea** același set de reguli de stil pe orice elemente pe care doriți.
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ Du - te la `index.html` și se adaugă `stylishBox` clasa la `principale` elementul, sau un alt element pe pagină. Îl poți elimina din nou după aceea!
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+Iată ce arată pagina mea de pornire cu clasa CSS. De asemenea, am adăugat clasa `topDivider` la eticheta `img` cu imaginea lui Tito.
 
-![CSS classes being used on the home page](images/homePageWithClasses.png)
+![Clasele CSS sunt utilizate pe pagina de pornire](images/homePageWithClasses.png)
 
-\--- challenge \---
+\--- provocare \---
 
-## Challenge: make some new classes
+## Provocare: faceți câteva clase noi
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ Utilizați clasele CSS **clase** pentru a defini câteva dimensiuni diferite ale imaginilor pentru site-ul dvs., de exemplu, `imagini mici` și `.mediumPictures`. Apoi, eliminați atributul `lățime` din fiecare dintre elementele `img` și adăugați în schimb clasa corespunzătoare.
 
-\--- hints \---
+\--- sugestii \---
 
 \--- hint \---
 
-You can make a CSS class that defines just the width of an element like this:
+Puteți crea o clasă CSS care definește doar lățimea unui element ca acesta:
 
 ```css
-  .smallPictures {
-    width: 100px;
-  }
+  .smallPictures {width: 100px; }
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
 \--- hint \---
 
-Here's an `img` tag with a `width` attribute:
+Iată un `img` etichetă cu `lățime` atribut:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+Când eliminați atributul `lățime` și controlați mărimea cu clasa CSS, arata astfel:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+Utilizând o clasă CSS, puteți schimba ușor lățimea tuturor imaginilor simultan, schimbând doar o singură linie de cod în foaia dvs. de stil!
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- /hints \---
+\--- / sugestii \---
 
-\--- /challenge \---
+\--- /provocare \---

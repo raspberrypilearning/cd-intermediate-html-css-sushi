@@ -1,95 +1,85 @@
-## Individual style
+## Stilul individual
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Hai să jazz pagina de start puțin! Cu un alt tip de selector CSS, puteți aplica un set unic de reguli CSS la doar **un element specific**.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ Mergeți la `index.html` și găsiți un element de paragraf (`p`) sau adăugați un element dacă nu aveți niciun element. Adăugați următoarele **atributul** la tag - ul:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+        Site-ul meu este despre Irlanda.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id` este un nume pe care îl dați un element particular pentru a **identifica** acesta. Nu există două elemente de pe o pagină ar trebui să aibă vreodată aceeași `id -`!
 
-+ Now go to your style sheet and add the following code:
++ Acum mergeți la foaia dvs. de stil și adăugați următorul cod:
 
 ```css
-    #myCoolText {
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-    }
+    #myCoolText {culoare: # 003366; frontieră: 2px creasta #ccffff; padding: 15px; text-align: centru; }
 ```
 
-Your text should look like this now:
+Textul dvs. ar trebui să arate astfel:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![Text cu altă culoare și o margine în jurul acestuia](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Un selector cu `#` în fața acestuia este folosit pentru a aplica regulile CSS unui element specific pe site-ul dvs. Web. Specificați elementul cu ajutorul numelui căruia i-ați alocat atributul `id` al elementului.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ Hai să facem unul pentru `corpul` al paginii de start. Mergeți la `index.html` și adăugați un `id` la eticheta `corp`.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ În foaia de stil, adăugați următoarele reguli CSS:
 
 ```css
-    #frontPage {
-        background: #48D1CC;
-        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
-    }
+    #frontPage {background: # 48D1CC; fundal: gradient linear (# fea3aa, # f8b88b, # faf884, # baed91, # baed91, # b2cefe, # f2a2e8, # fea3aa); }
 ```
 
-You should get something that looks like this:
+Ar trebui să obțineți ceva care arată astfel:
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![Fundal gradient curcubeu](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+Tocmai ai folosit **gradient**! Acesta este numele dat efectului în care o culoare se estompează în alta. Notă: Prima `fundal` proprietate deasupra celui de gradient determină o culoare implicită pentru browserele care nu acceptă gradienti.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+Dacă ați tastat perfect codul și nu ați obținut efectul curcubeu minunat de mai sus, este posibil ca browserul dvs. să nu accepte declivități.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+Puteți face o mulțime de efecte diferite cu pante. Dacă doriți să aflați mai multe, mergeți aici [aici](http://dojo.soy/html2-css-gradients){: target = "_ blank"}.
 
-\--- challenge \---
+\--- provocare \---
 
-## Challenge: style some more elements
+## Provocare: stil mai multe elemente
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ Încercați să dați un alt element `id` și să stylizați acel element utilizând selectorul de identificare cu `#` ca mai sus. Cum despre a face o imagine au un `border-radius` din `100%` astfel încât să fie pe deplin rotunjite? Orice alte imagini de pe site vor rămâne aceleași ca și ele. 
 
-\--- hints \---
+\--- sugestii \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+Dați un element `id` adăugând atributul `id` la eticheta HTML, după cum urmează:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+Alegeți orice nume `id` vă place.
 
-\--- /hint \---
+\--- / indiciu \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+Pentru a defini reguli de stil pentru un anumit element, utilizați simbolul `#` și numele pe care l-ați dat elementului ca `id`.
 
 ```css
-  #titoPicture {
-    border-radius: 100%;
-  }
+  #titoPicture {limita-raza: 100%; }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+Notă: numele pe care îl tastați în fața regulilor CSS ar trebui **exact** meci numele pe care îl pune în elementului `id` atribut.
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- /hints \---
+\--- / sugestii \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![O imagine rotundă a lui Tito cu o margine albă](images/titoPictureIdStyle.png)
 
-\--- /challenge \---
+\--- /provocare \---

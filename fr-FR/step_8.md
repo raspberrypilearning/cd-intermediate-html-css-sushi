@@ -1,69 +1,69 @@
-## See the code on other websites!
+## Voir le code sur d'autres sites!
 
-**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+**Remarque:** Pour effectuer cette étape, vous devez utiliser l'un de ces navigateurs Web: Chrome, Firefox ou Internet Explorer / Edge. Si vous n'avez pas accès à l'un d'entre eux, vous pouvez simplement continuer sur la prochaine carte.
 
-On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+Sur cette carte, vous apprendrez à jeter un coup d'œil sur le code de n'importe quel site Web en utilisant l'outil **inspecteur**, et vous découvrirez également comment apporter des modifications que vous seul pouvez voir!
 
-+ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
++ Avant de commencer, assurez-vous que votre projet est enregistré. Ensuite, actualisez votre site Web en cliquant sur l'icône d'actualisation dans votre navigateur.
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
++ Sur votre page Web (la page réelle, pas le code) mettez en surbrillance le texte avec la bordure que vous avez ajoutée sur la carte précédente, puis faites un clic droit dessus et sélectionnez l'option **Inspecter** dans le menu qui apparaît. (L'option peut s'appeler 'Inspecter élément' ou similaire, selon le navigateur que vous utilisez. Si vous avez des difficultés à trouver une option de menu, demandez à quelqu'un de votre Dojo de vous aider.)
 
-![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
+![Sélection de l'option Inspecter sur le texte surligné](images/highlightTextAndInspect.png)
 
-A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+Une toute nouvelle boîte apparaîtra dans votre navigateur web avec beaucoup d'onglets et de code: les **outils de développement**, ou **outils de développement** pour faire court. Ici vous pouvez voir le code de la chose sur laquelle vous avez cliqué, ainsi que le code de la page entière!
 
-### Inspecting the HTML code
+### Inspecter le code HTML
 
-+ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
++ Recherchez l'onglet qui affiche le code HTML de la page (il peut s'appeler 'Elements' ou 'Inspector'). Le code devrait ressembler à peu près à la façon dont vous l'avez tapé dans votre fichier HTML! Vous pouvez cliquer sur les petits triangles sur le côté droit pour développer le code caché.
 
-![Inspector showing a text element](images/inspectTextHtml.png)
+![Inspecteur montrant un élément de texte](images/inspectTextHtml.png)
 
-+ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
++ Double-cliquez sur le texte entre les balises. Vous devriez être capable de l'éditer maintenant! Tapez quelque chose dans et appuyez sur <kbd>Entrez</kbd>.
 
-![Editing text using the inspector tool](images/inspectEditHtmlText.png)
+![Modification de texte à l'aide de l'outil Inspecteur](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ Voyez-vous la mise à jour du texte sur votre site Web? Remarque: vous seul pouvez voir ces changements.
 
-![Website with edited text](images/inspectEditHtmlTextResult.png)
+![Site avec texte édité](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ Maintenant **reload** la page et de regarder ce qui se passe. Vos changements devraient disparaître!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ Dans le coin supérieur gauche de la boîte à outils de développement, cliquez sur l'icône qui ressemble à un petit rectangle avec une flèche. Maintenant, vous pouvez déplacer votre curseur sur la page Web, et l'inspecteur HTML vous montrera le code qui le décrit.
 
-![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
+![L'icône pour sélectionner les éléments](images/inspectorSelectIcon.png) ![Sélection d'un élément](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### Inspecter le code CSS
 
-+ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++ Jetons un coup d'oeil au code CSS suivant. Recherchez l'onglet **Styles** dans les outils de développement (il peut s'appeler 'Éditeur de style' ou similaire). Vous devriez voir un tas de règles CSS, y compris celles que vous avez créées pour ce paragraphe, `#myCoolText`.
 
-![Viewing the CSS code for an element](images/inspectCssBlock.png)
+![Affichage du code CSS d'un élément](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
++ Dans les règles `#myCoolText` , cliquez sur la valeur à côté de la propriété `color`. Essayez de taper une valeur différente. Regardez le texte sur votre page web changer de couleur tout de suite! 
 
-![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
+![Modification de la couleur du texte à l'aide de l'inspecteur CSS](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+Remarque: vous pouvez également cliquer sur le carré coloré pour changer la couleur à l'aide d'un outil de sélection de couleur.
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ Cliquez dans l'espace après la couleur. Une nouvelle ligne commence, où vous pouvez taper plus de CSS. Tapez ce qui suit et appuyez sur <kbd>Entrez</kbd>:
 
 ```css
-  background-color: #660066;
+  couleur de fond: # 660066;
 ```
 
-You should see the background change on that piece of text.
+Vous devriez voir le changement d'arrière-plan sur ce morceau de texte.
 
-![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
+![Ajout de la propriété de couleur d'arrière-plan](images/inspectorEditingBgCol.png) ![La nouvelle couleur de fond](images/inspectorEditBgResult.png)
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: How does it work?
+## title: Comment ça marche?
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+Lorsque vous modifiez le code de site Web en utilisant les outils de développement, vous êtes **temporairement** changer quoi il ressemble **dans votre navigateur**. Vous ne modifiez pas réellement les fichiers qui composent le site Web.
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+Lorsque vous actualisez la page, vous rechargez le site à partir de ses fichiers (sur Internet ou sur votre ordinateur). C'est pourquoi vos changements disparaissent.
 
-Now that you know that, you can have some fun messing with the code on other websites!
+Maintenant que vous le savez, vous pouvez vous amuser avec le code sur d'autres sites!
 
-\--- /collapse \---
+\--- /effondrer \---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ Essayez d'utiliser ces outils pour regarder le code sur un autre site Web. Vous pouvez même faire des changements si vous le souhaitez! Rappelez-vous, vous seul pouvez voir les changements que vous faites, et tout sera réinitialisé lorsque vous actualisez la page.

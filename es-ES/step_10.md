@@ -1,102 +1,61 @@
-## Animation
+## Animación
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+¿Sabía que puede usar CSS para hacer que las cosas se muevan? ¡Aprenderá cómo en esta tarjeta!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
-
-```css
-    #titoPicture {
-        border-radius: 100%;
-        width: 100px;
-    }
-```
-
-+ Go to the bottom of your CSS file and add the following code:
++ Antes de comenzar, asegúrese de tener una imagen en su sitio web con `id` y un bloque CSS correspondiente que establezca el ancho `` a `100px`. Voy con la imagen de Tito de antes, y mi bloque CSS se ve así:
 
 ```css
-    @keyframes myFirstAnimation {
-        from {
-            width: 100px;
-        }
-        to {
-            width: 300px;
-        }
-    }
+    #titoPicture {border-radius: 100%; ancho: 100px; }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
-
-+ Find your CSS rules for the picture and add the following three properties:
++ Vaya a la parte inferior de su archivo CSS y agregue el siguiente código:
 
 ```css
-    animation-name: myFirstAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    @keyframes myFirstAnimation {from {width: 100px; } a {ancho: 300px; }}
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
+Este código crea una animación llamada `myFirstAnimation` que puede agregar a cualquier elemento de su sitio web. ¿Qué crees que hará?
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ Encuentre sus reglas de CSS para la imagen y agregue las siguientes tres propiedades:
 
 ```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #FFD700;
-        }
-        50% {
-            color: #663399;
-        }
-        100% {
-            color: #FFD700;
-        }
-    }
+    nombre-animación: myFirstAnimation; animación-duración: 2s; recuento de iteración-animación: 1;
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ ¡Ahora mira lo que sucede en tu página web! Pruebe diferentes valores para `animation-iteration-count` para ver lo que hace.
+
++ Probemos otra animación! Agregue el siguiente código al final de su archivo CSS:
 
 ```css
-    #myCoolText {        
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-        animation-name: rainbowGlow;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-    }
+    @keyframes rainbowGlow {0% {color: # FFD700; } 50% {color: # 663399; } 100% {color: # FFD700; }}
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
-
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
-
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
-
-+ One final trick! Add this animation code:
++ Ahora encuentre las reglas</code> CSS `# myCoolText ` anteriores y agregue el código de animación:
 
 ```css
-    @keyframes slide {
-        0% {
-            background-position-x: 0;
-        }
-        100% {
-            background-position-x: 600vw;
-        }
-    }
+    #myCoolText {color: # 003366; borde: cresta 2px #ccffff; relleno: 15px; text-align: center; nombre-animación: rainbowGlow; animación-duración: 1.5s; recuento de iteración-animación: 1; }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+Cuando usa **valores porcentuales** lugar de `de` y de `a`, puede establecer valores intermedios y solo valores iniciales y finales. Puede establecer tantos valores intermedios como desee utilizando diferentes valores de porcentaje desde `0` hasta `100`.
+
++ Cambia el valor de `animation-iteration-count` a `infinite`. Vea si puede adivinar lo que sucederá antes de probarlo.
+
++ Pruebe diferentes valores para `animación-duración` para acelerar o ralentizar su animación.
+
++ ¡Un truco final! Agregue este código de animación:
 
 ```css
-    #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-        background-size: 600vw 600vw;
-        animation: slide 10s infinite linear forwards;
-    }
+    @keyframes slide {0% {background-position-x: 0; } 100% {background-position-x: 600vw; }}
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
++ Ahora encuentre las reglas `#frontPage` CSS que escribió anteriormente y cámbielas a:
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+```css
+    #frontPage {background: repeating-linear-gradient (-45deg, red 0%, yellow 7.14%, lime 14.28%, cian 21.42%, cian 28.56%, azul 35.7%, magenta 42.84%, red 50%); fondo de tamaño: 600vw 600vw; animación: diapositiva 10s adelante infinito infinito; }
+```
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+No te preocupes por entender todo el código anterior ... solo siéntate y disfruta !!
+
+Para conocer más cosas que puedes hacer con animación, visita [esta página web](http://dojo.soy/html2-css-animation){: target = "_ blank"}. ¡Que te diviertas!
+
+En la siguiente carta, aprenderás cómo hacer que pasen cosas interesantes cuando colocas el cursor del mouse sobre las cosas.

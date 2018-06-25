@@ -1,8 +1,8 @@
 ---
-title: Intermediate HTML/CSS Sushi Cards
-hero_image: images/banner.png
-description: Take your website design skills further!
-theme: red
+title: Cartes de sushi HTML / CSS intermédiaires
+hero_image: images / banner.png
+description: Prenez vos compétences de conception de site Web plus loin!
+theme: rouge
 duration: 2
 listed: true
 ingredient: false
@@ -10,31 +10,31 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: coderdojo, projets
 hardware: ''
 software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: introduction
   - 
-    title: What you will need
+    title: Ce dont tu auras besoin
   - 
-    title: Getting set up
+    title: Se mettre en place
   - 
-    title: All the colours!
+    title: Toutes les couleurs!
   - 
-    title: Organising your page
+    title: Organiser votre page
   - 
-    title: Design some themes
+    title: Concevoir des thèmes
   - 
-    title: Individual style
+    title: Style individuel
   - 
-    title: See the code on other websites!
+    title: Voir le code sur d'autres sites!
   - 
-    title: Automatically adjust the size
+    title: Ajuster automatiquement la taille
   - 
     title: Animation
   - 
-    title: Teach Tito to roll over!
+    title: Apprenez à Tito à rouler!

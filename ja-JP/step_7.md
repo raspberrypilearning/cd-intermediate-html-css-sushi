@@ -1,95 +1,85 @@
-## Individual style
+## 個性的なスタイル
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Let's jazz up the home page a bit! 別の種類のCSSセレクタでは、CSSルールのユニークなセットを適用して、特定の要素</strong>つのみを **にすることができます。</p> 
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
-
-```html
-    <p id="myCoolText">
-        My website is about Ireland.
-    </p> 
-```
-
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
-
-+ Now go to your style sheet and add the following code:
-
-```css
-    #myCoolText {
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-    }
-```
-
-Your text should look like this now:
-
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
-
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
-
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
-
-```html
-    <body id="frontPage">
-```
-
-+ In the style sheet, add the following CSS rules:
-
-```css
-    #frontPage {
-        background: #48D1CC;
-        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
-    }
-```
-
-You should get something that looks like this:
-
-![Rainbow gradient background](images/frontPageIdStyles.png)
-
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
-
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
-
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
-
-\--- challenge \---
-
-## Challenge: style some more elements
-
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
-
-\--- hints \---
-
-\--- hint \---
-
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
-
-```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
-```
-
-Choose any `id` name you like.
-
-\--- /hint \---
-
-\--- hint \---
-
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
-
-```css
-  #titoPicture {
-    border-radius: 100%;
-  }
-```
-
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
-
-\--- /hint \---
-
-\--- /hints \---
-
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
-
-\--- /challenge \---
++ `index.html` に行き、パラグラフ（`p`）の要素を探します。ない場合は1を追加します。 次の **属性** をタグに追加します**</li> </ul> 
+    
+    ```html
+        <p id="myCoolText">
+            私のウェブサイトはアイルランドに関するものです。
+        </p> 
+    ```
+    
+    `id` は特定の要素に **を指定して** 識別する名前です。 ページ上の2つの要素は、同じ `id`持つべきではありません！
+    
+    + 今度はあなたのスタイルシートに行き、次のコードを追加してください：
+    
+    ```css
+        #myCoolText {color：＃003366; border：2px ridge #ccffff;パディング：15px; text-align：center; }
+    ```
+    
+    あなたのテキストは次のようになります：
+    
+    ![別の色と周囲の境界線を持つテキスト](images/paragraphIdStyle.png)
+    
+    CSSのルールをWebサイトの特定の要素に適用するには、その前に `＃` セレクタを使用します。 エレメントの `id` 属性を割り当てた名前の助けを借りてエレメントを指定します。
+    
+    + ホームページの `体` ために1つをしましょう。 `index.html` 行き、body</code> の ``タグに `id` を追加します。
+    
+    ```html
+        <body id="frontPage">
+    ```
+    
+    + スタイルシートに次のCSSルールを追加します。
+    
+    ```css
+        #frontPage {背景：＃48D1CC;背景：直線勾配（＃fea3aa、＃f8b88b、＃faf884、＃baed91、＃baed91、＃b2cefe、＃f2a2e8、＃fea3aa）; }
+    ```
+    
+    次のようなものが必要です。
+    
+    ![レインボーグラデーションの背景](images/frontPageIdStyles.png)
+    
+    ちょうど **グラデーション**使用しました！ それは、ある色が別の色に消えていく効果に与えられた名前です。 注：グラデーション1より上の最初の `背景` プロパティは、グラデーションをサポートしないブラウザのデフォルトカラーを決定します。
+    
+    コードを完全に入力したところで上記のような美しい虹の効果が得られなかった場合、ブラウザがグラデーションをサポートしていない可能性があります。
+    
+    グラデーションを使用してさまざまなエフェクトを作成できます。 詳細を知りたい場合は、ここで [](http://dojo.soy/html2-css-gradients){{target = "_ blank"}。
+    
+    \---挑戦\---
+    
+    ## 課題：いくつかの要素をさらにスタイルする
+    
+    + 別の要素に `id` を与え、その要素を上記のように `＃` IDセレクターを使ってスタイリングしてみてください。 どのように絵を作るについて持っている `国境半径` の `の100％` 、それが完全に丸められますように？ ウェブサイト上の他の写真は、そのままの状態になります。 
+    
+    - - ヒント - -
+    
+    \---ヒント\---
+    
+    次のように、 `id` 属性をHTMLタグに追加することによって、要素に `id` を与えます。
+    
+    ```html
+      <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
+    ```
+    
+    `id` 名前を選んでください。
+    
+    \--- /ヒント\---
+    
+    \---ヒント\---
+    
+    特定の要素のスタイル規則を定義するには、使用 `＃` のシンボルを、そしてあなたがそのよう要素を付けた名前 `ID`。
+    
+    ```css
+      #titoPicture {border-radius：100％; }
+    ```
+    
+    注：CSSルールはずの前に入力した名前 **丁度** あなたは、要素の中に入れて試合名 `、ID` 属性を。
+    
+    \--- /ヒント\---
+    
+    - - /ヒント - -
+    
+    ![白い国境を持つティトの丸い絵](images/titoPictureIdStyle.png)
+    
+    \--- /チャレンジ\---

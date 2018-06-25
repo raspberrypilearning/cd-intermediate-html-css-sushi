@@ -1,142 +1,123 @@
-## Design some themes
+## Concevoir des thèmes
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+Ecrire des règles CSS pour des éléments tels que `section` et `p` est super, mais que faire si vous voulez que certains d'entre eux soient différents des autres? Sur cette carte, vous apprendrez à appliquer différents ensembles de règles de style à des éléments du même type et à créer un thème différent pour chaque page de votre site Web!
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ Accédez à votre feuille de style et ajoutez ce qui suit - assurez-vous d'inclure le point devant!
 
 ```css
-  .topDivider {
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #F5FFFA;
-    padding-bottom: 10px;
-  }
+  .topDivider {border-top-style: solide; border-top-width: 2px; border-top-color: # F5FFFA; rembourrage-fond: 10px; }
 ```
 
-+ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ Maintenant , allez à `attractions.html` (ou le fichier HTML que vous travaillez sur si vous utilisez votre propre projet), et ajouter les éléments suivants **attribut** à chaque `section` tag:
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+Vous devriez voir apparaître une ligne au-dessus de chaque section de la page. Félicitations - vous venez d'utiliser votre premier **CSS classe**!
 
-![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+![Page avec des lignes entre les sections](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ Regardez à quoi ressemble votre page Web et comparez-la aux autres pages qui contiennent `élément de la section`. Vous verrez que seuls ceux où vous avez ajouté l'attribut `class = "topDivider"` auront la ligne en haut.
 
-## \--- collapse \---
+## \--- effondrer \---
 
-## title: How does it work?
+## title: Comment ça marche?
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+Rappelez - vous que lorsque vous utilisez un CSS **sélecteur** tel que `section` ou `p` ou `nav ul`, les règles de style s'appliquent à **tous les** éléments de ce type sur votre site.
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+Avec CSS **classes**, vous êtes en mesure de changer le style de seulement **** des éléments.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+Mettre un point devant votre sélecteur en fait un sélecteur de classe ****. Une classe peut avoir n'importe quel nom, il ne doit donc pas être le nom d'un élément HTML. Par exemple:
 
 ```css
-  .myAwesomeClass {
-    /* my cool style rules go here */
-  }
+  .myAwesomeClass {/ * mes règles de style cool vont ici * /}
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+Pour choisir quels éléments les règles de style s'appliquent, vous ajoutez la `classe` **attribut** à ces éléments dans le code HTML: mettre le nom de la classe en tant que valeur de l'attribut, **sans** le point, comme celui - ci:
 
 ```html
-  class="myAwesomeClass"
+  class = "myAwesomeClass"
 ```
 
-\--- /collapse \---
+\--- /effondrer \---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ Prêt à essayer un autre cours? Ajoutez le code CSS suivant à `styles.css`:
 
 ```css
-  .stylishBox {
-    background-color: #87CEFA;
-    color: #A52A2A;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #F5FFFA;
-    border-radius: 10px;
-  }
+  .stylishBox {background-color: # 87CEFA; couleur: # A52A2A; style de bordure: solide; border-width: 2px; border-color: # F5FFFA; border-radius: 10px; }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ Ensuite, sur une autre page de votre site Web, ajoutez la classe à certains éléments. Je vais l'ajouter aux `éléments de la section` sur la page Food de mon site web, comme ceci: `<section class="stylishBox">`.
 
-It looks great, but now my sections are all squashed together.
+Ça a l'air génial, mais maintenant mes sections sont toutes écrasées.
 
-![Nice looking sections squashed together](images/squashedSections.png)
+![Belles sections à la recherche écrasée](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+Vous pouvez appliquer autant de classes CSS à un élément que vous le souhaitez. Il suffit d'écrire le nom de toutes les classes que vous voulez utiliser dans l'attribut `class` (souvenez-vous, sans le point!), En les séparant par des espaces.
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ Faisons une autre classe CSS pour donner une marge et un remplissage aux sections. Dans le fichier `styles.css` , créez la classe CSS suivante:
 
 ```css
-  .someSpacing {
-    padding: 10px;
-    margin-top: 20px;
-  }
+  .someSpacing {padding: 10px; marge supérieure: 20px; }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ Dans votre code `html` , ajoutez la nouvelle classe à chacun des éléments sur lesquels vous travailliez, comme ceci:
 
 ```html
   <section class="stylishBox someSpacing">
 ```
 
-![Sections with margin and padding added](images/sectionsWithSpacing.png)
+![Sections avec marge et remplissage ajoutés](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+Ainsi , les classes CSS vous permettent de **choisir** quels éléments de style, et ils vous permettent de **réutiliser** le même ensemble de règles de style sur tous les éléments que vous voulez.
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ Aller à `index.html` et ajouter le `stylishBox` classe au `principal` élément ou un autre élément sur la page. Vous pouvez l'enlever à nouveau après!
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+Voici à quoi ressemble ma page d'accueil avec la classe CSS. J'ai également ajouté la classe `topDivider` à la balise `img` avec l'image de Tito.
 
-![CSS classes being used on the home page](images/homePageWithClasses.png)
+![Classes CSS utilisées sur la page d'accueil](images/homePageWithClasses.png)
 
-\--- challenge \---
+\--- défi \---
 
-## Challenge: make some new classes
+## Défi: faire de nouvelles classes
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ Utilisez CSS **classes** pour définir quelques tailles d'image différentes pour votre site Web, par exemple `.smallPictures` et `.mediumPictures`. Ensuite, supprimez l'attribut `largeur` de chacun de vos `éléments img` et ajoutez la classe appropriée à la place.
 
-\--- hints \---
+\--- astuces \---
 
-\--- hint \---
+\--- indice \---
 
-You can make a CSS class that defines just the width of an element like this:
+Vous pouvez créer une classe CSS qui ne définit que la largeur d'un élément comme celui-ci:
 
 ```css
-  .smallPictures {
-    width: 100px;
-  }
+  .smallPictures {width: 100px; }
 ```
 
-\--- /hint \---
+\--- / indice \---
 
-\--- hint \---
+\--- indice \---
 
-Here's an `img` tag with a `width` attribute:
+Voici une balise `img` avec un attribut `width`:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+Lorsque vous supprimez l'attribut `largeur` et contrôlez la taille avec la classe CSS à la place, il ressemble à ceci:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+En utilisant une classe CSS, vous pouvez facilement changer la largeur de toutes les images à la fois en changeant une seule ligne de code dans votre feuille de style!
 
-\--- /hint \---
+\--- / indice \---
 
-\--- /hints \---
+\--- /astuces \---
 
-\--- /challenge \---
+\--- /défi \---

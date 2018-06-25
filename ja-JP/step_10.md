@@ -1,102 +1,61 @@
-## Animation
+## アニメーション
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+あなたは、あなたが周りを動かすためにCSSを使用できることを知っていましたか？ あなたはこのカードでどのように学ぶでしょう！
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
-
-```css
-    #titoPicture {
-        border-radius: 100%;
-        width: 100px;
-    }
-```
-
-+ Go to the bottom of your CSS file and add the following code:
++ あなたが始める前に、あなたとあなたのウェブサイト上の画像を持っていることを確認してください `ID` と設定し、対応するCSSブロック `幅` への `100pxに`。 私は以前からTitoの写真を撮っています。私のCSSブロックは次のようになります：
 
 ```css
-    @keyframes myFirstAnimation {
-        from {
-            width: 100px;
-        }
-        to {
-            width: 300px;
-        }
-    }
+    #titoPicture {border-radius：100％;幅：100ピクセル。 }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
-
-+ Find your CSS rules for the picture and add the following three properties:
++ CSSファイルの一番下に移動し、次のコードを追加します：
 
 ```css
-    animation-name: myFirstAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    @keyframes myFirstAnimation {from {width：100px; }から{width：300px; }}
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
+このコードでは、 `myFirstAnimation` という名前のアニメーションを作成し、Webサイトの任意の要素に追加できます。 あなたはそれが何をすると思いますか？
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ 画像のCSSルールを見つけ、次の3つのプロパティを追加します。
 
 ```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #FFD700;
-        }
-        50% {
-            color: #663399;
-        }
-        100% {
-            color: #FFD700;
-        }
-    }
+    アニメーション名：myFirstAnimation;アニメーション期間：2秒;アニメーション反復回数：1;
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ 今あなたのウェブページで起こることを見てください！ `アニメーション反復カウント` に異なる値を試して、それが何であるかを確認してください。
+
++ 別のアニメーションを試してみましょう！ CSSファイルの最後に次のコードを追加します。
 
 ```css
-    #myCoolText {        
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-        animation-name: rainbowGlow;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-    }
+    @keyframes rainbowGlow {0％{カラー：＃FFD700; } 50％{color：＃663399; } 100％{カラー：＃FFD700; }}
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
-
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
-
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
-
-+ One final trick! Add this animation code:
++ 今度は `#myCoolText` CSSルールを見つけて、アニメーションコードを追加してください：
 
 ```css
-    @keyframes slide {
-        0% {
-            background-position-x: 0;
-        }
-        100% {
-            background-position-x: 600vw;
-        }
-    }
+    #myCoolText {color：＃003366; border：2px ridge #ccffff;パディング：15px; text-align：center;アニメーション名：rainbowGlow;アニメーションの持続時間：1.5秒;アニメーション反復回数：1; }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+あなたが使用する場合は **パーセント値** の代わりに、 `から` と `を`には、値の間に設定されただけでなく、ちょうど開始および終了値ことができるしています。 あなたは異なるパーセント値を使用して、好きなように、間の値あなたは、できるだけ多くを設定することができます `0` までのすべての方法 `100`。
+
++ `アニメーション反復カウント` 値を `無限大`変更します。 あなたがそれをテストする前に何が起こるかを推測できるかどうかを見てください！
+
++ `animation-duration` 異なる値を試して、アニメーションの速度を上げたり遅くしたりしてください。
+
++ 1つの最後のトリック！ このアニメーションコードを追加：
 
 ```css
-    #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-        background-size: 600vw 600vw;
-        animation: slide 10s infinite linear forwards;
-    }
+    @keyframes slide {0％{バックグラウンド位置-x：0; } 100％{バックグラウンド位置-x：600vw; }}
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
++ 今までに書いた `#frontPage` CSSルールを見つけて、それらを次のように変更します。
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+```css
+    ＃frontPage {背景：繰り返し線形勾配（-45deg、赤0％、黄色7.14％、石灰14.28％、シアン21.42％、シアン28.56％、青35.7％、マゼンタ42.84％、赤50％）;背景サイズ：600vw 600vw;アニメーション：スライド10秒無限線形フォワード; }
+```
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+上のコードをすべて理解することを心配しないでください... 座って楽しむだけ！
+
+、あなたがアニメーションで行うことができますより多くの事を学ぶ訪問する [このウェブページ](http://dojo.soy/html2-css-animation){：ターゲット=「_ブランク」}。 楽しむ！
+
+次のカードでは、マウスのカーソルを物事の上に置くとクールなことが起こるようにする方法を学びます！

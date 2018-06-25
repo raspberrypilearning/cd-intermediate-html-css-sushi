@@ -1,40 +1,40 @@
 ---
-title: Intermediate HTML/CSS Sushi Cards
-hero_image: images/banner.png
-description: Take your website design skills further!
-theme: red
+title: Hărți intermediare HTML / CSS Sushi
+hero_image: images / banner.png
+description: Luați-vă abilitățile de design de site web în continuare!
+theme: roșu
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html-css-javascript
-site_areas: coderdojo, projects
+technologies: html-css-JavaScript
+site_areas: coderdojo, proiecte
 hardware: ''
-software: html-css-javascript
+software: html-css-JavaScript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introducere
   - 
-    title: What you will need
+    title: Ce vei avea nevoie
   - 
-    title: Getting set up
+    title: Se pregătește
   - 
-    title: All the colours!
+    title: Toate culorile!
   - 
-    title: Organising your page
+    title: Organizarea paginii dvs.
   - 
-    title: Design some themes
+    title: Proiectați câteva teme
   - 
-    title: Individual style
+    title: Stilul individual
   - 
-    title: See the code on other websites!
+    title: Vezi codul de pe alte site-uri!
   - 
-    title: Automatically adjust the size
+    title: Reglați automat dimensiunea
   - 
-    title: Animation
+    title: Animaţie
   - 
-    title: Teach Tito to roll over!
+    title: Învățați-l pe Tito să se răcească!

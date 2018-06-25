@@ -1,41 +1,41 @@
-## Getting set up
+## Einrichten eingerichtet
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Gehe zum Starter-Schmuckstück-Projekt unter [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){: target = "_ blank"}. Die Beispiele in diesen Sushi-Karten basieren hauptsächlich auf diesem Projekt.
 
-- If you prefer, you can work with a website that you already made.
+- Wenn Sie möchten, können Sie mit einer Website arbeiten, die Sie bereits erstellt haben.
 
-## \--- collapse \---
+## \--- Einsturz \---
 
-## title: I have an account on Trinket
+## Titel: Ich habe einen Account bei Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Klicken Sie auf die Schaltfläche **Remix** in der oberen rechten Ecke des Projekts (wenn Sie nicht angemeldet sind, werden Sie dazu aufgefordert. Sobald Sie sich angemeldet haben, müssen Sie erneut auf die Schaltfläche **Remix** klicken. Dies erstellt eine Kopie des Projekts, mit der Sie arbeiten können. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Remix-Taste](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Es sollte **remixed** sagen, nachdem Sie darauf klicken:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![Button sagt jetzt "remixed"](images/tktRemixedSmall.png)
 
-\--- /collapse \---
+\--- / einklappen \---
 
-## \--- collapse \---
+## \--- Einsturz \---
 
-## title: I don't have an account on Trinket
+## Titel: Ich habe keinen Account bei Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Selbst wenn Sie keinen Account haben, können Sie immer noch mit Trinket arbeiten.
 
-### Saving your work
+### Speichern Sie Ihre Arbeit
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Sie können Ihre Arbeit speichern, indem Sie eine der Optionen im Menü **Teilen**. Sie können entweder das Projekt herunterladen oder einen Link abrufen, den Sie beispielsweise in einem Dokument speichern oder per E-Mail versenden können. **Anmerkung**: Jedes Mal, wenn Sie eine Änderung am Projekt vornehmen, erhalten Sie einen neuen Link.
 
-### How to sign up for an account
+### Wie man sich für ein Konto anmeldet
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Wenn Sie ein Konto bei Trinket erstellen möchten, führen Sie die folgenden Schritte aus. Dies ermöglicht es Ihnen , Ihre Arbeit zu leicht Zugang von jedem Computer aus , und auf **remix** Projekte jemand anders mit Dir hat geteilt (dh eine Kopie speichern , an denen Sie Änderungen vornehmen).
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- Klicken Sie auf der Registerkarte "Browser" mit dem Starter-Schmuckstück-Projekt auf " **für Ihr kostenloses Konto anmelden"**. Sie benötigen eine E-Mail-Adresse, um sich anzumelden.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Geben Sie Ihre E-Mail-Adresse ein und wählen Sie ein Passwort oder bitten Sie jemanden, dies für Sie zu tun.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Du kannst nun auf alle deine gespeicherten oder remixten Projekte zugreifen, indem du auf deinen Benutzernamen klickst und zu **Mein Schmuckstück**gehst. !["Mein Schmuckstück" Menüeintrag](images/myTrinketsMenu.png)
 
-\--- /collapse \---
+\--- / einklappen \---

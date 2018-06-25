@@ -1,102 +1,61 @@
 ## Animation
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+Wussten Sie, dass Sie CSS verwenden können, um Dinge in Bewegung zu bringen? Du wirst lernen, wie auf dieser Karte!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
-
-```css
-    #titoPicture {
-        border-radius: 100%;
-        width: 100px;
-    }
-```
-
-+ Go to the bottom of your CSS file and add the following code:
++ Bevor Sie beginnen, stellen Sie sicher, dass Sie ein Bild auf Ihrer Website mit einer `ID` und einem entsprechenden CSS-Block haben, der die `Breite` auf `100px`. Ich gehe mit dem Bild von Tito von vor, und mein CSS-Block sieht so aus:
 
 ```css
-    @keyframes myFirstAnimation {
-        from {
-            width: 100px;
-        }
-        to {
-            width: 300px;
-        }
-    }
+    #titoPicture {border-radius: 100%; Breite: 100px; }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
-
-+ Find your CSS rules for the picture and add the following three properties:
++ Gehen Sie zum Ende Ihrer CSS-Datei und fügen Sie den folgenden Code hinzu:
 
 ```css
-    animation-name: myFirstAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    @keyframes myFirstAnimation {von {width: 100px; } bis {Breite: 300px; }}
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
+Dieser Code erstellt eine Animation mit dem Namen `myFirstAnimation` , die Sie zu einem beliebigen Element auf Ihrer Website hinzufügen können. Was denkst du wird es tun?
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ Suchen Sie Ihre CSS-Regeln für das Bild und fügen Sie die folgenden drei Eigenschaften hinzu:
 
 ```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #FFD700;
-        }
-        50% {
-            color: #663399;
-        }
-        100% {
-            color: #FFD700;
-        }
-    }
+    Animationsname: myFirstAnimation; Animationsdauer: 2s; Animations-Iterationszählung: 1;
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ Jetzt schau dir an, was auf deiner Webseite passiert! Probieren Sie verschiedene Werte für `animation-iteration-count` zu sehen, was es tut.
+
++ Lass uns eine andere Animation ausprobieren! Fügen Sie am Ende Ihrer CSS-Datei den folgenden Code hinzu:
 
 ```css
-    #myCoolText {        
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-        animation-name: rainbowGlow;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-    }
+    @keyframes rainbowGlow {0% {farbe: # FFD700; } 50% {Farbe: # 663399; } 100% {Farbe: # FFD700; }}
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
-
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
-
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
-
-+ One final trick! Add this animation code:
++ Finde jetzt die `#myCoolText` CSS-Regeln von früher und füge den Animationscode hinzu:
 
 ```css
-    @keyframes slide {
-        0% {
-            background-position-x: 0;
-        }
-        100% {
-            background-position-x: 600vw;
-        }
-    }
+    #myCoolText {Farbe: # 003366; Grenze: 2px Grat #ccffff; Auffüllen: 15px; Textausrichtung: Mitte; Animationsname: RainbowGlow; Animationsdauer: 1.5s; Animations-Iterationszählung: 1; }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+Wenn Sie **Prozentwerte** statt `von` und `bis`, können Sie Zwischenwerte sowie Werte für Anfang und Ende festlegen. Sie können so viele Zwischenwerte einstellen, wie Sie möchten, indem Sie verschiedene Prozentwerte von `0` bis `100`.
+
++ Ändern Sie den Wert von `animation-iteration-count` in `infinite`. Sehen Sie, ob Sie erraten können, was passieren wird, bevor Sie es testen!
+
++ Probieren Sie verschiedene Werte für `Animationsdauer` , um Ihre Animation zu beschleunigen oder zu verlangsamen.
+
++ Ein letzter Trick! Fügen Sie diesen Animationscode hinzu:
 
 ```css
-    #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-        background-size: 600vw 600vw;
-        animation: slide 10s infinite linear forwards;
-    }
+    @keyframes slide {0% {Hintergrundposition-x: 0; } 100% {Hintergrundposition-x: 600vw; }}
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
++ Finde nun die `# frontPage` CSS-Regeln, die du zuvor geschrieben hast, und ändere sie in:
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+```css
+    #frontPage {Hintergrund: wiederholender linearer Gradient (-45 Grad, Rot 0%, Gelb 7,14%, Kalk 14,28%, Cyan 21,42%, Cyan 28,56%, Blau 35,7%, Magenta 42,84%, Rot 50%); Hintergrundgröße: 600vw 600vw; Animation: Folie 10s unendlich linear vorwärts; }
+```
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+Mach dir keine Sorgen darüber, den gesamten obigen Code zu verstehen ... lehn dich einfach zurück und genieße !!
+
+Um mehr über Dinge zu erfahren, die Sie mit Animation machen können, besuchen Sie [diese Webseite](http://dojo.soy/html2-css-animation){: target = "_ blank"}. Habe Spaß!
+
+Auf der nächsten Karte lernst du, wie man coole Sachen macht, wenn man den Mauszeiger über Dinge bewegt!

@@ -1,95 +1,85 @@
-## Individual style
+## Estilo individual
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+¡Vamos a animar un poco la página de inicio! Con otro tipo de selector CSS, puede aplicar un conjunto único de reglas CSS a solo **un elemento específico**.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ Vaya a `index.html` y encuentre un elemento de párrafo (`p`), o agregue uno si no tiene ninguno. Agregue el siguiente **atributo** a la etiqueta:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+        Mi sitio web es sobre Irlanda.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+El `id` es un nombre que le das a un elemento particular para **identificarlo**. ¡No hay dos elementos en una página que tengan el mismo `id`!
 
-+ Now go to your style sheet and add the following code:
++ Ahora ve a tu hoja de estilos y agrega el siguiente código:
 
 ```css
-    #myCoolText {
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-    }
+    #myCoolText {color: # 003366; borde: cresta 2px #ccffff; relleno: 15px; text-align: center; }
 ```
 
-Your text should look like this now:
+Tu texto debería verse así ahora:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![Texto con un color diferente y un borde a su alrededor](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Un selector con un `#` enfrente se usa para aplicar reglas CSS a un elemento específico en su sitio web. Usted especifica el elemento con la ayuda del nombre que asignó al atributo `id` del elemento.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ Hagamos uno para el `cuerpo` de la página de inicio. Vaya a `index.html` y agregue un `id` a la etiqueta `body`.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ En la hoja de estilos, agregue las siguientes reglas de CSS:
 
 ```css
-    #frontPage {
-        background: #48D1CC;
-        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
-    }
+    #frontPage {background: # 48D1CC; fondo: gradiente lineal (# fea3aa, # f8b88b, # faf884, # baed91, # baed91, # b2cefe, # f2a2e8, # fea3aa); }
 ```
 
-You should get something that looks like this:
+Deberías obtener algo que se vea así:
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![Fondo degradado del arco iris](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+¡Usaste un **gradiente**! Ese es el nombre dado al efecto donde un color se desvanece en otro. Nota: La primera propiedad `background` sobre el gradiente uno determina un color predeterminado para los navegadores que no admiten gradientes.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+Si escribió el código a la perfección y no obtuvo el encantador efecto arcoiris anterior, es posible que su navegador no admita degradados.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+Puede hacer muchos efectos diferentes con degradados. Si quieres saber más, ve [aquí](http://dojo.soy/html2-css-gradients){: target = "_ blank"}.
 
-\--- challenge \---
+\--- desafío \---
 
-## Challenge: style some more elements
+## Desafío: estilo algunos elementos más
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ Intente darle a otro elemento un `id` y diseñar ese elemento usando el selector de ID con un `#` como el anterior. ¿Qué hay de hacer que una imagen tenga un `radio de borde` de `100%` para que esté completamente redondeada? Cualquier otra imagen en el sitio web seguirá siendo la misma. 
 
-\--- hints \---
+\--- consejos \---
 
-\--- hint \---
+\--- insinuación \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+Le das a un elemento un `id` agregando el atributo `id` a la etiqueta HTML, como este:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+Elige cualquier nombre `id` que te guste.
 
-\--- /hint \---
+\--- /insinuación \---
 
-\--- hint \---
+\--- insinuación \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+Para definir reglas de estilo para un elemento específico, usa el símbolo `#` y el nombre que le dio al elemento como su `id`.
 
 ```css
-  #titoPicture {
-    border-radius: 100%;
-  }
+  #titoPicture {border-radius: 100%; }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+Nota: El nombre que escriba en frente de las reglas CSS deberían **exactamente** coincide con el nombre de usted pone en el elemento `Identificación` atributo.
 
-\--- /hint \---
+\--- /insinuación \---
 
-\--- /hints \---
+\--- / consejos \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![Una imagen redonda de Tito con un borde blanco](images/titoPictureIdStyle.png)
 
-\--- /challenge \---
+\--- / desafío \---

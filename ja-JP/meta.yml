@@ -1,8 +1,8 @@
 ---
-title: Intermediate HTML/CSS Sushi Cards
-hero_image: images/banner.png
-description: Take your website design skills further!
-theme: red
+title: 中級HTML / CSS寿司カード
+hero_image: images / banner.png
+description: さらにあなたのウェブサイトのデザインスキルを取る！
+theme: 赤
 duration: 2
 listed: true
 ingredient: false
@@ -10,31 +10,31 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: コーダー堂、プロジェクト
 hardware: ''
 software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 前書き
   - 
-    title: What you will need
+    title: あなたが必要とするもの
   - 
-    title: Getting set up
+    title: セットアップを開始する
   - 
-    title: All the colours!
+    title: すべての色！
   - 
-    title: Organising your page
+    title: ページの整理
   - 
-    title: Design some themes
+    title: テーマをデザインする
   - 
-    title: Individual style
+    title: 個性的なスタイル
   - 
-    title: See the code on other websites!
+    title: 他のウェブサイトのコードを見てください！
   - 
-    title: Automatically adjust the size
+    title: 自動的にサイズを調整する
   - 
-    title: Animation
+    title: アニメーション
   - 
-    title: Teach Tito to roll over!
+    title: ロールオーバーするティトを教えてください！

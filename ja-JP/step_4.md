@@ -1,53 +1,53 @@
-## All the colours!
+## すべての色！
 
-As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
+前に見たように、さまざまな色の名前を単語として入力することができ、ブラウザはそれらを認識します。 しかし、色を設定するもっと一般的な方法は、 **16進コード** （「16進数」は **16進数**短い、特別な計数方法）と呼ばれるものを使用することです。
 
-+ Take a look at your **style sheet**. That's the file that has `.css` in the name.
++ **スタイルシートを見てください**。 それは持っているファイルの `の.css` 名前に。
 
-+ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
++ `体`のCSS規則の中で、背景色を `進コード<code>に設定します。＃7B68EE`：
 
 ```html
-  background-color: #7B68EE;
+  背景色：＃7B68EE;
 ```
 
-Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+注：Macを使用している場合、 <kbd>alt</kbd> と <kbd>3</kbd> キーを同時に押すと、 `＃` と入力できます。
 
-Your website should now have a purple background.
+あなたのウェブサイトは紫色の背景を持つはずです。
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
-
-![](images/ColorNamesHex.png)
-
-Colour codes allow you to create any colour, even if it's not on any list of colour names.
-
-+ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
-
-## \--- collapse \---
-
-## title: How does it work?
-
-Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
-
-**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
-
-+ Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
-
-|      | R  | G  | B  |   Result    |
-| ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
-| \# | FF | 8c | 00 | Dark orange |
-
-\--- /collapse \---
-
-Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
-
-![](images/W3ColorPicker.png)
-
-+ Try out [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.
++ 紫色のファンではない？ このウェブページ</a>{ }に移動し、スタイルシートに別の色を選択します。色の名前を入力する代わりに、16進コードを入力します。 </li> </ul> 
+    
+    ![](images/ColorNamesHex.png)
+    
+    カラーコードを使用すると、カラー名のリストにない場合でも、任意のカラーを作成できます。
+    
+    + 独自のカラーコードを作成してみてください。 `＃`始まる必要があります。 これは、色名の代わりに16進コードであることをブラウザに伝えます。 残りのコードは6文字で構成されています。 彼らはから任意の数とすることができる **0〜9** とから任意の文字 **FへのA**。
+    
+    ## \---崩壊\---
+    
+    ## タイトル：どのように機能するのですか？
+    
+    すべての色は、異なる量の混合によって作られる **赤**、 **グリーン**、及び **ブルー**。 これは **RGB**書かれていることがあります。 これらの色はそれぞれ、HEXコードの6桁の2桁で表されます。 `00` が最小値、 `FF` が最大値です。
+    
+    **16進数** は、文字AFを余分な数字として使用することにより、数字を短くして書き込む方法です。 数字 `255` は `FF` として16進数で書かれています。 あなたは16進数で数える学習について心配する必要はありません。 代わりに、それらを使用するのに慣れるために異なる16進コードで実験してください。
+    
+    + あなたのウェブサイトで試してみるためのいくつかの基本的な色があります。 シェードがどのように変化するか見るために、 `FF` 代わりに小さな数字を入れてみてください。
+    
+    |     | R  | G  | B  |   結果    |
+    | --- | -- | -- | -- |:-------:|
+    | \＃ | FF | 00 | 00 |    赤    |
+    | \＃ | 00 | FF | 00 |    緑    |
+    | \＃ | 00 | 00 | FF |    青    |
+    | \＃ | FF | FF | 00 |    黄    |
+    | \＃ | FF | 00 | FF |  マゼンタ   |
+    | \＃ | 00 | FF | FF |   シアン   |
+    | \＃ | FF | 8c | 00 | ダークオレンジ |
+    
+    \--- /崩壊\---
+    
+    完璧な色を混ぜることは、たくさんの実験をすることができます。 幸いにも、あなたが望む任意の色の16進数コードを得るのに役立つオンラインカラーピッキングツールがたくさんあります。
+    
+    ![](images/W3ColorPicker.png)
+    
+    + 試してみてください [このカラーピッカー](http://dojo.soy/html2-color-picker)あなたのウェブサイト上でのスタイルの残りの部分に使用するいくつかの六角カラーコードを選択する：{ターゲット=「_空白を」}。

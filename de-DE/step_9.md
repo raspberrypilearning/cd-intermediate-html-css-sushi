@@ -1,42 +1,39 @@
-## Automatically adjust the size
+## Passen Sie die Größe automatisch an
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Bis jetzt haben Sie **Pixel** , um die Größe der Dinge festzulegen, zB `10px`. Auf dieser Karte erfahren Sie mehr über andere Messungen, die Sie verwenden können.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Gehe zu `index.html` und finde das `img` Element mit dem Bild von Tito, oder finde ein anderes `img` Tag auf deiner Webseite.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ Löschen Sie das `width` Attribut, wenn es dort ist, und geben Sie dem Element eine `ID` wenn es nicht bereits eins hat.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ Definieren Sie in Ihrer CSS-Datei die Eigenschaft `width` für Ihr Bild, wie unten gezeigt (Sie müssen möglicherweise den CSS-Block mit dem Selektor `id` erstellen, falls Sie dies auf einer früheren Karte noch nicht getan haben).
 
 ```css
-  #titoPicture {
-    width: 50%;
-    border-radius: 100%;
-  }
+  #titoPicture {Breite: 50%; Rand-Radius: 100%; }
 ```
 
-Note: 50% (50 percent) is **half**.
+Hinweis: 50% (50 Prozent) ist **halb**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ Versuchen Sie, die Größe Ihres Browserfensters zu ändern und beobachten Sie, was mit dem Bild passiert.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+Sie sollten sehen, dass das Bild größer und kleiner wird, wenn Sie das Fenster größer und kleiner machen. Dies liegt daran, dass es 50% der Breite des **Hauptelements** einnimmt (was ungefähr der Breite der Seite entspricht).
 
-## \--- collapse \---
+## \--- Einsturz \---
 
-## title: How does it work?
+## Titel: Wie funktioniert es?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+Wenn Sie die Größe eines Objekts in Pixeln festlegen, legen Sie eine genaue Größe fest, die sich nicht ändert. Dies wird als **absolute** Messung bezeichnet.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+Eine weitere Möglichkeit, die Größe der Dinge festzulegen, ist die Verwendung von **relativen** Messungen, so dass die Größe davon abhängt, wie große Elemente miteinander verglichen werden. Immer dann, wenn eine Sache Größe ändert, alles andere wird automatisch Größe auch ändern , um die gleichen zu halten **Proportionen**.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Wenn Sie **relative** Messungen verwenden, ist es wichtig zu wissen, was die **Eltern** Ihres Elements sind. Der Elternteil ist die Sache, in der sich dein Element befindet, und darum geht es in Bezug auf die Messung. Zum Beispiel ist das übergeordnete Element des obigen Bildes das `Element von Artikel` , weil das Element `img` zwischen den Tags `<article></article>`.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+Wenn Sie die `width` eines Elements auf `100%`, entspricht dies der Breite des übergeordneten Containers.
 
-\--- /collapse \---
+\--- / einklappen \---
 
-+ Experiment with different numbers in front of the `%`.
++ Experimentiere mit verschiedenen Zahlen vor dem `%`.

@@ -1,133 +1,114 @@
-## Design some themes
+## テーマをデザインする
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+`セクション` や `p` ような要素のCSSルールを書くことは素晴らしいですが、それらのいくつかを他のものと見た目を変えたい場合はどうすればいいでしょうか？ このカードでは、同じタイプの要素にさまざまなスタイルルールを適用し、ウェブサイトの各ページごとに異なるテーマを作成する方法を学習します。
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ あなたのスタイルシートファイルに移動して、以下を追加してください - ドットを必ず先頭に入れてください！
 
 ```css
-  .topDivider {
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #F5FFFA;
-    padding-bottom: 10px;
-  }
+  .topDivider {border-top-style：solid; border-top-width：2px;ボーダートップカラー：＃F5FFFA;パディングボトム：10px; }
 ```
 
-+ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ 今度は `tourism.html` （または独自のプロジェクトを使用している場合は作業中のHTMLファイル）に移動し、次の **属性** を各 `セクション` タグに追加します。
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+ページの各セクションの上に線が現れるはずです。 おめでとうございます-あなたは自分の最初の使用してきた **CSSクラス**！
 
-![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+![セクション間に行があるページ](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ あなたのウェブページがどのように見えるかを見て、セクション</code> 要素が `ある他のページと比較してください。 <code>class = "topDivider"` という属性を追加したものだけが一番上に表示されます。
 
-## \--- collapse \---
+## \---崩壊\---
 
-## title: How does it work?
+## タイトル：どのように機能するのですか？
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+ことを覚えていますが、CSSを使用する場合 **セレクタ** のような `項` または `のp` または `のnav ulの`、スタイルのルールが適用さ **すべて** あなたのウェブサイト上でそのタイプの要素を。
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+CSS **クラス**では、要素のうち</strong> うちの ****だけのスタイルを変更することができます。
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+あなたのセレクタの前にドットを置くことに、それを作る **クラスセレクタ**。 クラスは任意の名前を持つことができるので、HTML要素の名前である必要はありません。 例えば：
 
 ```css
-  .myAwesomeClass {
-    /* my cool style rules go here */
-  }
+  .myAwesomeClass {/ *私のクールなスタイルのルールはここにある* /}
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+スタイルルールが適用された要素を選択するには、[追加 `クラス` **属性** 、属性の値として、クラスの名前を入れて：HTMLコードでそれらの要素に **なし** のように、ドットを：
 
 ```html
-  class="myAwesomeClass"
+  class = "myAwesomeClass"
 ```
 
-\--- /collapse \---
+\--- /崩壊\---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ 別のクラスを試す準備ができていますか？ 次のCSSコードを `styles.cssに追加します`：
 
 ```css
-  .stylishBox {
-    background-color: #87CEFA;
-    color: #A52A2A;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #F5FFFA;
-    border-radius: 10px;
-  }
+  .stylishBox {背景色：＃87CEFA;色：＃A52A2A; border-style：solid; border-width：2px; border-color：＃F5FFFA; border-radius：10px; }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ 次に、あなたのウェブサイトの別のページで、そこのいくつかの要素にクラスを追加します。 私はこれを次のように私のウェブサイトのFoodページの `セクション` 要素に追加します： `<section class="stylishBox">`。
 
-It looks great, but now my sections are all squashed together.
+それは素晴らしそうに見えますが、私のセクションはすべて一緒に押しつぶされています。
 
-![Nice looking sections squashed together](images/squashedSections.png)
+![ニースの見ているセクションは一緒に潰れた](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+要素には、好きなだけ多くのCSSクラスを適用できます。 `クラス` 属性（ドットなしで覚えておいてください）内で使用したいすべてのクラスの名前をスペースで区切って記述してください。
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ セクションにいくつかのマージンとパディングを与える別のCSSクラスを作ってみましょう。 `styles.css` ファイルで、次のCSSクラスを作成します。
 
 ```css
-  .someSpacing {
-    padding: 10px;
-    margin-top: 20px;
-  }
+  .someSpacing {パディング：10px; margin-top：20px; }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ `html` コードで、次のように、作業していた各要素に新しいクラスを追加します。
 
 ```html
   <section class="stylishBox someSpacing">
 ```
 
-![Sections with margin and padding added](images/sectionsWithSpacing.png)
+![マージンとパディングが追加されたセクション](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+だから、CSSクラスを使用すると、聞かせて **選択** スタイルにどの要素、そして、彼らはあなたが聞かせて **リユース** あなたが望む任意の要素のスタイル規則の同じセットを。
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ `index.html` 移動し、 `stylishBox` クラスを `メイン` 要素またはページの別の要素に追加します。 後でもう一度取り除くことができます！
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+私のホームページはCSSクラスのように見えます。 私はTitoの写真で `img` タグに `topDivider` クラスを追加しました。
 
-![CSS classes being used on the home page](images/homePageWithClasses.png)
+![ホームページで使用されているCSSクラス](images/homePageWithClasses.png)
 
-\--- challenge \---
+\---挑戦\---
 
-## Challenge: make some new classes
+## 課題：新しいクラスを作る
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ CSSを使って **クラス** 例えば、あなたのウェブサイトのために、いくつかの異なる画像のサイズを定義するために `.smallPictures` 及び `.mediumPictures`。 その後、削除 `幅` あなたのそれぞれから属性を `IMG` 要素を、代わりに適切なクラスを追加します。
 
-\--- hints \---
+- - ヒント - -
 
-\--- hint \---
+\---ヒント\---
 
-You can make a CSS class that defines just the width of an element like this:
+このような要素の幅だけを定義するCSSクラスを作ることができます：
 
 ```css
-  .smallPictures {
-    width: 100px;
-  }
+  .smallPictures {width：100px; }
 ```
 
-\--- /hint \---
+\--- /ヒント\---
 
-\--- hint \---
+\---ヒント\---
 
-Here's an `img` tag with a `width` attribute:
+ここにあります `のimg` とタグ `幅` 属性：
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+`幅` 属性を削除し、CSSクラスを使用してサイズを制御すると、次のようになります。
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
@@ -135,8 +116,8 @@ When you remove the `width` attribute and control the size with the CSS class in
 
 By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
 
-\--- /hint \---
+\--- /ヒント\---
 
-\--- /hints \---
+- - /ヒント - -
 
-\--- /challenge \---
+\--- /チャレンジ\---

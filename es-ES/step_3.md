@@ -1,41 +1,41 @@
-## Getting set up
+## Preparándose
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Vaya al proyecto de trilete inicial en [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){: target = "_ blank"}. Los ejemplos en estas tarjetas de sushi se basan principalmente en este proyecto.
 
-- If you prefer, you can work with a website that you already made.
+- Si lo prefiere, puede trabajar con un sitio web que ya haya creado.
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: I have an account on Trinket
+## título: tengo una cuenta en Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Haga clic en el botón **Remix** en la esquina superior derecha del proyecto (si no ha iniciado sesión, se le pedirá que lo haga). Una vez que haya iniciado sesión, deberá hacer clic en el botón **Remix** nuevamente. Esto crea una copia del proyecto para que usted pueda trabajar. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Botón Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Debería decir **remezclado** después de hacer clic en él:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![El botón ahora dice "remixado"](images/tktRemixedSmall.png)
 
-\--- /collapse \---
+\--- /colapso \---
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: I don't have an account on Trinket
+## título: no tengo una cuenta en Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Incluso si no tiene una cuenta, puede seguir trabajando con Trinket.
 
-### Saving your work
+### Guardando tu trabajo
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Puede guardar su trabajo utilizando una de las opciones en el menú **Compartir**. Puede descargar el proyecto u obtener un enlace que puede guardar, por ejemplo, en un documento o enviar por correo electrónico. **Nota**: cada vez que realice un cambio en el proyecto, obtendrá un nuevo enlace.
 
-### How to sign up for an account
+### Cómo registrarse para una cuenta
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Si desea crear una cuenta en Trinket, siga los pasos a continuación. Esto le permitirá acceder fácilmente a su trabajo desde cualquier computadora, y a **remixar** proyectos que otra persona haya compartido con usted (es decir, guardar una copia para poder hacer cambios).
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- En la pestaña del navegador con el proyecto de trinket inicial, haga clic en **Regístrese para obtener su cuenta gratuita**. Necesitarás una dirección de correo electrónico para registrarte.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Ingrese su dirección de correo electrónico y elija una contraseña, o solicite a alguien que lo haga por usted.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Ahora puede acceder a todos sus proyectos guardados o remixados haciendo clic en su nombre de usuario y yendo a **My Trinkets**. !["elemento de menú My Trinkets"](images/myTrinketsMenu.png)
 
-\--- /collapse \---
+\--- /colapso \---

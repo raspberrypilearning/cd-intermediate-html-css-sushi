@@ -1,42 +1,39 @@
-## Automatically adjust the size
+## Ajusta automáticamente el tamaño
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Hasta ahora has estado usando **píxeles** para establecer el tamaño de las cosas, por ejemplo, `10px`. En esta tarjeta, aprenderá sobre otras medidas que puede usar.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Vaya a `index.html` y encuentre el elemento `img` con la imagen de Tito, o encuentre otra etiqueta `img` en su sitio web.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ Elimine el atributo `width` si está allí, y otorgue al elemento un `id` si aún no tiene uno.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ En su archivo CSS, defina la propiedad `width` para su imagen como se muestra a continuación (puede que necesite crear el bloque CSS con el selector `id` si aún no lo ha hecho en una tarjeta anterior).
 
 ```css
-  #titoPicture {
-    width: 50%;
-    border-radius: 100%;
-  }
+  #titoPicture {ancho: 50%; radio del borde: 100%; }
 ```
 
-Note: 50% (50 percent) is **half**.
+Nota: 50% (50 por ciento) es **mitad**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ Intenta cambiar el tamaño de la ventana de tu navegador y mira lo que sucede con la imagen.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+Debería ver que la imagen se hace más grande y más pequeña cuando hace que la ventana sea más grande y más pequeña. Esto se debe a que ocupa el 50% del ancho del **elemento principal** (que es aproximadamente el ancho de la página).
 
-## \--- collapse \---
+## \--- colapso \---
 
-## title: How does it work?
+## título: ¿Cómo funciona?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+Cuando establece el tamaño de algo en píxeles, está configurando un tamaño exacto y no cambia. Esto se llama una medida **absoluta**.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+Otra forma de establecer el tamaño de las cosas es usando **medidas relativas** , de modo que el tamaño depende de cuán grandes sean los elementos comparados entre sí. Entonces, cada vez que una cosa cambia de tamaño, todo lo demás va a cambiar automáticamente el tamaño así mantener los mismos **proporciones**.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Cuando usa **medidas relativas** , es importante saber cuál es el **padre** de su elemento. El padre es el elemento en el que se encuentra tu elemento, y con eso se relacionará con la medida. Por ejemplo, el padre de la imagen de arriba es el elemento `artículo` , porque el elemento `img` está entre las `<article></article>` etiquetas.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+Si se establece el `anchura de` de un elemento a `100%`, que hará que sea la misma anchura que el contenedor primario que se encuentra.
 
-\--- /collapse \---
+\--- /colapso \---
 
-+ Experiment with different numbers in front of the `%`.
++ Experimenta con diferentes números frente al `%`.

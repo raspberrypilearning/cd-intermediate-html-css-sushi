@@ -1,41 +1,41 @@
-## Getting set up
+## Se pregătește
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Mergeți la proiectul trinket starter la [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){: target = "_ blank"}. Exemplele din aceste carti de sushi se bazeaza in principal pe acest proiect.
 
-- If you prefer, you can work with a website that you already made.
+- Dacă preferați, puteți lucra cu un site pe care l-ați făcut deja.
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: I have an account on Trinket
+## titlu: Am un cont despre Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Faceți clic pe **Remix** butonul din colțul din dreapta sus al proiectului (dacă nu sunteți conectat, vi se va cere să facă acest lucru. Odată ce v-ați conectat, va trebui să faceți din nou clic pe butonul **Remix**). Aceasta creează o copie a proiectului pentru care să lucrați. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Butonul Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Ar trebui să spui că **remixat** după ce dai clic pe el:
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![Button spune acum "remixat"](images/tktRemixedSmall.png)
 
-\--- /collapse \---
+\--- / colaps \---
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: I don't have an account on Trinket
+## titlu: Nu am un cont despre Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Chiar dacă nu aveți un cont, puteți lucra în continuare cu Trinket.
 
-### Saving your work
+### Salvarea muncii tale
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Puteți salva munca utilizând una din opțiunile din meniul **Share**. Puteți descărca proiectul sau puteți obține un link pe care îl puteți salva, de exemplu într-un document sau puteți trimite prin e-mail. **Nota**: de fiecare dată când efectuați o modificare a proiectului, veți obține un nou link.
 
-### How to sign up for an account
+### Cum să vă înscrieți pentru un cont
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Dacă doriți să creați un cont pe Trinket, urmați pașii de mai jos. Acest lucru va permite să accesați munca cu ușurință de la orice calculator, și la **remix -** proiecte altcineva a permis accesul cu tine (adica a salva o copie la care se pot face modificări).
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- În fila browser cu proiectul trinket demaror, faceți clic pe **Înscrieți-vă pentru contul dvs. gratuit**. Veți avea nevoie de o adresă de e-mail pentru a vă înscrie.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Introduceți adresa dvs. de e-mail și alegeți o parolă sau cereți-i pe cineva să facă acest lucru pentru dvs.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Acum puteți accesa toate proiectele salvate sau remixate făcând clic pe numele dvs. de utilizator și mergând la **Trinkets My**. !["Elementul de meniu Trinkets"](images/myTrinketsMenu.png)
 
-\--- /collapse \---
+\--- / colaps \---

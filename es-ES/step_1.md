@@ -1,22 +1,22 @@
-## Introduction
+## Introducción
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+Aproveche sus conocimientos de HTML / CSS existentes para crear un sitio web y obtener un mayor control sobre su apariencia.
 
-### What you will make
+### Lo que harás
 
-Here is an example of how your website might look after completing these Sushi Cards:
+Aquí hay un ejemplo de cómo podría verse su sitio web después de completar estas tarjetas de sushi:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-### What you will learn
+### Lo que vas a aprender
 
-- How to create your own colours using code
-- Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-- How to use CSS styling to create themes as well as style individual elements
-- Controlling the size of elements with different kinds of measurements
-- Making things happen when you hover over elements on your page
-- Animating elements of your website with CSS
-- How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
+- Cómo crear tus propios colores usando código
+- Maneras de organizar el contenido en su sitio web para que pueda aplicar estilos y hacerlo amigable para los lectores de pantalla
+- Cómo utilizar el estilo de CSS para crear temas, así como elementos individuales de estilo
+- Controlar el tamaño de los elementos con diferentes tipos de mediciones
+- Hacer que las cosas sucedan cuando pasas el mouse sobre los elementos en tu página
+- Animar elementos de su sitio web con CSS
+- Cómo utilizar las herramientas de desarrollador para echar un vistazo al código de cualquier sitio web, y para probar partes de la suya

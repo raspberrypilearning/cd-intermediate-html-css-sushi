@@ -1,102 +1,61 @@
-## Animation
+## Animaţie
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+Știați că puteți folosi CSS pentru a face lucrurile să se deplaseze? Veți învăța cum se face pe acest card!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
-
-```css
-    #titoPicture {
-        border-radius: 100%;
-        width: 100px;
-    }
-```
-
-+ Go to the bottom of your CSS file and add the following code:
++ Înainte de a începe, asigurați - vă că aveți o imagine de pe site - ul dvs. cu un `id` și un bloc CSS corespunzător care stabilește `lățime de` To `100px`. Merg acum cu fotografia lui Tito și blocul meu CSS arată astfel:
 
 ```css
-    @keyframes myFirstAnimation {
-        from {
-            width: 100px;
-        }
-        to {
-            width: 300px;
-        }
-    }
+    #titoPicture {limita-raza: 100%; lățime: 100px; }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
-
-+ Find your CSS rules for the picture and add the following three properties:
++ Mergeți în partea de jos a fișierului dvs. CSS și adăugați următorul cod:
 
 ```css
-    animation-name: myFirstAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    @frame-cheie myFirstAnimation {din {width: 100px; } la {width: 300px; }}
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
+Acest cod creează o animație numită `myFirstAnimation` care o puteți adăuga la orice element de pe site-ul dvs. Web. Ce credeți că va face?
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ Găsiți regulile CSS pentru imagine și adăugați următoarele trei proprietăți:
 
 ```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #FFD700;
-        }
-        50% {
-            color: #663399;
-        }
-        100% {
-            color: #FFD700;
-        }
-    }
+    animație-nume: myFirstAnimation; durata animației: 2s; animație-iterație-număr: 1;
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ Acum urmăriți ce se întâmplă pe pagina dvs. web! Încercați diferite valori pentru `animație-iterație-număr` pentru a vedea ce face.
+
++ Să încercăm o altă animație! Adăugați următorul cod la sfârșitul fișierului dvs. CSS:
 
 ```css
-    #myCoolText {        
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-        animation-name: rainbowGlow;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-    }
+    @ cadre cheie rainbowGlow {0% {culoare: # FFD700; } 50% {culoare: # 663399; } 100% {culoare: # FFD700; }}
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
-
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
-
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
-
-+ One final trick! Add this animation code:
++ Acum găsi `#myCoolText` regulile CSS de mai devreme și se adaugă în codul de animație:
 
 ```css
-    @keyframes slide {
-        0% {
-            background-position-x: 0;
-        }
-        100% {
-            background-position-x: 600vw;
-        }
-    }
+    #myCoolText {culoare: # 003366; frontieră: 2px creasta #ccffff; padding: 15px; text-align: centru; animație-nume: rainbowGlow; durata animației: 1,5 s; animație-iterație-număr: 1; }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+Când utilizați **valori procentuale** în loc de `la` și `până la`, puteți seta valorile între valori, precum și doar valori de început și de sfârșit. Puteți seta cât mai multe valori între valorile dorite utilizând valori procentuale diferite de la `0` până la `100`.
+
++ Modificați valoarea `animație-iterație-număr` la `infinit`. Vedeți dacă puteți ghici ce se va întâmpla înainte de al testa!
+
++ Încercați diferite valori pentru `animație - durata` pentru a accelera sau încetini animația.
+
++ Un truc final! Adăugați acest cod de animație:
 
 ```css
-    #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-        background-size: 600vw 600vw;
-        animation: slide 10s infinite linear forwards;
-    }
+    @ slideframe cheie {0% {background-position-x: 0; } 100% {background-position-x: 600vw; }}
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
++ Acum găsiți regulile `#frontPage` CSS pe care le-ați scris mai devreme și le schimbați la:
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+```css
+    #frontPage {fundal: gradient liniar repetat (-45deg, roșu 0%, galben 7,14%, var 14,28%, cyan 21,42%, cyan 28,56%, albastru 35,7%, magenta 42,84%, roșu 50%); dimensiunea fundalului: 600vw 600vw; animație: diapozitiv 10s infinit liniar înainte; }
+```
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+Nu vă faceți griji cu privire la înțelegerea întregului cod de mai sus ... doar stai înapoi și bucurați-vă!
+
+Pentru a afla mai multe despre mai multe lucruri pe care le puteți face cu animație, accesați [această pagină web](http://dojo.soy/html2-css-animation){: target = „_ blank“}. A se distra!
+
+Pe următoarea carte veți învăța cum să faceți lucruri reci se întâmplă atunci când plasați cursorul mouse-ului peste lucruri!

@@ -1,149 +1,97 @@
-## Teach Tito to roll over!
+## Bringe Tito bei, sich umzudrehen!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+Sie können Ihre Website mehr machen **interaktive** , indem sie coole Sachen passieren , wenn man über die Dinge mit dem Mauszeiger bewegen!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ Finden Sie Ihre CSS-Regeln für die `Elemente img` oder erstellen Sie einige, wenn Sie keine haben. Fügen Sie einen Rahmen hinzu und fügen Sie anschließend einen neuen Block mit Regeln hinzu:
 
 ```css
-  img {
-    border: 2px solid White;
-  }
-  img:hover {
-    border: 2px dashed Navy;
-  }
+  img {Grenze: 2px einfarbig weiß; } img: hover {border: 2px gestrichelt Navy; }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+Sie haben gerade einen speziellen CSS-Block namens **Pseudo-Klasse**.
 
-## \--- collapse \---
+## \--- Einsturz \---
 
-## title: How does it work?
+## Titel: Wie funktioniert es?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+Eine **-Pseudoklasse** sich ein wenig von einer **Klasse** , die Sie selbst erstellen. Du kannst es am `:`.
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+Pseudoklassen werden in HTML-Elemente eingebaut: Sie können `:` Stilregeln zu jedem Element-, Klassen- oder `ID-` Selektor in Ihrem Stylesheet hinzufügen, ohne dass Sie etwas extra in Ihrem HTML-Code hinzufügen müssen.
 
-\--- /collapse \---
+\--- / einklappen \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ Was denkst du wird passieren? Überprüfen Sie, auf welchen Seiten Ihrer Website Bilder vorhanden sind (fügen Sie ein Bild hinzu, wenn es keine gibt!), Und bewegen Sie den Mauszeiger über ein Bild, um es herauszufinden!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ Lassen Sie uns diese neue Pseudo-Klasse `: hover` zusammen mit einer CSS-Klasse verwenden, um Links zum Leuchten zu bringen, wenn Sie den Mauszeiger darüber bewegen! Fügen Sie einen Link zu Ihrer Webseite hinzu und fügen Sie ein Attribut hinzu, um den Klassennamen anzugeben. Denken Sie daran, Links werden wie folgt mit dem Tag `<a>` definiert:
 
 ```html
     <p>
-      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+      Besuchen Sie die <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia-Seite</a> , um noch mehr über Irland zu erfahren!
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ Fügen Sie Ihrem Stylesheet den folgenden Code hinzu, und führen Sie dann Ihren Code aus, um Ihre schönen Links in Aktion zu sehen.
 
 ```css
-  .niceLinks {
-    text-decoration: none;
-    color: #FFFAF0;
-  }
-  .niceLinks:hover {
-    color: #00FF7F;
-  }
+  .niceLinks {Textdekoration: keine; Farbe: # FFFAF0; } .niceLinks: hover {color: # 00FF7F; }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ Warum nicht das Attribut `class = "niceLinks"` zu allen Links in der Menüleiste hinzufügen?
 
-You can combine all of these tricks with animations too!
+Sie können alle diese Tricks auch mit Animationen kombinieren!
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Suchen Sie erneut den CSS-Block für das Bild von Tito (oder das Bild, an dem Sie zuvor gearbeitet haben). Fügen Sie Ihrer Stylesheet-Datei den folgenden Code hinzu:
 
 ```css
-  #titoPicture {
-    border-radius: 100%;
-    width: 100px;
-  }
-  #titoPicture:hover {
-    animation-name: rollOver;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-  }
-  @keyframes rollOver {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
+  #titoPicture {border-radius: 100%; Breite: 100px; } #titoPicture: hover {animationsname: rollOver; Animationsdauer: 1s; Animations-Iterationszählung: 1; } @keyframes rollOver {0% {transform: rotieren (0deg); } 100% {transformiere: rotiere (-360deg); }}
 ```
 
-+ Can you guess what will happen?
++ Kannst du raten, was passieren wird?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ Schreie jetzt "Roll over!" während du den Cursor über das Bild bewegst!
 
-\--- challenge \---
+\--- Herausforderung \---
 
-## Challenge: make glowing rainbow links
+## Herausforderung: leuchtende Regenbogenlinks machen
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ Kannst du die `rainbowGlow` Animation von der vorherigen Karte verwenden, damit die Links in deinem Menü die Farben ändern, wenn der Cursor über ihnen schwebt?
 
-\--- hints \---
+\--- Hinweise \---
 
-\--- hint \---
+\--- Hinweis \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+Unten ist der Code für die Animation `rainbowGlow`. Es ist in fünf Stufen definiert und legt in jeder Phase eine andere Textfarbe fest. Sie können mehr hinzufügen oder sie ändern, wie Sie wollen!
 
 ```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #00BFFF;
-        }
-        25% {
-            color: #00FF7F;
-        }
-        50% {
-            color: #eeeeaf;
-        }
-        75% {
-            color: #eeafee;
-        }
-        100% {
-            color: #00BFFF;
-        }
-    }
+    @keyframes rainbowGlow {0% {farbe: # 00BFFF; } 25% {Farbe: # 00FF7F; } 50% {Farbe: #eeeeaf; } 75% {Farbe: #eeafee; } 100% {Farbe: # 00BFFF; }}
 ```
 
-\--- /hint \---
+\--- /Hinweis \---
 
-\--- hint \---
+\--- Hinweis \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+Um etwas zu animieren, fügen Sie seinen Style-Regeln die drei `Animations-` Eigenschaften hinzu, wie Sie es oben getan haben. Stellen Sie immer sicher, dass der `Animationsname` mit dem Namen der Animation übereinstimmt, die Sie verwenden möchten.
 
-\--- /hint \---
+\--- /Hinweis \---
 
-\--- hint \---
+\--- Hinweis \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+Sie können `hover` Effekte direkt zum `nav` Menü hinzufügen:
 
 ```css
-  nav ul li a:hover {
-    animation-name: rainbowGlow;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-  }
+  nav ul li a: schweben {animationsname: rainbowGlow; Animationsdauer: 1.5s; Animation-Iterationszählung: unendlich; }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+Oder wenn Sie andere Links auf Ihrer Website auch mit Regenbogenfarben versehen möchten, können Sie die Animation stattdessen zur Klasse `.niceLinks` hinzufügen:
 
 ```css
-  .niceLinks:hover {
-    color: #00BFFF;
-    animation-name: rainbowGlow;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-  }
+  .niceLinks: hover {color: # 00BFFF; Animationsname: RainbowGlow; Animationsdauer: 1.5s; Animation-Iterationszählung: unendlich; }
 ```
 
-\--- /hint \---
+\--- /Hinweis \---
 
-\--- /hints \---
+\--- / Hinweise \---
 
-\--- /challenge \---
+\--- /Herausforderung \---
 
 ![](images/badge-footer-image-html-intermed.png)

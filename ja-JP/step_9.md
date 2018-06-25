@@ -1,42 +1,39 @@
-## Automatically adjust the size
+## 自動的にサイズを調整する
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+これまで、 **ピクセル** を使用して物のサイズを設定していました。たとえば、 `10px`です。 このカードでは、使用できる他の測定値について学習します。
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ `index.html` に行き、Titoの写真付き `img` 要素を探したり、あなたのウェブサイト上に別の `img` タグを探します。
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ `幅` 属性があればそれを削除し、まだ1つもない場合は `id` を与えます。
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ あなたのCSSファイルでは、以下に示すように写真の幅</code> プロパティを `に定義します（以前のカードでまだ行っていない場合は、 <code>id` セレクタでCSSブロックを作成する必要があります）。
 
 ```css
-  #titoPicture {
-    width: 50%;
-    border-radius: 100%;
-  }
+  #titoPicture {幅：50％;ボーダー半径：100％; }
 ```
 
-Note: 50% (50 percent) is **half**.
+注：50％（50％）は **半分**です。
 
-+ Try resizing your browser window and watch what happens to the picture.
++ ブラウザウィンドウのサイズを変更して、画像に何が起こるかを確認してください。
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+ウィンドウを大きくしたり小さくしたりすると、画像が大きくなったり小さくなったりするはずです。 これは、 **メイン** 要素の幅の約50％を占めているからです（これはページの幅とほぼ同じです）。
 
-## \--- collapse \---
+## \---崩壊\---
 
-## title: How does it work?
+## タイトル：どのように機能するのですか？
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+ピクセル単位でサイズを設定すると、正確なサイズが設定され、変更されません。 これを **絶対** 測定と呼びます。
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+物事のサイズを設定する別の方法を使用して **に対して** 測定し、その結果、大きさが互いに比較されているどのように大きな要素に依存します。 一つのことは、サイズを変更するたびに続いて、他のすべては自動的に同じに保つために、同様のサイズを変更します **比率**。
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+相対</strong> 測定値を **するときは、要素の **親** が何であるかを知ることが重要です。 親はあなたの要素が内部にあるものであり、それが測定と関連しています。 例えば、上記画像の親は `物品` ため、素子 `IMG` 要素が間にある `<article></article>` タグ。</p> 
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+あなたが設定した場合は `幅` の要素の `100％`、それはそれはそれは中の親コンテナと同じ幅ことになります。
 
-\--- /collapse \---
+\--- /崩壊\---
 
-+ Experiment with different numbers in front of the `%`.
++ `％の前に異なる数字で試してください`。

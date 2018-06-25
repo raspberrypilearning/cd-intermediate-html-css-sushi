@@ -1,69 +1,69 @@
-## See the code on other websites!
+## Vezi codul de pe alte site-uri!
 
-**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+**Notă:** Pentru a finaliza acest pas, aveți nevoie de unul dintre aceste browsere web: Chrome, Firefox sau Internet Explorer / Edge. Dacă nu aveți acces la unul dintre ele, puteți continua cu următorul card.
 
-On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+Pe această carte veți învăța cum să se strecoare o privire la codul de orice site folosind **instrumentul inspector**, și veți găsi , de asemenea , cum să facă unele modificări pe care doar le puteți vedea!
 
-+ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
++ Înainte de a începe, asigurați-vă că proiectul dvs. este salvat. Apoi, reîmprospătați site-ul dvs. Web făcând clic pe pictograma de actualizare din browserul dvs.
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
++ Pe pagina dvs. web (pagina actuală, nu codul) evidențiați textul cu marginea pe care ați adăugat-o pe cartela anterioară, apoi faceți clic dreapta pe el și selectați opțiunea **Inspectați** din meniul care apare. (Opțiunea ar putea fi numită "Inspect Element" sau similară, în funcție de browserul pe care îl utilizați. Dacă întâmpinați dificultăți în găsirea unei opțiuni de meniu, cereți-i pe cineva de la Dojo pentru ajutor.)
 
-![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
+![Selectarea opțiunii Inspect pe text evidențiat](images/highlightTextAndInspect.png)
 
-A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+O casetă cu totul nouă va apărea în browserul dvs. web cu numeroase file și coduri: instrumentele **dezvoltatori**sau **instrumentele dev** pentru scurt. Aici puteți vedea codul pentru lucrul pe care ați făcut clic, precum și codul pentru întreaga pagină!
 
-### Inspecting the HTML code
+### Inspectarea codului HTML
 
-+ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
++ Căutați fila care vă arată codul HTML pentru pagină (poate fi numit "Elemente" sau "Inspector"). Codul ar trebui să arate aproape la fel ca și modul în care l-ați introdus în fișierul HTML! Puteți să faceți clic pe triunghiurile mici din partea dreaptă pentru a extinde codul ascuns.
 
-![Inspector showing a text element](images/inspectTextHtml.png)
+![Inspector care prezintă un element de text](images/inspectTextHtml.png)
 
-+ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
++ Faceți dublu clic pe text între etichete. Ar trebui să puteți să o editați acum! Introduceți ceva și apăsați <kbd>Introduceți</kbd>.
 
-![Editing text using the inspector tool](images/inspectEditHtmlText.png)
+![Editarea textului utilizând instrumentul de inspector](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ Vedeți actualizarea textului pe site-ul dvs.? Notă: numai dvs. puteți vedea aceste modificări.
 
-![Website with edited text](images/inspectEditHtmlTextResult.png)
+![Site web cu text editat](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ Acum **Reîncărcați** pagina și urmăriți ce se întâmplă. Modificările dvs. ar trebui să dispară!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ În colțul din stânga sus al casetei cu instrumente dev, faceți clic pe pictograma care arată ca un mic dreptunghi cu o săgeată. Acum puteți să vă mișcați cursorul peste pagina web, iar inspectorul HTML vă va afișa codul care îl descrie.
 
-![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
+![Pictograma pentru a selecta elemente](images/inspectorSelectIcon.png) ![Selectarea unui element](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### Inspectarea codului CSS
 
-+ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++ Să aruncăm o privire la codul CSS următor. Căutați fila **Stiluri** în instrumentele dezvoltatorului (poate fi numită "Editor de stil" sau similar). Ar trebui să vedeți o grămadă de reguli CSS, inclusiv cele create pentru paragraful respectiv, `#myCoolText`.
 
-![Viewing the CSS code for an element](images/inspectCssBlock.png)
+![Vizualizarea codului CSS pentru un element](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
++ În regulile `#myCoolText` , faceți clic pe valoarea de lângă proprietatea `color`. Încercați să introduceți o valoare diferită. Urmăriți imediat textul de pe pagina dvs. de schimbare a paginii web! 
 
-![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
+![Editarea culorii textului utilizând inspectorul CSS](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+Notă: de asemenea, puteți să faceți clic pe pătratul colorat pentru a schimba culoarea utilizând un instrument de selectare a culorii.
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ Faceți clic pe spațiul după culoare. O nouă linie începe, unde puteți introduce mai multe CSS. Introduceți următoarele și apăsați <kbd>Introduceți</kbd>:
 
 ```css
-  background-color: #660066;
+  fundal-culoare: # 660066;
 ```
 
-You should see the background change on that piece of text.
+Ar trebui să vedeți schimbarea de fundal a piesei respective.
 
-![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
+![Adăugarea proprietății culorii de fundal](images/inspectorEditingBgCol.png) ![Culoarea noului fundal](images/inspectorEditBgResult.png)
 
-## \--- collapse \---
+## \--- colaps \---
 
-## title: How does it work?
+## titlu: Cum funcționează?
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+Când schimbați codul site-ului folosind instrumentele de dezvoltator, sunteți **temporar** schimbând ceea ce pare **în browserul dvs.**. Nu modificați de fapt fișierele care alcătuiesc site-ul web.
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+Când actualizați pagina, încărcați din nou site-ul web din fișierele sale (pe internet sau pe computer). De aceea schimbările dvs. dispar.
 
-Now that you know that, you can have some fun messing with the code on other websites!
+Acum că știi asta, poți să te distrezi de cod pe alte site-uri web!
 
-\--- /collapse \---
+\--- / colaps \---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ Încercați să utilizați aceste instrumente pentru a vedea codul pe un alt site web. Puteți face chiar modificări dacă doriți! Rețineți că numai dvs. puteți vedea modificările pe care le faceți și totul va reveni la reîmprospătarea paginii.

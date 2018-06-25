@@ -1,171 +1,158 @@
-## Organising your page
+## Organisieren Sie Ihre Seite
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+Bisher haben Sie **Überschriften** und **Absätze** , um Ihre **Inhalte** ordentlich und leicht lesbar zu machen. Machen wir es noch organisierter, indem wir Dinge zusammenfassen.
 
-## \--- collapse \---
+## \--- Einsturz \---
 
-## title: What is content?
+## Titel: Was ist Inhalt?
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**Inhalt** alle Inhalte auf Ihrer Webseite, z. B. Text und Bilder.
 
-\--- /collapse \---
+\--- / einklappen \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ Gehen Sie zur Datei `attractions.html` (oder zu einer Ihrer eigenen Seiten, wenn Sie das Beispielprojekt nicht verwenden) und geben Sie in der oberen Zeile nur **unter** das öffnende `<main>` -Tag ein und geben Sie Folgendes in eine neue Zeile ein : 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ Wenn Ihr Editor automatisch ein abschließendes `</article>` -Tag für Sie hinzugefügt hat, löschen Sie es.
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ Fügen Sie am Ende der Datei, nur **über** dem schließenden `</main>` -Tag, eine neue Zeile hinzu und schließen Sie das Element `artikel`:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+Ihr `main` Element sollte jetzt ungefähr so ​​aussehen (Sie könnten zwischen den `Tags des Artikels` natürlich unterschiedliche Inhalte haben):
 
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
+      <h1>Meine Lieblingsorte in Irland</h1>
+        <h2>Die Klippen von Moher</h2>
         <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        Die Klippen von Moher sind in der Grafschaft Clare, wo ich bin. Schau, wie cool sie sind!</p>
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
         <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        <p>Dies ist eine große Insel vor der Küste der Grafschaft Mayo. Es hat eine wilde und schöne Landschaft mit Bergen, Mooren und Klippen.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ Schauen Sie sich nun den Inhalt in Ihrem `Artikel` und versuchen Sie ihn in Abschnitte aufzuteilen. Legen Sie dieses neue Paar Tags um jedes Bit: `<section> </section>`. Hier ist ein Beispiel dafür, wie es aussehen könnte:
 
 ```html
   <article>
-    <h1>My favourite places to see in Ireland</h1>
+    <h1>Meine Lieblingsorte in Irland zu sehen</h1>
     <section>
-      <h2>The Cliffs of Moher</h2>
+      <h2>Die Klippen von Moher</h2>
       <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      Die Klippen von Moher sind in der Grafschaft Clare, wo ich bin. Schau, wie cool sie sind!</p>
       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
     </section>
     <section>
       <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      <p>Dies ist eine große Insel vor der Küste der Grafschaft Mayo. Es hat eine wilde und schöne Landschaft mit Bergen, Mooren und Klippen.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
   </article>
 ```
 
-## \--- collapse \---
+## \--- Einsturz \---
 
-## title: What are the new tags all about?
+## Titel: Worum geht es bei den neuen Tags?
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+Stellen Sie sich diese neuen Elemente als **Container**. Sie werden verwendet, um Dinge zusammen zu gruppieren. Es ist ein bisschen so, als würde man Dinge in Kisten und Regalen in deinem Haus organisieren!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+Dies macht Ihre Website für Bildschirmleser freundlich, gibt Ihnen mehr Kontrolle über das Layout und, wie Sie sehen werden, ermöglicht es Ihnen, wirklich kreativ mit dem Styling zu werden.
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+Alles kann zwischen den Tags eingefügt werden. Normalerweise wird es mehr als ein Element sein, aber es muss nicht sein. Es können HTML-Elemente jeglicher Art sein. Sie sagen dem Browser, dass alles zwischen diesen Tags zusammen gehört.
 
-### Article
+### Artikel
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+Das Element `Artikel` ist ein Container für ein ganzes Stück Inhalt, in diesem Fall eine Reihe von Informationen über Attraktionen in Irland. Wenn Sie verschiedene Teile des Inhalts haben, die nicht verwandt sind, sollten Sie jedes in sein eigenes `Artikel` Element setzen, anstatt einen Satz der Tags um das ganze Los zu legen.
 
-### Section
+### Sektion
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+Mit dem Element `section` können Sie verwandte Inhalte in kleinere Abschnitte aufteilen und jeden Abschnitt in einen eigenen Container einfügen.
 
-### Others exist too!
+### Andere existieren auch!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+Dies sind nicht die einzigen Containerelemente in HTML. Wenn Sie jemals ein Menü erstellt und es dann zwischen `<nav> </nav>` Tags eingefügt haben, ist dies ein weiteres Beispiel für einen Containertyp. So sind `<main> </main>` und `<header> </header>` - können Sie noch mehr denken?
 
-\--- /collapse \---
+\--- / einklappen \---
 
-\--- challenge \---
+\--- Herausforderung \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+Ihre Webseite sieht vielleicht noch nicht anders aus, aber sobald der Inhalt in Containertags organisiert ist, können Sie mit CSS einige coole Dinge tun. Denken Sie daran, dass HTML steuert, wie Ihre Website organisiert ist, und CSS steuert, wie es aussieht.
 
-## Challenge: organise your website
+## Herausforderung: Organisieren Sie Ihre Website
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ Organisieren Sie auf diese Weise alle Inhalte auf Ihrer Website mit den Containern `Artikel` und `Abschnitt`. 
 
-\--- hints \---
+\--- Hinweise \---
 
-\--- hint \---
+\--- Hinweis \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+Sehen Sie sich die Seite "Essen" des Beispielprojekts an. Sie werden sehen, dass ich einen `Artikel` mit einer Reihe von `Abschnitt` Tags in die Datei `food.html`hinzugefügt habe:
 
 ```html
   <main>
     <article>
-      <h1>Food in Ireland</h1>
+      <h1>Essen in Irland</h1>
       <p>
-        These are some of my favourite Irish foods!
+        Dies sind einige meiner Lieblingsspeisen in Irland!
       </p>  
       <section>
-        <h2>Traditional Irish Breakfast</h2>
+        <h2>Traditionelles irisches Frühstück</h2>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
+          Ein "komplettes irisches" Frühstück besteht aus Würstchen, Speckscheiben, Eiern, Blutwurst, Blutwurst und Toast.
         </p>
         <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
+          Oft gibt es eine gegrillte Tomate sowie Pilze und gebackene Bohnen.
         </p>
         <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
+          Und natürlich ist kein Frühstück ohne eine schöne Kanne Tee komplett!
         </p>
       </section>
 
       <section>
         <h2>Bangers and Mash</h2>
         <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+          Dieser Klassiker aus Würstchen, Kartoffelpüree und Soße ist nicht nur in Irland zu finden. Die meisten Länder haben ihre eigene Art, Würste zu machen, und sie sind eine Sache, die ich von zuhause vermisse, wenn ich auf Reisen bin!
         </p>
       </section>
 
       <section>
         <h2>Bacon and Cabbage</h2>
         <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
+          Ich könnte unmöglich eine Liste von irischem Essen machen, ohne dieses sehr traditionelle Gericht einzubeziehen!
         </p>
         <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          Es klingt vielleicht nicht sehr interessant, aber diese herzhafte Mahlzeit aus gekochtem Schinken, Kartoffeln und Grünkohl ist lecker und sättigend.
+          Ich liebe es, die Kartoffeln in Butter zu ersticken, und ich mag auch ein wenig Senf mit dem Speck.
         </p>
         <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
+          Meine Mutter machte es immer besonders, indem sie den Kohl im Wasser kochte, in dem der Schinken gekocht wurde.
         </p>
         <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
+          Wenn es irgendwelche Reste gibt, kannst du noch einen meiner Favoriten machen: <strong>gebratener Kohl</strong>!
         </p>
       </section>
     </article>     
   </main>
 ```
 
-\--- /hint \---
+\--- /Hinweis \---
 
-\--- /hints \---
+\--- / Hinweise \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+Auf der nächsten Karte entwerfen Sie ein anderes Thema für jede Seite, die in Artikeln und Abschnitten organisiert ist!
 
-\--- /challenge \---
+\--- /Herausforderung \---

@@ -1,6 +1,6 @@
-## Introduction
+## Inleiding
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+Bouw voort op je bestaande HTML / CSS-vaardigheden om een ​​website te maken en meer controle te krijgen over hoe deze eruit ziet.
 
 ### What you will make
 

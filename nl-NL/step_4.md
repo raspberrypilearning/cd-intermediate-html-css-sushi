@@ -4,33 +4,33 @@ Zoals je al eerder hebt gezien, kun je veel verschillende kleurnamen typen als w
 
 + Bekijk je **style sheet **. Dat is het bestand met `.css ` in de naam.
 
-+ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
++ Zet binnen de CSS-regels voor ` body `, de achtergrondkleur op de hex-code `#7B68EE`:
 
 ```html
   background-color: #7B68EE;
 ```
 
-Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+Opmerking: als je een Mac gebruikt, typ je ` # ` door tegelijkertijd op de <kbd> alt </kbd> en de <kbd> 3 </kbd> toets te drukken.
 
-Your website should now have a purple background.
+Je website zou nu een paarse achtergrond moeten hebben.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
++ Geen fan van paars? Ga naar [this web page ](http://dojo.soy/html2-colors) {:target="_blank"} en kies een andere kleur voor je stylesheet - typ in plaats van de naam van de kleur de hex-code in. 
 
 ![](images/ColorNamesHex.png)
 
-Colour codes allow you to create any colour, even if it's not on any list of colour names.
+Met kleurcodes kunt je elke kleur maken, zelfs als deze niet in een lijst met kleurnamen voorkomt.
 
-+ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
++ Probeer je eigen kleurcode te maken. Het moet beginnen met een ` # `. Dit vertelt de browser dat het een hex-code is in plaats van een kleurnaam. De rest van de code bestaat uit zes tekens. Ze kunnen elk nummer van ** 0 tot 9 ** zijn en elke letter van ** A tot F **.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
+Elke kleur wordt gemaakt door verschillende hoeveelheden ** rood **, ** groen ** en ** blauw ** te mengen. Dit wordt soms als ** RGB** geschreven. Elk van deze kleuren wordt weergegeven door twee van de zes cijfers in je HEX-code. ` 00 ` is het minimum en ` FF ` is het maximum.
 
-**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
+** Hexadecimal ** is een manier van tellen die nummers korter maakt om te schrijven door de letters A-F als extra tekens te gebruiken. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
 
 + Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
 

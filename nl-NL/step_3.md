@@ -1,14 +1,14 @@
-## Getting set up
+## Opstarten
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Ga naar het trinket-startproject op [ dojo.soy/html2-website-start ](http://dojo.soy/html2-website-start) {:target="_blank"}. De voorbeelden in deze Sushi Cards zijn voornamelijk gebaseerd op dit project.
 
-- If you prefer, you can work with a website that you already made.
+- Als je wilt, kun je werken met een website die je al hebt gemaakt.
 
 ## \--- collapse \---
 
-## title: I have an account on Trinket
+## title: ik heb een account op Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Klik op de ** remix ** knop in de rechterbovenhoek van het project (als je niet bent aangemeld, wordt je gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** klikken). This creates a copy of the project for you to work with. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 

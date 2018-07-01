@@ -1,8 +1,8 @@
-## All the colours!
+## Alle kleuren!
 
-As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
+Zoals je al eerder hebt gezien, kun je veel verschillende kleurnamen typen als woorden en de browser herkent ze. Maar een meer gebruikelijke manier om kleuren in te stellen is om iets te gebruiken dat ** hex-codes** heet ('hex' is een afkorting van ** hexadecimaal **, een speciale manier om te tellen).
 
-+ Take a look at your **style sheet**. That's the file that has `.css` in the name.
++ Bekijk je **style sheet **. Dat is het bestand met `.css ` in de naam.
 
 + Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
 

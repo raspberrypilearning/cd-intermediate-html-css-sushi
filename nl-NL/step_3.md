@@ -8,11 +8,11 @@
 
 ## title: ik heb een account op Trinket
 
-- Klik op de ** remix ** knop in de rechterbovenhoek van het project (als je niet bent aangemeld, wordt je gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** klikken). This creates a copy of the project for you to work with. 
+- Klik op de ** remix ** knop in de rechterbovenhoek van het project (als je niet bent aangemeld, wordt je gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** klikken). Hiermee maakt je een kopie van het project waarmee je kunt werken. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Het zou nadat je erop hebt geklikt hebt **remixed** moeten zeggen:
 
 ![Button now says "remixed"](images/tktRemixedSmall.png)
 
@@ -20,22 +20,22 @@ It should say **remixed** after you click it:
 
 ## \--- collapse \---
 
-## title: I don't have an account on Trinket
+## title: ik heb geen account op Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Zelfs als je geen account hebt, kunt je nog steeds met Trinket werken.
 
-### Saving your work
+### Je werk opslaan
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je kunt het project downloaden of een link ophalen die je kunt opslaan, bijvoorbeeld in een document of per e-mail kan verzenden. ** Opmerking **: elke keer dat je een wijziging in het project aanbrengt, krijg je een nieuwe link.
 
-### How to sign up for an account
+### Hoe je je aanmeldt voor een account
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Als je een account op Trinket wilt maken, volg je de onderstaande stappen. Hierdoor kun je eenvoudig vanaf elke computer toegang krijgen tot je werk en projecten die iemand anders met jou heeft gedeeld **remixen**.
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- Klik in het browsertabblad van de trinket homepage op **Sign Up For Your Free Account**. Je hebt een e-mailadres nodig om je aan te melden.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Geef je e-mailadres in en kies een wachtwoord, of vraag iemand om dit voor je te doen.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Je hebt nu toegang tot al je opgeslagen of geremixte projecten door op je gebruikersnaam te klikken en naar **My Trinkets** te gaan. !["My Trinkets" menu item](images/myTrinketsMenu.png)
 
 \--- /collapse \---

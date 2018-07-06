@@ -1,65 +1,65 @@
-## Organising your page
+## Je pagina organiseren
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+Tot dusverre heb je ** koppen** en ** alinea's ** gebruikt om je ** inhoud** te maken, er netjes uit te laten zien en ervoor gezorgd dat het gemakkelijk te lezen is. Laten we het nog beter organiseren door dingen samen te voegen.
 
 ## \--- collapse \---
 
-## title: What is content?
+## title: wat is inhoud?
 
-**Content** is all the stuff on your web page, such astext and pictures.
+** Inhoud ** is alles op je webpagina, zoals tekst en afbeeldingen.
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ Ga naar het bestand ` attractions.html` (of een van je eigen pagina's als je het voorbeeldproject niet gebruikt) en bovenaan, net ** onder ** de `<main>` tag, typ je het volgende op een nieuwe regel: 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ Als jouw editor automatisch een sluit `</article>` tag toegevoegd, verwijder deze dan.
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ Onderaan het bestand, net ** boven ** de ` </main>` tag, voeg je een nieuwe regel toe en sluit het ` article ` element:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+Je ` main ` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk andere inhoud tussen de ` article ` tags):
 
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
+      <h1>Mijn favoriete plaatsen in Nederland</h1>
+        <h2>De Hoge Veluwe</h2>
         <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        De Hoge Veluwe is een natuurgebied in de provincie Gelderland. Kijk hoe mooi het er is!</p>
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        <h2>Texel</h2>
+        <p>Dit is het grootste eiland van Nederland. Er zijn schapen en
+        een prachtig landschap met stranden en duinen.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ Bekijk nu de inhoud in je ` artikel ` en probeer het op te splitsen in secties. Plaats de volgende nieuwe tags rond elk deel: `<section> </section>`. Hier is een voorbeeld van hoe het eruit zou kunnen zien:
 
 ```html
   <article>
-    <h1>My favourite places to see in Ireland</h1>
+    <h1>Mijn favoriete plaatsen in Nederland</h1>
     <section>
-      <h2>The Cliffs of Moher</h2>
+      <h2>De Hoge Veulwe</h2>
       <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      De Hoge Veluwe is een natuurgebied in de provincie Gelderland. Look how cool they are!</p>
       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
     </section>
     <section>
-      <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      <h2>Texel</h2>
+      <p>Dit is het grootste eiland van Nederland. Er zijn schapen en
+        een prachtig landschap met stranden en duinen.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -68,54 +68,54 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## title: Waar gaan de nieuwe tags over?
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+Zie deze nieuwe elementen als ** containers **. Ze worden gebruikt om dingen te groeperen (samen te voegen). Het is een beetje alsof je dingen in dozen en planken bij je thuis organiseert!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+Dit maakt je website vriendelijk voor schermlezers, geeft je meer controle over de lay-out (opmaak) en, zoals je zult zien, kun je met de styling echt creatief worden.
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+Alles kan tussen de tags gaan. Meestal zal het meer dan één element zijn, maar dat hoeft niet zo te zijn. Het kunnen allerlei soorten HTML-elementen zijn. Wat je doet, is de browser laten weten dat alles tussen deze tags bij elkaar hoort.
 
 ### Article
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+Het `article `(artikel) element is een container voor een heel stuk inhoud, in dit geval een verzameling informatie over bezienswaardigheden in Nederland. Als je verschillende stukjes inhoud hebt die geen verband met elkaar hebben, moet je elke stuk in een eigen ` article ` element plaatsen in plaats van de tags rond de gehele inhoud zetten.
 
 ### Section
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+Met het `section ` element kunt je verwante inhoud verdelen in kleinere delen en elk deel in een eigen container plaatsen.
 
-### Others exist too!
+### Andere containers bestaan ook nog!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+Dit zijn niet de enige container elementen in HTML. Als je ooit een menu hebt gemaakt en vervolgens tussen `<nav> </nav>` tags hebt geplaatst, is dat een ander voorbeeld van een type container. Dat geldt ook voor `<main> </main>` en `<header> </header>` - kan jij er nog meer bedenken?
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+Je webpagina ziet er misschien nog niet zo anders uit, maar zodra de inhoud is georganiseerd in container tags, kunt je er met CSS leuke dingen mee doen. Onthoud dat HTML bepaalt hoe je website is georganiseerd en CSS bepaalt hoe het eruit ziet.
 
-## Challenge: organise your website
+## Uitdaging: organiseer je website
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ Probeer de inhoud van je website op deze manier met behulp van de ` article ` en ` section ` containers te organiseren. 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+Kijk naar de Food-pagina van het voorbeeldproject. Je ziet dat ik een ` article ` heb toegevoegd met een heleboel ` section ` tags in het bestand ` food.html `:
 
 ```html
   <main>
     <article>
-      <h1>Food in Ireland</h1>
+      <h1>Eten in Nederland</h1>
       <p>
-        These are some of my favourite Irish foods!
+        Dit zijn enkele favoriete gerechten van mij!
       </p>  
       <section>
-        <h2>Traditional Irish Breakfast</h2>
+        <h2>Een broodjes ontbijt</h2>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
+          Een compleet ontbijt met broodjes, gekookt eitje,
+          jus d'orange en een beschuitje.
         </p>
         <p>
           Often there will be a grilled tomato as well as mushrooms,

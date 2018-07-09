@@ -1,4 +1,4 @@
-## Teach Tito to roll over!
+## Leer Tito om te rollen!
 
 You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
 

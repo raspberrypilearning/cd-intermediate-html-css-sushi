@@ -163,6 +163,6 @@ Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` 
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+Op de volgende kaart ontwerp je een ander thema voor elke pagina die is georganiseerd in artikelen en secties!
 
 \--- /challenge \---

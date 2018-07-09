@@ -79,7 +79,7 @@ Je kunt zoveel CSS-klassen op een element toepassen als je maar wilt. Schrijf ge
   }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ In je `html` code, voeg je de nieuwe klasse toe aan elk van de elementen waar je aan werkte, zoals dit:
 
 ```html
   <section class="stylishBox someSpacing">
@@ -87,7 +87,7 @@ Je kunt zoveel CSS-klassen op een element toepassen als je maar wilt. Schrijf ge
 
 ![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+Dus CSS klassen laten je **kiezen** welke elementen je wilt stijlen en ze laten je **opnieuw** dezelfde set stijlregels gebruiken voor welke elementen die jij dan ook wilt.
 
 + Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
 

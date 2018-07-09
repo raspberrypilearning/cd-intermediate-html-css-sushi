@@ -18,27 +18,27 @@ Er verschijnt een heel nieuw vak in je webbrowser met veel tabbladen en code: de
 
 ![Inspector showing a text element](images/inspectTextHtml.png)
 
-+ Dubbelklik op de tekst tussen de tags. Je zou het nu moeten kunnen bewerken! Type something in and press <kbd>Enter</kbd>.
++ Dubbelklik op de tekst tussen de tags. Je zou het nu moeten kunnen bewerken! Typ iets in en druk op <kbd>Enter</kbd>.
 
 ![Editing text using the inspector tool](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ Zie je de tekst veranderen op je website? Opmerking: alleen jij kunt deze wijzigingen zien.
 
 ![Website with edited text](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ Nu **reload** (herlaad) de pagina en kijk wat er gebeurt. Je wijzigingen moeten verdwijnen!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ Klik in de linkerbovenhoek van het vak op het pictogram dat lijkt op een kleine rechthoek met een pijl. Nu kunt je de cursor over de webpagina bewegen en de HTML-inspecteur toont je de code die deze beschrijft.
 
 ![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### Doornemen van de CSS code
 
-+ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++ Laten we vervolgens eens de CSS-code bekijken. Zoek naar de **Styles** tab in de ontwikkelaartools (dit kan 'Style Editor' of iets dergelijks worden genoemd). Je zou een aantal CSS regels moeten zien, inclusief degene die je voor die alinea hebt gemaakt, `#myCoolText`.
 
 ![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
++ In de `#myCoolText` regels, klik op de waarde naast het `color` eigendom. Probeer een andere waarde in te typen. Kijk hoe de tekst op je webpagina van kleur verandert! 
 
 ![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 

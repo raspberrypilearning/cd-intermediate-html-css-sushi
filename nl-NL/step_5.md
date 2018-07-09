@@ -1,16 +1,16 @@
 ## Je pagina organiseren
 
-Tot dusverre heb je ** koppen** en ** alinea's ** gebruikt om je ** inhoud** te maken, er netjes uit te laten zien en ervoor gezorgd dat het gemakkelijk te lezen is. Laten we het nog beter organiseren door dingen samen te voegen.
+Tot dusverre heb je **koppen** en **alinea's** gebruikt om je **inhoud** te maken, er netjes uit te laten zien en ervoor gezorgd dat het gemakkelijk te lezen is. Laten we het nog beter organiseren door dingen samen te voegen.
 
 ## \--- collapse \---
 
 ## title: wat is inhoud?
 
-** Inhoud ** is alles op je webpagina, zoals tekst en afbeeldingen.
+**Inhoud** is alles op je webpagina, zoals tekst en afbeeldingen.
 
 \--- /collapse \---
 
-+ Ga naar het bestand ` attractions.html` (of een van je eigen pagina's als je het voorbeeldproject niet gebruikt) en bovenaan, net ** onder ** de `<main>` tag, typ je het volgende op een nieuwe regel: 
++ Ga naar het bestand `attractions.html` (of een van je eigen pagina's als je het voorbeeldproject niet gebruikt) en bovenaan, net **onder** de `<main>` tag, typ je het volgende op een nieuwe regel: 
 
 ```html
   <main>
@@ -19,22 +19,22 @@ Tot dusverre heb je ** koppen** en ** alinea's ** gebruikt om je ** inhoud** te 
 
 + Als jouw editor automatisch een sluit `</article>` tag toegevoegd, verwijder deze dan.
 
-+ Onderaan het bestand, net ** boven ** de ` </main>` tag, voeg je een nieuwe regel toe en sluit het ` article ` element:
++ Onderaan het bestand, net **boven** de `</main>` tag, voeg je een nieuwe regel toe en sluit het `article` element:
 
 ```html
     </article>
   </main>
 ```
 
-Je ` main ` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk andere inhoud tussen de ` article ` tags):
+Je `main` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk andere inhoud tussen de `article` tags):
 
 ```html
   <main>
     <article>
-      <h1>Mijn favoriete plaatsen in Nederland</h1>
-        <h2>De Hoge Veluwe</h2>
-        <p>
-        De Hoge Veluwe is een natuurgebied in de provincie Gelderland. Kijk hoe mooi het er is!</p>
+        <h1> Mijn favoriete plekken om te zien in Ierland </h1>  
+          <h2> De kliffen van Moher </h2> 
+          <p> 
+          De kliffen van Moher zijn te vinden in County Clare, waar ik vandaan kom. Kijk hoe mooi het er is!</p>
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
         <h2>Texel</h2>
         <p>Dit is het grootste eiland van Nederland. Er zijn schapen en

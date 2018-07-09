@@ -27,9 +27,9 @@ Je tekst zou er nu als volgt uit moeten zien:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-Een selector met een `#` ervoor wordt gebruikt om CSS regels aan een specifiek element op je website toe te wijzen. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Een selector met een `#` ervoor wordt gebruikt om CSS regels aan een specifiek element op je website toe te wijzen. Je specificeert het element met behulp van de naam waaraan je het `id` attribuut hebt toegewezen.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ Laten we er een doen voor de `body` van de home page. Ga naar `index.html` en voeg een `id` toe aan de `body` tag.
 
 ```html
     <body id="frontPage">

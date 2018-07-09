@@ -1,16 +1,16 @@
 ## Alle kleuren!
 
-Zoals je al eerder hebt gezien, kun je veel verschillende kleurnamen typen als woorden en de browser herkent ze. Maar een meer gebruikelijke manier om kleuren in te stellen is om iets te gebruiken dat ** hex-codes** heet ('hex' is een afkorting van ** hexadecimaal **, een speciale manier om te tellen).
+Zoals je al eerder hebt gezien, kun je veel verschillende kleurnamen typen als woorden en de browser herkent ze. Maar een meer gebruikelijke manier om kleuren in te stellen is om iets te gebruiken dat **hex-codes** heet ('hex' is een afkorting van **hexadecimaal**, een speciale manier om te tellen).
 
-+ Bekijk je **style sheet **. Dat is het bestand met `.css ` in de naam.
++ Bekijk je **style sheet**. Dat is het bestand met `.css` in de naam.
 
-+ Zet binnen de CSS-regels voor ` body `, de achtergrondkleur op de hex-code `#7B68EE`:
++ Zet binnen de CSS-regels voor `body`, de achtergrondkleur op de hex-code `#7B68EE`:
 
 ```html
   background-color: #7B68EE;
 ```
 
-Opmerking: als je een Mac gebruikt, typ je ` # ` door tegelijkertijd op de <kbd> alt </kbd> en de <kbd> 3 </kbd> toets te drukken.
+Opmerking: als je een Mac gebruikt, typ je `#` door tegelijkertijd op de <kbd>alt</kbd> en de <kbd>3</kbd> toets te drukken.
 
 Je website zou nu een paarse achtergrond moeten hebben.
 

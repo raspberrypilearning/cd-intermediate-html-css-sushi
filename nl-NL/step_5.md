@@ -31,35 +31,34 @@ Je `main` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk ander
 ```html
   <main>
     <article>
-        <h1> Mijn favoriete plekken om te zien in Ierland </h1>  
-          <h2> De kliffen van Moher </h2> 
-          <p> 
-          De kliffen van Moher zijn te vinden in County Clare, waar ik vandaan kom. Kijk hoe mooi het er is!</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Texel</h2>
-        <p>Dit is het grootste eiland van Nederland. Er zijn schapen en
-        een prachtig landschap met stranden en duinen.
+        <h1>Mijn favoriete plekken om te zien in Ierland</h1>  
+          <h2>De kliffen van Moher</h2> 
+          <p>
+          De kliffen van Moher zijn te vinden in County Clare, waar ik vandaan kom. Kijk hoe cool ze zijn!</p> 
+       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+       <h2>Achill Island</h2> 
+        <p>Dit is een groot eiland voor de kust van County Mayo. Je vindt er wild en 
+       een mooi landschap van bergen, moerassen en kliffen.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Bekijk nu de inhoud in je ` artikel ` en probeer het op te splitsen in secties. Plaats de volgende nieuwe tags rond elk deel: `<section> </section>`. Hier is een voorbeeld van hoe het eruit zou kunnen zien:
++ Bekijk nu de inhoud in je `artikel` en probeer het op te splitsen in secties. Plaats de volgende nieuwe tags rond elk deel: `<section> </section>`. Hier is een voorbeeld van hoe het eruit zou kunnen zien:
 
 ```html
   <article>
-    <h1>Mijn favoriete plaatsen in Nederland</h1>
+    <h1>Mijn favoriete plekken om te zien in Ierland</h1>
     <section>
-      <h2>De Hoge Veulwe</h2>
-      <p>
-      De Hoge Veluwe is een natuurgebied in de provincie Gelderland. Look how cool they are!</p>
+       <h2>De kliffen van Moher</h2> 
+          <p>
+          De kliffen van Moher zijn te vinden in County Clare, waar ik vandaan kom. Kijk hoe cool ze zijn!</p> 
       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
     </section>
-    <section>
-      <h2>Texel</h2>
-      <p>Dit is het grootste eiland van Nederland. Er zijn schapen en
-        een prachtig landschap met stranden en duinen.
+     <section>
+       <h2>Achill Island</h2> 
+        <p>Dit is een groot eiland voor de kust van County Mayo. Je vindt er wild en een mooi landschap van bergen, moerassen en kliffen.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -70,7 +69,7 @@ Je `main` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk ander
 
 ## title: Waar gaan de nieuwe tags over?
 
-Zie deze nieuwe elementen als ** containers **. Ze worden gebruikt om dingen te groeperen (samen te voegen). Het is een beetje alsof je dingen in dozen en planken bij je thuis organiseert!
+Zie deze nieuwe elementen als **containers**. Ze worden gebruikt om dingen te groeperen (samen te voegen). Het is een beetje alsof je dingen in dozen en planken bij je thuis organiseert!
 
 Dit maakt je website vriendelijk voor schermlezers, geeft je meer controle over de lay-out (opmaak) en, zoals je zult zien, kun je met de styling echt creatief worden.
 
@@ -78,15 +77,15 @@ Alles kan tussen de tags gaan. Meestal zal het meer dan één element zijn, maar
 
 ### Article
 
-Het `article `(artikel) element is een container voor een heel stuk inhoud, in dit geval een verzameling informatie over bezienswaardigheden in Nederland. Als je verschillende stukjes inhoud hebt die geen verband met elkaar hebben, moet je elke stuk in een eigen ` article ` element plaatsen in plaats van de tags rond de gehele inhoud zetten.
+Het `article`(artikel) element is een container voor een heel stuk inhoud, in dit geval een verzameling informatie over bezienswaardigheden in Nederland. Als je verschillende stukjes inhoud hebt die geen verband met elkaar hebben, moet je elke stuk in een eigen `article` element plaatsen in plaats van de tags rond de gehele inhoud zetten.
 
 ### Section
 
-Met het `section ` element kunt je verwante inhoud verdelen in kleinere delen en elk deel in een eigen container plaatsen.
+Met het `section` element kunt je verwante inhoud verdelen in kleinere delen en elk deel in een eigen container plaatsen.
 
 ### Andere containers bestaan ook nog!
 
-Dit zijn niet de enige container elementen in HTML. Als je ooit een menu hebt gemaakt en vervolgens tussen `<nav> </nav>` tags hebt geplaatst, is dat een ander voorbeeld van een type container. Dat geldt ook voor `<main> </main>` en `<header> </header>` - kan jij er nog meer bedenken?
+Dit zijn niet de enige container elementen in HTML. Als je ooit een menu hebt gemaakt en vervolgens tussen `<nav> </nav>` tags hebt geplaatst, is dat een ander voorbeeld van een type container. Dat geldt ook voor `<main> </main>` en `<header> </header>` \--- kan jij er nog meer bedenken?
 
 \--- /collapse \---
 
@@ -96,13 +95,13 @@ Je webpagina ziet er misschien nog niet zo anders uit, maar zodra de inhoud is g
 
 ## Uitdaging: organiseer je website
 
-+ Probeer de inhoud van je website op deze manier met behulp van de ` article ` en ` section ` containers te organiseren. 
++ Probeer de inhoud van je website op deze manier met behulp van de `article` en `section` containers te organiseren. 
 
 \--- hints \---
 
 \--- hint \---
 
-Kijk naar de Food-pagina van het voorbeeldproject. Je ziet dat ik een ` article ` heb toegevoegd met een heleboel ` section ` tags in het bestand ` food.html `:
+Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` heb toegevoegd met een heleboel `section` tags in het bestand `food.html`:
 
 ```html
   <main>

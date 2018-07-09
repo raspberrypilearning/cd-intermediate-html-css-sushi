@@ -1,6 +1,6 @@
 ## Inleiding
 
-Bouw voort op je bestaande HTML / CSS-vaardigheden om een ​​website te maken en meer controle te krijgen over hoe deze eruit ziet.
+Bouw voort op je bestaande HTML/CSS-vaardigheden om een ​​website te maken en meer controle te krijgen over hoe deze eruit ziet.
 
 ### Wat je gaat maken
 
@@ -19,4 +19,4 @@ Hier is een voorbeeld van hoe je website eruit zou kunnen zien na het voltooien 
 - Het met verschillende soorten metingen bepalen van de grootte van elementen
 - Dingen laten gebeuren als je de muisaanwijzer over elementen op je pagina beweegt
 - Animeren van elementen op je website met CSS
-- Hoe de ontwikkelaarstools te gebruiken om een ​​kijkje te nemen in de code van een website en om delen van die website te testen
+- Hoe de ontwikkelaars tools te gebruiken om een ​​kijkje te nemen in de code van een website en om delen van die website te testen

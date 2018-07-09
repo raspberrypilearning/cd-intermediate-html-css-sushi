@@ -89,27 +89,27 @@ Je kunt zoveel CSS-klassen op een element toepassen als je maar wilt. Schrijf ge
 
 Dus CSS klassen laten je **kiezen** welke elementen je wilt stijlen en ze laten je **opnieuw** dezelfde set stijlregels gebruiken voor welke elementen die jij dan ook wilt.
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ Ga naar `index.html` en voeg de `stylishBox` class toe aan het `main` element of een ander element op de pagina. Je kunt het later weer verwijderen!
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+Dit is hoe mijn startpagina eruit ziet met de CSS class. Ik heb ook de `topDivider` class toegevoegd aan de `img` tag met de afbeelding van Tito.
 
 ![CSS classes being used on the home page](images/homePageWithClasses.png)
 
 \--- challenge \---
 
-## Challenge: make some new classes
+## Uitdaging: maak enkele nieuwe classes
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ Gebruik CSS **classes** om een ​​paar verschillende foto formaten voor je website te definiëren, bijvoorbeeld `.smallPictures` (smalle foto's) en `.mediumPictures` (medium foto's). Verwijder vervolgens het `with` attribuut van elk van je `img` elementen en voeg in plaats daarvan de juiste class toe.
 
 \--- hints \---
 
 \--- hint \---
 
-You can make a CSS class that defines just the width of an element like this:
+Je kunt een CSS class maken die alleen de breedte van een element als dit definieert:
 
 ```css
   .smallPictures {
@@ -121,19 +121,19 @@ You can make a CSS class that defines just the width of an element like this:
 
 \--- hint \---
 
-Here's an `img` tag with a `width` attribute:
+Dit is een `img` tag met een `with` attribuut:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+Wanneer je het kenmerk `width` verwijdert en in plaats daarvan de grootte met de CSS class bepalen, ziet het eruit als volgt:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+Door een CSS-klasse te gebruiken, kun je eenvoudig de breedte van alle afbeeldingen in één keer wijzigen door slechts één regel code in je stylesheet te wijzigen!
 
 \--- /hint \---
 

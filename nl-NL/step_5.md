@@ -104,57 +104,55 @@ Je webpagina ziet er misschien nog niet zo anders uit, maar zodra de inhoud is g
 Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` heb toegevoegd met een heleboel `section` tags in het bestand `food.html`:
 
 ```html
-  <main>
-    <article>
-      <h1>Eten in Nederland</h1>
+  <main> 
+   <article> 
+    <h1> Eten in Ierland </h1> 
+    <p>
+     Dit zijn enkele van mijn favoriete Ierse gerechten!
+      </p>
+   <section>
+      <h2>Traditioneel Iers ontbijt</h2>
       <p>
-        Dit zijn enkele favoriete gerechten van mij!
-      </p>  
-      <section>
-        <h2>Een broodjes ontbijt</h2>
-        <p>
-          Een compleet ontbijt met broodjes, gekookt eitje,
-          jus d'orange en een beschuitje.
+        Een "Full Irish" ontbijt bestaat uit worstjes, plakjes (bacon), 
+        eieren, bloedworst, witte pudding en toast.
         </p>
-        <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
+         <p> Vaak zijn er een gegrilde tomaat, champignons 
+           en gebakken bonen bij.
         </p>
+          <p>
+            En natuurlijk is geen ontbijt compleet zonder een heerlijke
+            pot thee!
+        </p>
+      </section>
+
+      <section> 
+        <h2>Bangers en Mash</h2>
         <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
+          Deze klassieker van worsten, aardappelpuree en jus is niet uniek voor Ierland, maar wat 
+          het speciaal maakt, zijn de Ierse worsten. De meeste landen hebben hun eigen manier om worsten te maken, 
+         en dit is één ding dat ik mis van thuis als ik op reis ben!
         </p>
       </section>
 
       <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+         <h2> Baco and Cabbage </h2> 
+         <p>
+           Ik zou onmogelijk een lijst met Iers eten kunnen maken zonder dit zeer traditionele 
+            gerecht te includeren!
         </p>
-      </section>
-
-      <section>
-        <h2>Bacon and Cabbage</h2>
-        <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
+      <p>
+         Het klinkt misschien niet zo interessant, maar deze hartige maaltijd 
+         met gekookte ham, aardappelen en groene kool is smakelijk en vullend.
+          Ik hou ervan de aardappelen in boter te smoren en ik hou ook van een 
+      beetje mosterd bij het spek.
         </p>
         <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          Mijn moeder maakt het altijd extra speciaal door de kool 
+           in het water te koken waarin de ham is gekookt.
         </p>
         <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
-        </p>
-        <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
+          Als er nog restjes zijn, kun je nog een van mijn 
+          favorieten maken: <strong>fried cabbage</strong> (gefrituurde kool)!
         </p>
       </section>
     </article>     

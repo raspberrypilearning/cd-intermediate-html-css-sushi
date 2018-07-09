@@ -34,9 +34,9 @@ Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEertseAnimatie)
     animation-iteration-count: 1;
 ```
 
-+ Bekijk nu wat er gebeurt op je webpagina! Try different values for `animation-iteration-count` to see what it does.
++ Bekijk nu wat er gebeurt op je webpagina! Probeer verschillende waarden voor `animatie-iteratie-count` om te zien wat het doet.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ Laten we een andere animatie proberen! Voeg de volgende code toe aan het einde van je CSS-bestand:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEertseAnimatie)
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ Zoek nu de `#myCoolText` CSS regels van hiervoor en voeg de animatiecode toe:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEertseAnimatie)
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+Wanneer je **procentuele waarden** gebruikt in plaats van `from` en `to`, kun je tussen waarden instellen en niet alleen begin- en eindwaarden. Je kunt net zoveel tussenliggende waarden instellen als je wilt, met verschillende percentages van `0` helemaal tot `100`.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ Wijzig de waarde van `animation-iteration-count` tot `infinite` (oneindig). Kijk of je kunt raden wat er zal gebeuren voordat je het test!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ Probeer verschillende waarden uit voor `animation-duration` om je animatie te versnellen of te vertragen.
 
-+ One final trick! Add this animation code:
++ Een laatste truc! Voeg deze animatiecode toe:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ Zoek nu de `#frontPage` CSS-regels die je eerder hebt geschreven en wijzig deze in:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+Maak je geen zorgen als je bovenstaande code niet begrijpt ... leun achterover en geniet ervan!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+Ga naar [deze webpagina](http://dojo.soy/html2-css-animation) {: Target = "_ blank"} voor meer informatie over andere dingen die je met animatie kunt doen. Veel plezier!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+Op de volgende kaart leer je hoe je leuke dingen kunt laten gebeuren als je met de muis over dingen beweegt!

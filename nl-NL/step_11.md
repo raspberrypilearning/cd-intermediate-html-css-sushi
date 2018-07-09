@@ -27,15 +27,15 @@ Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor
 
 + Wat denk je dat het zal doen? Controleer welke pagina's op je website afbeeldingen bevatten (voeg een afbeelding toe als die er niet zijn!) En beweeg je cursor over een afbeelding om erachter te komen!
 
-+ Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten gloeien als je eroverheen beweegt! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten gloeien als je eroverheen beweegt! Voeg een link toe aan je webpagina en voeg een attribuut toe om de klasse naam op te geven. Vergeet niet, koppelingen zijn gedefinieerd met behulp van de `<a>` tag, zoals:
 
 ```html
     <p>
-      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+      Bezoek de <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia-pagina</a> om nog meer te leren over Ierland!
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ Voeg de volgende code toe aan je style sheet en voer vervolgens je code uit om je mooie links in actie te zien.
 
 ```css
   .niceLinks {
@@ -47,11 +47,11 @@ Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ Waarom zou je ook niet het attribuut `class="niceLinks"` aan alle links in je menubalk toevoegen?
 
-You can combine all of these tricks with animations too!
+Je kunt al deze trucs ook combineren met animaties!
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Zoek opnieuw het CSS-blok op voor de afbeelding van Tito (of welke afbeelding je eerder aan het bewerken was). Voeg de volgende code aan je style sheet bestand toe:
 
 ```css
   #titoPicture {
@@ -73,21 +73,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ Kun je raden wat er zal gebeuren?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ Roep nu "Rol om!" terwijl je de cursor over de afbeelding beweegt!
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## Uitdaging: gloeiende regenboog links maken
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ Kun je de `rainbowGlow` animatie van de vorige kaart gebruiken om ervoor te zorgen dat de koppelingen in je menu de kleuren blijven veranderen wanneer de cursor eroverheen zweeft?
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+Hieronder staat de code voor de `rainbowGlow` animatie. Er zijn vijf fasen gedefinieerd en in elke fase wordt een andere tekstkleur ingesteld. Je kunt meer toevoegen of wijzigen als je wilt!
 
 ```css
     @keyframes rainbowGlow {

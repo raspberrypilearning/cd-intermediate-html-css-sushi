@@ -1,8 +1,8 @@
 ## Leer Tito om te rollen!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+Je kunt je website **interactiever** maken door coole dingen te laten gebeuren wanneer je met de muiscursor over dingen beweegt!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ Zoek je CSS-regels voor de `img` elementen, of maak er een paar als je er geen hebt. Voeg een rand toe en voeg dan de hieronder staande nieuwe blok regels toe:
 
 ```css
   img {
@@ -13,21 +13,21 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+Je hebt zojuist een speciaal type CSS-blok gebruikt dat een **pseudo-class** wordt genoemd.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+Een **pseudo-class** is een beetje anders dan een **class** die je zelf maakt. Je kunt het herkennen aan de `:`.
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor elk element, klasse of `id` selector toevoegen in je stylesheet zonder iets toe te voegen in je HTML-code.
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ Wat denk je dat het zal doen? Controleer welke pagina's op je website afbeeldingen bevatten (voeg een afbeelding toe als die er niet zijn!) En beweeg je cursor over een afbeelding om erachter te komen!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten gloeien als je eroverheen beweegt! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
 
 ```html
     <p>

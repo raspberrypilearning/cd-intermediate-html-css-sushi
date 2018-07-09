@@ -42,28 +42,28 @@ Er verschijnt een heel nieuw vak in je webbrowser met veel tabbladen en code: de
 
 ![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+Opmerking: je kunt ook op het gekleurde vierkant klikken om de kleur te wijzigen met behulp van een gereedschap voor kleurkiezers.
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ Klik op de spatie achter de kleur. Er begint een nieuwe regel, waarin je meer CSS kunt typen. Typ het volgende en druk op <kbd>Enter</kbd>:
 
 ```css
   background-color: #660066;
 ```
 
-You should see the background change on that piece of text.
+Je zou de achtergrond van dat stuk tekst moeten zien veranderen.
 
 ![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+Wanneer je de websitecode wijzigt met de ontwikkelaar tools, verander je **tijdelijk** datgene wat je **in je browser ziet**. Je verandert eigenlijk niet de bestanden waaruit de website bestaat.
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+Wanneer je de pagina vernieuwt, laadt je de website opnieuw in vanuit de bestanden (vanaf internet of je computer). Dat is waarom je veranderingen verdwijnen.
 
-Now that you know that, you can have some fun messing with the code on other websites!
+Nu dat je dat weet, kun je leuke dingen doen met de code op andere websites!
 
 \--- /collapse \---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ Probeer deze tools te gebruiken om de code op een andere website te bekijken. Je kunt zelfs wijzigingen aanbrengen als je wilt! Vergeet niet dat alleen je de wijzigingen kunt zien die je aanbrengt en dat alles wordt gereset wanneer je de pagina vernieuwt.

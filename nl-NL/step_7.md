@@ -1,18 +1,18 @@
-## Individual style
+## Eigen stijl
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Laten we de startpagina een beetje opleuken! Met een ander soort CSS selector kun je een unieke set CSS regels toepassen op slechts **een specifiek element**.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ Ga naar `index.html` en zoek een alinea (`p`) element, of voeg er een toe als je er geen hebt. Voeg het volgende **attribute** toe aan de tag:
 
 ```html
-    <p id="myCoolText">
-        My website is about Ireland.
+    <p id="myCoolText"> 
+       Mijn website gaat over Ierland.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+De `id` is een naam die je een bepaald element geeft om deze te **identificeren**). Twee elementen op dezelfde pagina mogen nooit dezelfde `id` hebben!
 
-+ Now go to your style sheet and add the following code:
++ Ga nu naar je style sheet en voeg de volgende code toe:
 
 ```css
     #myCoolText {
@@ -23,11 +23,11 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+Je tekst zou er nu als volgt uit moeten zien:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Een selector met een `#` ervoor wordt gebruikt om CSS regels aan een specifiek element op je website toe te wijzen. You specify the element with the help of the name that you assigned the element's `id` attribute.
 
 + Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
 

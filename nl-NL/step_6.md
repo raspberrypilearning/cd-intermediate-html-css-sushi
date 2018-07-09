@@ -41,15 +41,15 @@ Door een punt vóór je selector te plaatsen, wordt deze een **class selector** 
   }
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+Om te kiezen op welke elementen de stijl regels van toepassing zijn, voeg je de `class` **attribuut** toe aan de elementen in de HTML-code: typ de naam van de klasse in als de waarde voor het attribute, **zonder** de punt, zoals dit:
 
 ```html
-  class="myAwesomeClass"
+  class="mijnGeweldigeClass"
 ```
 
 \--- /collapse \---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ Klaar om een ​​andere class te proberen? Voeg de volgende CSS code toe aan `style.css`:
 
 ```css
   .stylishBox {
@@ -62,15 +62,15 @@ To choose which elements the style rules apply to, you add the `class` **attribu
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ Voeg vervolgens op een andere pagina van je website de klas toe aan enkele elementen daar. Ik ga het toevoegen aan de `section` elementen op de Food pagina van mijn website, zoals deze: `<section class="stylishBox">`.
 
-It looks great, but now my sections are all squashed together.
+Het ziet er goed uit, maar nu zijn mijn secties allemaal samengeknepen.
 
 ![Nice looking sections squashed together](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+Je kunt zoveel CSS-klassen op een element toepassen als je maar wilt. Schrijf gewoon de namen van alle klassen die je wilt gebruiken binnen het `class` attribuut (onthoud, zonder de punt!), scheid ze met spaties.
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ Laten we nog een CSS klasse maken om de secties wat marge en opvulling te geven. In het `styles.css` bestand, maak je de volgende CSS-klasse:
 
 ```css
   .someSpacing {

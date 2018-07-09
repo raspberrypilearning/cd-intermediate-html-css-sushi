@@ -113,13 +113,13 @@ Hieronder staat de code voor de `rainbowGlow` animatie. Er zijn vijf fasen gedef
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+Als je iets wilt animeren, voeg je zoals je hierboven hebt gedaan de drie `animatie` eigenschappen toe aan de stijlregels. Zorg er altijd voor dat de `animatienaam` overeen komt met de naam van de animatie die je wilt gebruiken.
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+Je kunt `hover` effecten direct toevoegen aan het `nav` menu zoals dit:
 
 ```css
   nav ul li a:hover {
@@ -129,7 +129,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+Of, als je wilt dat andere links op je website ook in regenboogkleuren flitsen, kun je in plaats daarvan de animatie toevoegen aan de `.niceLinks` class, zoals deze:
 
 ```css
   .niceLinks:hover {

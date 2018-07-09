@@ -1,6 +1,6 @@
 ## Opstarten
 
-- Ga naar het trinket-startproject op [ dojo.soy/html2-website-start ](http://dojo.soy/html2-website-start) {:target="_blank"}. De voorbeelden in deze Sushi Cards zijn voornamelijk gebaseerd op dit project.
+- Ga naar het trinket-startproject op [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start) {:target="_blank"}. De voorbeelden in deze Sushi Cards zijn voornamelijk gebaseerd op dit project.
 
 - Als je wilt, kun je werken met een website die je al hebt gemaakt.
 
@@ -8,7 +8,7 @@
 
 ## title: ik heb een account op Trinket
 
-- Klik op de ** remix ** knop in de rechterbovenhoek van het project (als je niet bent aangemeld, wordt je gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** klikken). Hiermee maakt je een kopie van het project waarmee je kunt werken. 
+- Klik op de **remix** knop in de rechterbovenhoek van het project (als je niet bent aangemeld, wordt je gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** klikken). Hiermee maakt je een kopie van het project waarmee je kunt werken. 
 
 ![Remix button](images/tktRemixButtonArrow.png)
 
@@ -26,7 +26,7 @@ Zelfs als je geen account hebt, kunt je nog steeds met Trinket werken.
 
 ### Je werk opslaan
 
-Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je kunt het project downloaden of een link ophalen die je kunt opslaan, bijvoorbeeld in een document of per e-mail kan verzenden. ** Opmerking **: elke keer dat je een wijziging in het project aanbrengt, krijg je een nieuwe link.
+Je kunt je werk opslaan met behulp van een van de opties in het menu **Share**. Je kunt het project downloaden of een link ophalen die je kunt opslaan, bijvoorbeeld in een document of per e-mail kan verzenden. **Opmerking**: elke keer dat je een wijziging in het project aanbrengt, krijg je een nieuwe link.
 
 ### Hoe je je aanmeldt voor een account
 

@@ -1,4 +1,4 @@
-## Automatically adjust the size
+## Automatisch de grootte aanpassen
 
 Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
 

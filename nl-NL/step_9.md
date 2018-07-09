@@ -33,10 +33,10 @@ Wanneer je de grootte van iets in pixels instelt, stel je een exacte grootte in 
 
 Een andere manier om de grootte van de dingen in te stellen is het gebruik van **relatieve** afmetingen, zodat de grootte afhankelijk is van hoe elementen met elkaar worden vergeleken. Zodat, wanneer een ding van afmeting verandert, ook al het andere automatisch van grootte verandert om dezelfde **verhoudingen** te behouden.
 
-Wanneer je **relatieve** afmetingen gebruikt, is het belangrijk om te weten wat de **parent** (ouder) van je element is. De parent (ouder) is het element waar het in zit, en dat is waarmee de afmeting in relatie zal zijn. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Wanneer je **relatieve** afmetingen gebruikt, is het belangrijk om te weten wat de **parent** (ouder) van je element is. De parent (ouder) is het element waar het in zit, en dat is waarmee de afmeting in relatie zal zijn. Als voorbeeld: de parent van de afbeelding hierboven is het `article` element, omdat het `img` element zich tussen de `<article></article>` tags bevindt.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+Als je de `with` van een element ingesteld op `100%`, dat zal dat dezelfde breedte hebben als de container waarin het zich bevindt.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ Experimenteer met verschillende nummers voor de `%`.

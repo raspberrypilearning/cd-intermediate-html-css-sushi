@@ -1,8 +1,8 @@
-## Animation
+## Animatie
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+Wist je dat je CSS kunt gebruiken om dingen te laten bewegen? Hoe zul je leren op deze kaart!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ Voordat je begint, zorg ervoor dat je een afbeelding op je website hebt met een `id` en een bijbehorende CSS blok welke de `with` instelt op `100 pixels`. Ik gebruik het beeld van Tito van hiervoor, en mijn CSS blok ziet er als volgt uit:
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ Ga naar de onderkant van je CSS bestand en voeg de volgende code toe:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEertseAnimatie) aan die je aan elk element op je website kunt toevoegen. Wat denk je dat het zal doen?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ Zoek je CSS regels voor de afbeelding en voeg de volgende drie eigenschappen toe:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,7 +34,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ Bekijk nu wat er gebeurt op je webpagina! Try different values for `animation-iteration-count` to see what it does.
 
 + Let's try another animation! Add the following code to the end of your CSS file:
 

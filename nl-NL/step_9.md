@@ -10,7 +10,7 @@ Tot nu toe heb je **pixels** gebruikt om de grootte van dingen in te stellen, bi
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ Definieer in je CSS-bestand de `with` eigenschappen voor je foto, zoals hieronder weergegeven (je moet mogelijk het CSS-blok met de `id` selector maken als je dit nog niet in een eerdere kaart gedaan hebt).
++ Definieer in je CSS-bestand de `width` eigenschappen voor je foto, zoals hieronder weergegeven (je moet mogelijk het CSS-blok met de `id` selector maken als je dit nog niet in een eerdere kaart gedaan hebt).
 
 ```css
   #titoPicture {
@@ -35,8 +35,8 @@ Een andere manier om de grootte van de dingen in te stellen is het gebruik van *
 
 Wanneer je **relatieve** afmetingen gebruikt, is het belangrijk om te weten wat de **parent** (ouder) van je element is. De parent (ouder) is het element waar het in zit, en dat is waarmee de afmeting in relatie zal zijn. Als voorbeeld: de parent van de afbeelding hierboven is het `article` element, omdat het `img` element zich tussen de `<article></article>` tags bevindt.
 
-Als je de `with` van een element ingesteld op `100%`, dat zal dat dezelfde breedte hebben als de container waarin het zich bevindt.
+Als je de `width` van een element instelt op `100%`, dan zal dat dezelfde breedte hebben als de container waarin het zich bevindt.
 
 \--- /collapse \---
 
-+ Experimenteer met verschillende nummers voor de `%`.
++ Experimenteer met verschillende waarden voor de `%`.

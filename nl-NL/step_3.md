@@ -6,7 +6,7 @@
 
 ## \--- collapse \---
 
-## title: ik heb een account op Trinket
+## title: Ik heb een account op Trinket
 
 - Klik op de **remix** knop in de rechterbovenhoek van het project (als je niet bent aangemeld, wordt je gevraagd dit alsnog te doen. Nadat je bent ingelogd, moet je nogmaals op **Remix** klikken). Hiermee maakt je een kopie van het project waarmee je kunt werken. 
 

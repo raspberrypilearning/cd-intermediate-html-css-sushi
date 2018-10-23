@@ -6,7 +6,7 @@ Op deze kaart leer je hoe je een kijkje kunt nemen in de code van een website me
 
 + Zorg ervoor dat voordat je begint je project is opgeslagen. Vernieuw vervolgens je website door op het vernieuwingspictogram in je browser te klikken.
 
-+ Op je webpagina (de eigenlijke pagina, niet de code) markeer je de tekst met rand die je op de vorige kaart hebt toegevoegd, klik er met de rechtermuisknop op en selecteer de optie **Inspecteren** vanuit het menu dat verschijnt. (De optie kan 'Inspect Element' of iets dergelijks worden genoemd, afhankelijk van welke browser je gebruikt. Als je problemen ondervindt bij het vinden van de menuoptie, vraag je gewoon iemand bij jouw Dojo om hulp.)
++ Op je webpagina (de eigenlijke pagina, niet de code) markeer je de tekst met rand die je op de vorige kaart hebt toegevoegd, klik er met de rechtermuisknop op en selecteer de optie **Inspecteren** vanuit het menu dat verschijnt. (De optie kan 'Inspect Element' of iets dergelijks worden genoemd, afhankelijk van welke browser je gebruikt. Als je problemen ondervindt bij het vinden van de menuoptie, vraag je gewoon iemand bij jouw dojo om hulp.)
 
 ![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 
@@ -62,8 +62,8 @@ Wanneer je de websitecode wijzigt met de ontwikkelaar tools, verander je **tijde
 
 Wanneer je de pagina vernieuwt, laadt je de website opnieuw in vanuit de bestanden (vanaf internet of je computer). Dat is waarom je veranderingen verdwijnen.
 
-Nu dat je dat weet, kun je leuke dingen doen met de code op andere websites!
+Nu je dat weet, kun je leuke dingen doen met de code op andere websites!
 
 \--- /collapse \---
 
-+ Probeer deze tools te gebruiken om de code op een andere website te bekijken. Je kunt zelfs wijzigingen aanbrengen als je wilt! Vergeet niet dat alleen je de wijzigingen kunt zien die je aanbrengt en dat alles wordt gereset wanneer je de pagina vernieuwt.
++ Probeer deze tools te gebruiken om de code op een andere website te bekijken. Je kunt zelfs wijzigingen aanbrengen als je wilt! Vergeet niet dat alleen jij de wijzigingen kunt zien die je aanbrengt en dat alles wordt gereset wanneer je de pagina vernieuwt.

@@ -4,7 +4,7 @@ Tot dusverre heb je **koppen** en **alinea's** gebruikt om je **inhoud** te make
 
 ## \--- collapse \---
 
-## title: wat is inhoud?
+## title: Wat is inhoud?
 
 **Inhoud** is alles op je webpagina, zoals tekst en afbeeldingen.
 
@@ -17,7 +17,7 @@ Tot dusverre heb je **koppen** en **alinea's** gebruikt om je **inhoud** te make
     <article>
 ```
 
-+ Als jouw editor automatisch een sluit `</article>` tag toegevoegd, verwijder deze dan.
++ Als jouw editor automatisch een sluit `</article>` tag heeft toegevoegd, verwijder deze dan.
 
 + Onderaan het bestand, net **boven** de `</main>` tag, voeg je een nieuwe regel toe en sluit het `article` element:
 
@@ -58,7 +58,7 @@ Je `main` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk ander
     </section>
      <section>
        <h2>Achill Island</h2> 
-        <p>Dit is een groot eiland voor de kust van County Mayo. Je vindt er wild en een mooi landschap van bergen, moerassen en kliffen.
+        <p>Dit is een groot eiland voor de kust van County Mayo. Je vindt er een wild en mooi landschap van bergen, moerassen en kliffen.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -69,11 +69,11 @@ Je `main` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk ander
 
 ## title: Waar gaan de nieuwe tags over?
 
-Zie deze nieuwe elementen als **containers**. Ze worden gebruikt om dingen te groeperen (samen te voegen). Het is een beetje alsof je dingen in dozen en planken bij je thuis organiseert!
+Zie deze nieuwe elementen als **containers**. Ze worden gebruikt om dingen te groeperen (samen te voegen). Het is een beetje alsof je dingen in dozen en op planken bij je thuis organiseert!
 
 Dit maakt je website vriendelijk voor schermlezers, geeft je meer controle over de lay-out (opmaak) en, zoals je zult zien, kun je met de styling echt creatief worden.
 
-Alles kan tussen de tags gaan. Meestal zal het meer dan één element zijn, maar dat hoeft niet zo te zijn. Het kunnen allerlei soorten HTML-elementen zijn. Wat je doet, is de browser laten weten dat alles tussen deze tags bij elkaar hoort.
+Alles kan tussen de tags staan. Meestal zal het meer dan één element zijn, maar dat hoeft niet zo te zijn. Het kunnen allerlei soorten HTML-elementen zijn. Wat je doet, is de browser laten weten dat alles tussen deze tags bij elkaar hoort.
 
 ### Article
 
@@ -101,7 +101,7 @@ Je webpagina ziet er misschien nog niet zo anders uit, maar zodra de inhoud is g
 
 \--- hint \---
 
-Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` heb toegevoegd met een heleboel `section` tags in het bestand `food.html`:
+Kijk naar de Eten pagina van het voorbeeldproject. Je ziet dat ik een `article` heb toegevoegd met een heleboel `section` tags in het bestand `food.html`:
 
 ```html
   <main> 
@@ -114,7 +114,7 @@ Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` 
       <h2>Traditioneel Iers ontbijt</h2>
       <p>
         Een "Full Irish" ontbijt bestaat uit worstjes, plakjes (bacon), 
-        eieren, bloedworst, witte pudding en toast.
+        eieren, bloedworst, worst en toast.
         </p>
          <p> Vaak zijn er een gegrilde tomaat, champignons 
            en gebakken bonen bij.
@@ -128,8 +128,7 @@ Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` 
       <section> 
         <h2>Bangers en Mash</h2>
         <p>
-          Deze klassieker van worsten, aardappelpuree en jus is niet uniek voor Ierland, maar wat 
-          het speciaal maakt, zijn de Ierse worsten. De meeste landen hebben hun eigen manier om worsten te maken, 
+          Deze klassieker van worsten, aardappelpuree en jus is niet uniek voor Ierland, maar wat het speciaal maakt, zijn de Ierse worsten. De meeste landen hebben hun eigen manier om worsten te maken, 
          en dit is één ding dat ik mis van thuis als ik op reis ben!
         </p>
       </section>
@@ -137,14 +136,11 @@ Kijk naar de Food pagina van het voorbeeldproject. Je ziet dat ik een `article` 
       <section>
          <h2> Baco and Cabbage </h2> 
          <p>
-           Ik zou onmogelijk een lijst met Iers eten kunnen maken zonder dit zeer traditionele 
-            gerecht te includeren!
+           Ik zou onmogelijk een lijst met Iers eten kunnen maken zonder dit zeer traditionele gerecht te noemen!
         </p>
       <p>
-         Het klinkt misschien niet zo interessant, maar deze hartige maaltijd 
-         met gekookte ham, aardappelen en groene kool is smakelijk en vullend.
-          Ik hou ervan de aardappelen in boter te smoren en ik hou ook van een 
-      beetje mosterd bij het spek.
+         Het klinkt misschien niet zo interessant, maar deze hartige maaltijd 'met gekookte ham, aardappelen en groene kool is smakelijk en vullend.
+          Ik hou ervan de aardappelen in boter te smoren en ik hou ook van een beetje mosterd bij het spek.
         </p>
         <p>
           Mijn moeder maakt het altijd extra speciaal door de kool 

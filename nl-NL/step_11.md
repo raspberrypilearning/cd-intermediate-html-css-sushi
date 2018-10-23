@@ -2,7 +2,7 @@
 
 Je kunt je website **interactiever** maken door coole dingen te laten gebeuren wanneer je met de muiscursor over dingen beweegt!
 
-+ Zoek je CSS-regels voor de `img` elementen, of maak er een paar als je er geen hebt. Voeg een rand toe en voeg dan de hieronder staande nieuwe blok regels toe:
++ Zoek je CSS-regels voor de `img` elementen, of maak er een paar als je er geen hebt. Voeg een rand toe en voeg dan de hieronder staande nieuwe set regels toe:
 
 ```css
   img {
@@ -27,7 +27,7 @@ Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor
 
 + Wat denk je dat het zal doen? Controleer welke pagina's op je website afbeeldingen bevatten (voeg een afbeelding toe als die er niet zijn!) En beweeg je cursor over een afbeelding om erachter te komen!
 
-+ Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten gloeien als je eroverheen beweegt! Voeg een link toe aan je webpagina en voeg een attribuut toe om de klasse naam op te geven. Vergeet niet, koppelingen zijn gedefinieerd met behulp van de `<a>` tag, zoals:
++ Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten oplichten als je eroverheen beweegt! Voeg een link toe aan je webpagina en voeg een attribuut toe om de klasse naam op te geven. Vergeet niet, koppelingen zijn gedefinieerd met behulp van de `<a>` tag, zoals:
 
 ```html
     <p>
@@ -79,9 +79,9 @@ Je kunt al deze trucs ook combineren met animaties!
 
 \--- challenge \---
 
-## Uitdaging: gloeiende regenboog links maken
+## Uitdaging: oplichtende regenboog links maken
 
-+ Kun je de `rainbowGlow` animatie van de vorige kaart gebruiken om ervoor te zorgen dat de koppelingen in je menu de kleuren blijven veranderen wanneer de cursor eroverheen zweeft?
++ Kun je de `rainbowGlow` animatie van de vorige kaart gebruiken om ervoor te zorgen dat de koppelingen in je menu van kleur blijven veranderen wanneer de cursor eroverheen zweeft?
 
 \--- hints \---
 

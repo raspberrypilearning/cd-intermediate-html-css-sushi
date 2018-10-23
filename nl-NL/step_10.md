@@ -2,7 +2,7 @@
 
 Wist je dat je CSS kunt gebruiken om dingen te laten bewegen? Hoe zul je leren op deze kaart!
 
-+ Voordat je begint, zorg ervoor dat je een afbeelding op je website hebt met een `id` en een bijbehorende CSS blok welke de `with` instelt op `100 pixels`. Ik gebruik het beeld van Tito van hiervoor, en mijn CSS blok ziet er als volgt uit:
++ Voordat je begint, zorg ervoor dat je een afbeelding op je website hebt met een `id` en een bijbehorende CSS blok welke de `width` instelt op `100 pixels`. Ik gebruik het beeld van Tito van hiervoor, en mijn CSS blok ziet er als volgt uit:
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Wist je dat je CSS kunt gebruiken om dingen te laten bewegen? Hoe zul je leren o
     }
 ```
 
-+ Ga naar de onderkant van je CSS bestand en voeg de volgende code toe:
++ Ga naar het einde van je CSS bestand en voeg de volgende code toe:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,7 +24,7 @@ Wist je dat je CSS kunt gebruiken om dingen te laten bewegen? Hoe zul je leren o
     }
 ```
 
-Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEertseAnimatie) aan die je aan elk element op je website kunt toevoegen. Wat denk je dat het zal doen?
+Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEersteAnimatie) aan die je aan elk element op je website kunt toevoegen. Wat denk je dat het zal doen?
 
 + Zoek je CSS regels voor de afbeelding en voeg de volgende drie eigenschappen toe:
 

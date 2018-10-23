@@ -62,7 +62,7 @@ Om te kiezen op welke elementen de stijl regels van toepassing zijn, voeg je de 
   }
 ```
 
-+ Voeg vervolgens op een andere pagina van je website de klas toe aan enkele elementen daar. Ik ga het toevoegen aan de `section` elementen op de Food pagina van mijn website, zoals deze: `<section class="stylishBox">`.
++ Voeg vervolgens op een andere pagina van je website de class toe aan enkele elementen daar. Ik ga het toevoegen aan de `section` elementen op de Food pagina van mijn website, zoals deze: `<section class="stylishBox">`.
 
 Het ziet er goed uit, maar nu zijn mijn secties allemaal samengeknepen.
 
@@ -103,7 +103,7 @@ Dit is hoe mijn startpagina eruit ziet met de CSS class. Ik heb ook de `topDivid
 
 ## Uitdaging: maak enkele nieuwe classes
 
-+ Gebruik CSS **classes** om een ​​paar verschillende foto formaten voor je website te definiëren, bijvoorbeeld `.smallPictures` (smalle foto's) en `.mediumPictures` (medium foto's). Verwijder vervolgens het `with` attribuut van elk van je `img` elementen en voeg in plaats daarvan de juiste class toe.
++ Gebruik CSS **classes** om een ​​paar verschillende foto formaten voor je website te definiëren, bijvoorbeeld `.smallPictures` (kleine foto's) en `.mediumPictures` (medium foto's). Verwijder vervolgens het `width` attribuut van elk van je `img` elementen en voeg in plaats daarvan de juiste class toe.
 
 \--- hints \---
 
@@ -121,13 +121,13 @@ Je kunt een CSS class maken die alleen de breedte van een element als dit defini
 
 \--- hint \---
 
-Dit is een `img` tag met een `with` attribuut:
+Dit is een `img` tag met een `width` attribuut:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-Wanneer je het kenmerk `width` verwijdert en in plaats daarvan de grootte met de CSS class bepalen, ziet het eruit als volgt:
+Wanneer je het kenmerk `width` verwijdert en in plaats daarvan de grootte met de CSS class bepaalt, ziet het eruit als volgt:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       

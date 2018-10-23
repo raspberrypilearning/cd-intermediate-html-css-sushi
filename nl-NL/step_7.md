@@ -58,7 +58,7 @@ Je kunt met verlopen veel verschillende effecten maken. Als je meer informatie w
 
 ## Uitdaging: style nog wat meer elementen
 
-+ Probeer een ander element een `id` te geven en styl dat element met behulp van de ID-selector met een `#` zoals hierboven. Zullen we een foto maken met een `grens radius` van `100%` zodat het volledig afgerond is? Alle andere afbeeldingen op de website blijven hetzelfde als ze zijn. 
++ Probeer een ander element een `id` te geven en maak dat element op met behulp van de ID-selector met een `#` zoals hierboven. Zullen we een foto maken met een `grens radius` van `100%` zodat het volledig afgerond is? Alle andere afbeeldingen op de website blijven hetzelfde als ze zijn. 
 
 \--- hints \---
 
@@ -76,7 +76,7 @@ Kies een `id` naam die je leuk vindt.
 
 \--- hint \---
 
-Om stijlregels voor een specifiek element te definiëren, gebruikt je het `#` symbool en de naam die je het element hebt gegeven bij de `id`.
+Om stijlregels voor een specifiek element te definiëren, gebruik je het `#` symbool en de naam die je het element hebt gegeven bij de `id`.
 
 ```css
   #titoPicture {

@@ -1,32 +1,32 @@
-## Organizzazione della tua pagina
+## Organizzare la tua pagina
 
-Finora hai usato **titoli** e **paragrafi** per rendere il tuo contenuto **** ordinato e facile da leggere. Rendiamolo ancora più organizzato raggruppando le cose.
+Finora hai usato **titoli (headings)** e **paragrafi (paragraphs)** per rendere il tuo **contenuto** ordinato e facile da leggere. Rendiamolo ancora più organizzato raggruppando le cose.
 
-## \--- chiudi \---
+## \--- collapse \---
 
-## titolo: qual è il contenuto?
+## title: Cosa è il contenuto?
 
-**contenuto** è tutto ciò che c'è nella tua pagina web, come testo e immagini.
+**Contenuto** è tutto ciò che c'è nella tua pagina web, come testo e immagini.
 
-\--- / chiudi \---
+\--- /collapse \---
 
-+ Vai `attractions.html` di file (o una delle tue pagine, se non si sta usando il progetto di esempio) e, nella parte superiore, appena **sotto** l'apertura `<main>` tag, digitare quanto segue in una nuova riga : 
++ Vai al file `attractions.html` (o una delle tue pagine, se non stai usando il progetto di esempio) e, nella parte superiore, appena **sotto** il tag `<main>` di apertura, digita quanto segue in una nuova riga: 
 
 ```html
   <main>
     <article>
 ```
 
-+ Se il tuo editor viene automaticamente aggiunto in un tag di chiusura `</article>` , eliminalo.
++ Se il tuo editor ha aggiunto automaticamente un tag di chiusura `</article>`, eliminalo.
 
-+ Nella parte inferiore del file, solo **sopra** il tag di chiusura `</main>` , aggiungi una nuova riga e chiudi l'elemento `article`:
++ Nella parte inferiore del file, subito **sopra** al tag di chiusura `</main>`, aggiungi una nuova riga e chiudi l'elemento `article`:
 
 ```html
     </article>
-  </main>
+</main>
 ```
 
-Il tuo `elemento principale` dovrebbe apparire come questo ora (potresti avere contenuti diversi tra i `tag dell'articolo` ovviamente):
+Il tuo elemento `main (principale)` dovrebbe apparire ora simile a questo (ovviamente potrai avere contenuti diversi tra i tag `article`):
 
 ```html
   <main>
@@ -34,17 +34,17 @@ Il tuo `elemento principale` dovrebbe apparire come questo ora (potresti avere c
       <h1>I miei posti preferiti da vedere in Irlanda</h1>
         <h2>The Cliffs of Moher</h2>
         <p>
-        Le Cliffs of Moher si trovano nella Contea di Clare, da dove vengo. Guarda quanto sono cool!</p>
+        Le Scogliere, o Cliffs of Moher si trovano nella Contea di Clare, da dove vengo. Guarda che spettacolo!</p>
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
         <h2>Achill Island</h2>
-        <p>Questa è una grande isola al largo della contea di Mayo. Ha un paesaggio selvaggio e bellissimo di montagne, torbiere e scogliere.
+        <p>È una grande isola al largo della contea di Mayo. Ha un bellissimo paesaggio selvaggio di montagne, torbiere e scogliere.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Ora guarda il contenuto nel tuo `articolo` e prova a suddividerlo in sezioni. Metti questa nuova coppia di tag attorno ad ogni bit: `<section> </section>`. Ecco un esempio di come potrebbe essere:
++ Ora guarda il contenuto del tuo `article` e prova a suddividerlo in sezioni. Metti questa nuova coppia di tag attorno ad ogni contenuto: `<section> </section>`. Ecco un esempio di come potrebbe apparire:
 
 ```html
   <article>
@@ -52,55 +52,55 @@ Il tuo `elemento principale` dovrebbe apparire come questo ora (potresti avere c
     <section>
       <h2>The Cliffs of Moher</h2>
       <p>
-      Le Cliffs of Moher si trovano nella Contea di Clare, da dove vengo. Guarda quanto sono cool!</p>
+      Le Scogliere, o Cliffs of Moher si trovano nella Contea di Clare, da dove vengo. Guarda che spettacolo!</p>
       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
     </section>
     <section>
       <h2>Achill Island</h2>
-      <p>Questa è una grande isola al largo della contea di Mayo. Ha un paesaggio selvaggio e bellissimo di montagne, torbiere e scogliere.
+      <p>È una grande isola al largo della contea di Mayo. Ha un bellissimo paesaggio selvaggio di montagne, torbiere e scogliere.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
   </article>
 ```
 
-## \--- chiudi \---
+## \--- collapse \---
 
-## titolo: quali sono i nuovi tag?
+## title: A cosa servono i nuovi tag?
 
-Pensa a questi nuovi elementi come **contenitori**. Sono usati per raggruppare le cose. È un po 'come organizzare le cose in scatole e scaffali nella tua casa!
+Pensa a questi nuovi elementi come **contenitori**. Sono usati per raggruppare le cose. È un po' come organizzare le cose in scatole e scaffali nella tua casa!
 
-Questo rende il tuo sito web amichevole per i lettori di schermo, ti dà un maggiore controllo sul layout e, come vedrai, ti permette di diventare davvero creativo con lo stile.
+Questo rende il tuo sito web adatto ai lettori dello schermo, ti dà un maggiore controllo sul layout e, come vedrai, ti permette di diventare davvero creativo con lo stile.
 
-Qualsiasi cosa può andare tra i tag. Di solito sarà più di un elemento, ma non deve essere. Può essere elementi HTML di qualsiasi tipo. Quello che stai facendo è dire al browser che tutto ciò che sta tra questi tag appartiene insieme.
+Qualsiasi cosa può andare tra i tag. Di solito sarà più di un elemento, ma non deve esserlo necessariamente. Può essere qualsiasi tipo di elemento HTML. Quello che stai facendo è dire al browser che tutto ciò che sta tra questi tag sta bene insieme.
 
-### Articolo
+### Article
 
-L'elemento `articolo` è un contenitore per un intero contenuto, in questo caso un insieme di informazioni sulle attrazioni in Irlanda. Se hai diversi bit di contenuto che non sono correlati, dovresti inserire ognuno nel proprio elemento articolo</code> `invece di mettere un set di tag attorno all'intero lotto.</p>
+L'elemento `article` è un contenitore per un intero contenuto, in questo caso un insieme di informazioni sulle attrazioni in Irlanda. Se hai diversi blocchi di contenuto che non sono correlati, dovresti inserire ognuno nel proprio elemento `article` invece di mettere un set di tag attorno all'intera area.
 
-<h3>Sezione</h3>
+### Section
 
-<p>L'elemento <code>sezione` ti consente di suddividere il contenuto correlato in blocchi più piccoli e di inserire ciascun blocco nel proprio contenitore.
+L'elemento `section` ti consente di suddividere il contenuto correlato in blocchi più piccoli e di inserire ciascun blocco nel proprio contenitore.
 
-### Anche gli altri esistono!
+### Ne esistono anche altri!
 
-Questi non sono gli unici elementi contenitore in HTML. Se hai mai creato un menu e poi lo hai inserito tra i tag `<nav> </nav>` , questo è un altro esempio di un tipo di contenitore. Quindi sono `<main> </main>` e `<header> </header>` - riesci a pensarci ancora?
+Questi non sono gli unici elementi contenitore in HTML. Se hai mai creato un menu e poi lo hai inserito tra i tag `<nav> </nav>`, questo è un altro esempio di un tipo di contenitore. Lo sono anche `<main> </main>` e `<header> </header>` - te ne vengono in mente altri?
 
-\--- / chiudi \---
+\--- /collapse \---
 
-\--- sfida \---
+\--- challenge \---
 
 La tua pagina web potrebbe non sembrare ancora diversa, ma una volta che il contenuto è stato organizzato in tag contenitore, sarai in grado di fare alcune cose interessanti con i CSS. Ricorda che HTML controlla in che modo è organizzato il tuo sito web e il CSS controlla come appare.
 
 ## Sfida: organizza il tuo sito web
 
-+ Esegui l'organizzazione di tutti i contenuti del tuo sito web utilizzando i contenitori `articolo` e `sezione` in questo modo. 
++ Prova ad organizzare in questo modo tutti i contenuti del tuo sito web, utilizzando i contenitori `article` e `section`. 
 
-\--- suggerimenti \---
+\--- hints \---
 
-\--- suggerimento \---
+\--- hint \---
 
-Guarda la pagina Cibo del progetto di esempio. Vedrai che ho aggiunto un `articolo` con un gruppo di `sezioni` tag nel file `food.html`:
+Guarda la pagina Cibo del progetto di esempio. Vedrai che ho aggiunto un `article` con un gruppo di tag `section` nel file `food.html`:
 
 ```html
   <main>
@@ -112,10 +112,10 @@ Guarda la pagina Cibo del progetto di esempio. Vedrai che ho aggiunto un `artico
       <section>
         <h2>Colazione irlandese tradizionale</h2>
         <p>
-          Una colazione "irlandese completa" composta da salsicce, fette di lardo (pancetta), uova, sanguinaccio, sanguinaccio e pane tostato.
+         Una colazione "Full Irish" è costituita da salsicce, fette di bacon, uova, sanguinaccio, pudding e toast.
         </p>
         <p>
-          Spesso ci sarà un pomodoro grigliato e funghi e fagioli al forno.
+          Spesso ci saranno anche un pomodoro alla griglia, funghi e fagioli stufati.
         </p>
         <p>
           E, naturalmente, nessuna colazione è completa senza una bella tazza di tè!
@@ -125,18 +125,18 @@ Guarda la pagina Cibo del progetto di esempio. Vedrai che ho aggiunto un `artico
       <section>
         <h2>Bangers and Mash</h2>
         <p>
-          Questo classico di salsicce, purè di patate e sugo non è unico in Irlanda, ma ciò che lo rende speciale sono le salsicce irlandesi. La maggior parte dei paesi ha il proprio modo di fare le salsicce, e sono una cosa che mi manca da casa se sono fuori casa!
+          Questo classico di salsicce, patate schiacciate e sugo non è unico dell'Irlanda, ma ciò che lo rende speciale sono le salsicce irlandesi. La maggior parte dei Paesi ha il suo modo di fare le salsicce e queste sono una delle cose che mi manca di casa quando sono in viaggio!
         </p>
       </section>
 
       <section>
-        <h2>Pancetta e cavolo</h2>
+        <h2>Bacon e Cavolo</h2>
         <p>
-          Non potrei fare una lista di cibo irlandese senza includere questo piatto molto tradizionale!
+         Non potrei fare un elenco di cibo irlandese senza includere questo piatto veramente tradizionale!
         </p>
         <p>
-          Potrebbe non sembrare molto interessante, ma questo abbondante pasto a base di prosciutto cotto, patate e cavolo verde è gustoso e abbondante.
-          Adoro soffocare le patate nel burro e mi piace anche una piccola mostarda con la pancetta.
+         Potrebbe non sembrare molto interessante, ma questo lauto piatto a base di prosciutto bollito, patate e cavolo verde è gustoso e saziante.
+          Amo affogare le patate nel burro e mi piace anche un po' di senape con il bacon.
         </p>
         <p>
           Mia mamma lo rendeva sempre speciale cucinando il cavolo nell'acqua in cui il prosciutto era bollito.
@@ -149,10 +149,10 @@ Guarda la pagina Cibo del progetto di esempio. Vedrai che ho aggiunto un `artico
   </main>
 ```
 
-\--- / suggerimento \---
+\--- /hint \---
 
-\--- / suggerimenti \---
+\--- /hints \---
 
-Sulla prossima carta, disegnerai un tema diverso per ogni pagina che è organizzata in articoli e sezioni!
+Nella prossima card, disegnerai un tema diverso per ogni pagina che è organizzata in articoli e sezioni!
 
-\--- / challenge \---
+\--- /challenge \---

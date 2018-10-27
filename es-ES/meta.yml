@@ -1,0 +1,40 @@
+---
+title: Tarjetas intermedias HTML / CSS Sushi
+hero_image: images / banner.png
+description: '¡Lleva las habilidades de diseño de tu sitio web aún más!'
+theme: rojo
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, proyectos
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introducción
+  - 
+    title: Que necesitarás
+  - 
+    title: Preparándose
+  - 
+    title: Todos los colores!
+  - 
+    title: Organizando tu página
+  - 
+    title: Diseña algunos temas
+  - 
+    title: Estilo individual
+  - 
+    title: '¡Vea el código en otros sitios web!'
+  - 
+    title: Ajusta automáticamente el tamaño
+  - 
+    title: Animación
+  - 
+    title: '¡Enséñale a Tito a darse la vuelta!'

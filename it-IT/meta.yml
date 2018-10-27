@@ -1,0 +1,40 @@
+---
+title: Sushi Card HTML / CSS intermedio
+hero_image: images/banner.png
+description: Migliora ulteriormente le tue capacità di progettazione di siti web!
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introduzione
+  - 
+    title: Di cosa avrai bisogno
+  - 
+    title: Prepararsi
+  - 
+    title: Tutti i colori!
+  - 
+    title: Organizzare la tua pagina
+  - 
+    title: Disegna alcuni temi
+  - 
+    title: Stile individuale
+  - 
+    title: Guarda il codice su altri siti web!
+  - 
+    title: Regola automaticamente le dimensioni
+  - 
+    title: Animazione
+  - 
+    title: Insegna a Tito a girarsi!

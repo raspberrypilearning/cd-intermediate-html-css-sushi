@@ -1,0 +1,40 @@
+---
+title: Intermediate HTML/CSS Sushi Cards
+hero_image: images/banner.png
+description: Vergroot je vaardigheden op het gebied van website-ontwikkeling!
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: CoderDojo projecten
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Inleiding
+  - 
+    title: Wat je nodig hebt
+  - 
+    title: Opstarten
+  - 
+    title: Alle kleuren!
+  - 
+    title: Organiseren van je pagina
+  - 
+    title: Ontwerp enkele thema's
+  - 
+    title: Individuele stijl
+  - 
+    title: Bekijk de code op andere websites!
+  - 
+    title: Automatisch de grootte aanpassen
+  - 
+    title: Animatie
+  - 
+    title: Leer Tito om te rollen!

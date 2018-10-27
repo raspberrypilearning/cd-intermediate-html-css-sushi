@@ -1,0 +1,40 @@
+---
+title: 中級HTML / CSS寿司カード
+hero_image: images / banner.png
+description: さらにあなたのウェブサイトのデザインスキルを取る！
+theme: 赤
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: コーダー堂、プロジェクト
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: セットアップを開始する
+  - 
+    title: すべての色！
+  - 
+    title: ページの整理
+  - 
+    title: テーマをデザインする
+  - 
+    title: 個性的なスタイル
+  - 
+    title: 他のウェブサイトのコードを見てください！
+  - 
+    title: 自動的にサイズを調整する
+  - 
+    title: アニメーション
+  - 
+    title: ロールオーバーするティトを教えてください！

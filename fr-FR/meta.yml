@@ -1,0 +1,40 @@
+---
+title: Cartes de sushi HTML / CSS intermédiaires
+hero_image: images / banner.png
+description: Prenez vos compétences de conception de site Web plus loin!
+theme: rouge
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projets
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: introduction
+  - 
+    title: Ce dont tu auras besoin
+  - 
+    title: Se mettre en place
+  - 
+    title: Toutes les couleurs!
+  - 
+    title: Organiser votre page
+  - 
+    title: Concevoir des thèmes
+  - 
+    title: Style individuel
+  - 
+    title: Voir le code sur d'autres sites!
+  - 
+    title: Ajuster automatiquement la taille
+  - 
+    title: Animation
+  - 
+    title: Apprenez à Tito à rouler!

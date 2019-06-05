@@ -1,8 +1,8 @@
-## Einführung
+## Einleitung
 
 Nutzen Sie Ihre vorhandenen HTML / CSS-Kenntnisse, um eine Website zu erstellen und mehr Kontrolle darüber zu erlangen, wie sie aussieht.
 
-### Was wirst du machen?
+### Was du machen wirst
 
 Hier ist ein Beispiel, wie Ihre Website nach dem Ausfüllen dieser Sushi-Karten aussehen könnte:
 
@@ -11,12 +11,30 @@ Hier ist ein Beispiel, wie Ihre Website nach dem Ausfüllen dieser Sushi-Karten 
   </iframe>
 </div>
 
-### Was du lernen wirst
+## \--- collapse \---
 
-- So erstellen Sie Ihre eigenen Farben mit Code
-- Möglichkeiten, Inhalte auf Ihrer Website zu organisieren, sodass Sie Stile anwenden und sie für Bildschirmleseprogramme benutzerfreundlich gestalten können
-- So verwenden Sie CSS-Stile zum Erstellen von Designs sowie zum Formatieren einzelner Elemente
-- Kontrolle der Größe von Elementen mit verschiedenen Arten von Messungen
-- Wenn Sie den Mauszeiger über Elemente auf Ihrer Seite bewegen, geschieht dies
-- Animieren von Elementen Ihrer Website mit CSS
-- Wie Sie mit den Entwicklertools einen Blick auf den Code einer Website werfen und Teile von Ihnen testen können
+## title: What you will learn
+
++ So erstellen Sie Ihre eigenen Farben mit Code
++ Möglichkeiten, Inhalte auf Ihrer Website zu organisieren, sodass Sie Stile anwenden und sie für Bildschirmleseprogramme benutzerfreundlich gestalten können
++ So verwenden Sie CSS-Stile zum Erstellen von Designs sowie zum Formatieren einzelner Elemente
++ Kontrolle der Größe von Elementen mit verschiedenen Arten von Messungen
++ Wenn Sie den Mauszeiger über Elemente auf Ihrer Seite bewegen, geschieht dies
++ Animieren von Elementen Ihrer Website mit CSS
++ Wie Sie mit den Entwicklertools einen Blick auf den Code einer Website werfen und Teile von Ihnen testen können
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you will need
+
+### Hardware
+
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
+
+### Software
+
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+
+\--- /collapse \---

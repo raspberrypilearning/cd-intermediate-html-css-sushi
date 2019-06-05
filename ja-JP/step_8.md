@@ -1,125 +1,42 @@
-## 他のウェブサイトのコードを見てください！
+## Automatically adjust the size
 
-**注：** この手順を完了するには、Chrome、Firefox、またはInternet Explorer / EdgeのいずれかのWebブラウザーを使用する必要があります。 そのうちの1つにアクセスできない場合は、次のカードに進むことができます。
+Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
 
-このカードでは、 **インスペクタツール**を使用して、どのウェブサイトのコードを覗いてみるかを学び、あなただけが見ることができるいくつかの変更を行う方法も学びます！
++ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
 
-+ 開始する前に、プロジェクトが保存されていることを確認してください。 ブラウザの更新アイコンをクリックしてウェブサイトをリフレッシュします。
++ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
 
-+ Webページ（コードではなく実際のページ）で、前のカードに追加した枠線でテキストを強調表示し、右クリックして、表示されるメニューからオプション **Inspect** を選択します。 （このオプションは、使用しているブラウザに応じて、 'Inspect Element'などと呼ばれることがあります。 メニューオプションを見つけるのが難しい場合は、Dojoの誰かに助けを求めるだけです）。
+```html
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
+```
 
-![強調表示されたテキストの[検査]オプションの選択](images/highlightTextAndInspect.png)
++ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
 
-あなたのウェブブラウザには、タブとコードがたくさんある新しいボックスが表示されます： **開発者ツール**、または **つの開発者ツール** です。 ここでは、クリックしたもののコードと、ページ全体のコードが表示されます。
+```css
+  #titoPicture {
+    width: 50%;
+    border-radius: 100%;
+  }
+```
 
-### HTMLコードの検査
+Note: 50% (50 percent) is **half**.
 
-+ ページのHTMLコードを示すタブ（「Elements」または「Inspector」と呼ばれることがあります）を探します。 コードはHTMLファイルに入力したのと同じように見えるはずです。 右側の小さな三角形をクリックすると、非表示のコードが展開されます。
++ Try resizing your browser window and watch what happens to the picture.
 
-![テキスト要素を表示するインスペクタ](images/inspectTextHtml.png)
+You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
 
-+ タグ間のテキストをダブルクリックします。 今すぐ編集できるはずです！ 何かを入力して <kbd>を押し<kbd></kbd>入力します。</li> </ul> 
-    
-    <p>
-      <img src="images/inspectEditHtmlText.png" alt="インスペクタツールを使用してテキストを編集する" />
-    </p>
-    
-    <ul>
-      <li>
-        あなたのウェブサイトでテキストの更新が見えますか？ 注：これらの変更はあなただけが見ることができます。
-      </li>
-    </ul>
-    
-    <p>
-      <img src="images/inspectEditHtmlTextResult.png" alt="編集されたテキストを含むウェブサイト" />
-    </p>
-    
-    <ul>
-      <li>
-        <p>
-          今 <strong>リロード</strong> ページと何が起こるかを監視します。 あなたの変更は消えるはずです！
-        </p>
-      </li>
-      <li>
-        <p>
-          devツールボックスの左上隅に、小さな四角形の矢印が付いたアイコンをクリックします。 これで、カーソルをWebページに移動すると、HTMLインスペクタでコードを説明するコードが表示されます。
-        </p>
-      </li>
-    </ul>
-    
-    <p>
-      <img src="images/inspectorSelectIcon.png" alt="要素を選択するアイコン" /> <img src="images/inspectorSelectElement.png" alt="要素の選択" />
-    </p>
-    
-    <h3>
-      CSSコードの検査
-    </h3>
-    
-    <ul>
-      <li>
-        次にCSSコードを見てみましょう。 探し <strong>スタイル</strong> 開発ツールのタブ（それはスタイルエディタ」または類似したと呼ばれるかもしれません）。 あなたは、その段落のために作成したCSS規則を含めて、CSS規則の束を見るべきです <code>#myCoolText</code>。
-      </li>
-    </ul>
-    
-    <p>
-      <img src="images/inspectCssBlock.png" alt="要素のCSSコードの表示" />
-    </p>
-    
-    <ul>
-      <li>
-        <code>#myCoolText</code> ルールで、 <code>色</code> プロパティの隣の値をクリックします。 別の値を入力してみてください。 あなたのウェブページ上のテキストを見てすぐに色を変更してください！
-      </li>
-    </ul>
-    
-    <p>
-      <img src="images/inspectEditCssColor.png" alt="CSSインスペクタを使用してテキストの色を編集する" />
-    </p>
-    
-    <p>
-      注：カラーピッカーツールを使用して、色付きの四角形をクリックして色を変更することもできます。
-    </p>
-    
-    <ul>
-      <li>
-        色の後のスペースをクリックします。 新しい行が始まります。ここで、より多くのCSSを入力できます。 次のように入力し、 <kbd>を押し<kbd></kbd>：</li> </ul> 
-        
-        <pre><code class="css">  背景色：＃660066;
-</code></pre>
-        
-        <p>
-          そのテキストの背景の変更が表示されます。
-        </p>
-        
-        <p>
-          <img src="images/inspectorEditingBgCol.png" alt="背景色プロパティを追加する" /> <img src="images/inspectorEditBgResult.png" alt="新しい背景色" />
-        </p>
-        
-        <h2>
-          ---崩壊---
-        </h2>
-        
-        <h2>
-          タイトル：どのように機能するのですか？
-        </h2>
-        
-        <p>
-          あなたが開発者ツールを使用して、ウェブサイトのコードを変更すると、あなたは <strong>一時</strong> 、それがどのように見えるかを変更する <strong>ブラウザで</strong>。 あなたは実際にウェブサイトを構成するファイルを変更していません。
-        </p>
-        
-        <p>
-          ページを更新すると、そのファイル（インターネットまたはコンピュータ上）から再度Webサイトをロードしています。 それがあなたの変化が消えていく理由です。
-        </p>
-        
-        <p>
-          今すぐ知っている、あなたは他のウェブサイト上のコードを混乱させるいくつかの楽しみを持つことができます！
-        </p>
-        
-        <p>
-          --- /崩壊---
-        </p>
-        
-        <ul>
-          <li>
-            これらのツールを使用して、別のWebサイトのコードを確認してみてください。 あなたは好きなだけ変更することもできます！ 変更した内容はあなただけが見ることができ、ページを更新するとすべてがリセットされることを覚えておいてください。
-          </li>
-        </ul>
+## \--- collapse \---
+
+## タイトル：どのように機能するのですか？
+
+When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+
+Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+
+When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+
+If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+
+\--- /collapse \---
+
++ Experiment with different numbers in front of the `%`.

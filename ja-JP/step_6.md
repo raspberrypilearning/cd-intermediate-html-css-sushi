@@ -1,123 +1,95 @@
-## テーマをデザインする
+## Individual style
 
-`セクション` や `p` ような要素のCSSルールを書くことは素晴らしいですが、それらのいくつかを他のものと見た目を変えたい場合はどうすればいいでしょうか？ このカードでは、同じタイプの要素にさまざまなスタイルルールを適用し、ウェブサイトの各ページごとに異なるテーマを作成する方法を学習します。
+Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
 
-+ あなたのスタイルシートファイルに移動して、以下を追加してください - ドットを必ず先頭に入れてください！
++ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
+
+```html
+    <p id="myCoolText">
+        My website is about Ireland.
+    </p> 
+```
+
+The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+
++ Now go to your style sheet and add the following code:
 
 ```css
-  .topDivider {border-top-style：solid; border-top-width：2px;ボーダートップカラー：＃F5FFFA;パディングボトム：10px; }
+    #myCoolText {
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+    }
 ```
 
-+ 今度は `tourism.html` （または独自のプロジェクトを使用している場合は作業中のHTMLファイル）に移動し、次の **属性** を各 `セクション` タグに追加します。
+Your text should look like this now:
+
+![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+
+A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+
++ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
 
 ```html
-  <section class="topDivider">
+    <body id="frontPage">
 ```
 
-ページの各セクションの上に線が現れるはずです。 おめでとうございます-あなたは自分の最初の使用してきた **CSSクラス**！
-
-![セクション間に行があるページ](images/sectionsWithTopBorder.png)
-
-+ あなたのウェブページがどのように見えるかを見て、セクション</code> 要素が `ある他のページと比較してください。 <code>class = "topDivider"` という属性を追加したものだけが一番上に表示されます。
-
-## \---崩壊\---
-
-## タイトル：どのように機能するのですか？
-
-ことを覚えていますが、CSSを使用する場合 **セレクタ** のような `項` または `のp` または `のnav ulの`、スタイルのルールが適用さ **すべて** あなたのウェブサイト上でそのタイプの要素を。
-
-CSS **クラス**では、要素のうち</strong> うちの ****だけのスタイルを変更することができます。
-
-あなたのセレクタの前にドットを置くことに、それを作る **クラスセレクタ**。 クラスは任意の名前を持つことができるので、HTML要素の名前である必要はありません。 例えば：
++ In the style sheet, add the following CSS rules:
 
 ```css
-  .myAwesomeClass {/ *私のクールなスタイルのルールはここにある* /}
+    #frontPage {
+        background: #48D1CC;
+        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
+    }
 ```
 
-スタイルルールが適用された要素を選択するには、[追加 `クラス` **属性** 、属性の値として、クラスの名前を入れて：HTMLコードでそれらの要素に **なし** のように、ドットを：
+You should get something that looks like this:
+
+![Rainbow gradient background](images/frontPageIdStyles.png)
+
+You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+
+If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+
+You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+
+\--- challenge \---
+
+## Challenge: style some more elements
+
++ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
+
+\--- hints \---
+
+\--- hint \---
+
+You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
 
 ```html
-  class = "myAwesomeClass"
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-\--- /崩壊\---
+Choose any `id` name you like.
 
-+ 別のクラスを試す準備ができていますか？ 次のCSSコードを `styles.cssに追加します`：
+\--- /hint \---
+
+\--- hint \---
+
+To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
 
 ```css
-  .stylishBox {背景色：＃87CEFA;色：＃A52A2A; border-style：solid; border-width：2px; border-color：＃F5FFFA; border-radius：10px; }
+  #titoPicture {
+    border-radius: 100%;
+  }
 ```
 
-+ 次に、あなたのウェブサイトの別のページで、そこのいくつかの要素にクラスを追加します。 私はこれを次のように私のウェブサイトのFoodページの `セクション` 要素に追加します： `<section class="stylishBox">`。
+Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
 
-それは素晴らしそうに見えますが、私のセクションはすべて一緒に押しつぶされています。
+\--- /ヒント \---
 
-![ニースの見ているセクションは一緒に潰れた](images/squashedSections.png)
+\--- /hints \---
 
-要素には、好きなだけ多くのCSSクラスを適用できます。 `クラス` 属性（ドットなしで覚えておいてください）内で使用したいすべてのクラスの名前をスペースで区切って記述してください。
+![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
 
-+ セクションにいくつかのマージンとパディングを与える別のCSSクラスを作ってみましょう。 `styles.css` ファイルで、次のCSSクラスを作成します。
-
-```css
-  .someSpacing {パディング：10px; margin-top：20px; }
-```
-
-+ `html` コードで、次のように、作業していた各要素に新しいクラスを追加します。
-
-```html
-  <section class="stylishBox someSpacing">
-```
-
-![マージンとパディングが追加されたセクション](images/sectionsWithSpacing.png)
-
-だから、CSSクラスを使用すると、聞かせて **選択** スタイルにどの要素、そして、彼らはあなたが聞かせて **リユース** あなたが望む任意の要素のスタイル規則の同じセットを。
-
-+ `index.html` 移動し、 `stylishBox` クラスを `メイン` 要素またはページの別の要素に追加します。 後でもう一度取り除くことができます！
-
-```html
-    <main class="stylishBox">   
-```
-
-私のホームページはCSSクラスのように見えます。 私はTitoの写真で `img` タグに `topDivider` クラスを追加しました。
-
-![ホームページで使用されているCSSクラス](images/homePageWithClasses.png)
-
-\---挑戦\---
-
-## 課題：新しいクラスを作る
-
-+ CSSを使って **クラス** 例えば、あなたのウェブサイトのために、いくつかの異なる画像のサイズを定義するために `.smallPictures` 及び `.mediumPictures`。 その後、削除 `幅` あなたのそれぞれから属性を `IMG` 要素を、代わりに適切なクラスを追加します。
-
-- - ヒント - -
-
-\---ヒント\---
-
-このような要素の幅だけを定義するCSSクラスを作ることができます：
-
-```css
-  .smallPictures {width：100px; }
-```
-
-\--- /ヒント\---
-
-\---ヒント\---
-
-ここにあります `のimg` とタグ `幅` 属性：
-
-```html
-  <img src="tito.png" alt="Tito the dog" width="100px" />       
-```
-
-`幅` 属性を削除し、CSSクラスを使用してサイズを制御すると、次のようになります。
-
-```html
-  <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
-```
-
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
-
-\--- /ヒント\---
-
-- - /ヒント - -
-
-\--- /チャレンジ\---
+\--- /challenge \---

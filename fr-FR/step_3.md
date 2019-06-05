@@ -1,41 +1,53 @@
-## Se mettre en place
+## All the colours!
 
-- Rendez-vous au projet starter bijou à [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){: target = "_ blank"}. Les exemples de ces cartes de sushi sont principalement basés sur ce projet.
+As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
 
-- Si vous préférez, vous pouvez travailler avec un site Web que vous avez déjà créé.
++ Take a look at your **style sheet**. That's the file that has `.css` in the name.
 
-## \--- effondrer \---
++ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
 
-## titre: J'ai un compte sur Trinket
+```html
+  background-color: #7B68EE;
+```
 
-- Cliquez sur le bouton **Remix** dans le coin supérieur droit du projet (si vous n'êtes pas connecté, vous serez invité à le faire. Une fois connecté, vous devrez cliquer à nouveau sur le bouton **Remix**). Cela crée une copie du projet pour que vous puissiez travailler avec. 
+Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
 
-![Bouton Remix](images/tktRemixButtonArrow.png)
+Your website should now have a purple background.
 
-Il devrait dire **remixé** après que vous l'ayez cliqué:
+![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-![Le bouton dit maintenant "remixé"](images/tktRemixedSmall.png)
++ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
 
-\--- /effondrer \---
+![](images/ColorNamesHex.png)
 
-## \--- effondrer \---
+Colour codes allow you to create any colour, even if it's not on any list of colour names.
 
-## titre: Je n'ai pas de compte sur Trinket
++ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
 
-Même si vous n'avez pas de compte, vous pouvez toujours travailler avec Trinket.
+## \--- collapse \---
 
-### Sauvegarder votre travail
+## title: How does it work?
 
-Vous pouvez enregistrer votre travail en utilisant l'une des options du menu **Partager**. Vous pouvez télécharger le projet ou obtenir un lien que vous pouvez enregistrer, par exemple dans un document, ou envoyer par courrier électronique. **Note**: chaque fois que vous apportez une modification au projet, vous obtiendrez un nouveau lien.
+Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
 
-### Comment s'inscrire pour un compte
+**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
 
-Si vous souhaitez créer un compte sur Trinket, suivez les étapes ci-dessous. Cela vous permettra d'accéder facilement à votre travail à partir de n'importe quel ordinateur, et à **remixer** projets que quelqu'un d'autre a partagé avec vous (ce qui signifie enregistrer une copie à laquelle vous pouvez apporter des modifications).
++ Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
 
-- Dans l'onglet du navigateur avec le projet de démarrage du bijou, cliquez sur **S'inscrire à votre compte gratuit**. Vous aurez besoin d'une adresse e-mail pour vous inscrire.
+|      | R  | G  | B  |   Result    |
+| ---- | -- | -- | -- |:-----------:|
+| \# | FF | 00 | 00 |     Red     |
+| \# | 00 | FF | 00 |    Green    |
+| \# | 00 | 00 | FF |    Blue     |
+| \# | FF | FF | 00 |   Yellow    |
+| \# | FF | 00 | FF |   Magenta   |
+| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 8c | 00 | Dark orange |
 
-- Entrez votre adresse e-mail et choisissez un mot de passe, ou demandez à quelqu'un de le faire pour vous.
+\--- /collapse \---
 
-- Vous pouvez maintenant accéder à tous vos projets sauvegardés ou remixés en cliquant sur votre nom d'utilisateur et en allant à **Mes bibelots**. !["Mon menu Bijou"](images/myTrinketsMenu.png)
+Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
 
-\--- /effondrer \---
+![](images/W3ColorPicker.png)
+
++ Try out [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.

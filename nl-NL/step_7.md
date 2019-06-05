@@ -1,95 +1,69 @@
-## Eigen stijl
+## See the code on other websites!
 
-Laten we de startpagina een beetje opleuken! Met een ander soort CSS selector kun je een unieke set CSS regels toepassen op slechts **een specifiek element**.
+**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
 
-+ Ga naar `index.html` en zoek een alinea (`p`) element, of voeg er een toe als je er geen hebt. Voeg het volgende **attribute** toe aan de tag:
+On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
 
-```html
-    <p id="myCoolText"> 
-       Mijn website gaat over Ierland.
-    </p> 
-```
++ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
 
-De `id` is een naam die je een bepaald element geeft om deze te **identificeren**). Twee elementen op dezelfde pagina mogen nooit dezelfde `id` hebben!
++ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
 
-+ Ga nu naar je style sheet en voeg de volgende code toe:
+![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 
-```css
-    #myCoolText {
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-    }
-```
+A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
 
-Je tekst zou er nu als volgt uit moeten zien:
+### Inspecting the HTML code
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
++ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
 
-Een selector met een `#` ervoor wordt gebruikt om CSS regels aan een specifiek element op je website toe te wijzen. Je specificeert het element met behulp van de naam waaraan je het `id` attribuut hebt toegewezen.
+![Inspector showing a text element](images/inspectTextHtml.png)
 
-+ Laten we er een doen voor de `body` van de home page. Ga naar `index.html` en voeg een `id` toe aan de `body` tag.
++ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
 
-```html
-    <body id="frontPage">
-```
+![Editing text using the inspector tool](images/inspectEditHtmlText.png)
 
-+ Voeg in de stijl sheet de volgende CSS regels toe:
++ Do you see the text update on your website? Note: only you can see these changes.
 
-```css
-    #frontPage {
-        background: #48D1CC;
-        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
-    }
-```
+![Website with edited text](images/inspectEditHtmlTextResult.png)
 
-Je zou iets moeten krijgen dat er zo uitziet:
++ Now **reload** the page and watch what happens. Your changes should disappear!
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
++ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
 
-Je hebt zojuist een **gradient** (verloop) gebruikt! Dat is de naam die wordt gegeven aan het effect waarbij de ene kleur verloopt in de andere. Opmerking: de eerste `background` (achtergrond) eigenschap boven het verloop bepaalt een standaardkleur voor browsers die geen verlopen ondersteunen.
+![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
 
-Als je de code perfect over hebt getypt en je hebt het mooie regenboogeffect hierboven niet gekregen, dan kan het zijn dat je browser geen verlopen ondersteunt.
+### Inspecting the CSS code
 
-Je kunt met verlopen veel verschillende effecten maken. Als je meer informatie wilt, kijk [hier](http://dojo.soy/html2-css-gradients) {: target = "_blank"}.
++ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
 
-\--- challenge \---
+![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-## Uitdaging: style nog wat meer elementen
++ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
 
-+ Probeer een ander element een `id` te geven en maak dat element op met behulp van de ID-selector met een `#` zoals hierboven. Zullen we een foto maken met een `grens radius` van `100%` zodat het volledig afgerond is? Alle andere afbeeldingen op de website blijven hetzelfde als ze zijn. 
+![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
-\--- hints \---
+Note: you can also click the coloured square to change the colour using a colour picker tool.
 
-\--- hint \---
-
-Je geeft een element een `id` door het kenmerk `id` als volgt toe te voegen aan de HTML-code:
-
-```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
-```
-
-Kies een `id` naam die je leuk vindt.
-
-\--- /hint \---
-
-\--- hint \---
-
-Om stijlregels voor een specifiek element te definiëren, gebruik je het `#` symbool en de naam die je het element hebt gegeven bij de `id`.
++ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
 
 ```css
-  #titoPicture {
-    border-radius: 100%;
-  }
+  background-color: #660066;
 ```
 
-Opmerking: de naam die je in de CSS regels typt, moet **precies** overeenkomen met de naam die je in het `id` attribuut van het element hebt gegeven.
+You should see the background change on that piece of text.
 
-\--- /hint \---
+![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
 
-\--- /hints \---
+## \--- collapse \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+## title: How does it work?
 
-\--- /challenge \---
+When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+
+When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+
+Now that you know that, you can have some fun messing with the code on other websites!
+
+\--- /collapse \---
+
++ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.

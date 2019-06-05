@@ -1,42 +1,102 @@
-## Automatisch de grootte aanpassen
+## Animation
 
-Tot nu toe heb je **pixels** gebruikt om de grootte van dingen in te stellen, bijv. `10px`. Op deze kaart leer je over andere afmetingen die je kunt gebruiken.
+Did you know you can use CSS to make things move around? You'll learn how on this card!
 
-+ Ga naar `index.html` en zoek het `img` element met de afbeelding van Tito, of zoek een andere `afbeelding` tag op je website.
-
-+ Verwijder het `with` attribuut als het er is, en geef het element een `id` als het er nog geen heeft.
-
-```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
-```
-
-+ Definieer in je CSS-bestand de `width` eigenschappen voor je foto, zoals hieronder weergegeven (je moet mogelijk het CSS-blok met de `id` selector maken als je dit nog niet in een eerdere kaart gedaan hebt).
++ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
 
 ```css
-  #titoPicture {
-    width: 50%;
-    border-radius: 100%;
-  }
+    #titoPicture {
+        border-radius: 100%;
+        width: 100px;
+    }
 ```
 
-Opmerking: 50% (50 procent) is **de helft**.
++ Go to the bottom of your CSS file and add the following code:
 
-+ Probeer het formaat van je browservenster aan te passen en kijk wat er met de foto gebeurt.
+```css
+    @keyframes myFirstAnimation {
+        from {
+            width: 100px;
+        }
+        to {
+            width: 300px;
+        }
+    }
+```
 
-Je zou moeten zien dat de foto groter en kleiner wordt als je het venster groter en kleiner maakt. Dat komt omdat het 50% van de breedte van het **main** (hoofd) element in beslag neemt (dat is ongeveer de breedte van de pagina).
+This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
 
-## \--- collapse \---
++ Find your CSS rules for the picture and add the following three properties:
 
-## title: Hoe werkt het?
+```css
+    animation-name: myFirstAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+```
 
-Wanneer je de grootte van iets in pixels instelt, stel je een exacte grootte in en deze verandert niet. Dit wordt een **absolute** afmeting genoemd.
++ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
 
-Een andere manier om de grootte van de dingen in te stellen is het gebruik van **relatieve** afmetingen, zodat de grootte afhankelijk is van hoe elementen met elkaar worden vergeleken. Zodat, wanneer een ding van afmeting verandert, ook al het andere automatisch van grootte verandert om dezelfde **verhoudingen** te behouden.
++ Let's try another animation! Add the following code to the end of your CSS file:
 
-Wanneer je **relatieve** afmetingen gebruikt, is het belangrijk om te weten wat de **parent** (ouder) van je element is. De parent (ouder) is het element waar het in zit, en dat is waarmee de afmeting in relatie zal zijn. Als voorbeeld: de parent van de afbeelding hierboven is het `article` element, omdat het `img` element zich tussen de `<article></article>` tags bevindt.
+```css
+    @keyframes rainbowGlow {
+        0% {
+            color: #FFD700;
+        }
+        50% {
+            color: #663399;
+        }
+        100% {
+            color: #FFD700;
+        }
+    }
+```
 
-Als je de `width` van een element instelt op `100%`, dan zal dat dezelfde breedte hebben als de container waarin het zich bevindt.
++ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
 
-\--- /collapse \---
+```css
+    #myCoolText {        
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+        animation-name: rainbowGlow;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+    }
+```
 
-+ Experimenteer met verschillende waarden voor de `%`.
+When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+
++ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
+
++ Try out different values for `animation-duration` to speed up or slow down your animation.
+
++ One final trick! Add this animation code:
+
+```css
+    @keyframes slide {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 600vw;
+        }
+    }
+```
+
++ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+
+```css
+    #frontPage {
+        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+        background-size: 600vw 600vw;
+        animation: slide 10s infinite linear forwards;
+    }
+```
+
+Don't worry about understanding all of the code above... just sit back and enjoy!!
+
+To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+
+On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!

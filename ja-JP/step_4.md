@@ -1,53 +1,171 @@
-## すべての色！
+## Organising your page
 
-前に見たように、さまざまな色の名前を単語として入力することができ、ブラウザはそれらを認識します。 しかし、色を設定するもっと一般的な方法は、 **16進コード** （「16進数」は **16進数**短い、特別な計数方法）と呼ばれるものを使用することです。
+So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
 
-+ **スタイルシートを見てください**。 それは持っているファイルの `の.css` 名前に。
+## \--- collapse \---
 
-+ `体`のCSS規則の中で、背景色を `進コード<code>に設定します。＃7B68EE`：
+## title: What is content?
+
+**Content** is all the stuff on your web page, such astext and pictures.
+
+\--- /collapse \---
+
++ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
 
 ```html
-  背景色：＃7B68EE;
+  <main>
+    <article>
 ```
 
-注：Macを使用している場合、 <kbd>alt</kbd> と <kbd>3</kbd> キーを同時に押すと、 `＃` と入力できます。
++ If your editor automatically added in a closing `</article>` tag for you, delete it.
 
-あなたのウェブサイトは紫色の背景を持つはずです。
++ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
 
-![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
+```html
+    </article>
+  </main>
+```
 
-+ 紫色のファンではない？ このウェブページ</a>{ }に移動し、スタイルシートに別の色を選択します。色の名前を入力する代わりに、16進コードを入力します。 </li> </ul> 
-    
-    ![](images/ColorNamesHex.png)
-    
-    カラーコードを使用すると、カラー名のリストにない場合でも、任意のカラーを作成できます。
-    
-    + 独自のカラーコードを作成してみてください。 `＃`始まる必要があります。 これは、色名の代わりに16進コードであることをブラウザに伝えます。 残りのコードは6文字で構成されています。 彼らはから任意の数とすることができる **0〜9** とから任意の文字 **FへのA**。
-    
-    ## \---崩壊\---
-    
-    ## タイトル：どのように機能するのですか？
-    
-    すべての色は、異なる量の混合によって作られる **赤**、 **グリーン**、及び **ブルー**。 これは **RGB**書かれていることがあります。 これらの色はそれぞれ、HEXコードの6桁の2桁で表されます。 `00` が最小値、 `FF` が最大値です。
-    
-    **16進数** は、文字AFを余分な数字として使用することにより、数字を短くして書き込む方法です。 数字 `255` は `FF` として16進数で書かれています。 あなたは16進数で数える学習について心配する必要はありません。 代わりに、それらを使用するのに慣れるために異なる16進コードで実験してください。
-    
-    + あなたのウェブサイトで試してみるためのいくつかの基本的な色があります。 シェードがどのように変化するか見るために、 `FF` 代わりに小さな数字を入れてみてください。
-    
-    |     | R  | G  | B  |   結果    |
-    | --- | -- | -- | -- |:-------:|
-    | \＃ | FF | 00 | 00 |    赤    |
-    | \＃ | 00 | FF | 00 |    緑    |
-    | \＃ | 00 | 00 | FF |    青    |
-    | \＃ | FF | FF | 00 |    黄    |
-    | \＃ | FF | 00 | FF |  マゼンタ   |
-    | \＃ | 00 | FF | FF |   シアン   |
-    | \＃ | FF | 8c | 00 | ダークオレンジ |
-    
-    \--- /崩壊\---
-    
-    完璧な色を混ぜることは、たくさんの実験をすることができます。 幸いにも、あなたが望む任意の色の16進数コードを得るのに役立つオンラインカラーピッキングツールがたくさんあります。
-    
-    ![](images/W3ColorPicker.png)
-    
-    + 試してみてください [このカラーピッカー](http://dojo.soy/html2-color-picker)あなたのウェブサイト上でのスタイルの残りの部分に使用するいくつかの六角カラーコードを選択する：{ターゲット=「_空白を」}。
+Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+
+```html
+  <main>
+    <article>
+      <h1>My favourite places to see in Ireland</h1>
+        <h2>The Cliffs of Moher</h2>
+        <p>
+        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+        <h2>Achill Island</h2>
+        <p>This is a large island off the coast of County Mayo. It has a wild and
+        beautiful landscape of mountains, bogs and cliffs.
+        </p>
+        <img src="achill.JPG" width="200px" />
+    </article>
+  </main>
+```
+
++ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
+
+```html
+  <article>
+    <h1>My favourite places to see in Ireland</h1>
+    <section>
+      <h2>The Cliffs of Moher</h2>
+      <p>
+      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+    </section>
+    <section>
+      <h2>Achill Island</h2>
+      <p>This is a large island off the coast of County Mayo. It has a wild and
+      beautiful landscape of mountains, bogs and cliffs.
+      </p>
+      <img src="achill.JPG" width="200px" />
+    </section>
+  </article>
+```
+
+## \--- collapse \---
+
+## title: What are the new tags all about?
+
+Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+
+This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+
+Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+
+### Article
+
+The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+
+### Section
+
+The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+
+### Others exist too!
+
+These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+
+\--- /collapse \---
+
+\--- challenge \---
+
+Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+
+## Challenge: organise your website
+
++ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
+
+\--- hints \---
+
+\--- hint \---
+
+Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+
+```html
+  <main>
+    <article>
+      <h1>Food in Ireland</h1>
+      <p>
+        These are some of my favourite Irish foods!
+      </p>  
+      <section>
+        <h2>Traditional Irish Breakfast</h2>
+        <p>
+          A "Full Irish" breakfast consists of sausages, rashers (bacon),
+          eggs, black pudding, white pudding and toast.
+        </p>
+        <p>
+          Often there will be a grilled tomato as well as mushrooms,
+          and baked beans.
+        </p>
+        <p>
+          And of course, no breakfast is complete without a lovely pot 
+          of tea!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bangers and Mash</h2>
+        <p>
+          This classic of sausages, mashed potato and gravy is not
+          unique to Ireland, but what makes it special is the Irish
+          sausages. Most countries have their own way of making sausages,
+          and they are one thing I miss from home if I'm away travelling!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bacon and Cabbage</h2>
+        <p>
+          I couldn't possibly make a list of Irish food without including
+          this very traditional dish!
+        </p>
+        <p>
+          It might not sound very interesting, but this hearty meal of
+          boiled ham, potatoes and green cabbage is tasty and filling.
+          I love to smother the potatoes in butter, and I also like a
+          little mustard with the bacon.
+        </p>
+        <p>
+          My mum always made it extra special by cooking the cabbage in
+          the water that the ham was boiled in.
+        </p>
+        <p>
+          If there are any leftovers you can make another one of my
+          favourites: <strong>fried cabbage</strong>!
+        </p>
+      </section>
+    </article>     
+  </main>
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+On the next card, you'll design a different theme for each page that's organised into articles and sections!
+
+\--- /challenge \---

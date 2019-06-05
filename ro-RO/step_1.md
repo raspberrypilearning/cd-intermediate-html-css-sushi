@@ -11,12 +11,30 @@ Iată un exemplu de modul în care site-ul dvs. ar putea avea grijă de completa
   </iframe>
 </div>
 
-### Ce veți învăța
+## \--- collapse \---
 
-- Cum puteți crea propriile culori utilizând codul
-- Modalități de organizare a conținutului pe site-ul dvs. web, astfel încât să puteți aplica stiluri și să îl faceți prietenos pentru cititorii de ecran
-- Cum se utilizează stilul CSS pentru a crea teme și elemente individuale de stil
-- Controlul dimensiunii elementelor cu diferite tipuri de măsurători
-- Realizarea lucrurilor atunci când plasați cursorul peste elementele de pe pagina dvs.
-- Elementele de animație ale site-ului dvs. web cu CSS
-- Cum să utilizați instrumentele pentru dezvoltatori pentru a vă arunca o privire la codul oricărui site web și pentru a testa anumite părți ale dvs.
+## title: What you will learn
+
++ Cum puteți crea propriile culori utilizând codul
++ Modalități de organizare a conținutului pe site-ul dvs. web, astfel încât să puteți aplica stiluri și să îl faceți prietenos pentru cititorii de ecran
++ Cum se utilizează stilul CSS pentru a crea teme și elemente individuale de stil
++ Controlul dimensiunii elementelor cu diferite tipuri de măsurători
++ Realizarea lucrurilor atunci când plasați cursorul peste elementele de pe pagina dvs.
++ Elementele de animație ale site-ului dvs. web cu CSS
++ Cum să utilizați instrumentele pentru dezvoltatori pentru a vă arunca o privire la codul oricărui site web și pentru a testa anumite părți ale dvs.
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you will need
+
+### Hardware
+
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
+
+### Software
+
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+
+\--- /collapse \---

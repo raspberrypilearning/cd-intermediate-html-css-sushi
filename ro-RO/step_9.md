@@ -1,39 +1,102 @@
-## Reglați automat dimensiunea
+## Animation
 
-Până acum utilizați **pixeli** pentru a seta dimensiunea lucrurilor, de exemplu, `<strong> pixeli`. Pe acest card veți afla despre alte măsurători pe care le puteți utiliza.
+Did you know you can use CSS to make things move around? You'll learn how on this card!
 
-+ Mergeți la `index.html` și găsiți elementul `img` cu imaginea lui Tito sau găsiți o altă etichetă de `img` pe site-ul dvs. web.
-
-+ Ștergeți atributul `lățime` dacă este acolo și dați elementului un `id` dacă acesta nu are deja unul.
-
-```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
-```
-
-+ În fișierul dvs. CSS, definiți proprietatea `lățimea` după cum se arată mai jos (poate fi necesar să creați blocul CSS cu selectorul `id` dacă nu ați făcut deja acest lucru pe o carte anterioară).
++ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
 
 ```css
-  #titoPicture {lățime: 50%; raza de raza: 100%; }
+    #titoPicture {
+        border-radius: 100%;
+        width: 100px;
+    }
 ```
 
-Notă: 50% (50%) este **jumătate**.
++ Go to the bottom of your CSS file and add the following code:
 
-+ Încercați să redimensionați fereastra browserului dvs. și urmăriți ce se întâmplă cu imaginea.
+```css
+    @keyframes myFirstAnimation {
+        from {
+            width: 100px;
+        }
+        to {
+            width: 300px;
+        }
+    }
+```
 
-Ar trebui să observați că imaginea devine mai mare și mai mică atunci când faceți fereastra mai mare și mai mică. Aceasta deoarece ocupa mult de 50% din lățimea **principale** element (care este aproximativ lățimea paginii).
+This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
 
-## \--- colaps \---
++ Find your CSS rules for the picture and add the following three properties:
 
-## titlu: Cum funcționează?
+```css
+    animation-name: myFirstAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+```
 
-Când setați dimensiunea unui element în pixeli, setați o dimensiune exactă și nu se modifică. Aceasta se numește un **absolut** măsurătoare.
++ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
 
-O altă modalitate de a seta dimensiunea lucrurilor este folosirea a **măsurători relative** , astfel încât dimensiunea să depindă de modul în care elementele mari sunt comparate unul cu celălalt. Apoi, ori de câte ori un lucru schimbă mărimea, totul se va schimba automat dimensiunea cât și pentru a menține aceleași **proporții**.
++ Let's try another animation! Add the following code to the end of your CSS file:
 
-Când utilizați **măsurători relative** , este important să știți care sunt cele **părinte** ale elementului dvs. Parintele este elementul în care este elementul dvs. în interiorul lui și măsura va fi în legătură cu acesta. De exemplu, părintele imaginii de mai sus este elementul `articol` , deoarece elementul `img` se află între etichetele `<article></article>`.
+```css
+    @keyframes rainbowGlow {
+        0% {
+            color: #FFD700;
+        }
+        50% {
+            color: #663399;
+        }
+        100% {
+            color: #FFD700;
+        }
+    }
+```
 
-Dacă setați `lățimea` a unui element la `100%`, care va face să aibă aceeași lățime ca și containerul părinte este în.
++ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
 
-\--- / colaps \---
+```css
+    #myCoolText {        
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+        animation-name: rainbowGlow;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+    }
+```
 
-+ Experimentați cu numere diferite în fața a `%`.
+When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+
++ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
+
++ Try out different values for `animation-duration` to speed up or slow down your animation.
+
++ One final trick! Add this animation code:
+
+```css
+    @keyframes slide {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 600vw;
+        }
+    }
+```
+
++ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
+
+```css
+    #frontPage {
+        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+        background-size: 600vw 600vw;
+        animation: slide 10s infinite linear forwards;
+    }
+```
+
+Don't worry about understanding all of the code above... just sit back and enjoy!!
+
+To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+
+On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!

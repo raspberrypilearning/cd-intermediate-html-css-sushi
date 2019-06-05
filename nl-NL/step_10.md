@@ -1,8 +1,8 @@
-## Teach Tito to roll over!
+## Leer Tito om te rollen!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+Je kunt je website **interactiever** maken door coole dingen te laten gebeuren wanneer je met de muiscursor over dingen beweegt!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ Zoek je CSS-regels voor de `img` elementen, of maak er een paar als je er geen hebt. Voeg een rand toe en voeg dan de hieronder staande nieuwe set regels toe:
 
 ```css
   img {
@@ -13,29 +13,29 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+Je hebt zojuist een speciaal type CSS-blok gebruikt dat een **pseudo-class** wordt genoemd.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+Een **pseudo-class** is een beetje anders dan een **class** die je zelf maakt. Je kunt het herkennen aan de `:`.
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor elk element, klasse of `id` selector toevoegen in je stylesheet zonder iets toe te voegen in je HTML-code.
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ Wat denk je dat het zal doen? Controleer welke pagina's op je website afbeeldingen bevatten (voeg een afbeelding toe als die er niet zijn!) En beweeg je cursor over een afbeelding om erachter te komen!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten oplichten als je eroverheen beweegt! Voeg een link toe aan je webpagina en voeg een attribuut toe om de klasse naam op te geven. Vergeet niet, koppelingen zijn gedefinieerd met behulp van de `<a>` tag, zoals:
 
 ```html
     <p>
-      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+      Bezoek de <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia-pagina</a> om nog meer te leren over Ierland!
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ Voeg de volgende code toe aan je style sheet en voer vervolgens je code uit om je mooie links in actie te zien.
 
 ```css
   .niceLinks {
@@ -47,11 +47,11 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ Waarom zou je ook niet het attribuut `class="niceLinks"` aan alle links in je menubalk toevoegen?
 
-You can combine all of these tricks with animations too!
+Je kunt al deze trucs ook combineren met animaties!
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Zoek opnieuw het CSS-blok op voor de afbeelding van Tito (of welke afbeelding je eerder aan het bewerken was). Voeg de volgende code aan je style sheet bestand toe:
 
 ```css
   #titoPicture {
@@ -73,21 +73,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ Kun je raden wat er zal gebeuren?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ Roep nu "Rol om!" terwijl je de cursor over de afbeelding beweegt!
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## Uitdaging: oplichtende regenboog links maken
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ Kun je de `rainbowGlow` animatie van de vorige kaart gebruiken om ervoor te zorgen dat de koppelingen in je menu van kleur blijven veranderen wanneer de cursor eroverheen zweeft?
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+Hieronder staat de code voor de `rainbowGlow` animatie. Er zijn vijf fasen gedefinieerd en in elke fase wordt een andere tekstkleur ingesteld. Je kunt meer toevoegen of wijzigen als je wilt!
 
 ```css
     @keyframes rainbowGlow {
@@ -113,13 +113,13 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+Als je iets wilt animeren, voeg je zoals je hierboven hebt gedaan de drie `animatie` eigenschappen toe aan de stijlregels. Zorg er altijd voor dat de `animatienaam` overeen komt met de naam van de animatie die je wilt gebruiken.
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+Je kunt `hover` effecten direct toevoegen aan het `nav` menu zoals dit:
 
 ```css
   nav ul li a:hover {
@@ -129,7 +129,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+Of, als je wilt dat andere links op je website ook in regenboogkleuren flitsen, kun je in plaats daarvan de animatie toevoegen aan de `.niceLinks` class, zoals deze:
 
 ```css
   .niceLinks:hover {

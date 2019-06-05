@@ -1,69 +1,42 @@
-## Voir le code sur d'autres sites!
+## Automatically adjust the size
 
-**Remarque:** Pour effectuer cette étape, vous devez utiliser l'un de ces navigateurs Web: Chrome, Firefox ou Internet Explorer / Edge. Si vous n'avez pas accès à l'un d'entre eux, vous pouvez simplement continuer sur la prochaine carte.
+Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
 
-Sur cette carte, vous apprendrez à jeter un coup d'œil sur le code de n'importe quel site Web en utilisant l'outil **inspecteur**, et vous découvrirez également comment apporter des modifications que vous seul pouvez voir!
++ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
 
-+ Avant de commencer, assurez-vous que votre projet est enregistré. Ensuite, actualisez votre site Web en cliquant sur l'icône d'actualisation dans votre navigateur.
++ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
 
-+ Sur votre page Web (la page réelle, pas le code) mettez en surbrillance le texte avec la bordure que vous avez ajoutée sur la carte précédente, puis faites un clic droit dessus et sélectionnez l'option **Inspecter** dans le menu qui apparaît. (L'option peut s'appeler 'Inspecter élément' ou similaire, selon le navigateur que vous utilisez. Si vous avez des difficultés à trouver une option de menu, demandez à quelqu'un de votre Dojo de vous aider.)
-
-![Sélection de l'option Inspecter sur le texte surligné](images/highlightTextAndInspect.png)
-
-Une toute nouvelle boîte apparaîtra dans votre navigateur web avec beaucoup d'onglets et de code: les **outils de développement**, ou **outils de développement** pour faire court. Ici vous pouvez voir le code de la chose sur laquelle vous avez cliqué, ainsi que le code de la page entière!
-
-### Inspecter le code HTML
-
-+ Recherchez l'onglet qui affiche le code HTML de la page (il peut s'appeler 'Elements' ou 'Inspector'). Le code devrait ressembler à peu près à la façon dont vous l'avez tapé dans votre fichier HTML! Vous pouvez cliquer sur les petits triangles sur le côté droit pour développer le code caché.
-
-![Inspecteur montrant un élément de texte](images/inspectTextHtml.png)
-
-+ Double-cliquez sur le texte entre les balises. Vous devriez être capable de l'éditer maintenant! Tapez quelque chose dans et appuyez sur <kbd>Entrez</kbd>.
-
-![Modification de texte à l'aide de l'outil Inspecteur](images/inspectEditHtmlText.png)
-
-+ Voyez-vous la mise à jour du texte sur votre site Web? Remarque: vous seul pouvez voir ces changements.
-
-![Site avec texte édité](images/inspectEditHtmlTextResult.png)
-
-+ Maintenant **reload** la page et de regarder ce qui se passe. Vos changements devraient disparaître!
-
-+ Dans le coin supérieur gauche de la boîte à outils de développement, cliquez sur l'icône qui ressemble à un petit rectangle avec une flèche. Maintenant, vous pouvez déplacer votre curseur sur la page Web, et l'inspecteur HTML vous montrera le code qui le décrit.
-
-![L'icône pour sélectionner les éléments](images/inspectorSelectIcon.png) ![Sélection d'un élément](images/inspectorSelectElement.png)
-
-### Inspecter le code CSS
-
-+ Jetons un coup d'oeil au code CSS suivant. Recherchez l'onglet **Styles** dans les outils de développement (il peut s'appeler 'Éditeur de style' ou similaire). Vous devriez voir un tas de règles CSS, y compris celles que vous avez créées pour ce paragraphe, `#myCoolText`.
-
-![Affichage du code CSS d'un élément](images/inspectCssBlock.png)
-
-+ Dans les règles `#myCoolText` , cliquez sur la valeur à côté de la propriété `color`. Essayez de taper une valeur différente. Regardez le texte sur votre page web changer de couleur tout de suite! 
-
-![Modification de la couleur du texte à l'aide de l'inspecteur CSS](images/inspectEditCssColor.png)
-
-Remarque: vous pouvez également cliquer sur le carré coloré pour changer la couleur à l'aide d'un outil de sélection de couleur.
-
-+ Cliquez dans l'espace après la couleur. Une nouvelle ligne commence, où vous pouvez taper plus de CSS. Tapez ce qui suit et appuyez sur <kbd>Entrez</kbd>:
-
-```css
-  couleur de fond: # 660066;
+```html
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-Vous devriez voir le changement d'arrière-plan sur ce morceau de texte.
++ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
 
-![Ajout de la propriété de couleur d'arrière-plan](images/inspectorEditingBgCol.png) ![La nouvelle couleur de fond](images/inspectorEditBgResult.png)
+```css
+  #titoPicture {
+    width: 50%;
+    border-radius: 100%;
+  }
+```
 
-## \--- effondrer \---
+Note: 50% (50 percent) is **half**.
+
++ Try resizing your browser window and watch what happens to the picture.
+
+You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+
+## \--- collapse \---
 
 ## title: Comment ça marche?
 
-Lorsque vous modifiez le code de site Web en utilisant les outils de développement, vous êtes **temporairement** changer quoi il ressemble **dans votre navigateur**. Vous ne modifiez pas réellement les fichiers qui composent le site Web.
+When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
 
-Lorsque vous actualisez la page, vous rechargez le site à partir de ses fichiers (sur Internet ou sur votre ordinateur). C'est pourquoi vos changements disparaissent.
+Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
 
-Maintenant que vous le savez, vous pouvez vous amuser avec le code sur d'autres sites!
+When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
 
-\--- /effondrer \---
+If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
 
-+ Essayez d'utiliser ces outils pour regarder le code sur un autre site Web. Vous pouvez même faire des changements si vous le souhaitez! Rappelez-vous, vous seul pouvez voir les changements que vous faites, et tout sera réinitialisé lorsque vous actualisez la page.
+\--- /collapse \---
+
++ Experiment with different numbers in front of the `%`.

@@ -1,53 +1,171 @@
-## Alle Farben!
+## Organising your page
 
-Wie Sie bereits gesehen haben, können Sie viele verschiedene Farbnamen als Wörter eingeben und der Browser erkennt sie. Eine gebräuchlichere Methode zum Setzen von Farben ist die Verwendung von **hex Codes** ('hex' ist die Abkürzung für **hexadezimal**, eine besondere Art zu zählen).
+So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
 
-+ Werfen Sie einen Blick auf Ihr **Stylesheet**. Das ist die Datei, die `.css` im Namen hat.
+## \--- collapse \---
 
-+ Setzen Sie in den CSS-Regeln für `body`die Hintergrundfarbe auf den Hex-Code `# 7B68EE`:
+## title: What is content?
+
+**Content** is all the stuff on your web page, such astext and pictures.
+
+\--- /collapse \---
+
++ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
 
 ```html
-  Hintergrundfarbe: # 7B68EE;
+  <main>
+    <article>
 ```
 
-Hinweis: Wenn Sie einen Mac verwenden, können Sie `#` eingeben, indem Sie die Tasten <kbd>Alt</kbd> und <kbd>3</kbd> gleichzeitig drücken.
++ If your editor automatically added in a closing `</article>` tag for you, delete it.
 
-Ihre Website sollte jetzt einen violetten Hintergrund haben.
++ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
 
-![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
+```html
+    </article>
+  </main>
+```
 
-+ Kein Fan von Lila? Gehen Sie zu [dieser Webseite](http://dojo.soy/html2-colors){: target = "_ blank"} und wählen Sie eine andere Farbe für Ihr Stylesheet. Geben Sie den Hex-Code ein, anstatt den Namen der Farbe einzugeben. 
+Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
 
-![](images/ColorNamesHex.png)
+```html
+  <main>
+    <article>
+      <h1>My favourite places to see in Ireland</h1>
+        <h2>The Cliffs of Moher</h2>
+        <p>
+        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+        <h2>Achill Island</h2>
+        <p>This is a large island off the coast of County Mayo. It has a wild and
+        beautiful landscape of mountains, bogs and cliffs.
+        </p>
+        <img src="achill.JPG" width="200px" />
+    </article>
+  </main>
+```
 
-Mit Farbcodes können Sie eine beliebige Farbe erstellen, auch wenn sie nicht in einer Liste von Farbnamen enthalten ist.
++ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
 
-+ Versuchen Sie, Ihren eigenen Farbcode zu erstellen. Es muss mit einer `#`. Dies teilt dem Browser mit, dass es sich um einen Hex-Code anstelle eines Farbnamens handelt. Der Rest des Codes besteht aus sechs Zeichen. Sie können eine beliebige Zahl von **0 bis 9** und einen beliebigen Buchstaben von **A bis F**.
+```html
+  <article>
+    <h1>My favourite places to see in Ireland</h1>
+    <section>
+      <h2>The Cliffs of Moher</h2>
+      <p>
+      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+    </section>
+    <section>
+      <h2>Achill Island</h2>
+      <p>This is a large island off the coast of County Mayo. It has a wild and
+      beautiful landscape of mountains, bogs and cliffs.
+      </p>
+      <img src="achill.JPG" width="200px" />
+    </section>
+  </article>
+```
 
-## \--- Einsturz \---
+## \--- collapse \---
 
-## Titel: Wie funktioniert es?
+## title: What are the new tags all about?
 
-Jede Farbe wird durch Mischen verschiedener Mengen von **rot**, **grün**und **blau**. Sie werden dies manchmal als **RGB**notiert sehen. Jede dieser Farben wird durch zwei der sechs Ziffern in Ihrem HEX-Code dargestellt. `00` ist das Minimum und `FF` ist das Maximum.
+Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
 
-**Hexadezimal** ist eine Zählweise, die das Schreiben von Zahlen verkürzt, indem die Buchstaben AF als zusätzliche Ziffern verwendet werden. Die Zahl `255` wird als `FF` in Hexadezimal geschrieben. Sie müssen sich keine Gedanken darüber machen, mit hexadezimalen Zahlen zu zählen. Experimentieren Sie stattdessen mit verschiedenen Hex-Codes, um sich daran zu gewöhnen.
+This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
 
-+ Hier sind einige Grundfarben, die Sie auf Ihrer Website ausprobieren können. Versuchen Sie, statt `FF` kleinere Zahlen einzugeben, um zu sehen, wie sich die Schattierungen ändern.
+Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
 
-|      | R  | G  | B  |   Ergebnis   |
-| ---- | -- | -- | -- |:------------:|
-| \ # | FF | 00 | 00 |     rot      |
-| \ # | 00 | FF | 00 |     Grün     |
-| \ # | 00 | 00 | FF |     Blau     |
-| \ # | FF | FF | 00 |     Gelb     |
-| \ # | FF | 00 | FF |   Magenta    |
-| \ # | 00 | FF | FF |     Cyan     |
-| \ # | FF | 8c | 00 | Dunkelorange |
+### Article
 
-\--- / einklappen \---
+The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
 
-Das Mischen der perfekten Farbe kann viel Experimentieren erfordern. Zum Glück gibt es viele Online-Farbauswahl-Tools, die Ihnen helfen, den Hex-Code für jede gewünschte Farbe zu erhalten.
+### Section
 
-![](images/W3ColorPicker.png)
+The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
 
-+ Probieren Sie [diesem Farbwähler](http://dojo.soy/html2-color-picker){: target = "_ blank"} aus, um einige Hex-Farbcodes für den Rest der Stile auf Ihrer Website auszuwählen.
+### Others exist too!
+
+These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+
+\--- /collapse \---
+
+\--- challenge \---
+
+Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+
+## Challenge: organise your website
+
++ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
+
+\--- hints \---
+
+\--- hint \---
+
+Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+
+```html
+  <main>
+    <article>
+      <h1>Food in Ireland</h1>
+      <p>
+        These are some of my favourite Irish foods!
+      </p>  
+      <section>
+        <h2>Traditional Irish Breakfast</h2>
+        <p>
+          A "Full Irish" breakfast consists of sausages, rashers (bacon),
+          eggs, black pudding, white pudding and toast.
+        </p>
+        <p>
+          Often there will be a grilled tomato as well as mushrooms,
+          and baked beans.
+        </p>
+        <p>
+          And of course, no breakfast is complete without a lovely pot 
+          of tea!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bangers and Mash</h2>
+        <p>
+          This classic of sausages, mashed potato and gravy is not
+          unique to Ireland, but what makes it special is the Irish
+          sausages. Most countries have their own way of making sausages,
+          and they are one thing I miss from home if I'm away travelling!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bacon and Cabbage</h2>
+        <p>
+          I couldn't possibly make a list of Irish food without including
+          this very traditional dish!
+        </p>
+        <p>
+          It might not sound very interesting, but this hearty meal of
+          boiled ham, potatoes and green cabbage is tasty and filling.
+          I love to smother the potatoes in butter, and I also like a
+          little mustard with the bacon.
+        </p>
+        <p>
+          My mum always made it extra special by cooking the cabbage in
+          the water that the ham was boiled in.
+        </p>
+        <p>
+          If there are any leftovers you can make another one of my
+          favourites: <strong>fried cabbage</strong>!
+        </p>
+      </section>
+    </article>     
+  </main>
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+On the next card, you'll design a different theme for each page that's organised into articles and sections!
+
+\--- /challenge \---

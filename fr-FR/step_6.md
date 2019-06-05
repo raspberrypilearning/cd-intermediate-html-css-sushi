@@ -1,123 +1,95 @@
-## Concevoir des thèmes
+## Individual style
 
-Ecrire des règles CSS pour des éléments tels que `section` et `p` est super, mais que faire si vous voulez que certains d'entre eux soient différents des autres? Sur cette carte, vous apprendrez à appliquer différents ensembles de règles de style à des éléments du même type et à créer un thème différent pour chaque page de votre site Web!
+Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
 
-+ Accédez à votre feuille de style et ajoutez ce qui suit - assurez-vous d'inclure le point devant!
++ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
+
+```html
+    <p id="myCoolText">
+        My website is about Ireland.
+    </p> 
+```
+
+The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+
++ Now go to your style sheet and add the following code:
 
 ```css
-  .topDivider {border-top-style: solide; border-top-width: 2px; border-top-color: # F5FFFA; rembourrage-fond: 10px; }
+    #myCoolText {
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+    }
 ```
 
-+ Maintenant , allez à `attractions.html` (ou le fichier HTML que vous travaillez sur si vous utilisez votre propre projet), et ajouter les éléments suivants **attribut** à chaque `section` tag:
+Your text should look like this now:
+
+![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+
+A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+
++ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
 
 ```html
-  <section class="topDivider">
+    <body id="frontPage">
 ```
 
-Vous devriez voir apparaître une ligne au-dessus de chaque section de la page. Félicitations - vous venez d'utiliser votre premier **CSS classe**!
-
-![Page avec des lignes entre les sections](images/sectionsWithTopBorder.png)
-
-+ Regardez à quoi ressemble votre page Web et comparez-la aux autres pages qui contiennent `élément de la section`. Vous verrez que seuls ceux où vous avez ajouté l'attribut `class = "topDivider"` auront la ligne en haut.
-
-## \--- effondrer \---
-
-## title: Comment ça marche?
-
-Rappelez - vous que lorsque vous utilisez un CSS **sélecteur** tel que `section` ou `p` ou `nav ul`, les règles de style s'appliquent à **tous les** éléments de ce type sur votre site.
-
-Avec CSS **classes**, vous êtes en mesure de changer le style de seulement **** des éléments.
-
-Mettre un point devant votre sélecteur en fait un sélecteur de classe ****. Une classe peut avoir n'importe quel nom, il ne doit donc pas être le nom d'un élément HTML. Par exemple:
++ In the style sheet, add the following CSS rules:
 
 ```css
-  .myAwesomeClass {/ * mes règles de style cool vont ici * /}
+    #frontPage {
+        background: #48D1CC;
+        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
+    }
 ```
 
-Pour choisir quels éléments les règles de style s'appliquent, vous ajoutez la `classe` **attribut** à ces éléments dans le code HTML: mettre le nom de la classe en tant que valeur de l'attribut, **sans** le point, comme celui - ci:
+You should get something that looks like this:
+
+![Rainbow gradient background](images/frontPageIdStyles.png)
+
+You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+
+If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+
+You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+
+\--- challenge \---
+
+## Challenge: style some more elements
+
++ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
+
+\--- hints \---
+
+\--- hint \---
+
+You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
 
 ```html
-  class = "myAwesomeClass"
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-\--- /effondrer \---
+Choose any `id` name you like.
 
-+ Prêt à essayer un autre cours? Ajoutez le code CSS suivant à `styles.css`:
+\--- /hint \---
+
+\--- hint \---
+
+To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
 
 ```css
-  .stylishBox {background-color: # 87CEFA; couleur: # A52A2A; style de bordure: solide; border-width: 2px; border-color: # F5FFFA; border-radius: 10px; }
+  #titoPicture {
+    border-radius: 100%;
+  }
 ```
 
-+ Ensuite, sur une autre page de votre site Web, ajoutez la classe à certains éléments. Je vais l'ajouter aux `éléments de la section` sur la page Food de mon site web, comme ceci: `<section class="stylishBox">`.
+Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
 
-Ça a l'air génial, mais maintenant mes sections sont toutes écrasées.
+\--- /indice \---
 
-![Belles sections à la recherche écrasée](images/squashedSections.png)
+\--- /hints \---
 
-Vous pouvez appliquer autant de classes CSS à un élément que vous le souhaitez. Il suffit d'écrire le nom de toutes les classes que vous voulez utiliser dans l'attribut `class` (souvenez-vous, sans le point!), En les séparant par des espaces.
+![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
 
-+ Faisons une autre classe CSS pour donner une marge et un remplissage aux sections. Dans le fichier `styles.css` , créez la classe CSS suivante:
-
-```css
-  .someSpacing {padding: 10px; marge supérieure: 20px; }
-```
-
-+ Dans votre code `html` , ajoutez la nouvelle classe à chacun des éléments sur lesquels vous travailliez, comme ceci:
-
-```html
-  <section class="stylishBox someSpacing">
-```
-
-![Sections avec marge et remplissage ajoutés](images/sectionsWithSpacing.png)
-
-Ainsi , les classes CSS vous permettent de **choisir** quels éléments de style, et ils vous permettent de **réutiliser** le même ensemble de règles de style sur tous les éléments que vous voulez.
-
-+ Aller à `index.html` et ajouter le `stylishBox` classe au `principal` élément ou un autre élément sur la page. Vous pouvez l'enlever à nouveau après!
-
-```html
-    <main class="stylishBox">   
-```
-
-Voici à quoi ressemble ma page d'accueil avec la classe CSS. J'ai également ajouté la classe `topDivider` à la balise `img` avec l'image de Tito.
-
-![Classes CSS utilisées sur la page d'accueil](images/homePageWithClasses.png)
-
-\--- défi \---
-
-## Défi: faire de nouvelles classes
-
-+ Utilisez CSS **classes** pour définir quelques tailles d'image différentes pour votre site Web, par exemple `.smallPictures` et `.mediumPictures`. Ensuite, supprimez l'attribut `largeur` de chacun de vos `éléments img` et ajoutez la classe appropriée à la place.
-
-\--- astuces \---
-
-\--- indice \---
-
-Vous pouvez créer une classe CSS qui ne définit que la largeur d'un élément comme celui-ci:
-
-```css
-  .smallPictures {width: 100px; }
-```
-
-\--- / indice \---
-
-\--- indice \---
-
-Voici une balise `img` avec un attribut `width`:
-
-```html
-  <img src="tito.png" alt="Tito the dog" width="100px" />       
-```
-
-Lorsque vous supprimez l'attribut `largeur` et contrôlez la taille avec la classe CSS à la place, il ressemble à ceci:
-
-```html
-  <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
-```
-
-En utilisant une classe CSS, vous pouvez facilement changer la largeur de toutes les images à la fois en changeant une seule ligne de code dans votre feuille de style!
-
-\--- / indice \---
-
-\--- /astuces \---
-
-\--- /défi \---
+\--- /challenge \---

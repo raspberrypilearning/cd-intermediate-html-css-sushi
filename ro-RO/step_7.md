@@ -1,85 +1,69 @@
-## Stilul individual
+## See the code on other websites!
 
-Hai să jazz pagina de start puțin! Cu un alt tip de selector CSS, puteți aplica un set unic de reguli CSS la doar **un element specific**.
+**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
 
-+ Mergeți la `index.html` și găsiți un element de paragraf (`p`) sau adăugați un element dacă nu aveți niciun element. Adăugați următoarele **atributul** la tag - ul:
+On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
 
-```html
-    <p id="myCoolText">
-        Site-ul meu este despre Irlanda.
-    </p> 
-```
++ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
 
-`id` este un nume pe care îl dați un element particular pentru a **identifica** acesta. Nu există două elemente de pe o pagină ar trebui să aibă vreodată aceeași `id -`!
++ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
 
-+ Acum mergeți la foaia dvs. de stil și adăugați următorul cod:
+![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 
-```css
-    #myCoolText {culoare: # 003366; frontieră: 2px creasta #ccffff; padding: 15px; text-align: centru; }
-```
+A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
 
-Textul dvs. ar trebui să arate astfel:
+### Inspecting the HTML code
 
-![Text cu altă culoare și o margine în jurul acestuia](images/paragraphIdStyle.png)
++ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
 
-Un selector cu `#` în fața acestuia este folosit pentru a aplica regulile CSS unui element specific pe site-ul dvs. Web. Specificați elementul cu ajutorul numelui căruia i-ați alocat atributul `id` al elementului.
+![Inspector showing a text element](images/inspectTextHtml.png)
 
-+ Hai să facem unul pentru `corpul` al paginii de start. Mergeți la `index.html` și adăugați un `id` la eticheta `corp`.
++ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
 
-```html
-    <body id="frontPage">
-```
+![Editing text using the inspector tool](images/inspectEditHtmlText.png)
 
-+ În foaia de stil, adăugați următoarele reguli CSS:
++ Do you see the text update on your website? Note: only you can see these changes.
 
-```css
-    #frontPage {background: # 48D1CC; fundal: gradient linear (# fea3aa, # f8b88b, # faf884, # baed91, # baed91, # b2cefe, # f2a2e8, # fea3aa); }
-```
+![Website with edited text](images/inspectEditHtmlTextResult.png)
 
-Ar trebui să obțineți ceva care arată astfel:
++ Now **reload** the page and watch what happens. Your changes should disappear!
 
-![Fundal gradient curcubeu](images/frontPageIdStyles.png)
++ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
 
-Tocmai ai folosit **gradient**! Acesta este numele dat efectului în care o culoare se estompează în alta. Notă: Prima `fundal` proprietate deasupra celui de gradient determină o culoare implicită pentru browserele care nu acceptă gradienti.
+![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
 
-Dacă ați tastat perfect codul și nu ați obținut efectul curcubeu minunat de mai sus, este posibil ca browserul dvs. să nu accepte declivități.
+### Inspecting the CSS code
 
-Puteți face o mulțime de efecte diferite cu pante. Dacă doriți să aflați mai multe, mergeți aici [aici](http://dojo.soy/html2-css-gradients){: target = "_ blank"}.
++ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
 
-\--- provocare \---
+![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-## Provocare: stil mai multe elemente
++ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
 
-+ Încercați să dați un alt element `id` și să stylizați acel element utilizând selectorul de identificare cu `#` ca mai sus. Cum despre a face o imagine au un `border-radius` din `100%` astfel încât să fie pe deplin rotunjite? Orice alte imagini de pe site vor rămâne aceleași ca și ele. 
+![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
-\--- sugestii \---
+Note: you can also click the coloured square to change the colour using a colour picker tool.
 
-\--- hint \---
-
-Dați un element `id` adăugând atributul `id` la eticheta HTML, după cum urmează:
-
-```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
-```
-
-Alegeți orice nume `id` vă place.
-
-\--- / indiciu \---
-
-\--- hint \---
-
-Pentru a defini reguli de stil pentru un anumit element, utilizați simbolul `#` și numele pe care l-ați dat elementului ca `id`.
++ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
 
 ```css
-  #titoPicture {limita-raza: 100%; }
+  background-color: #660066;
 ```
 
-Notă: numele pe care îl tastați în fața regulilor CSS ar trebui **exact** meci numele pe care îl pune în elementului `id` atribut.
+You should see the background change on that piece of text.
 
-\--- / indiciu \---
+![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
 
-\--- / sugestii \---
+## \--- collapse \---
 
-![O imagine rotundă a lui Tito cu o margine albă](images/titoPictureIdStyle.png)
+## title: How does it work?
 
-\--- /provocare \---
+When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+
+When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+
+Now that you know that, you can have some fun messing with the code on other websites!
+
+\--- /collapse \---
+
++ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.

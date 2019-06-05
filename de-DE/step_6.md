@@ -1,123 +1,95 @@
-## Entwerfen Sie einige Themen
+## Individual style
 
-Schreiben von CSS-Regeln für Elemente wie `Abschnitt` und `p` ist großartig, aber was ist, wenn Sie möchten, dass einige von ihnen anders aussehen als andere? Auf dieser Karte erfahren Sie, wie Sie verschiedene Arten von Stilregeln auf Elemente desselben Typs anwenden und für jede Seite Ihrer Website ein anderes Thema erstellen können!
+Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
 
-+ Gehen Sie zu Ihrer Stylesheet-Datei und fügen Sie Folgendes hinzu: Achten Sie darauf, dass der Punkt davor steht!
++ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
+
+```html
+    <p id="myCoolText">
+        My website is about Ireland.
+    </p> 
+```
+
+The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+
++ Now go to your style sheet and add the following code:
 
 ```css
-  .topDivider {border-top-style: fest; border-top-width: 2px; border-top-color: # F5FFFA; padding-bottom: 10px; }
+    #myCoolText {
+        color: #003366;
+        border: 2px ridge #ccffff;
+        padding: 15px;
+        text-align: center;
+    }
 ```
 
-+ Gehen Sie jetzt zu `attractions.html` (oder der HTML-Datei, an der Sie gerade arbeiten, wenn Sie Ihr eigenes Projekt verwenden) und fügen Sie jedem `Section-` Tag die folgenden **Attribute**:
+Your text should look like this now:
+
+![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+
+A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+
++ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
 
 ```html
-  <section class="topDivider">
+    <body id="frontPage">
 ```
 
-Über jedem Abschnitt auf der Seite sollte eine Linie angezeigt werden. Herzlichen Glückwunsch - Sie haben gerade Ihr erstes verwendet **CSS - Klasse**!
-
-![Seite mit Linien zwischen den Abschnitten](images/sectionsWithTopBorder.png)
-
-+ Schau dir an, wie deine Webseite jetzt aussieht und vergleiche sie mit den anderen Seiten, die `Sektion` Elemente haben. Sie werden sehen, dass nur diejenigen, bei denen Sie das Attribut `class = "topDivider"` hinzugefügt haben, die Zeile oben haben.
-
-## \--- Einsturz \---
-
-## Titel: Wie funktioniert es?
-
-Denken Sie daran , dass , wenn Sie einen CSS **Selektor** wie `Abschnitt` oder `p` oder `nav ul`gelten die Stilregeln zu **alle** die Elemente dieses Typs auf Ihrer Webseite ein .
-
-Mit CSS **classes**können Sie den Stil von nur **** Elementen ändern.
-
-Wenn Sie einen Punkt vor Ihren Selektor setzen, wird dieser zu einem **Klassen-Selektor**. Eine Klasse kann einen beliebigen Namen haben, also muss sie nicht der Name eines HTML-Elements sein. Beispielsweise:
++ In the style sheet, add the following CSS rules:
 
 ```css
-  .myAwesomeClass {/ * Meine coolen Style-Regeln gehen hier * /}
+    #frontPage {
+        background: #48D1CC;
+        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
+    }
 ```
 
-Um auszuwählen, auf welche Elemente die Stilregeln angewendet werden, fügen Sie das `Klasse` **-Attribut** zu diesen Elementen im HTML-Code hinzu: Setzen Sie den Namen der Klasse als Wert für das Attribut ein, **ohne** den Punkt, so:
+You should get something that looks like this:
+
+![Rainbow gradient background](images/frontPageIdStyles.png)
+
+You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+
+If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+
+You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+
+\--- challenge \---
+
+## Challenge: style some more elements
+
++ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
+
+\--- hints \---
+
+\--- hint \---
+
+You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
 
 ```html
-  class = "meineAwesomeClass"
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-\--- / einklappen \---
+Choose any `id` name you like.
 
-+ Bereit, eine andere Klasse auszuprobieren? Fügen Sie den folgenden CSS-Code zu `styles.css`:
+\--- /hint \---
+
+\--- hint \---
+
+To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
 
 ```css
-  .stylishBox {Hintergrundfarbe: # 87CEFA; Farbe: # A52A2A; Rand-Stil: fest; Rahmenbreite: 2px; Rahmenfarbe: # F5FFFA; Rand-Radius: 10px; }
+  #titoPicture {
+    border-radius: 100%;
+  }
 ```
 
-+ Fügen Sie dann auf einer anderen Seite Ihrer Website die Klasse einigen Elementen hinzu. Ich füge es zu den `Section` Elementen auf der Food Seite meiner Website hinzu, so: `<section class="stylishBox">`.
+Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
 
-Es sieht gut aus, aber jetzt sind meine Abschnitte alle zusammen gequetscht.
+\--- /hint \---
 
-![Schön aussehende Abschnitte zusammengequetscht](images/squashedSections.png)
+\--- /hints \---
 
-Sie können so viele CSS-Klassen auf ein Element anwenden, wie Sie möchten. Schreiben Sie einfach die Namen aller Klassen, die Sie verwenden möchten, in das `Klasse-` Attribut (denken Sie daran, ohne den Punkt!) Und trennen Sie sie durch Leerzeichen.
+![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
 
-+ Lassen Sie uns eine weitere CSS-Klasse erstellen, um den Abschnitten einen gewissen Spielraum zu geben. Erstellen Sie in der Datei `styles.css` die folgende CSS-Klasse:
-
-```css
-  .someSpacing {Auffüllen: 10px; Rand oben: 20px; }
-```
-
-+ Fügen Sie in Ihrem `html` Code die neue Klasse zu jedem der Elemente hinzu, an denen Sie gerade gearbeitet haben:
-
-```html
-  <section class="stylishBox someSpacing">
-```
-
-![Abschnitte mit Rand und Abstand hinzugefügt](images/sectionsWithSpacing.png)
-
-So CSS - Klassen können Sie **wählen** , welche Elemente zu Stil, und sie lassen Sie **Wiederverwendung** der gleiche Satz von Stilregeln auf alle Elemente , die Sie wollen.
-
-+ Gehe zu `index.html` und füge die `stylishBox` Klasse den `wichtigsten` Elementen oder einem anderen Element auf der Seite hinzu. Sie können es danach wieder entfernen!
-
-```html
-    <main class="stylishBox">   
-```
-
-So sieht meine Homepage mit der CSS-Klasse aus. Ich habe auch die Klasse `topDivider` zum Tag `img` mit dem Bild von Tito hinzugefügt.
-
-![CSS-Klassen werden auf der Startseite verwendet](images/homePageWithClasses.png)
-
-\--- Herausforderung \---
-
-## Herausforderung: Mach ein paar neue Klassen
-
-+ Verwenden Sie CSS **classes** , um einige verschiedene Bildgrößen für Ihre Website zu definieren, z. B. `.smallPictures` und `.mediumPictures`. Entfernen Sie dann das Attribut `width` von jedem Ihrer `Elemente img` und fügen Sie stattdessen die entsprechende Klasse hinzu.
-
-\--- Hinweise \---
-
-\--- Hinweis \---
-
-Sie können eine CSS-Klasse erstellen, die nur die Breite eines Elements definiert:
-
-```css
-  .smallPictures {Breite: 100px; }
-```
-
-\--- /Hinweis \---
-
-\--- Hinweis \---
-
-Hier ist ein `img` -Tag mit einem `width` -Attribut:
-
-```html
-  <img src="tito.png" alt="Tito the dog" width="100px" />       
-```
-
-Wenn Sie das Attribut `width` entfernen und stattdessen die Größe mit der CSS-Klasse steuern, sieht es folgendermaßen aus:
-
-```html
-  <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
-```
-
-Wenn Sie eine CSS-Klasse verwenden, können Sie die Breite aller Bilder auf einmal ändern, indem Sie nur eine Zeile Code in Ihrem Stylesheet ändern.
-
-\--- /Hinweis \---
-
-\--- / Hinweise \---
-
-\--- /Herausforderung \---
+\--- /challenge \---

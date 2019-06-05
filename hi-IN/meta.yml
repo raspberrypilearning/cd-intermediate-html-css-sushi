@@ -1,0 +1,38 @@
+---
+title: Guide to my country 2.0
+hero_image: images/banner.png
+description: अपनी वेबसाइट डिजाइन कौशल को और आगे ले जाएं!
+theme: लाल
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html/css
+site_areas: कोडरडोज़ो, प्रोजेक्ट्स
+hardware: ''
+software: htmp-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: भूमिका
+  - 
+    title: Getting set up
+  - 
+    title: All the colours!
+  - 
+    title: Organising your page
+  - 
+    title: Design some themes
+  - 
+    title: Individual style
+  - 
+    title: See the code on other websites!
+  - 
+    title: Automatically adjust the size
+  - 
+    title: Animation
+  - 
+    title: Teach Tito to roll over!

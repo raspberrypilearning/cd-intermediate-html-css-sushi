@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## Automatisch de grootte aanpassen
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Tot nu toe heb je **pixels** gebruikt om de grootte van dingen in te stellen, bijv. `10px`. Op deze kaart leer je over andere afmetingen die je kunt gebruiken.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Ga naar `index.html` en zoek het `img` element met de afbeelding van Tito, of zoek een andere `afbeelding` tag op je website.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ Verwijder het `with` attribuut als het er is, en geef het element een `id` als het er nog geen heeft.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ Definieer in je CSS-bestand de `width` eigenschappen voor je foto, zoals hieronder weergegeven (je moet mogelijk het CSS-blok met de `id` selector maken als je dit nog niet in een eerdere kaart gedaan hebt).
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+Opmerking: 50% (50 procent) is **de helft**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ Probeer het formaat van je browservenster aan te passen en kijk wat er met de foto gebeurt.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+Je zou moeten zien dat de foto groter en kleiner wordt als je het venster groter en kleiner maakt. Dat komt omdat het 50% van de breedte van het **main** (hoofd) element in beslag neemt (dat is ongeveer de breedte van de pagina).
 
 ## \--- collapse \---
 
 ## title: Hoe werkt het?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+Wanneer je de grootte van iets in pixels instelt, stel je een exacte grootte in en deze verandert niet. Dit wordt een **absolute** afmeting genoemd.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+Een andere manier om de grootte van de dingen in te stellen is het gebruik van **relatieve** afmetingen, zodat de grootte afhankelijk is van hoe elementen met elkaar worden vergeleken. Zodat, wanneer een ding van afmeting verandert, ook al het andere automatisch van grootte verandert om dezelfde **verhoudingen** te behouden.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Wanneer je **relatieve** afmetingen gebruikt, is het belangrijk om te weten wat de **parent** (ouder) van je element is. De parent (ouder) is het element waar het in zit, en dat is waarmee de afmeting in relatie zal zijn. Als voorbeeld: de parent van de afbeelding hierboven is het `article` element, omdat het `img` element zich tussen de `<article></article>` tags bevindt.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+Als je de `width` van een element instelt op `100%`, dan zal dat dezelfde breedte hebben als de container waarin het zich bevindt.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ Experimenteer met verschillende waarden voor de `%`.

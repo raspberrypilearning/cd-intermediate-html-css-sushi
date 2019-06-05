@@ -1,18 +1,18 @@
-## Individual style
+## Eigen stijl
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Laten we de startpagina een beetje opleuken! Met een ander soort CSS selector kun je een unieke set CSS regels toepassen op slechts **een specifiek element**.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ Ga naar `index.html` en zoek een alinea (`p`) element, of voeg er een toe als je er geen hebt. Voeg het volgende **attribute** toe aan de tag:
 
 ```html
-    <p id="myCoolText">
-        My website is about Ireland.
+    <p id="myCoolText"> 
+       Mijn website gaat over Ierland.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+De `id` is een naam die je een bepaald element geeft om deze te **identificeren**). Twee elementen op dezelfde pagina mogen nooit dezelfde `id` hebben!
 
-+ Now go to your style sheet and add the following code:
++ Ga nu naar je style sheet en voeg de volgende code toe:
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+Je tekst zou er nu als volgt uit moeten zien:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Een selector met een `#` ervoor wordt gebruikt om CSS regels aan een specifiek element op je website toe te wijzen. Je specificeert het element met behulp van de naam waaraan je het `id` attribuut hebt toegewezen.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ Laten we er een doen voor de `body` van de home page. Ga naar `index.html` en voeg een `id` toe aan de `body` tag.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ Voeg in de stijl sheet de volgende CSS regels toe:
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+Je zou iets moeten krijgen dat er zo uitziet:
 
 ![Rainbow gradient background](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+Je hebt zojuist een **gradient** (verloop) gebruikt! Dat is de naam die wordt gegeven aan het effect waarbij de ene kleur verloopt in de andere. Opmerking: de eerste `background` (achtergrond) eigenschap boven het verloop bepaalt een standaardkleur voor browsers die geen verlopen ondersteunen.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+Als je de code perfect over hebt getypt en je hebt het mooie regenboogeffect hierboven niet gekregen, dan kan het zijn dat je browser geen verlopen ondersteunt.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+Je kunt met verlopen veel verschillende effecten maken. Als je meer informatie wilt, kijk [hier](http://dojo.soy/html2-css-gradients) {: target = "_blank"}.
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## Uitdaging: style nog wat meer elementen
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ Probeer een ander element een `id` te geven en maak dat element op met behulp van de ID-selector met een `#` zoals hierboven. Zullen we een foto maken met een `grens radius` van `100%` zodat het volledig afgerond is? Alle andere afbeeldingen op de website blijven hetzelfde als ze zijn. 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+Je geeft een element een `id` door het kenmerk `id` als volgt toe te voegen aan de HTML-code:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+Kies een `id` naam die je leuk vindt.
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+Om stijlregels voor een specifiek element te definiëren, gebruik je het `#` symbool en de naam die je het element hebt gegeven bij de `id`.
 
 ```css
   #titoPicture {
@@ -84,7 +84,7 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+Opmerking: de naam die je in de CSS regels typt, moet **precies** overeenkomen met de naam die je in het `id` attribuut van het element hebt gegeven.
 
 \--- /hint \---
 

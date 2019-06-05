@@ -1,61 +1,149 @@
-## Animaţie
+## Teach Tito to roll over!
 
-Știați că puteți folosi CSS pentru a face lucrurile să se deplaseze? Veți învăța cum se face pe acest card!
+You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
 
-+ Înainte de a începe, asigurați - vă că aveți o imagine de pe site - ul dvs. cu un `id` și un bloc CSS corespunzător care stabilește `lățime de` To `100px`. Merg acum cu fotografia lui Tito și blocul meu CSS arată astfel:
-
-```css
-    #titoPicture {limita-raza: 100%; lățime: 100px; }
-```
-
-+ Mergeți în partea de jos a fișierului dvs. CSS și adăugați următorul cod:
++ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
 
 ```css
-    @frame-cheie myFirstAnimation {din {width: 100px; } la {width: 300px; }}
+  img {
+    border: 2px solid White;
+  }
+  img:hover {
+    border: 2px dashed Navy;
+  }
 ```
 
-Acest cod creează o animație numită `myFirstAnimation` care o puteți adăuga la orice element de pe site-ul dvs. Web. Ce credeți că va face?
+You've just used a special type of CSS block called a **pseudo-class**.
 
-+ Găsiți regulile CSS pentru imagine și adăugați următoarele trei proprietăți:
+## \--- collapse \---
+
+## title: How does it work?
+
+A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+
+Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+
+\--- /collapse \---
+
++ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
+
++ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
+
+```html
+    <p>
+      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+    </p>
+```
+
++ Add the following code to your style sheet, then run your code to see your lovely links in action.
 
 ```css
-    animație-nume: myFirstAnimation; durata animației: 2s; animație-iterație-număr: 1;
+  .niceLinks {
+    text-decoration: none;
+    color: #FFFAF0;
+  }
+  .niceLinks:hover {
+    color: #00FF7F;
+  }
 ```
 
-+ Acum urmăriți ce se întâmplă pe pagina dvs. web! Încercați diferite valori pentru `animație-iterație-număr` pentru a vedea ce face.
++ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
 
-+ Să încercăm o altă animație! Adăugați următorul cod la sfârșitul fișierului dvs. CSS:
+You can combine all of these tricks with animations too!
+
++ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
 
 ```css
-    @ cadre cheie rainbowGlow {0% {culoare: # FFD700; } 50% {culoare: # 663399; } 100% {culoare: # FFD700; }}
+  #titoPicture {
+    border-radius: 100%;
+    width: 100px;
+  }
+  #titoPicture:hover {
+    animation-name: rollOver;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  @keyframes rollOver {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
 ```
 
-+ Acum găsi `#myCoolText` regulile CSS de mai devreme și se adaugă în codul de animație:
++ Can you guess what will happen?
+
++ Now shout "Roll over!" as you move the cursor over the picture!
+
+\--- challenge \---
+
+## Challenge: make glowing rainbow links
+
++ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
+
+\--- hints \---
+
+\--- hint \---
+
+Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
 
 ```css
-    #myCoolText {culoare: # 003366; frontieră: 2px creasta #ccffff; padding: 15px; text-align: centru; animație-nume: rainbowGlow; durata animației: 1,5 s; animație-iterație-număr: 1; }
+    @keyframes rainbowGlow {
+        0% {
+            color: #00BFFF;
+        }
+        25% {
+            color: #00FF7F;
+        }
+        50% {
+            color: #eeeeaf;
+        }
+        75% {
+            color: #eeafee;
+        }
+        100% {
+            color: #00BFFF;
+        }
+    }
 ```
 
-Când utilizați **valori procentuale** în loc de `la` și `până la`, puteți seta valorile între valori, precum și doar valori de început și de sfârșit. Puteți seta cât mai multe valori între valorile dorite utilizând valori procentuale diferite de la `0` până la `100`.
+\--- /hint \---
 
-+ Modificați valoarea `animație-iterație-număr` la `infinit`. Vedeți dacă puteți ghici ce se va întâmpla înainte de al testa!
+\--- hint \---
 
-+ Încercați diferite valori pentru `animație - durata` pentru a accelera sau încetini animația.
+To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
 
-+ Un truc final! Adăugați acest cod de animație:
+\--- /hint \---
+
+\--- hint \---
+
+You can add `hover` effects directly to the `nav` menu like this:
 
 ```css
-    @ slideframe cheie {0% {background-position-x: 0; } 100% {background-position-x: 600vw; }}
+  nav ul li a:hover {
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
 ```
 
-+ Acum găsiți regulile `#frontPage` CSS pe care le-ați scris mai devreme și le schimbați la:
+Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
 
 ```css
-    #frontPage {fundal: gradient liniar repetat (-45deg, roșu 0%, galben 7,14%, var 14,28%, cyan 21,42%, cyan 28,56%, albastru 35,7%, magenta 42,84%, roșu 50%); dimensiunea fundalului: 600vw 600vw; animație: diapozitiv 10s infinit liniar înainte; }
+  .niceLinks:hover {
+    color: #00BFFF;
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
 ```
 
-Nu vă faceți griji cu privire la înțelegerea întregului cod de mai sus ... doar stai înapoi și bucurați-vă!
+\--- /hint \---
 
-Pentru a afla mai multe despre mai multe lucruri pe care le puteți face cu animație, accesați [această pagină web](http://dojo.soy/html2-css-animation){: target = „_ blank“}. A se distra!
+\--- /hints \---
 
-Pe următoarea carte veți învăța cum să faceți lucruri reci se întâmplă atunci când plasați cursorul mouse-ului peste lucruri!
+\--- /challenge \---
+
+![](images/badge-footer-image-html-intermed.png)

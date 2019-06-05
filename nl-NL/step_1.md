@@ -13,7 +13,7 @@ Hier is een voorbeeld van hoe je website eruit zou kunnen zien na het voltooien 
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
 + Hoe maak je je eigen kleuren met behulp van code
 + Manieren om inhoud van je website te organiseren, zodat je stijlen kunt toepassen en voor schermlezers vriendelijk kunt maken
@@ -27,14 +27,14 @@ Hier is een voorbeeld van hoe je website eruit zou kunnen zien na het voltooien 
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat je nodig hebt
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Een computer die toegang heeft tot de [ trinket.io ](https://trinket.io) {: target = "_ blank"} website
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Dit project kan in een webbrowser worden voltooid met behulp van [ trinket.io ](https://trinket.io) {: target = "_ blank"}.
 
 \--- /collapse \---

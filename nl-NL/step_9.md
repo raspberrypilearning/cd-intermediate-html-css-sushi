@@ -1,8 +1,8 @@
-## Animation
+## Animatie
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+Wist je dat je CSS kunt gebruiken om dingen te laten bewegen? Hoe zul je leren op deze kaart!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ Voordat je begint, zorg ervoor dat je een afbeelding op je website hebt met een `id` en een bijbehorende CSS blok welke de `width` instelt op `100 pixels`. Ik gebruik het beeld van Tito van hiervoor, en mijn CSS blok ziet er als volgt uit:
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ Ga naar het einde van je CSS bestand en voeg de volgende code toe:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEersteAnimatie) aan die je aan elk element op je website kunt toevoegen. Wat denk je dat het zal doen?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ Zoek je CSS regels voor de afbeelding en voeg de volgende drie eigenschappen toe:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ Bekijk nu wat er gebeurt op je webpagina! Probeer verschillende waarden voor `animatie-iteratie-count` om te zien wat het doet.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ Laten we een andere animatie proberen! Voeg de volgende code toe aan het einde van je CSS-bestand:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ Zoek nu de `#myCoolText` CSS regels van hiervoor en voeg de animatiecode toe:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+Wanneer je **procentuele waarden** gebruikt in plaats van `from` en `to`, kun je tussen waarden instellen en niet alleen begin- en eindwaarden. Je kunt net zoveel tussenliggende waarden instellen als je wilt, met verschillende percentages van `0` helemaal tot `100`.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ Wijzig de waarde van `animation-iteration-count` tot `infinite` (oneindig). Kijk of je kunt raden wat er zal gebeuren voordat je het test!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ Probeer verschillende waarden uit voor `animation-duration` om je animatie te versnellen of te vertragen.
 
-+ One final trick! Add this animation code:
++ Een laatste truc! Voeg deze animatiecode toe:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ Zoek nu de `#frontPage` CSS-regels die je eerder hebt geschreven en wijzig deze in:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+Maak je geen zorgen als je bovenstaande code niet begrijpt ... leun achterover en geniet ervan!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+Ga naar [deze webpagina](http://dojo.soy/html2-css-animation) {: Target = "_ blank"} voor meer informatie over andere dingen die je met animatie kunt doen. Veel plezier!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+Op de volgende kaart leer je hoe je leuke dingen kunt laten gebeuren als je met de muis over dingen beweegt!

@@ -1,85 +1,69 @@
-## Estilo individual
+## See the code on other websites!
 
-¡Vamos a animar un poco la página de inicio! Con otro tipo de selector CSS, puede aplicar un conjunto único de reglas CSS a solo **un elemento específico**.
+**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
 
-+ Vaya a `index.html` y encuentre un elemento de párrafo (`p`), o agregue uno si no tiene ninguno. Agregue el siguiente **atributo** a la etiqueta:
+On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
 
-```html
-    <p id="myCoolText">
-        Mi sitio web es sobre Irlanda.
-    </p> 
-```
++ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
 
-El `id` es un nombre que le das a un elemento particular para **identificarlo**. ¡No hay dos elementos en una página que tengan el mismo `id`!
++ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
 
-+ Ahora ve a tu hoja de estilos y agrega el siguiente código:
+![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 
-```css
-    #myCoolText {color: # 003366; borde: cresta 2px #ccffff; relleno: 15px; text-align: center; }
-```
+A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
 
-Tu texto debería verse así ahora:
+### Inspecting the HTML code
 
-![Texto con un color diferente y un borde a su alrededor](images/paragraphIdStyle.png)
++ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
 
-Un selector con un `#` enfrente se usa para aplicar reglas CSS a un elemento específico en su sitio web. Usted especifica el elemento con la ayuda del nombre que asignó al atributo `id` del elemento.
+![Inspector showing a text element](images/inspectTextHtml.png)
 
-+ Hagamos uno para el `cuerpo` de la página de inicio. Vaya a `index.html` y agregue un `id` a la etiqueta `body`.
++ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
 
-```html
-    <body id="frontPage">
-```
+![Editing text using the inspector tool](images/inspectEditHtmlText.png)
 
-+ En la hoja de estilos, agregue las siguientes reglas de CSS:
++ Do you see the text update on your website? Note: only you can see these changes.
 
-```css
-    #frontPage {background: # 48D1CC; fondo: gradiente lineal (# fea3aa, # f8b88b, # faf884, # baed91, # baed91, # b2cefe, # f2a2e8, # fea3aa); }
-```
+![Website with edited text](images/inspectEditHtmlTextResult.png)
 
-Deberías obtener algo que se vea así:
++ Now **reload** the page and watch what happens. Your changes should disappear!
 
-![Fondo degradado del arco iris](images/frontPageIdStyles.png)
++ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
 
-¡Usaste un **gradiente**! Ese es el nombre dado al efecto donde un color se desvanece en otro. Nota: La primera propiedad `background` sobre el gradiente uno determina un color predeterminado para los navegadores que no admiten gradientes.
+![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
 
-Si escribió el código a la perfección y no obtuvo el encantador efecto arcoiris anterior, es posible que su navegador no admita degradados.
+### Inspecting the CSS code
 
-Puede hacer muchos efectos diferentes con degradados. Si quieres saber más, ve [aquí](http://dojo.soy/html2-css-gradients){: target = "_ blank"}.
++ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
 
-\--- desafío \---
+![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-## Desafío: estilo algunos elementos más
++ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
 
-+ Intente darle a otro elemento un `id` y diseñar ese elemento usando el selector de ID con un `#` como el anterior. ¿Qué hay de hacer que una imagen tenga un `radio de borde` de `100%` para que esté completamente redondeada? Cualquier otra imagen en el sitio web seguirá siendo la misma. 
+![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
-\--- consejos \---
+Note: you can also click the coloured square to change the colour using a colour picker tool.
 
-\--- insinuación \---
-
-Le das a un elemento un `id` agregando el atributo `id` a la etiqueta HTML, como este:
-
-```html
-  <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
-```
-
-Elige cualquier nombre `id` que te guste.
-
-\--- /insinuación \---
-
-\--- insinuación \---
-
-Para definir reglas de estilo para un elemento específico, usa el símbolo `#` y el nombre que le dio al elemento como su `id`.
++ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
 
 ```css
-  #titoPicture {border-radius: 100%; }
+  background-color: #660066;
 ```
 
-Nota: El nombre que escriba en frente de las reglas CSS deberían **exactamente** coincide con el nombre de usted pone en el elemento `Identificación` atributo.
+You should see the background change on that piece of text.
 
-\--- /insinuación \---
+![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
 
-\--- / consejos \---
+## \--- collapse \---
 
-![Una imagen redonda de Tito con un borde blanco](images/titoPictureIdStyle.png)
+## title: How does it work?
 
-\--- / desafío \---
+When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+
+When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+
+Now that you know that, you can have some fun messing with the code on other websites!
+
+\--- /collapse \---
+
++ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.

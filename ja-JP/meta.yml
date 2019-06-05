@@ -1,8 +1,8 @@
 ---
-title: 中級HTML / CSS寿司カード
-hero_image: images / banner.png
+title: Guide to my country 2.0
+hero_image: images/banner.png
 description: さらにあなたのウェブサイトのデザインスキルを取る！
-theme: 赤
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -19,22 +19,20 @@ steps:
   - 
     title: 前書き
   - 
-    title: あなたが必要とするもの
+    title: Getting set up
   - 
-    title: セットアップを開始する
+    title: All the colours!
   - 
-    title: すべての色！
+    title: Organising your page
   - 
-    title: ページの整理
+    title: Design some themes
   - 
-    title: テーマをデザインする
+    title: Individual style
   - 
-    title: 個性的なスタイル
+    title: See the code on other websites!
   - 
-    title: 他のウェブサイトのコードを見てください！
+    title: Automatically adjust the size
   - 
-    title: 自動的にサイズを調整する
+    title: Animation
   - 
-    title: アニメーション
-  - 
-    title: ロールオーバーするティトを教えてください！
+    title: Teach Tito to roll over!

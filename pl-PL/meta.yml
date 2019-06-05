@@ -1,0 +1,38 @@
+---
+title: Guide to my country 2.0
+hero_image: images / banner.png
+description: Dowiedz się więcej o tworzeniu stron internetowych!
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projekty, polish, polski
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Wprowadzenie
+  - 
+    title: Getting set up
+  - 
+    title: All the colours!
+  - 
+    title: Organising your page
+  - 
+    title: Design some themes
+  - 
+    title: Individual style
+  - 
+    title: See the code on other websites!
+  - 
+    title: Automatically adjust the size
+  - 
+    title: Animation
+  - 
+    title: Teach Tito to roll over!

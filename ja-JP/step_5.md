@@ -1,158 +1,142 @@
-## ページの整理
+## Design some themes
 
-これまでは **見出し** と **段落** を使用して、 **コンテンツ** を見やすく見やすくしました。 物をまとめてグループ化することで、さらに組織化しましょう。
+Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
 
-## \---崩壊\---
++ Go to your style sheet file and add the following — be sure to include the dot in front!
 
-## タイトル：コンテンツとは何ですか？
-
-**コンテンツ** は、あなたのWebページ上のすべてのものです。例えば、テキストや写真です。
-
-\--- /崩壊\---
-
-+ 行く `attractions.html` （あなたがサンプルプロジェクトを使用していない場合、または独自のページの1）ファイルと、先頭近くに、ちょうど **下に** 開口部 `<main>` タグ、新しい行に次のように入力： 
-
-```html
-  <main>
-    <article>
+```css
+  .topDivider {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
+  }
 ```
 
-+ あなたのエディタが終了 `</article>` タグで自動的に追加された場合は、それを削除してください。
-
-+ ファイルの最後に、ちょうど **上記** 閉じる `</main>` タグ、新しい行を追加し、閉じ `物品` 要素：
++ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
 
 ```html
-    </article>
-  </main>
+  <section class="topDivider">
 ```
 
-あなたの `メイン` 要素は、今のように見えるはずです（ `記事の` タグの間に別のコンテンツがあるかもしれません）：
+You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+
+![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+
++ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
+
+## \--- collapse \---
+
+## title: How does it work?
+
+Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+
+With CSS **classes**, you're able to change the style of just **some** of the elements.
+
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+
+```css
+  .myAwesomeClass {
+    /* my cool style rules go here */
+  }
+```
+
+To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
 
 ```html
-  <main>
-    <article>
-      <h1>アイルランドで見たい私のお気に入りの場所</h1>
-        <h2>Moherの崖</h2>
-        <p>
-        Moherの崖は、私がここにいるClare郡で見つけられます。 彼らがどれくらいクールだか見て！</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>これは、メイヨー郡の海岸沿いの大きな島です。 それは山々、沼地、崖の野生の美しい風景を持っています。
-        </p>
-        <img src="achill.JPG" width="200px" />
-    </article>
-  </main>
+  class="myAwesomeClass"
 ```
 
-+ 今度はあなたの `記事` 内容を見て、それをセクションに分割してみてください。 この新しいペアのタグを各ビットの周りに置く： `<section> </section>`。 次のような例があります：
+\--- /collapse \---
+
++ Ready to try another class? Add the following CSS code to `styles.css`:
+
+```css
+  .stylishBox {
+    background-color: #87CEFA;
+    color: #A52A2A;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F5FFFA;
+    border-radius: 10px;
+  }
+```
+
++ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
+
+It looks great, but now my sections are all squashed together.
+
+![Nice looking sections squashed together](images/squashedSections.png)
+
+You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+
++ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
+
+```css
+  .someSpacing {
+    padding: 10px;
+    margin-top: 20px;
+  }
+```
+
++ In your `html` code, add the new class to each of the elements you were working on, like this:
 
 ```html
-  <article>
-    <h1>アイルランドで見たい私のお気に入りの場所</h1>
-    <section>
-      <h2>Moherの崖</h2>
-      <p>
-      Moherの崖は、私が出ているClare郡にあります。 彼らがどれくらいクールだか見て！</p>
-      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-    </section>
-    <section>
-      <h2>アキル島</h2>
-      <p>これはメイヨー郡の海岸沿いにある大きな島です。 それは山々、沼地、崖の野生の美しい風景を持っています。
-      </p>
-      <img src="achill.JPG" width="200px" />
-    </section>
-  </article>
+  <section class="stylishBox someSpacing">
 ```
 
-## \---崩壊\---
+![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-## title：新しいタグはどういう意味ですか？
+So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
 
-これらの新しい要素を **個の容器と考える**。 それらは物事をまとめるために使用されます。 あなたの家の箱や棚に物を整理するのとちょっと同じです！
-
-これにより、あなたのウェブサイトをスクリーンリーダーに見やすくし、レイアウトをより細かく制御できるようになります。ご覧のように、スタイリングで実際に創造することができます。
-
-タグの間に何かが入ることがあります。 通常、それは複数の要素になりますが、必ずしもそうである必要はありません。 どのような種類のHTML要素でもかまいません。 あなたがやっていることは、これらのタグの間のすべてが一緒に属していることをブラウザに伝えることです。
-
-### 記事
-
-`記事` 要素は、この場合には、アイルランドでの観光スポットに関する情報のセット内容の全体部分のコンテナです。 あなたが関連していない内容の異なるビットを持っている場合は、それ自身の中にそれぞれ1を入れなければならない `記事` 全体ではなく、多くの周りのタグの1セットを置くの要素。
-
-### セクション
-
-`セクション` 要素を使用すると、関連するコンテンツをより小さなチャンクに分割し、各チャンクを専用のコンテナに入れることができます。
-
-### 他にも存在する！
-
-これらは、HTML内の唯一のコンテナ要素ではありません。 これまでにメニューを作成し、それを `<nav> </nav>` タグの間に入れたことがある場合、これはコンテナのタイプの別の例です。 だから `<main> </main>` と `<header> </header>` - あなたはもうこれ以上考えることができますか？
-
-\--- /崩壊\---
-
-\---挑戦\---
-
-あなたのウェブページはまだ見た目が変わっていないかもしれませんが、コンテンツがコンテナタグに整理されたら、CSSでクールなことをすることができます。 覚えておいてください、HTMLはあなたのウェブサイトがどのように編成されているかを制御します。
-
-## 課題：あなたのウェブサイトを整理する
-
-+ 使用してウェブサイト上のすべてのコンテンツを整理するに行く必要があり `記事` 及び `節` このようにコンテナを。 
-
-- - ヒント - -
-
-\---ヒント\---
-
-サンプルプロジェクトのFoodページを見てください。 あなたは、私が追加したことがわかります `記事` の束と `節` のファイルにタグを `food.html`：
++ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
 
 ```html
-  <main>
-    <article>
-      <h1>アイルランドの食べ物</h1>
-      <p>
-        これは私の好きなアイルランド料理のいくつかです！
-      </p>  
-      <section>
-        <h2>伝統的なアイルランドの朝食</h2>
-        <p>
-          「フルアイルランド」の朝食は、ソーセージ、ラッシャー（ベーコン）、卵、ブラックプディング、ホワイトプディング、トーストで構成されています。
-        </p>
-        <p>
-          しばしば、マッシュルームや焼きたてのトマトだけでなく、グリルトマトもあります。
-        </p>
-        <p>
-          もちろん、美しい紅茶がなければ朝食は一切ありません！
-        </p>
-      </section>
-
-      <section>
-        <h2>バンガーとマッシュ</h2>
-        <p>
-          ソーセージ、マッシュポテトとグレービーのこの古典はアイルランド特有のものではありませんが、特別なのはアイルランドのソーセージです。 ほとんどの国ではソーセージを作る独自の方法があります。私が旅行している場合、私は家から見逃していることの一つです！
-        </p>
-      </section>
-
-      <section>
-        <h2>ベーコンとキャベツ</h2>
-        <p>
-          私はおそらくこの非常に伝統的な料理を含まずにアイルランド料理のリストを作ることができなかった！
-        </p>
-        <p>
-          とても面白くないかもしれませんが、ハム、ジャガイモ、グリーンキャベツのこのおいしい食事はおいしいです。
-          私はバターのジャガイモを吸うのが大好きですし、ベーコンもちょっとしたマスタードが好きです。
-        </p>
-        <p>
-          私のお母さんは、ハムが沸騰した水の中のキャベツを料理して、いつも特別なものにしました。
-        </p>
-        <p>
-          残り物がある場合は、私のお気に入りの別のものを作ることができます： <strong>揚げたキャベツ</strong>！
-        </p>
-      </section>
-    </article>     
-  </main>
+    <main class="stylishBox">   
 ```
 
-\--- /ヒント\---
+Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
 
-- - /ヒント - -
+![CSS classes being used on the home page](images/homePageWithClasses.png)
 
-次のカードでは、記事やセクションにまとめられたページごとに異なるテーマをデザインします。
+\--- challenge \---
 
-\--- /チャレンジ\---
+## Challenge: make some new classes
+
++ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
+
+\--- hints \---
+
+\--- hint \---
+
+You can make a CSS class that defines just the width of an element like this:
+
+```css
+  .smallPictures {
+    width: 100px;
+  }
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+Here's an `img` tag with a `width` attribute:
+
+```html
+  <img src="tito.png" alt="Tito the dog" width="100px" />       
+```
+
+When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+
+```html
+  <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
+```
+
+By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /challenge \---

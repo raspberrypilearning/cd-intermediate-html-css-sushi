@@ -1,53 +1,171 @@
-## Tutti i colori!
+## Organising your page
 
-Come hai visto prima, puoi digitare molti nomi di colori diversi come parole e il browser li riconoscerà. Ma un modo più comune per impostare i colori è quello di usare qualcosa chiamato **codici esadecimali** (o 'codici hex': 'hex' è l'abbreviazione di **esadecimale**, un modo speciale di contare).
-
-+ Dai uno sguardo al tuo **foglio di stile, o stylesheet**. È il file che ha `.css` nel nome.
-
-+ All'interno delle regole CSS per `body`, imposta, come colore di sfondo (background color), il codice esadecimale `#7B68EE`:
-
-```html
-  background-color: #7B68EE;
-```
-
-Nota: se stai usando un Mac, puoi digitare `#` premendo i tasti <kbd>alt</kbd> e <kbd>3</kbd> contemporaneamente.
-
-Il tuo sito web dovrebbe ora avere uno sfondo viola.
-
-![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
-
-+ Non sei un fan del viola? Vai su [questa pagina web](http://dojo.soy/html2-colors){: target="_blank"} e scegli un altro colore per il tuo foglio di stile — invece di digitare il nome del colore, digita il codice esadecimale. 
-
-![](images/ColorNamesHex.png)
-
-I codici colore ti consentono di creare qualsiasi colore, anche se non è in nessun elenco di nomi di colori.
-
-+ Prova a creare il tuo codice colore. Deve iniziare con `#`. Ciò indica al browser che si tratta di un codice esadecimale anziché di un nome di colore. Il resto del codice è composto da sei caratteri. Possono essere qualsiasi numero da **0 a 9** e qualsiasi lettera da **A a F**.
+So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
 
 ## \--- collapse \---
 
-## title: Come funziona?
+## title: What is content?
 
-Ogni colore è composto mescolando diverse quantità di **rosso**, **verde** e **blu**. A volte lo vedrai scritto come **RGB**. Ognuno di questi colori è rappresentato da due delle sei cifre del codice HEX. `00` è il minimo e `FF` è il massimo.
-
-**Esadecimale** è un modo di contare che rende i numeri più brevi da scrivere utilizzando le lettere A-F come cifre aggiuntive. Il numero `255` è scritto come `FF` in esadecimale. Non devi preoccuparti di imparare a contare con numeri esadecimali. Invece, sperimenta diversi codici esadecimali per abituarti a utilizzarli.
-
-+ Ecco alcuni colori di base da provare sul tuo sito web. Prova a inserire numeri più piccoli invece di `FF` per vedere come cambiano le tonalità.
-
-|      | R  | G  | B  |    Risultato    |
-| ---- | -- | -- | -- |:---------------:|
-| \# | FF | 00 | 00 |      Rosso      |
-| \# | 00 | FF | 00 |      Verde      |
-| \# | 00 | 00 | FF |       Blu       |
-| \# | FF | FF | 00 |     Giallo      |
-| \# | FF | 00 | FF |     Magenta     |
-| \# | 00 | FF | FF |      Ciano      |
-| \# | FF | 8c | 00 | Arancione scuro |
+**Content** is all the stuff on your web page, such astext and pictures.
 
 \--- /collapse \---
 
-Mescolare il colore perfetto può richiedere un sacco di sperimentazione. Fortunatamente, ci sono molti strumenti online per la selezione del colore che ti aiutano ad ottenere il codice esadecimale per qualsiasi colore tu voglia.
++ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
 
-![](images/W3ColorPicker.png)
+```html
+  <main>
+    <article>
+```
 
-+ Prova [questo selettore di colori](http://dojo.soy/html2-color-picker){:target="_blank"} per scegliere alcuni codici esadecimali da utilizzare per gli altri stili del tuo sito web.
++ If your editor automatically added in a closing `</article>` tag for you, delete it.
+
++ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
+
+```html
+    </article>
+  </main>
+```
+
+Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+
+```html
+  <main>
+    <article>
+      <h1>My favourite places to see in Ireland</h1>
+        <h2>The Cliffs of Moher</h2>
+        <p>
+        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+        <h2>Achill Island</h2>
+        <p>This is a large island off the coast of County Mayo. It has a wild and
+        beautiful landscape of mountains, bogs and cliffs.
+        </p>
+        <img src="achill.JPG" width="200px" />
+    </article>
+  </main>
+```
+
++ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
+
+```html
+  <article>
+    <h1>My favourite places to see in Ireland</h1>
+    <section>
+      <h2>The Cliffs of Moher</h2>
+      <p>
+      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+    </section>
+    <section>
+      <h2>Achill Island</h2>
+      <p>This is a large island off the coast of County Mayo. It has a wild and
+      beautiful landscape of mountains, bogs and cliffs.
+      </p>
+      <img src="achill.JPG" width="200px" />
+    </section>
+  </article>
+```
+
+## \--- collapse \---
+
+## title: What are the new tags all about?
+
+Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+
+This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+
+Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+
+### Article
+
+The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+
+### Section
+
+The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+
+### Others exist too!
+
+These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+
+\--- /collapse \---
+
+\--- challenge \---
+
+Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+
+## Challenge: organise your website
+
++ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
+
+\--- hints \---
+
+\--- hint \---
+
+Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+
+```html
+  <main>
+    <article>
+      <h1>Food in Ireland</h1>
+      <p>
+        These are some of my favourite Irish foods!
+      </p>  
+      <section>
+        <h2>Traditional Irish Breakfast</h2>
+        <p>
+          A "Full Irish" breakfast consists of sausages, rashers (bacon),
+          eggs, black pudding, white pudding and toast.
+        </p>
+        <p>
+          Often there will be a grilled tomato as well as mushrooms,
+          and baked beans.
+        </p>
+        <p>
+          And of course, no breakfast is complete without a lovely pot 
+          of tea!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bangers and Mash</h2>
+        <p>
+          This classic of sausages, mashed potato and gravy is not
+          unique to Ireland, but what makes it special is the Irish
+          sausages. Most countries have their own way of making sausages,
+          and they are one thing I miss from home if I'm away travelling!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bacon and Cabbage</h2>
+        <p>
+          I couldn't possibly make a list of Irish food without including
+          this very traditional dish!
+        </p>
+        <p>
+          It might not sound very interesting, but this hearty meal of
+          boiled ham, potatoes and green cabbage is tasty and filling.
+          I love to smother the potatoes in butter, and I also like a
+          little mustard with the bacon.
+        </p>
+        <p>
+          My mum always made it extra special by cooking the cabbage in
+          the water that the ham was boiled in.
+        </p>
+        <p>
+          If there are any leftovers you can make another one of my
+          favourites: <strong>fried cabbage</strong>!
+        </p>
+      </section>
+    </article>     
+  </main>
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+On the next card, you'll design a different theme for each page that's organised into articles and sections!
+
+\--- /challenge \---

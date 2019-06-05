@@ -1,158 +1,142 @@
-## Organisieren Sie Ihre Seite
+## Design some themes
 
-Bisher haben Sie **Überschriften** und **Absätze** , um Ihre **Inhalte** ordentlich und leicht lesbar zu machen. Machen wir es noch organisierter, indem wir Dinge zusammenfassen.
+Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
 
-## \--- Einsturz \---
++ Go to your style sheet file and add the following — be sure to include the dot in front!
 
-## Titel: Was ist Inhalt?
-
-**Inhalt** alle Inhalte auf Ihrer Webseite, z. B. Text und Bilder.
-
-\--- / einklappen \---
-
-+ Gehen Sie zur Datei `attractions.html` (oder zu einer Ihrer eigenen Seiten, wenn Sie das Beispielprojekt nicht verwenden) und geben Sie in der oberen Zeile nur **unter** das öffnende `<main>` -Tag ein und geben Sie Folgendes in eine neue Zeile ein : 
-
-```html
-  <main>
-    <article>
+```css
+  .topDivider {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
+  }
 ```
 
-+ Wenn Ihr Editor automatisch ein abschließendes `</article>` -Tag für Sie hinzugefügt hat, löschen Sie es.
-
-+ Fügen Sie am Ende der Datei, nur **über** dem schließenden `</main>` -Tag, eine neue Zeile hinzu und schließen Sie das Element `artikel`:
++ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
 
 ```html
-    </article>
-  </main>
+  <section class="topDivider">
 ```
 
-Ihr `main` Element sollte jetzt ungefähr so ​​aussehen (Sie könnten zwischen den `Tags des Artikels` natürlich unterschiedliche Inhalte haben):
+You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+
+![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+
++ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
+
+## \--- collapse \---
+
+## title: How does it work?
+
+Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+
+With CSS **classes**, you're able to change the style of just **some** of the elements.
+
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+
+```css
+  .myAwesomeClass {
+    /* my cool style rules go here */
+  }
+```
+
+To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
 
 ```html
-  <main>
-    <article>
-      <h1>Meine Lieblingsorte in Irland</h1>
-        <h2>Die Klippen von Moher</h2>
-        <p>
-        Die Klippen von Moher sind in der Grafschaft Clare, wo ich bin. Schau, wie cool sie sind!</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>Dies ist eine große Insel vor der Küste der Grafschaft Mayo. Es hat eine wilde und schöne Landschaft mit Bergen, Mooren und Klippen.
-        </p>
-        <img src="achill.JPG" width="200px" />
-    </article>
-  </main>
+  class="myAwesomeClass"
 ```
 
-+ Schauen Sie sich nun den Inhalt in Ihrem `Artikel` und versuchen Sie ihn in Abschnitte aufzuteilen. Legen Sie dieses neue Paar Tags um jedes Bit: `<section> </section>`. Hier ist ein Beispiel dafür, wie es aussehen könnte:
+\--- /collapse \---
+
++ Ready to try another class? Add the following CSS code to `styles.css`:
+
+```css
+  .stylishBox {
+    background-color: #87CEFA;
+    color: #A52A2A;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F5FFFA;
+    border-radius: 10px;
+  }
+```
+
++ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
+
+It looks great, but now my sections are all squashed together.
+
+![Nice looking sections squashed together](images/squashedSections.png)
+
+You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+
++ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
+
+```css
+  .someSpacing {
+    padding: 10px;
+    margin-top: 20px;
+  }
+```
+
++ In your `html` code, add the new class to each of the elements you were working on, like this:
 
 ```html
-  <article>
-    <h1>Meine Lieblingsorte in Irland zu sehen</h1>
-    <section>
-      <h2>Die Klippen von Moher</h2>
-      <p>
-      Die Klippen von Moher sind in der Grafschaft Clare, wo ich bin. Schau, wie cool sie sind!</p>
-      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-    </section>
-    <section>
-      <h2>Achill Island</h2>
-      <p>Dies ist eine große Insel vor der Küste der Grafschaft Mayo. Es hat eine wilde und schöne Landschaft mit Bergen, Mooren und Klippen.
-      </p>
-      <img src="achill.JPG" width="200px" />
-    </section>
-  </article>
+  <section class="stylishBox someSpacing">
 ```
 
-## \--- Einsturz \---
+![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-## Titel: Worum geht es bei den neuen Tags?
+So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
 
-Stellen Sie sich diese neuen Elemente als **Container**. Sie werden verwendet, um Dinge zusammen zu gruppieren. Es ist ein bisschen so, als würde man Dinge in Kisten und Regalen in deinem Haus organisieren!
-
-Dies macht Ihre Website für Bildschirmleser freundlich, gibt Ihnen mehr Kontrolle über das Layout und, wie Sie sehen werden, ermöglicht es Ihnen, wirklich kreativ mit dem Styling zu werden.
-
-Alles kann zwischen den Tags eingefügt werden. Normalerweise wird es mehr als ein Element sein, aber es muss nicht sein. Es können HTML-Elemente jeglicher Art sein. Sie sagen dem Browser, dass alles zwischen diesen Tags zusammen gehört.
-
-### Artikel
-
-Das Element `Artikel` ist ein Container für ein ganzes Stück Inhalt, in diesem Fall eine Reihe von Informationen über Attraktionen in Irland. Wenn Sie verschiedene Teile des Inhalts haben, die nicht verwandt sind, sollten Sie jedes in sein eigenes `Artikel` Element setzen, anstatt einen Satz der Tags um das ganze Los zu legen.
-
-### Sektion
-
-Mit dem Element `section` können Sie verwandte Inhalte in kleinere Abschnitte aufteilen und jeden Abschnitt in einen eigenen Container einfügen.
-
-### Andere existieren auch!
-
-Dies sind nicht die einzigen Containerelemente in HTML. Wenn Sie jemals ein Menü erstellt und es dann zwischen `<nav> </nav>` Tags eingefügt haben, ist dies ein weiteres Beispiel für einen Containertyp. So sind `<main> </main>` und `<header> </header>` - können Sie noch mehr denken?
-
-\--- / einklappen \---
-
-\--- Herausforderung \---
-
-Ihre Webseite sieht vielleicht noch nicht anders aus, aber sobald der Inhalt in Containertags organisiert ist, können Sie mit CSS einige coole Dinge tun. Denken Sie daran, dass HTML steuert, wie Ihre Website organisiert ist, und CSS steuert, wie es aussieht.
-
-## Herausforderung: Organisieren Sie Ihre Website
-
-+ Organisieren Sie auf diese Weise alle Inhalte auf Ihrer Website mit den Containern `Artikel` und `Abschnitt`. 
-
-\--- Hinweise \---
-
-\--- Hinweis \---
-
-Sehen Sie sich die Seite "Essen" des Beispielprojekts an. Sie werden sehen, dass ich einen `Artikel` mit einer Reihe von `Abschnitt` Tags in die Datei `food.html`hinzugefügt habe:
++ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
 
 ```html
-  <main>
-    <article>
-      <h1>Essen in Irland</h1>
-      <p>
-        Dies sind einige meiner Lieblingsspeisen in Irland!
-      </p>  
-      <section>
-        <h2>Traditionelles irisches Frühstück</h2>
-        <p>
-          Ein "komplettes irisches" Frühstück besteht aus Würstchen, Speckscheiben, Eiern, Blutwurst, Blutwurst und Toast.
-        </p>
-        <p>
-          Oft gibt es eine gegrillte Tomate sowie Pilze und gebackene Bohnen.
-        </p>
-        <p>
-          Und natürlich ist kein Frühstück ohne eine schöne Kanne Tee komplett!
-        </p>
-      </section>
-
-      <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          Dieser Klassiker aus Würstchen, Kartoffelpüree und Soße ist nicht nur in Irland zu finden. Die meisten Länder haben ihre eigene Art, Würste zu machen, und sie sind eine Sache, die ich von zuhause vermisse, wenn ich auf Reisen bin!
-        </p>
-      </section>
-
-      <section>
-        <h2>Bacon and Cabbage</h2>
-        <p>
-          Ich könnte unmöglich eine Liste von irischem Essen machen, ohne dieses sehr traditionelle Gericht einzubeziehen!
-        </p>
-        <p>
-          Es klingt vielleicht nicht sehr interessant, aber diese herzhafte Mahlzeit aus gekochtem Schinken, Kartoffeln und Grünkohl ist lecker und sättigend.
-          Ich liebe es, die Kartoffeln in Butter zu ersticken, und ich mag auch ein wenig Senf mit dem Speck.
-        </p>
-        <p>
-          Meine Mutter machte es immer besonders, indem sie den Kohl im Wasser kochte, in dem der Schinken gekocht wurde.
-        </p>
-        <p>
-          Wenn es irgendwelche Reste gibt, kannst du noch einen meiner Favoriten machen: <strong>gebratener Kohl</strong>!
-        </p>
-      </section>
-    </article>     
-  </main>
+    <main class="stylishBox">   
 ```
 
-\--- /Hinweis \---
+Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
 
-\--- / Hinweise \---
+![CSS classes being used on the home page](images/homePageWithClasses.png)
 
-Auf der nächsten Karte entwerfen Sie ein anderes Thema für jede Seite, die in Artikeln und Abschnitten organisiert ist!
+\--- challenge \---
 
-\--- /Herausforderung \---
+## Challenge: make some new classes
+
++ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
+
+\--- hints \---
+
+\--- hint \---
+
+You can make a CSS class that defines just the width of an element like this:
+
+```css
+  .smallPictures {
+    width: 100px;
+  }
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+Here's an `img` tag with a `width` attribute:
+
+```html
+  <img src="tito.png" alt="Tito the dog" width="100px" />       
+```
+
+When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+
+```html
+  <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
+```
+
+By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /challenge \---

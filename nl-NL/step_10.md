@@ -1,102 +1,149 @@
-## Animatie
+## Teach Tito to roll over!
 
-Wist je dat je CSS kunt gebruiken om dingen te laten bewegen? Hoe zul je leren op deze kaart!
+You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
 
-+ Voordat je begint, zorg ervoor dat je een afbeelding op je website hebt met een `id` en een bijbehorende CSS blok welke de `width` instelt op `100 pixels`. Ik gebruik het beeld van Tito van hiervoor, en mijn CSS blok ziet er als volgt uit:
++ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
 
 ```css
-    #titoPicture {
-        border-radius: 100%;
-        width: 100px;
-    }
+  img {
+    border: 2px solid White;
+  }
+  img:hover {
+    border: 2px dashed Navy;
+  }
 ```
 
-+ Ga naar het einde van je CSS bestand en voeg de volgende code toe:
+You've just used a special type of CSS block called a **pseudo-class**.
 
-```css
-    @keyframes myFirstAnimation {
-        from {
-            width: 100px;
-        }
-        to {
-            width: 300px;
-        }
-    }
+## \--- collapse \---
+
+## title: How does it work?
+
+A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+
+Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+
+\--- /collapse \---
+
++ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
+
++ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
+
+```html
+    <p>
+      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+    </p>
 ```
 
-Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEersteAnimatie) aan die je aan elk element op je website kunt toevoegen. Wat denk je dat het zal doen?
-
-+ Zoek je CSS regels voor de afbeelding en voeg de volgende drie eigenschappen toe:
++ Add the following code to your style sheet, then run your code to see your lovely links in action.
 
 ```css
-    animation-name: myFirstAnimation;
-    animation-duration: 2s;
+  .niceLinks {
+    text-decoration: none;
+    color: #FFFAF0;
+  }
+  .niceLinks:hover {
+    color: #00FF7F;
+  }
+```
+
++ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
+
+You can combine all of these tricks with animations too!
+
++ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
+
+```css
+  #titoPicture {
+    border-radius: 100%;
+    width: 100px;
+  }
+  #titoPicture:hover {
+    animation-name: rollOver;
+    animation-duration: 1s;
     animation-iteration-count: 1;
+  }
+  @keyframes rollOver {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
 ```
 
-+ Bekijk nu wat er gebeurt op je webpagina! Probeer verschillende waarden voor `animatie-iteratie-count` om te zien wat het doet.
++ Can you guess what will happen?
 
-+ Laten we een andere animatie proberen! Voeg de volgende code toe aan het einde van je CSS-bestand:
++ Now shout "Roll over!" as you move the cursor over the picture!
+
+\--- challenge \---
+
+## Challenge: make glowing rainbow links
+
++ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
+
+\--- hints \---
+
+\--- hint \---
+
+Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
 
 ```css
     @keyframes rainbowGlow {
         0% {
-            color: #FFD700;
+            color: #00BFFF;
+        }
+        25% {
+            color: #00FF7F;
         }
         50% {
-            color: #663399;
+            color: #eeeeaf;
+        }
+        75% {
+            color: #eeafee;
         }
         100% {
-            color: #FFD700;
+            color: #00BFFF;
         }
     }
 ```
 
-+ Zoek nu de `#myCoolText` CSS regels van hiervoor en voeg de animatiecode toe:
+\--- /hint \---
+
+\--- hint \---
+
+To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+
+\--- /hint \---
+
+\--- hint \---
+
+You can add `hover` effects directly to the `nav` menu like this:
 
 ```css
-    #myCoolText {        
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-        animation-name: rainbowGlow;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-    }
+  nav ul li a:hover {
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
 ```
 
-Wanneer je **procentuele waarden** gebruikt in plaats van `from` en `to`, kun je tussen waarden instellen en niet alleen begin- en eindwaarden. Je kunt net zoveel tussenliggende waarden instellen als je wilt, met verschillende percentages van `0` helemaal tot `100`.
-
-+ Wijzig de waarde van `animation-iteration-count` tot `infinite` (oneindig). Kijk of je kunt raden wat er zal gebeuren voordat je het test!
-
-+ Probeer verschillende waarden uit voor `animation-duration` om je animatie te versnellen of te vertragen.
-
-+ Een laatste truc! Voeg deze animatiecode toe:
+Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
 
 ```css
-    @keyframes slide {
-        0% {
-            background-position-x: 0;
-        }
-        100% {
-            background-position-x: 600vw;
-        }
-    }
+  .niceLinks:hover {
+    color: #00BFFF;
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
 ```
 
-+ Zoek nu de `#frontPage` CSS-regels die je eerder hebt geschreven en wijzig deze in:
+\--- /hint \---
 
-```css
-    #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-        background-size: 600vw 600vw;
-        animation: slide 10s infinite linear forwards;
-    }
-```
+\--- /hints \---
 
-Maak je geen zorgen als je bovenstaande code niet begrijpt ... leun achterover en geniet ervan!!
+\--- /challenge \---
 
-Ga naar [deze webpagina](http://dojo.soy/html2-css-animation) {: Target = "_ blank"} voor meer informatie over andere dingen die je met animatie kunt doen. Veel plezier!
-
-Op de volgende kaart leer je hoe je leuke dingen kunt laten gebeuren als je met de muis over dingen beweegt!
+![](images/badge-footer-image-html-intermed.png)

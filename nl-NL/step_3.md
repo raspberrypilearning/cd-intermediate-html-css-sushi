@@ -1,53 +1,53 @@
-## All the colours!
+## Alle kleuren!
 
-As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
+Zoals je al eerder hebt gezien, kun je veel verschillende kleurnamen typen als woorden en de browser herkent ze. Maar een meer gebruikelijke manier om kleuren in te stellen is om iets te gebruiken dat **hex-codes** heet ('hex' is een afkorting van **hexadecimaal**, een speciale manier om te tellen).
 
-+ Take a look at your **style sheet**. That's the file that has `.css` in the name.
++ Bekijk je **style sheet**. Dat is het bestand met `.css` in de naam.
 
-+ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
++ Zet binnen de CSS-regels voor `body`, de achtergrondkleur op de hex-code `#7B68EE`:
 
 ```html
   background-color: #7B68EE;
 ```
 
-Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+Opmerking: als je een Mac gebruikt, typ je `#` door tegelijkertijd op de <kbd>alt</kbd> en de <kbd>3</kbd> toets te drukken.
 
-Your website should now have a purple background.
+Je website zou nu een paarse achtergrond moeten hebben.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
++ Geen fan van paars? Ga naar [deze webpagina](http://dojo.soy/html2-colors) {:target="_blank"} en kies een andere kleur voor je stylesheet \--- typ in plaats van de naam van de kleur de hex-code in. 
 
 ![](images/ColorNamesHex.png)
 
-Colour codes allow you to create any colour, even if it's not on any list of colour names.
+Met kleurcodes kunt je elke kleur maken, zelfs als deze niet in een lijst met kleurnamen voorkomt.
 
-+ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
++ Probeer je eigen kleurcode te maken. Het moet beginnen met een `#`. Dit vertelt de browser dat het een hex-code is in plaats van een kleurnaam. De rest van de code bestaat uit zes tekens. Ze kunnen elk nummer van **0 tot 9** zijn en elke letter van **A tot F**.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Hoe werkt het?
 
-Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
+Elke kleur wordt gemaakt door verschillende hoeveelheden **rood**, **groen** en **blauw** te mengen. Dit wordt soms als **RGB** geschreven. Elk van deze kleuren wordt weergegeven door twee van de zes cijfers in je HEX-code. `00` is het minimum en `FF` is het maximum.
 
-**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
+**Hexadecimal** is een manier van tellen die nummers korter maakt om te schrijven door de letters A-F als extra tekens te gebruiken. Het nummer `255` wordt in hexadecimaal geschreven als `FF`. Je hoeft je geen zorgen te maken over het leren tellen met hexadecimale getallen. Experimenteer in plaats daarvan met verschillende hex-codes om te wennen aan het gebruik ervan.
 
-+ Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
++ Hier zijn enkele basiskleuren om op je website uit te proberen. Probeer kleinere getallen in te voeren in plaats van `FF` om te zien hoe de tinten veranderen.
 
-|      | R  | G  | B  |   Result    |
-| ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
-| \# | FF | 8c | 00 | Dark orange |
+|      | R  | G  | B  |   Resultaat   |
+| ---- | -- | -- | -- |:-------------:|
+| \# | FF | 00 | 00 |     Rood      |
+| \# | 00 | FF | 00 |     Groen     |
+| \# | 00 | 00 | FF |     Blauw     |
+| \# | FF | FF | 00 |     Geel      |
+| \# | FF | 00 | FF |    Magenta    |
+| \# | 00 | FF | FF |     Cyaan     |
+| \# | FF | 8c | 00 | Donker oranje |
 
 \--- /collapse \---
 
-Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
+Het mengen van de perfecte kleur betekend veel experimenteren. Gelukkig zijn er tal van online kleurenkiezer tools waar je voor elke gewenste kleur de hex-code kunt vinden.
 
 ![](images/W3ColorPicker.png)
 
-+ Try out [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.
++ Probeer deze [kleurenkiezer](http://dojo.soy/html2-color-picker) {:target="_blank"} uit om een ​​aantal hex-kleurcodes te kiezen voor de rest van de stijlen op je website.

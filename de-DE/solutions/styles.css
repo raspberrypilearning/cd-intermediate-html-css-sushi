@@ -101,7 +101,7 @@ article {
   width: 200px;
 }
 
-/* hover effects on links using a CSS class */
+/ * Hover-Effekte für Links mit einer CSS-Klasse * /
 .niceLinks {
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ article {
 }
 
 
-/* Styling for individual elements by ID */
+/ * Styles für einzelne Elemente nach ID * /
 
 #myCoolText {
   color: #000080;
@@ -125,7 +125,7 @@ article {
 #frontPage {
   background: #48D1CC;
   
-  /*pastel colours version*/
+  / * Pastellfarbene Version * /
   /*background: repeating-linear-gradient(-45deg, #eeafbf 0%,*/
   /*#eeeeaf 7.14%, #afeeaf 14.28%,*/
   /*#afeeee 21.42%, #afeeee 28.56%, */
@@ -138,7 +138,7 @@ article {
   #afeeaf 0%, #afeeaf 40%, #afeeee 50%);
   /*, #eeeeaf 50%);*
   
-  /*bright colours version*/
+  /*helle Farbversion*/
   /*background: repeating-linear-gradient(-45deg, red 0%, */
   /*yellow 7.14%, lime 14.28%,*/
   /*cyan 21.42%, cyan 28.56%, */
@@ -167,9 +167,9 @@ article {
   animation-iteration-count: 1;
 }
 
-/**********************************
-This section is for styling tables
-***********************************/
+/ ***********************************
+Dieser Bereich beschreibt die Tabellenstile
+************************************ /
 table, th, td {
   border: 1px solid #F0FFF0;
   border-collapse: collapse;
@@ -188,10 +188,10 @@ th {
 td {
   color: #800080;
 }
-/********************************/
+/ ********************************* /
 
 
-/* Animations */
+/ * Animationen * /
 
 @keyframes myFirstAnimation {
   from {
@@ -237,7 +237,7 @@ td {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
 

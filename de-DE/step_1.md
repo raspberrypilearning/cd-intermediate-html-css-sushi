@@ -1,10 +1,10 @@
 ## Einleitung
 
-Nutzen Sie Ihre vorhandenen HTML / CSS-Kenntnisse, um eine Website zu erstellen und mehr Kontrolle darüber zu erlangen, wie sie aussieht.
+Bau auf deinen vorhandenen HTML/CSS-Kenntnissen auf, um eine Website zu erstellen und mehr Kontrolle darüber zu haben, wie sie aussieht.
 
 ### Was du machen wirst
 
-Hier ist ein Beispiel, wie Ihre Website nach dem Ausfüllen dieser Sushi-Karten aussehen könnte:
+Hier ist ein Beispiel, wie Deine Website nach beenden dieser Sushi-Karten aussehen könnte:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Hier ist ein Beispiel, wie Ihre Website nach dem Ausfüllen dieser Sushi-Karten 
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
-+ So erstellen Sie Ihre eigenen Farben mit Code
-+ Möglichkeiten, Inhalte auf Ihrer Website zu organisieren, sodass Sie Stile anwenden und sie für Bildschirmleseprogramme benutzerfreundlich gestalten können
-+ So verwenden Sie CSS-Stile zum Erstellen von Designs sowie zum Formatieren einzelner Elemente
-+ Kontrolle der Größe von Elementen mit verschiedenen Arten von Messungen
-+ Wenn Sie den Mauszeiger über Elemente auf Ihrer Seite bewegen, geschieht dies
-+ Animieren von Elementen Ihrer Website mit CSS
-+ Wie Sie mit den Entwicklertools einen Blick auf den Code einer Website werfen und Teile von Ihnen testen können
++ Wie Du deine eigenen Farben mit Code erstellst
++ Möglichkeiten, Inhalte auf Deiner Website zu organisieren, sodass Du Stile anwenden und sie für Bildschirmleseprogramme benutzerfreundlich gestalten kannst
++ Wie Du CSS-Stile verwendest um sowohl ganze Designs zu erstellen, als auch einzelne Elemente zu gestalten
++ Die Größe von Elementen mit verschiedenen Arten von Messungen zu kontrollieren
++ Dinge geschehen zu lassen, wenn Du den Mauszeiger über Elemente auf Deiner Seite hälst
++ Elemente auf Deiner Website mit CSS zu animieren
++ Wie Du mit den Entwicklertools einen Blick auf den Code einer Website wirfst und Teile Deiner eigenen testen kannst
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Einen Computer, der auf [trinket.io](https://trinket.io){:target="_blank"} zugreifen kann
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Dieses Projekt kann in einem Webbrowser mit [trinket.io](https://trinket.io){:target="_blank"} abgeschlossen werden.
 
 \--- /collapse \---

@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## ضبط الحجم تلقائيًا
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+حتى الآن كنت تستخدم ** بكسل ** لضبط حجم الأشياء، على سبيل المثال ` 10px` ١٠ بكسل. في هذه البطاقة سوف تتعرف على القياسات الأخرى التي يمكنك استخدامها.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ انتقل إلى ` index.html ` واعثر على عنصر ` img ` مع صورة تيتو، أو اي علامة ` img آخر ` على موقع الويب الخاص بك.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ احذف خاصية العرض ` width ` إذا كانت موجودة، وإعطء العنصر معرف ` id ` إذا لم يكن لديك بالفعل واحدة.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ في ملف CSS، عرّف خاصية العرض ` width ` لصورتك كما هو موضح أدناه (قد تحتاج إلى إنشاء كتلة CSS ذات المعرف المحدد ` id ` إذا لم تكن قد فعلت ذلك بالفعل على بطاقة سابقة).
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+ملاحظة: ٥٠٪ (نسبة مؤية٥٠) هي **نصف**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ حاول تغيير حجم نافذة المتصفح وشاهد ما يحدث للصورة.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+يجب أن ترى أن الصورة تصبح أكبر وأصغر عندما تجعل النافذة أكبر وأصغر. ذلك لأنها تشغل ٥٠٪ من عرض العنصر ** main ** (وهو ما يقرب من عرض الصفحة).
 
 ## \--- collapse \---
 
-## العنوان: كيف يعمل؟
+## title: كيف يعمل؟
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+عندما تقوم بتعيين حجم شيء بالبكسل، فأنت تحدد حجمًا دقيقًا ولا يتغير. وهذا ما يسمى القياس** المطلق **.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+هناك طريقة أخرى لضبط حجم الأشياء وهي استخدام ** القياسات النسبية **، بحيث يعتمد هذا الحجم على كيفية مقارنة العناصر الكبيرة مع بعضها البعض. ثم، عندما يتغير حجم شيء واحد، فإن كل شيء آخر سوف يغير الحجم تلقائيًا للحفاظ على نفس ** النسب **.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+عندما تستخدم ** القياسات النسبية **، من المهم معرفة ما هو ** الأصل ** من العنصر الخاص بك. الاصل هو الشيء الذي يوجد داخل العنصر الخاص بك، وهذا ما سيكون عليه القياس. على سبيل المثا ، أصل الصورة أعلاه هو عنصر مقالة ` article`، لأن العنصر ` img ` بين العلامات`<article></article>`.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+إذا قمت بتعيين عرض العنصر` width ` إلى `١٠٠٪` ، مما يجعله بنفس عرض الحاوية الأصل الموجود بها.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ تجربة بأرقام مختلفة أمام `٪ `.

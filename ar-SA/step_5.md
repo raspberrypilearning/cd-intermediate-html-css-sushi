@@ -1,8 +1,8 @@
-## Design some themes
+## صمم بعض المواضيع
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+من الرائع كتابة قواعد CSS لعناصر مثل `القسم` و `p`، ولكن ماذا لو كنت تريد أن تجعل بعضها يبدو مختلفًا عن الآخرين؟ في هذه البطاقة ستتعلم كيفية تطبيق مجموعات مختلفة من قواعد الانماط على عناصر من نفس النوع وإنشاء سمة مختلفة لكل صفحة على موقع الويب الخاص بك!
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ انتقل إلى ملف ورقة الأنماط الخاص بك وأضف ما يلي - تأكد من تضمين النقطة في المقدمة!
 
 ```css
   .topDivider {
@@ -13,35 +13,35 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
   }
 ```
 
-+ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ الآن انتقل الى <0attractions.html</code> أو (اذا كنت تشتغل مشروع خاص بك فاذهب الى ملف HTML الخاص بك) ثم أضف التالي ** attribute** (عنصر المقالة) لكل ` section` (عنصر القسم):
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+يجب أن ترى خطًا يظهر أعلى كل قسم في الصفحة. تهانينا - لقد استخدمت للتو مصنفك الاول لـ ** CSS **!
 
 ![Page with lines in between the sections](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ انظر كيف تبدو صفحة الويب الخاصة بك الآن وقارنها بالصفحات الأخرى التي تحتوي على عناصر `قسم`. سترى أنه فقط في الاجزاء التي أضفت لها الخاصية ` class = "topDivider" ` سوف يكون الخط في الاعلى.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: كيف يعمل؟
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+تذكر عندما تستخدم **محدد** CSS مثل القسم ` section` او `p` او `nav ul`، فان قواعد النمط تنطبق على **جميع** العناصر من ذاك النوع في موقع الويب الخاص بك.
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+مع أصناف **CSS**، فقط يمكنك تغيير نمط ** بعض ** من العناصر.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+وضع نقطة أمام المحدد الخاص بك سيجعل منه **محدد صنف**. يمكن أن يكون للصنف أي اسم، لذلك من الممكن أن لا يكون نفس الاسم لعنصر HTML. مثال:
 
 ```css
   .myAwesomeClass {
-    /* my cool style rules go here */
+    /*قواعد أنماطي الرائعة تأتي هنا */
   }
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+لاختيار أي من العناصر التي ستنطبق عليها قواعد النمط، يمكنك إضافة `صنف` **خاصية** لتلك العناصر في كود HTML: ضع اسم الصنف كقيمة للخاصية، ** بدون ** النقطة، مثل هذا:
 
 ```html
   class="myAwesomeClass"
@@ -49,7 +49,7 @@ To choose which elements the style rules apply to, you add the `class` **attribu
 
 \--- /collapse \---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ هل أنت مستعد لتجربة مصنف آخر؟ أضف كود CSS التالي إلى الملف `styles.css`:
 
 ```css
   .stylishBox {
@@ -62,15 +62,15 @@ To choose which elements the style rules apply to, you add the `class` **attribu
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ ثم ، في صفحة مختلفة من موقع الويب الخاص بك ، أضف الصنف إلى بعض العناصر هناك. سأقوم بإضافته إلى عنصر `القسم` في صفحة الطعام على موقع الويب الخاص بي، مثل هذا: `<section class="stylishBox">`.
 
-It looks great, but now my sections are all squashed together.
+تبدو رائعة، ولكن الآن كل أقسامي ملتصقة معًا.
 
 ![Nice looking sections squashed together](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+يمكنك تطبيق اي عدد من فئات CSS على العنصر كما تريد. اكتب فقط أسماء جميع الفئات التي تريد استخدامها داخل خاصية الصنف ` class` (وتذكر ، بدون النقطة!) ، وافصل بينها بمسافات.
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ دعونا نصنع صنف CSS آخر لإعطاء الأقسام بعض الهامش والحشو. في ملف `styles.cs `، قم بإنشاء صنف CSS التالي:
 
 ```css
   .someSpacing {
@@ -79,7 +79,7 @@ You can apply as many CSS classes to an element as you like. Just write the name
   }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ في شفرة `html` الخاصة بك، أضف الصنف الجديد إلى كل عنصر من العناصر التي كنت تعمل عليها، مثل هذا:
 
 ```html
   <section class="stylishBox someSpacing">
@@ -87,29 +87,29 @@ You can apply as many CSS classes to an element as you like. Just write the name
 
 ![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+لذا تتيح لك اصناف CSS** الاختيار ** ما هي العناصر التي يتم إضفاء طابع جديد عليها، وهي تتيح لك ** إعادة استخدام** نفس مجموعة قواعد النمط على أي عناصر تريدها.
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ انتقل إلى ` index.html ` وأضف صنف` stylishBox ` إلى عنصر` main `، أو اي عنصر آخر على الصفحة. يمكنك إزالته مرة أخرى لاحقاً!
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+إليك ما تبدو عليه صفحتي الرئيسية مع مصنف CSS. لقد أضفت أيضًا مصنف`topDivider ` إلى صفحة ` img ` مع صورة تيتو.
 
 ![CSS classes being used on the home page](images/homePageWithClasses.png)
 
 \--- challenge \---
 
-## Challenge: make some new classes
+## تحدي: أصنع بعض الاصناف الجديدة
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ استخدم صنف CSS ** ** لتحديد بعض أحجام الصور المختلفة لموقع الويب الخاص بك، على سبيل المثال `.smallPictures` و `.mediumPictures`. ثم قم بإزالة خاصية العرض ` width ` من كل عناصر ` img ` وإضافة الصنف المناسب بدلا من ذلك.
 
 \--- hints \---
 
 \--- hint \---
 
-You can make a CSS class that defines just the width of an element like this:
+يمكنك إنشاء صنف CSS الذي يحدد عرض عنصر فقط مثل هذا:
 
 ```css
   .smallPictures {
@@ -121,19 +121,19 @@ You can make a CSS class that defines just the width of an element like this:
 
 \--- hint \---
 
-Here's an `img` tag with a `width` attribute:
+إليك صغحة ` img ` بخاصية عرض `width `:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+عند إزالة خاصية العرض ` width` والتحكم في الحجم باستخدام صنف CSS بدلاً من ذلك، يبدو كما يلي:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+باستخدام صنف CSS، يمكنك بسهولة تغيير عرض جميع الصور في وقت واحد عن طريق تغيير سطر واحد فقط من التعليمات البرمجية في ورقة الأنماط الخاصة بك!
 
 \--- /hint \---
 

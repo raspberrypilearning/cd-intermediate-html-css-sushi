@@ -1,6 +1,6 @@
 ## 들어가며
 
-기존 HTML / CSS 기술을 바탕으로 웹 사이트를 만들고 웹 사이트를보다 잘 제어 할 수 있습니다.
+기존의 HTML/CSS 지식을 바탕으로 웹 사이트를 제작해 보고 웹 사이트 외관 구현능력을 향상시킵니다.
 
 ### 만들 작품
 
@@ -13,28 +13,28 @@
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 배우게 될 것
 
-+ 코드를 사용하여 자신 만의 색을 만드는 법
-+ 스타일을 적용하고 스크린 리더에게 친숙하게 만들 수 있도록 웹 사이트의 콘텐츠를 구성하는 방법
-+ CSS 스타일링을 사용하여 개별적인 요소를 스타일링하고 스타일을 생성하는 방법
-+ 여러 종류의 측정으로 요소의 크기 제어
-+ 페이지의 요소 위로 마우스를 이동하면 작업이 수행됩니다.
-+ CSS로 웹 사이트의 요소에 애니메이션 적용
-+ 개발자 도구를 사용하여 웹 사이트 코드를 살짝 보며 자신의 일부를 테스트하는 방법
++ 코드를 사용해 자신만의 색깔을 만드는 법
++ 웹 사이트 방문자가 보기 편하도록 웹 사이트의 콘텐츠를 구성하는 방법
++ CSS 스타일링을 사용하여 테마와 스타일 개별요소(element) 를 생성하는 방법
++ 다양한 수단으로 요소(element)의 크기를 조절하는 방법
++ 웹페이지의 요소(element) 위에 마우스를 올리면 다른 작업이 실행되도록 하는 방법
++ CSS로 웹 사이트의 요소에 애니메이션을 적용하는 방법
++ 개발자 도구를 사용하여 다른 웹 사이트의 소스코드를 살펴보고, 이를 활용하여 내 웹사이트를 테스트하는 방법
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ [trinket.io](https://trinket.io){:target="_blank"} 에 접속 가능한 컴퓨터
 
-### Software
+### 소프트웨어
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+이 프로젝트는 [trinket.io](https://trinket.io){:target="_blank"}를 사용하는 웹 브라우저에서 완성할 수 있습니다.
 
 \--- /collapse \---

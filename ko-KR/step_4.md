@@ -1,4 +1,4 @@
-## Organising your page
+## 내 페이지 구성하기
 
 So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
 

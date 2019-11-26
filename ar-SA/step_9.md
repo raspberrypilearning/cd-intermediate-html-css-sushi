@@ -1,8 +1,8 @@
-## Animation
+## الرسوم المتحركة
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+هل تعلم أنه يمكنك استخدام CSS لجعل الاشياء تتحرك؟ سوف تتعلم كيف في هذه البطاقة!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ قبل أن تبدأ، تأكد من أن لديك صورة على موقع الويب الخاص بك مع معرف ` id ` وكتلة CSS المقابلة لها والتي تحدد العرض ` width ` إلى ` 100 بكسل `. سأستحدم صورة تيتو التي استخدمناها سابقاً، وكتلة CSS الخاصة بي تشبه التالي:
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ انتقل إلى أسفل ملف CSS وأضف الكود التالي:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+يقوم هذا الرمز بإنشاء رسم متحرك يسمى ` myFirstAnimation ` الذي يمكنك إضافته إلى أي عنصر على موقع الويب الخاص بك. ما الذي تظن أنه سيفعل؟
 
-+ Find your CSS rules for the picture and add the following three properties:
++ ابحث عن قواعد CSS للصورة وأضف الخصائص الثلاثة التالية:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ والآن شاهد ما يحدث على صفحة الويب الخاصة بك! جرب قيمًا مختلفة للمتغير `animation-iteration-count` لنرى ماذا يفعل.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ لنجرب رسوم متحركة أخرى! أضف الكود التالي إلى نهاية ملف CSS الخاص بك:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ الآن ابحث عن ` #myCoolText ` في قواعد CSS التي استخدمتها سابقاً وإضف التعليمات البرمجية الخاصة بالحركة:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+عند استخدام قيم **النسبة المئوية** بدلاً من ` من ` و ` إلى `، ستتمكن من ضبط القيم الفاصلة وكذلك قيم البداية والنهاية. يمكنك تعيين العديد من القيم الفاصلة بين ما تريد باستخدام قيم النسبة المئوية المختلفة من ` 0 ` حتى ` 100 `.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ قم بتغيير قيمة `animation-iteration-count` إلى لا نهائية ` infinite `. أنظر إذا ما كان يمكنك تخمين ما سيحدث قبل اختباره!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ جرب قيمًا مختلفة لـ `animation-duration ` لتسريع أو إبطاء الرسوم المتحركة الخاصة بك.
 
-+ One final trick! Add this animation code:
++ خدعة أخيرة! أضف هذه التعليمات البرمجية للرسوم المتحركة:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ الآن يمكنك العثور على قواعد CSS `#frontPage` التي كتبتها سابقًا وتغييرها إلى:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+لا تقلق بشأن فهم كل الكود الذي قمت بلصقه للتو... فقط اجلس وتمتع بها!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+لمعرفة المزيد من الأشياء التي يمكنك القيام بها باستخدام الرسوم المتحركة، تفضل بزيارة [ صفحة الويب هذه ](http://dojo.soy/html2-css-animation){:target="_blank"}. امرح!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+على البطاقة التالية، ستتعلم كيفية جعل الأشياء الرائعة تحدث عندما تحوم مؤشر الماوس فوق الأشياء!

@@ -1,8 +1,8 @@
 ---
-title: Guide to my country 2.0
+title: دليل لبلادي 2.0
 hero_image: images/banner.png
 description: خذ مهارات تصميم موقع الويب الخاص بك
-theme: red
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -19,20 +19,20 @@ steps:
   - 
     title: المقدمة
   - 
-    title: Getting set up
+    title: هيا بنا لنبدأ
   - 
-    title: All the colours!
+    title: كل الألوان!
   - 
-    title: Organising your page
+    title: تنظيم صفحتك
   - 
-    title: Design some themes
+    title: صمم بعض المواضيع
   - 
-    title: Individual style
+    title: أسلوب فردي
   - 
-    title: See the code on other websites!
+    title: انظر الكود على المواقع الأخرى!
   - 
-    title: Automatically adjust the size
+    title: ضبط الحجم تلقائيًا
   - 
-    title: Animation
+    title: الرسوم المتحركة
   - 
-    title: Teach Tito to roll over!
+    title: علّم تيتو ليتدحرج!

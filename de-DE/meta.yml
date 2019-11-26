@@ -1,8 +1,8 @@
 ---
-title: Guide to my country 2.0
+title: Tour durch mein Land 2.0
 hero_image: images/banner.png
-description: Nimm deine Designfähigkeiten auf der Webseite mit!
-theme: red
+description: Erweitere Deine Fähigkeiten im Bereich Website-Design!
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -10,7 +10,7 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: Coderdojo, Projekte
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 1
@@ -19,20 +19,20 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Getting set up
+    title: Vorbereitungen
   - 
-    title: All the colours!
+    title: Alle Farben!
   - 
-    title: Organising your page
+    title: Organisiere Deine Seite
   - 
-    title: Design some themes
+    title: Entwirf einige Themen
   - 
-    title: Individual style
+    title: Individueller Stil
   - 
-    title: See the code on other websites!
+    title: Sieh den Code auf anderen Websiten!
   - 
-    title: Automatically adjust the size
+    title: Passe die Größe automatisch an
   - 
-    title: Animation
+    title: Animationen
   - 
-    title: Teach Tito to roll over!
+    title: Bringe Tito bei, sich zu drehen!

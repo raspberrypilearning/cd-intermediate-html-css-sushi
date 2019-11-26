@@ -1,41 +1,41 @@
-## Getting set up
+## Mise en place
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Accède au projet du trinket de démarrage à [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start) {:target="_ blank"}. Les exemples dans ces cartes Sushi sont principalement basés sur ce projet.
 
-- If you prefer, you can work with a website that you already made.
+- Si tu préfères, tu peux travailler avec un site Web que tu as déjà créé.
 
 ## \--- collapse \---
 
-## title: I have an account on Trinket
+## title: J'ai un compte sur Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Clique sur le bouton **Remix** dans le coin supérieur droit du projet (si tu n'es pas connecté, tu seras invité à le faire. Une fois que tu t'es connecté, tu devras cliquer à nouveau sur le bouton **Remix**). Cela crée une copie du projet pour que tu puisses travailler avec. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Bouton Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Il devrait dire **remixed** après l'avoir cliqué :
 
-![Button now says "remixed"](images/tktRemixedSmall.png)
+![Le bouton dit maintenant "remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: I don't have an account on Trinket
+## title: Je n'ai pas de compte sur Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Même si tu n'as pas de compte, tu peux toujours travailler avec Trinket.
 
-### Saving your work
+### Enregistrer ton travail
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Tu peux enregistrer ton travail en utilisant l'une des options dans le menu **Share** . Tu peux télécharger le projet ou obtenir un lien que tu peux enregistrer, par exemple dans un document, ou l'envoyer par courrier électronique. **Note**: chaque fois que tu effectues un changement au projet, tu obtiendras un nouveau lien.
 
-### How to sign up for an account
+### Comment créer un compte
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Si tu souhaites créer un compte sur Trinket, suis les étapes ci-dessous. Cela te permettras d'accéder facilement à ton travail depuis n'importe quel ordinateur, et aux projets **remix** que quelqu'un d'autre a partagés avec toi (cela veux dire enregistrer une copie à laquelle tu peux apporter des changements).
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- Dans l'onglet du navigateur contenant le projet du trinket de démarrage, clique sur **Sign Up For Your Free Account**. Tu auras besoin d'une adresse e-mail pour t'inscrire.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Entre ton adresse e-mail et choisis un mot de passe, ou demande à quelqu'un de le faire pour toi.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Tu peux maintenant accéder à tous tes projets enregistrés ou remixés en cliquant sur ton nom d'utilisateur et en allant vers **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
 
 \--- /collapse \---

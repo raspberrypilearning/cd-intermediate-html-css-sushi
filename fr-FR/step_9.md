@@ -1,8 +1,8 @@
 ## Animation
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+Savais-tu que tu peux utiliser CSS pour faire bouger les choses? Tu apprendras comment sur cette carte!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ Avant de commencer, assure-toi d’avoir une photo sur ton site Web avec un `id` et un bloc CSS correspondant qui définit le `width` à `100px` . J'y vais avec l'image de Tito d'avant, et mon bloc CSS ressemble à ceci :
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ Va au bas de ton fichier CSS et ajoute le code suivant:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+Ce code crée une animation appelée `myFirstAnimation` que tu peux ajouter à n’importe quel élément de ton site Web. Que penses-tu que ça fera?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ Recherche tes règles CSS pour l'image et ajoute les trois propriétés suivantes:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ Maintenant, regarde ce qui se passe sur ta page Web! Essaie différentes valeurs pour `animation-iteration-count` pour voir ce qu'il fait.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ Essayons une autre animation! Ajoute le code suivant à la fin de ton fichier CSS:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ Maintenant, trouve les règles CSS `#myCoolText` précédemment et ajoute dans le code d'animation:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+Lorsque tu utilises les **valeurs en pourcentage** au lieu de `from` et `to` , tu peux définir des valeurs intermédiaires ainsi que des valeurs de début et de fin. Tu peux définir autant de valeurs intermédiaires que tu le souhaites en utilisant différentes valeurs de pourcentage de `0` jusqu'à `100`.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ Change la valeur de `animation-iteration-count` sur`infini`. Vois si tu peux deviner ce qui se passera avant de le tester!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ Essaie différentes valeurs pour `animation-duration` pour accélérer ou ralentir ton animation.
 
-+ One final trick! Add this animation code:
++ Un dernier tour! Ajoute ce code d'animation:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ Maintenant, trouve les règles CSS `#frontPage` que tu as écrites précédemment et les changer en:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+Ne t’inquiète pas de comprendre tout le code ci-dessus... assieds-toi et profite !!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+Pour en savoir plus sur l’animation, visite [cette page Web](http://dojo.soy/html2-css-animation) {:target= "_ blank"}. Amuse-toi bien!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+Sur la carte suivante, tu apprendras à créer des choses intéressantes quand tu survoles des objets avec le curseur de ta souris!

@@ -1,18 +1,18 @@
-## Individual style
+## أسلوب فردي
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+دعونا نقوم ببهرجة الصفحة الرئيسية قليلا! مع نوع آخر من محدد CSS ، يمكنك تطبيق مجموعة فريدة من قواعد CSS على ** عنصر محدد واحد فقط **.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ انتقل إلى ` index.html ` وقم بايجاد الفقرة (`p`)، أو إضافة واحدة إذا لم يكن لديك واحدة. قم باضافة **الخاصية** التالية إلى العلامة:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+    موقع الويب الخاص بي عن أيرلندا.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+المعرف `id ` هو الاسم الذي تحدده لعنصر معين **لتعرّفه**. لا يجب أن يكون لعنصران في الصفحة نفس المعرف `id `!
 
-+ Now go to your style sheet and add the following code:
++ اذهب الآن إلى صفحة الأنماط وأضف الكود التالي:
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+يستخدم محدد مع العلامة ` # ` أمامه لتطبيق قواعد CSS على عنصر واحد محدد على موقع الويب الخاص بك. يمكنك تحديد العنصر بمساعدة الاسم الذي قمت بتعيينه `id` لخاصية العنصر.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ دعونا نفعل واحدة `لمتن` الصفحة الرئيسية. انتقل إلى ` index.html ` وأضف معرف ` id` إلى ورقة ` المتن `.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ في ورقة الأنماط، أضف قواعد CSS التالية:
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+يجب أن نرى شيئا يشبه هذا:
 
 ![Rainbow gradient background](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+لقد استخدمت للتو تدرج ** gradient) </0)>! هذا هو الاسم الذي يُعطى للتأثير حيث يتلاشى لون في الآخر. ملاحظة: إن خاصية أول ` خلفية ` فوق التدرج اللوني تحدد لونًا افتراضيًا للمتصفحات التي لا تدعم التدرجات اللونية.</p> 
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+إذا قمت بكتابة التعليمات البرمجية بشكل مثالي ولم تحصل على تأثير قوس قزح الرائع أعلاه ، فقد يكون متصفحك لا يدعم التدرجات اللونية.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+يمكنك صنع الكثير من المؤثرات المختلفة ياستخدام التدرجات. إذا كنت تريد معرفة المزيد، قم بالنقر[ هنا ](http://dojo.soy/html2-css-gradients) {:target="_blank"}.
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## Challenge: قم بتغيير تصميم عناصر أكثر
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ حاول إعطاء عنصر آخر معرف `id ` وقم بتصميم هذا العنصر باستخدام محدد الهوية باستخدام ` # ` كما في أعلاه. ماذا عن صنع صورة واحدة لها `حدود قطرية` من ` 100٪ ` بحيث يتم تقريبه بالكامل؟ أي صور أخرى على الموقع ستبقى كما هي. 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+يمكنك إعطاء العنصر معرف `id ` بإضافة خاصية المعرف `id ` إلى علامة HTML، مثل هذا:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+اختر اسم أي معرف ` id` تريده.
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+لتحديد قواعد النمط لعنصر معين، يمكنك استخدام الرمز `#` والاسم الذي أعطيته للعنصر كمعرّف `id`.
 
 ```css
   #titoPicture {
@@ -84,7 +84,7 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+ملاحظة: يجب أن يكون الاسم الذي تكتبه أمام قواعد CSS ** ** يطابق الاسم الذي وضعته لمعرف `id` خاصية العنصر.
 
 \--- hint/ \---
 

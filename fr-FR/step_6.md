@@ -1,18 +1,18 @@
-## Individual style
+## Style individuel
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Améliorons un peu la page d'accueil! Avec un autre type de sélecteur CSS, tu peux appliquer un ensemble unique de règles CSS à **un seul élément spécifique**.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ Va sur `index.html` et trouve un paragraphe (`p` ), ou en ajoute un si tu n’en as pas. Ajoute l' **attribut** suivant à la balise:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+        Mon site parle de l'Irlande.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+L' `id` est un nom que tu attribues à un élément particulier pour l' **identifier**. Deux éléments d’une page ne doivent jamais avoir le même `id`!
 
-+ Now go to your style sheet and add the following code:
++ Maintenant, va à ta feuille de style et ajoute le code suivant:
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+Ton code devrait ressembler à ceci:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![Texte avec une couleur différente et une bordure autour](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+Un sélecteur avec un `#` devant est utilisé pour appliquer les règles CSS à un élément spécifique de ton site Web. Tu spécifies l'élément à l'aide du nom que tu as attribué à l'attribut de `id`.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ Faisons-en un pour le `body` de la page d'accueil. Va sur `index.html` et ajoute une balise `id` au `body`.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ Dans la feuille de style, ajoute les règles CSS suivantes:
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+Tu devrais voir quelque chose comme ça :
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![Fond dégradé arc-en-ciel](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+Tu viens d'utiliser un **gradient**! C'est le nom donné à l'effet où une couleur s'estompe dans une autre. Note: La première propriété `background` au-dessus du gradient, détermine une couleur par défaut pour les navigateurs qui ne supportent pas les dégradés.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+Si tu as saisi le code à la perfection et que tu n'as pas obtenu le bel effet arc-en-ciel ci-dessus, il se peut que ton navigateur ne prenne pas en charge les dégradés.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+Tu peux faire beaucoup d'effets différents avec des dégradés. Si tu veux en savoir plus, va [ici](http://dojo.soy/html2-css-gradients){:target="_ blank"}.
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## Défi: stylise encore plus d'éléments
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ Essaie de donner un autre élément `id` et styliser cet élément à l'aide du sélecteur d'identifiant avec un `#` comme ci-dessus. Que dirais-tu de faire en sorte qu'une photo ait un `border-radius` de `100%` pour que tout soit arrondi? Toutes les autres images sur le site Web resteront les mêmes. 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+Tu attribues à un élément `id` en ajoutant l'attribut `id` à la balise HTML, comme ceci:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+Choisis n'importe quel nom `id` que tu aimes.
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+Pour définir des règles de style pour un élément spécifique, utilise le symbole `#` et le nom que tu as attribué à l'élément en tant que son `id`.
 
 ```css
   #titoPicture {
@@ -84,12 +84,12 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+Note: le nom que tu tapes en face des règles CSS devrait **exactement** correspondre au nom que tu as placé dans l'attribut de l'élément `id`.
 
-\--- /indice \---
+\--- /hint \---
 
 \--- /hints \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![Une image ronde de Tito avec une bordure blanche](images/titoPictureIdStyle.png)
 
 \--- /challenge \---

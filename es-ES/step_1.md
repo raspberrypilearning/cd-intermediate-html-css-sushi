@@ -13,7 +13,7 @@ Aquí hay un ejemplo de cómo podría verse tu sitio web después de completar e
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Lo que aprenderás
 
 + Cómo crear tus propios colores usando código
 + Maneras de organizar el contenido en tu sitio web para que puedas aplicar estilos y hacerlo amigable para los lectores de pantalla
@@ -27,14 +27,14 @@ Aquí hay un ejemplo de cómo podría verse tu sitio web después de completar e
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que necesitarás
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Un ordenador capaz de acceder a [trinket.io](https://trinket.io){:target="_blank"}
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Este proyecto se puede completar en un navegador web usando [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---

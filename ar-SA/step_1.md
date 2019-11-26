@@ -13,7 +13,7 @@
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
 + كيف تصنع الالوان الخاصة بك باستخدام الكود
 + طرق لتنظيم المحتوى على موقع الويب الخاص بك بحيث يمكنك تطبيق الأنماط ، وجعلها سهلة الاستخدام لقارئات الشاشة
@@ -27,14 +27,14 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما الذي ستحتاجه
 
-### Hardware
+### الأجهزة
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ جهاز كمبيوتر يدعم الوصول إلى الموقع الإلكتروني [trinket.io](https://trinket.io){:target="_blank"}
 
-### Software
+### البرمجيات
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+يُمكن إكمال هذا المشروع في متصفح الويب باستخدام تطبيق [trinket.io](https://trinket.io){:target="_blank"} عبر الانترنيت.
 
 \--- /collapse \---

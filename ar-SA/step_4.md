@@ -1,65 +1,65 @@
-## Organising your page
+## تنظيم صفحتك
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+لقد استخدمت حتى الآن ** العناوين ** و ** الفقرات ** لجعل **المحتوى** الخاص بك يبدو مرتباً وسهل القراءة. لنجعله أكثر تنظيماً من خلال تجميع الأشياء معًا.
 
 ## \--- collapse \---
 
-## title: What is content?
+## title: ماهو المحتوى؟
 
-**Content** is all the stuff on your web page, such astext and pictures.
+** المحتوى ** هي كل الأشياء الموجودة على صفحة الويب الخاصة بك، مثل النص والصور.
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ اذهب الى ملف `attractions.html` (أو احدى صفحاتك الخاصة اذا لم تكن تستخدم المشروع في المثال) وقرب الاعلى، بالتحديد **اسفل** علامة التبويب `<main>`، اكتب التالي في سطر جديد: 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ إذا اضاف المحرر الخاص بك بشكل تلقائي العبارة `</article>` ، قم بحذفها.
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ في أسفل الملف، **فوق** علامة الاغلاق بقليل `</main>`، قم باضافة سطر جديد واغلق جزء `المقالة`:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+الجزء الرئيسي `main` يجب أن يبدو الان شبيهاً بالتالي (قد يكون لديك محتو مختلف بين علامات `المقالة` بالطبع):
 
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
+      <h1> اماكني المفضلة لمشاهدتها في أيرلندا </h1>
+        <h2> منحدرات موهير </h2>
         <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        توجد منحدرات موهير في مقاطعة كلير، حيث يوجد موطني. انظروا كم هي رائعة! </p>
+        <1 />
+        <h2> جزيرة اخيل</h2>
+        <p> هذه جزيرة كبيرة قبالة ساحل مقاطعة مايو. لديها مناظر طبيعية برية و 
+        جميلة من الجبال والمستنقعات والمنحدرات.
         </p>
-        <img src="achill.JPG" width="200px" />
-    </article>
+      <img src="achill.JPG" width="200px" />
+    </article>     
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ الآن انظر إلى المحتوى في `مقالك` وحاول تقسيمها إلى أجزاء. ضع هذا الزوج الجديد من العلامات حول كل بت: `<section> </section>`. إليك مثال لما قد يبدو عليه:
 
 ```html
   <article>
-    <h1>My favourite places to see in Ireland</h1>
-    <section>
-      <h2>The Cliffs of Moher</h2>
-      <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+    <h1>
+      </h1> اماكني المفضلة لمشاهدتها في أيرلندا <section>
+        <h2> منحدرات موهير </h2>
+        <p>
+        توجد منحدرات موهير في مقاطعة كلير، والتي آتي منها. انظروا كم هي رائعة! </p>
       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-    </section>
-    <section>
-      <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      </section>
+      <section>        
+           <h2> جزيرة آشيل </h2>
+           <p> هذه جزيرة كبيرة قبالة ساحل مقاطعة مايو. لديها مناظر طبيعية برية و 
+        جميلة من الجبال والمستنقعات والمنحدرات.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -68,104 +68,104 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## title: ماهذا كله عن العلامات الجديدة؟
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+فكر في هذه العناصر الجديدة مثل **الحاويات**. يتم استخدامها لتجميع الأشياء معًا. يشبه إلى حد ما تنظيم الأشياء في صناديق ورفوف في منزلك!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+هذا يجعل موقع الويب الخاص بك سهل القراءة بالنسبة للقراء، ويمنحك مزيدًا من التحكم في التصميم، وكما ترى، فهو يتيح لك الإبداع حقًا مع التصميم.
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+أي شيء يمكن أن يوضع بين العلامات. عادة ما يكون أكثر من عنصر واحد ، لكنه ليس ضرورياً. يمكن أن يكون عنصر HTML من أي نوع. ما تفعله هو إخبار المتصفح بأن كل شيء بين هذه العلامات ينتمي معًا.
 
-### Article
+### مقالة
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+عنصر `المقال` عبارة عن حاوية لكل المحتوى، وفي هذه الحالة مجموعة من المعلومات حول المعالم السياحية في أيرلندا. إذا كان لديك أجزاء مختلفة من المحتوى غير مرتبطة، فيجب أن تضع كل منها في عنصر `لمقالة` الخاصة بها بدلاً من وضع مجموعة واحدة من العلامات حول المجموعة بأكملها.
 
-### Section
+### قسم
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+عنصر `القسم` يتيح لك تقسيم المحتوى ذي الصلة إلى أجزاء أصغر ووضع كل جزء في الحاوية الخاصة به.
 
-### Others exist too!
+### الادوات الاخرى!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+هذه ليست عناصر الحاويات الوحيدة في HTML. إذا قمت بإنشاء قائمة سايقاً، ثم وضعها بين العلامات `<nav></nav>`، فهذا مثال آخر على نوع من انواع الحاويات. فتكون `<main></main>` و `<header></header>` - هل تستطيع التفكير في المزيد؟
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+قد لا تبدو صفحة الويب الخاصة بك مختلفة حتى الآن، ولكن بمجرد تنظيم المحتوى في علامات الحاوية، ستتمكن من القيام ببعض الأشياء الرائعة باستخدام CSS. تذكر، HTML يتحكم في كيفية تنظيم موقع الويب الخاص بك، ويتحكم CSS في شكله.
 
-## Challenge: organise your website
+## تحدي: تنظيم موقع الويب الخاص بك
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ حاول تنظيم محتوى موقع الويب الخاص بك باستخدام عناصر `المقالة` و `القسم` بهذه الطريقة. 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+إلق نظرة على صفحة الطعام للمشروع المثال. سترى أنني أضفت `مقالة` مع مجموعة من عناصر ` القسم ` في الملف ` food.html `:
 
 ```html
   <main>
     <article>
-      <h1>Food in Ireland</h1>
+      <h1> الطعام في أيرلندا </h1>
       <p>
-        These are some of my favourite Irish foods!
+        هذه بعض الأطعمة الأيرلندية المفضلة لدي!
       </p>  
       <section>
-        <h2>Traditional Irish Breakfast</h2>
+        <h2> الفطور الأيرلندي التقليدي </h2>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
+          يتكون الإفطار "الأيرلندي الكامل" من النقانق والراشيرز (لحم الخنزير المقدد) و
+          البيض وبودنغ أسود وبودنغ أبيض وخبز محمص.
         </p>
         <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
+          غالبًا ما يكون هناك طماطم مشوية بالإضافة إلى فطر،
+          والفاصوليا المخبوزة.
         </p>
         <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
-        </p>
-      </section>
-
-      <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+          وبالتأكيد، لا إفطار كامل بدون ابريق جميل 
+          من الشاي!
         </p>
       </section>
 
       <section>
-        <h2>Bacon and Cabbage</h2>
+        <h2> السجق  والمهروس </h2>
         <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
+          هذا الطبق التقليدي من النقانق والبطاطا المهروسة والمرق ليس
+          تقليد خاص بايرلندا، ولكن ما يجعلها مميزة هو النقانق
+          الايرلندية. معظم البلدان لديها طريقتها الخاصة في صنع النقانق،
+    		    وهو الشيء الوحيد الذي افتقده من المنزل إذا سافرت بعيدا!
+        </p>
+      </section>
+
+      <section>
+        <h2> لحم الخنزير المقدد والملفوف </h2>
+        <p>
+          لم أستطع تقديم قائمة من الاطعمة الأيرلندية دون ذكر
+          هذا الطبق التقليدي جدا!
         </p>
         <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          قد لا يبدو الأمر مثيرا للاهتمام ، ولكن هذه الوجبة الشهية المكونة
+          من لحم الخنزير المسلوق والبطاطا والملفوف الأخضر لذيذة ومشبعة.
+          أنا أحب أن اغمر البطاطس في الزبدة، وأحب أيضا
+  		      القليل من الخردل مع لحم الخنزير المقدد.
         </p>
         <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
+          أمي دائمًا تجعلها أكثر خصوصية عن طريق طهي الملفوف في
+          الماء الذي تم غلي اللحم فيه.
         </p>
         <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
+          إذا كان هناك أي بقايا من الطعام يمكنك صنع طبق اخر من الاطعمة المفضلة
+          لدي: <strong> الملفوف المقلي </strong>!
         </p>
       </section>
     </article>     
   </main>
 ```
 
-\--- /hint \---
+\--- hint/ \---
 
-\--- /hints \---
+\--- hints/ \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+في البطاقة التالية، ستقوم بتصميم موضوع مختلف لكل صفحة يتم تنظيمها في مقالات وأقسام!
 
 \--- /challenge \---

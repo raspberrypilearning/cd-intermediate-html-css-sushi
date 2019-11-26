@@ -48,9 +48,9 @@ img {
 
 
 
-/**********************************
-This section is for styling tables
-***********************************/
+/ ***********************************
+Dieser Bereich beschreibt die Tabellenstile
+************************************ /
 table, th, td {
   border: 1px solid HoneyDew;
   border-collapse: collapse;
@@ -69,4 +69,4 @@ th {
 td {
   color: purple;
 }
-/********************************/
+/ ********************************* /

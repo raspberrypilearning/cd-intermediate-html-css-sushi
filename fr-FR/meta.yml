@@ -1,8 +1,8 @@
 ---
-title: Guide to my country 2.0
+title: Guide de mon pays 2.0
 hero_image: images/banner.png
-description: Prenez vos compétences de conception de site Web plus loin!
-theme: rouge
+description: Amène tes compétences en conception de sites Web plus loin!
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -10,29 +10,29 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projets
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 1
-last_tested: 01/01/2017
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
   - 
-    title: Getting set up
+    title: Mise en place
   - 
-    title: All the colours!
+    title: Toutes les couleurs!
   - 
-    title: Organising your page
+    title: Organiser ta page
   - 
-    title: Design some themes
+    title: Concevoir des thèmes
   - 
-    title: Individual style
+    title: Style individuel
   - 
-    title: See the code on other websites!
+    title: Voir le code sur d'autres sites!
   - 
-    title: Automatically adjust the size
+    title: Ajuster automatiquement la taille
   - 
     title: Animation
   - 
-    title: Teach Tito to roll over!
+    title: Apprends à Tito à se retourner!

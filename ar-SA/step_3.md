@@ -1,53 +1,53 @@
-## All the colours!
+## كل الألوان!
 
-As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
+كما رأيت من قبل، يمكنك كتابة العديد من أسماء الألوان المختلفة ككلمات، وسوف يتعرف عليها متصفح الانترنيت. ولكن هناك طريقة أكثر شيوعًا لضبط الألوان وهي استخدام شيء يسمى رموز ست عشري ** ** ("ست عشري" اختصار لـ ** النظام الرقمي المعروف بالسادس عشري ** ، وهي طريقة خاصة للحساب).
 
-+ Take a look at your **style sheet**. That's the file that has `.css` in the name.
++ ألق نظرة على ورقة أنماطك ** **. وهو الملف الذي يحتوي على `.css ` في الاسم.
 
-+ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
++ داخل قواعد CSS body ` ` ، اضبط لون الخلفية على رمز سداسي عشرية ` # 7B68EE `:
 
 ```html
-  background-color: #7B68EE;
+  background-color: #7D68CC;
 ```
 
-Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+ملاحظة: إذا كنت تستخدم جهاز حاسوب من نوع Mac، فيمكنك كتابة ` # ` عن طريق الضغط على مفاتيح <kbd>alt</kbd> و <kbd>3</kbd> في نفس الوقت.
 
-Your website should now have a purple background.
+يجب أن يكون لموقعك الآن خلفية بنفسجية.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
++ لست من محبي اللون البنفسجي؟ اذهب الى [صفحة الويب هذه](http://dojo.soy/html2-colors){:target="_blank"} واختر لون جديد لورقة الانماط الخاصة بك - بدلا منكتابة اسم اللون، اكتب الرمز السداسي. 
 
 ![](images/ColorNamesHex.png)
 
-Colour codes allow you to create any colour, even if it's not on any list of colour names.
+تسمح لك رموز الالوان بإنشاء أي لون، حتى لو لم يكن موجود في أي قائمة من أسماء الألوان.
 
-+ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
++ حاول صنع رمز لون خاص بك. يجب أن يبدأ بالرمز `#`. هذا يخبر المتصفح أنه رمز ست عشري بدلاً من اسم اللون. وباقي الرمز يتكون من ستة أحرف. يمكن أن تكون أي رقم من **صفر الى ٩** واي حرف من **A الى F**.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: كيف يعمل؟
 
-Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
+يتكون كل لون عن طريق مزج كميات مختلفة من **الاحمر**، **الاخضر**، و **الازرق**. سترى هذا احياناً مكتوبا بصيغة **RGB**. يتم تمثيل كل من هذه الألوان برقمين من ستة أرقام في كود HEX (ست عشري). `00` هو الحد الادنى، و`FF` هو الحد الاعلى.
 
-**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
+**النظام السادس عشري** هو طريقة حساب تجعل الارقام أقصر في الكتابة باستخدام الحروف A-F كأرقام إضافية. الرقم `٢٥٥` يكتب بالشكل `FF` في النظام السادس عشري. لا داعي للقلق بشأن تعلم عد الارقام في النظام السادي عشري. بدلاً من ذلك، قم بتجربة رموز hex (ساسدس عشري) مختلفة للتعود على استخدامها.
 
-+ Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
++ إليك بعض الألوان الأساسية التي يمكنك تجربتها على موقع الويب الخاص بك. حاول وضع أرقام أصغر بدلاً من ` FF ` لنرى كيف تتغير تدرجات الالوان.
 
-|      | R  | G  | B  |   Result    |
-| ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
-| \# | FF | 8c | 00 | Dark orange |
+|      | R  | G  | B  |   النتيجة    |
+| ---- | -- | -- | -- |:------------:|
+| \# | FF | 00 | 00 |     أحمر     |
+| \# | 00 | FF | 00 |     أخضر     |
+| \# | 00 | 00 | FF |     أزرق     |
+| \# | FF | FF | 00 |    الأصفر    |
+| \# | FF | 00 | FF |   أرجواني    |
+| \# | 00 | FF | FF |  ازرق سماوي  |
+| \# | FF | 8C | 00 | برتقالي غامق |
 
 \--- /collapse \---
 
-Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
+خلط اللون المثالي قد يحتاج لاجراء الكثير من التجارب. لحسن الحظ، هناك الكثير من ادوات اختيار الألوان عن طريق الإنترنت والتي تساعدك في الحصول على كود سداسي عشري لأي لون تريده.
 
 ![](images/W3ColorPicker.png)
 
-+ Try out [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.
++ جرّب [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} لاختيار بعض من رموز الوان hex لاستخدامها في بقية الانماط على موقع الويب الخاص بك.

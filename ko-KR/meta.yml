@@ -1,8 +1,8 @@
 ---
-title: Guide to my country 2.0
+title: 우리나라 가이드 2.0
 hero_image: images / banner.png
-description: 귀하의 웹 사이트 디자인 기술을 더욱 발전 시키십시오!
-theme: 빨간
+description: 본인의 웹 사이트 디자인 기술을 더 발전시켜 보세요!
+theme: 빨강색 #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -21,18 +21,18 @@ steps:
   - 
     title: Getting set up
   - 
-    title: All the colours!
+    title: 모든 색상들!
   - 
-    title: Organising your page
+    title: 내 페이지 구성하기
   - 
-    title: Design some themes
+    title: 몇가지 테마의 디자인
   - 
-    title: Individual style
+    title: 개별 스타일
   - 
     title: See the code on other websites!
   - 
     title: Automatically adjust the size
   - 
-    title: Animation
+    title: 애니메이션
   - 
     title: Teach Tito to roll over!

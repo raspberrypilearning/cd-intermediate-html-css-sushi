@@ -16,13 +16,13 @@ Deine Website sollte jetzt einen lila Hintergrund haben.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ Kein Fan von Lila? Gehe auf [diese Webseite](http://dojo.soy/html2-colors){:target="_blank"} und wähle eine andere Farbe für dein Stylesheet aus. Anstatt den Namen der Farbe einzugeben, gib den Hex-Code ein. 
++ Kein Fan von Lila? Gehe auf [diese Webseite](http://dojo.soy/html2-colors){:target="_blank"} und wähle eine andere Farbe für Dein Stylesheet aus. Anstatt den Namen der Farbe einzugeben, gib den Hex-Code ein. 
 
 ![](images/ColorNamesHex.png)
 
 Farbcodes erlauben es Dir jede Farbe zu erzeugen, auch wenn sie auf keiner Liste von Farbnamen steht.
 
-+ Versuch deinen eigenen Farbcode zu erstellen. Er muss mit einer `#` beginnen. Das sagt dem Browser, dass es sich um einen Hex-Code, statt eines Farbnammen, handelt. Der Rest des Codes besteht aus sechs Zeichen. Das kann eine beliebige Zahl von **0 bis 9** und ein beliebiger Buchstabe von **A bis F** sein.
++ Versuch Deinen eigenen Farbcode zu erstellen. Er muss mit einer `#` beginnen. Das sagt dem Browser, dass es sich um einen Hex-Code, statt eines Farbnammen, handelt. Der Rest des Codes besteht aus sechs Zeichen. Das kann eine beliebige Zahl von **0 bis 9** und ein beliebiger Buchstabe von **A bis F** sein.
 
 ## \--- collapse \---
 
@@ -41,7 +41,7 @@ Jede Farbe wird durch Mischen verschiedener Mengen von **Rot**, **Grün** und **
 | \# | 00 | 00 | FF |      Blau      |
 | \# | FF | FF | 00 |      Gelb      |
 | \# | FF | 00 | FF |    Magenta     |
-| \# | 00 | FF | FF |      Cyan      |
+| \# | 00 | FF | FF |     Türkis     |
 | \# | FF | 8c | 00 | Dunkles Orange |
 
 \--- /collapse \---

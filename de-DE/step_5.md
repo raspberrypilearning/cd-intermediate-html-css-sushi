@@ -70,7 +70,7 @@ Es sieht toll aus, aber jetzt sind meine Abschnitte alle zusammengequetscht.
 
 Du kannst so viele CSS-Klassen auf ein Element anwenden, wie Du möchtest. Schreibe einfach die Namen aller Klassen, die Du verwenden möchtest, in das `class` Attribut (denk dran, ohne den Punkt!), getrennt durch Leerzeichen.
 
-+ Lass uns eine weitere CSS-Klasse erstellen, um den Abschnitten einen Randabstand (engl.: margin) und winw Füllung (engl.: padding) zu verleihen. Erstelle in der Datei `styles.css` die folgende CSS-Klasse:
++ Lass uns eine weitere CSS-Klasse erstellen, um den Abschnitten einen Randabstand (engl.: margin) und eine Füllung (engl.: padding) zu verleihen. Erstelle in der Datei `styles.css` die folgende CSS-Klasse:
 
 ```css
   .someSpacing {

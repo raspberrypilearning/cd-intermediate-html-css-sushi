@@ -10,7 +10,7 @@ Lass uns die Startseite ein wenig aufpeppen! Mit einer anderen Art von CSS-Selek
     </p> 
 ```
 
-Die `ID` ist ein Name, den Du einem bestimmtem Element gibst um es zu **identifizieren**. Keine zwei Elemente auf einer Seite sollten je die gleiche `ID` haben!
+Die `id` ist ein Name, den Du einem bestimmtem Element gibst um es zu **identifizieren**. Keine zwei Elemente auf einer Seite sollten je die gleiche `id` haben!
 
 + Gehe nun zu Deinem Stylesheet und füge den folgenden Code hinzu:
 
@@ -58,13 +58,13 @@ Du kannst viele verschiedene Effekte mit Farbverläufen erstellen. Wenn Du mehr 
 
 ## Herausforderung: Mehr Elemente gestalten
 
-+ Versuche einem anderen Element eine `ID` zu geben und dieses Element, wie oben, mithilfe eines ID-Selektors, mit einer `#`, zu gestalten. Wie wäre es, ein Bild mit einem `border-radius` (Rand-Radius) von `100%` zu gestalten, damit es vollständig rund ist? Alle anderen Bilder auf der Website bleiben unverändert. 
++ Versuche einem anderen Element eine `id` zu geben und dieses Element, wie oben, mithilfe eines id-Selektors, mit einer `#`, zu gestalten. Wie wäre es, ein Bild mit einem `border-radius` (Rand-Radius) von `100%` zu gestalten, damit es vollständig rund ist? Alle anderen Bilder auf der Website bleiben unverändert. 
 
 \--- hints \---
 
 \--- hint \---
 
-Du gibst einem Element eine `ID` indem Du dem HTML-Tag das `id` Attribut hinzufügst, wie folgt:
+Du gibst einem Element eine `id` indem Du dem HTML-Tag das `id` Attribut hinzufügst, wie folgt:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito der Hund" />        

@@ -2,7 +2,7 @@
 
 Wusstest du, dass du CSS verwenden kannst, um Dinge zu bewegen? Auf dieser Karte lernst du wie!
 
-+ Bevor Du loslegst, stelle sicher, dass Du ein Bild auf Deiner Webseite, mit einer `ID` und einen entsprechenden CSS Block, hast, der die `Breite` auf `100px` setzt. Ich nehme das Bild von Tito von zuvor, und mein CSS-Block sieht so aus:
++ Bevor Du loslegst, stelle sicher, dass Du ein Bild auf Deiner Webseite, mit einer `id` und einen entsprechenden CSS Block, hast, der die `Breite` auf `100px` setzt. Ich nehme das Bild von Tito von zuvor, und mein CSS-Block sieht so aus:
 
 ```css
     #titoPicture {
@@ -36,7 +36,7 @@ Dieser Code erstellt eine Animation mit dem Namen `myFirstAnimation`, die Du zu 
 
 + Schau Dir an, was auf Deiner Webseite passiert! Probiere verschiedene Werte für `animation-iteration-count` (engl.: Anzahl der Animationsiterationen) aus, um zu sehen, was es tut.
 
-+ Lass uns eine weitere Animation versuchen! Füge den folgenden Code am Ende deiner CSS-Datei hinzu:
++ Lass uns eine weitere Animation versuchen! Füge den folgenden Code am Ende Deiner CSS-Datei hinzu:
 
 ```css
     @keyframes rainbowGlow {
@@ -85,7 +85,7 @@ Wenn Du **Prozentwerte** anstelle von `from` (engl:: von) und `to` (engl.: bis) 
     }
 ```
 
-+ Suche jetzt die `#frontPage` CSS-Regeln, die du zuvor geschrieben hast und ändere sie zu:
++ Suche jetzt die `#frontPage` CSS-Regeln, die Du zuvor geschrieben hast und ändere sie zu:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ Wenn Du **Prozentwerte** anstelle von `from` (engl:: von) und `to` (engl.: bis) 
     }
 ```
 
-Mach dir keine Sorgen, den gesamten obigen Code zu verstehen... lehn dich einfach zurück und genieße es!!
+Mach Dir keine Sorgen, den gesamten obigen Code zu verstehen... lehn Dich einfach zurück und genieße es!!
 
-Um mehr über Dinge zu erfahren, die Du mit Animationen tun kannst, besuche [diese Webseite](http://dojo.soy/html2-css-animation){:target="_blank"}. Habe Spaß!
+Um mehr über Dinge zu erfahren, die Du mit der Animation tun kannst, besuche [diese Webseite](http://dojo.soy/html2-css-animation){:target="_blank"}. Viel Spaß!
 
-Auf der nächsten Karte wirst du lernen, wie du coole Dinge passieren lassen kannst, wenn du den Mauszeiger über Dinge bewegst!
+Auf der nächsten Karte wirst Du lernen, wie Du coole Dinge passieren lassen kannst, wenn Du den Mauszeiger über Dinge bewegst!

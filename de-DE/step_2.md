@@ -30,7 +30,7 @@ Du kannst deine Arbeit speichern, indem du auf eine der Optionen im **Share** Me
 
 ### Wie Du dich für ein Konto anmeldet
 
-Wenn Du ein Konto bei Trinket erstellen möchtest, folge den folgenden Schritten. So kannst du von einem beliebigen Computer aus einfach auf deine Arbeit zugreifen und Projekte **remixen**, die jemand mit dir geteilt hat (also eine Kopie anlegen die Du verändern kannst).
+Wenn Du ein Konto bei Trinket erstellen möchtest, folge den folgenden Schritten. So kannst du von einem beliebigen Computer aus einfach auf deine Arbeit zugreifen und auf Projekte **remixen**, die jemand mit dir geteilt hat (also eine Kopie anlegen, die Du verändern kannst).
 
 - Im Browser-Tab mit dem Starter Trinket Projekt klicke auf **Sign Up**. Du wirst eine Email-Adresse brauchen um dich anzumelden.
 

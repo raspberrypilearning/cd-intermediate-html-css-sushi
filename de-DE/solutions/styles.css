@@ -36,7 +36,7 @@ nav ul li a {
   text-decoration: none;
   color: #880055;
 }
-/ * Füge Hover-Effekte direkt zum Navigationsmenü hinzu statt über eine Klasse * /
+/* Füge Hover-Effekte direkt zum Navigationsmenü hinzu statt über eine Klasse */
 nav ul li a:hover {
   animation-name: glowPulse;
   animation-duration: 1.5s;
@@ -101,7 +101,7 @@ article {
   width: 200px;
 }
 
-/ * Hover-Effekte für Links mit einer CSS-Klasse * /
+/* Hover-Effekte auf Links mit einer CSS-Klasse */
 .niceLinks {
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ article {
 }
 
 
-/ * Styles für einzelne Elemente nach ID * /
+/* Styles für einzelne Elemente nach ID */
 
 #myCoolText {
   color: #000080;
@@ -125,7 +125,7 @@ article {
 #frontPage {
   background: #48D1CC;
   
-  / * Pastellfarbene Version * /
+  / *Pastellfarbene Version */
   /*background: repeating-linear-gradient(-45deg, #eeafbf 0%,*/
   /*#eeeeaf 7.14%, #afeeaf 14.28%,*/
   /*#afeeee 21.42%, #afeeee 28.56%, */
@@ -191,7 +191,7 @@ td {
 / ********************************* /
 
 
-/ * Animationen * /
+/* Animationen */
 
 @keyframes myFirstAnimation {
   from {
@@ -237,7 +237,7 @@ td {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 

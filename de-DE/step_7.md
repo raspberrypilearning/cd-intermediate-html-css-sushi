@@ -1,4 +1,4 @@
-## Sieh den Code auf anderen Websiten!
+## Untersuche den Code auf anderen Websiten!
 
 **Hinweis:** Um diesen Schritt abzuschließen, musst Du einen dieser Web-Browser verwenden: Chrome, Firefox oder Internet Explorer/Edge. Falls Du zu keinem von diesen Zugang hast, kannst Du einfach mit der nächsten Karte fortfahren.
 
@@ -14,13 +14,13 @@ Eine neue Box wird in Deinem Webbrowser erscheinen, mit vielen Tabs und Code: di
 
 ### Den HTML-Code Untersuchen
 
-+ Suche nach dem Reiter, der dir den HTML-Code für die Seite anzeigt (Er wird vermutlich "Elements" oder "Inspector" heißen). Der Code sollte ungefähr so aussehen, wie Du ihn in Deine HTML-Datei eingegeben hast! Du kannst das kleine Dreieck an der rechten Seite anklicken, um Code auszuklappen der versteckt ist.
++ Suche nach dem Reiter, der Dir den HTML-Code für die Seite anzeigt (Er wird vermutlich "Elements" oder "Inspector" heißen). Der Code sollte ungefähr so aussehen, wie Du ihn in Deine HTML-Datei eingegeben hast! Du kannst das kleine Dreieck an der rechten Seite anklicken, um Code auszuklappen der versteckt ist.
 
 ![Inspektor, der ein Textelement zeigt](images/inspectTextHtml.png)
 
 + Doppelklicke auf den Text zwischen den Tags. Du solltest ihn jetzt bearbeiten können! Gib irgendwas ein und drücke <kbd>Enter</kbd>.
 
-![Bearbeiten von Text mit dem Inspector-Tool](images/inspectEditHtmlText.png)
+![Bearbeiten von Text mit dem Inspeltor-Tool](images/inspectEditHtmlText.png)
 
 + Siehst Du, wie sich der Text auf deiner Website aktualisiert? Hinweis: Nur Du kannst diese Änderungen sehen.
 
@@ -50,7 +50,7 @@ Hinweis: Du kannst auch auf das farbige Quadrat klicken, um die Farbe mit einem 
   background-color: #660066;
 ```
 
-Du solltest sehen, dass sich der Hintergrund für diesen text ändert.
+Du solltest sehen, dass sich der Hintergrund für diesen Text ändert.
 
 ![Hinzufügen der Eigenschaft Hintergrundfarbe](images/inspectorEditingBgCol.png) ![Die neue Hintergrundfarbe](images/inspectorEditBgResult.png)
 

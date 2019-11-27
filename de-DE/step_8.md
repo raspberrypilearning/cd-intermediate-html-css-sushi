@@ -7,10 +7,10 @@ Bisher hast Du **Pixel** verwendet, um die Größe von Objekten festzulegen, z.B
 + Lösche das `width` Attribut falls es vorhanden ist, und gib dem Element eine `ID`, falls es noch keine hat.
 
 ```html
-  <img src="tito.png" id="titoPicture" alt="Tito der Hund" />
+  <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In Deiner CSS-Datei definiere die `width` Eigenschaft für Dein Bild wie unten gezeigt (Du musst den CSS Block mit dem `ID` Selektor möglicherweise erstellen, falls Du das noch nicht auf einer früheren Karte getan hast).
++ In Deiner CSS-Datei definiere die `width` Eigenschaft für Dein Bild wie unten gezeigt (Du musst den CSS Block mit dem `id` Selektor möglicherweise erstellen, falls Du das noch nicht auf einer früheren Karte getan hast).
 
 ```css
   #titoPicture {
@@ -31,9 +31,9 @@ Du solltest sehen, dass das Bild größer und kleiner wird, wenn Du das Fenster 
 
 Wenn Du die Größe eines Objekts in Pixel festlegst, legst Du eine genaue Größe fest, die sich nicht ändert. Das wird als **absolute** Abmessung bezeichnet.
 
-Eine andere Möglichkeit, die Größe von Dingen festzulegen, ist die Verwendung von **relativen** Messungen, sodass die Größe davon abhängt, wie groß Elemente im Vergleich zueinander sind. Wenn dann eine Sache die Größe ändert, wird alles andere automatisch die Größe ändern, um die gleichen **Proportionen** zu behalten.
+Eine andere Möglichkeit, die Größe von Dingen festzulegen, ist die Verwendung von **relativen** Abmessungen, sodass die Größe davon abhängt, wie groß Elemente im Vergleich zueinander sind. Wenn dann eine Sache die Größe ändert, wird alles andere automatisch die Größe ändern, um die gleichen **Proportionen** zu behalten.
 
-Wenn Du **relative** Messungen verwendest, ist es wichtig zu wissen, was das **"Elter"** Deines Elements ist. Das "Elter" (Einzahl von Eltern) ist das Objekt, in dem sich Dein Element befindet und das wird das sein auf das sich die Abmessungen beziehen. Zum Beispiel ist das Elter des obigen Bildes das `article` Element, da das `img` Element zwischen den `<article></article>` Tags liegt.
+Wenn Du **relative** Abmessungen verwendest, ist es wichtig zu wissen, was das **"Elter"** Deines Elements ist. Das "Elter" (Einzahl von Eltern) ist das Objekt, in dem sich Dein Element befindet und das wird das sein auf das sich die Abmessungen beziehen. Zum Beispiel ist das Elter des obigen Bildes das `article` Element, da das `img` Element zwischen den `<article></article>` Tags liegt.
 
 Wenn Du die Breite (also `width`) eines Elements auf `100%` setzt, wird es die gleiche Breite haben, wie der übergeordnete Container.
 

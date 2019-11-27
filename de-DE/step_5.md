@@ -124,13 +124,13 @@ So kannst Du eine CSS-Klasse erstellen, die nur die Breite eines Elements defini
 Hier ist ein `img` Tag mit einem `width` Attribut:
 
 ```html
-  <img src="tito.png" alt="Tito der Hund" width="100px" />       
+  <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
 Wenn Du das `width` Attribut entfernst und stattdessen die Größe mit der CSS-Klasse steuerst, sieht das folgendermaßen aus:
 
 ```html
-  <img src="tito.png" class="smallPictures" alt="Tito der Hund" />       
+  <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
 Mithilfe einer CSS-Klasse kannst Du die Breite aller Bilder auf einmal ändern, indem Du nur eine Codezeile in Deinem Stylesheet änderst!

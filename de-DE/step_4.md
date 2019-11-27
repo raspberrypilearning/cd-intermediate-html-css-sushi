@@ -80,13 +80,13 @@ Zwischen den Tags kann alles stehen. Normalerweise sind es mehr als ein Element,
 
 Das `article` (engl.: Artikel) Element ist ein Container für ein ganzes Stück Inhalt, in diesem Fall eine Reihe von Informationen über Sehenswürdigkeiten in Irland. Wenn Du verschiedene Arten von Inhalten hast, die nicht zueinander gehören, solltest Du jeden in sein eigenes `article` Element stecken, anstatt nur einen Satz von Tags um das Ganze zu legen.
 
-### Section
+### Sektion
 
 Das `section` (engl.: Sektion/Abschnitt) Element lässt dich verwandte Inhalte in kleinere Blöcke aufteilen und jeden Block in seinen eigenen Container packen.
 
 ### Es gibt auch Andere!
 
-Das sind nicht die einzigen Containerelemente in HTML. Hast Du schon mal ein Menü erstellt hast und das dann zwischen `<nav></nav>` Tags gesetzt, das ist ein weiteres Beispiel für einen Containertyp. Ebenso wie `<main></main>` und `<header></header>`. Fallen Dir noch mehr ein?
+Das sind nicht die einzigen Containerelemente in HTML. Hast Du schon mal ein Menü erstellt und das dann zwischen `<nav></nav>` Tags gesetzt, das ist ein weiteres Beispiel für einen Containertyp. Ebenso wie `<main></main>` und `<header></header>`. Fallen Dir noch mehr ein?
 
 \--- /collapse \---
 
@@ -115,10 +115,10 @@ Schau Dir die "Essen" Seite aus dem Beispielprojekt an. Du wirst sehen, dass ich
         <h2>Traditionelles irisches Frühstück</h2>
         <p>
          Ein "richtiges irisches" Frühstück besteht aus Würstchen, Speck,
-          Eiern, Blutwurst, Weißwurst und Toast.
+          Eiern, Blutwurst, Grützwurst und Toast.
         </p>
         <p>
-          Oft gibt es eine gegrillte Tomate sowie Pilze,
+          Oft gibt es eine gegrillte Tomate sowie Pilze
     	  und gebackene Bohnen.
         </p>
         <p>
@@ -130,7 +130,7 @@ Schau Dir die "Essen" Seite aus dem Beispielprojekt an. Du wirst sehen, dass ich
       <section>
         <h2>Würstchen und Pürree</h2>
         <p>
-          Diesen Klassiker aus Würstchen, Kartoffelpürre und Soße gibt es zwar nicht 
+          Diesen Klassiker aus Würstchen, Kartoffelpürree und Soße gibt es zwar nicht 
           nur in Irland aber was es besonders macht sind die irischen 
           Würstchen. Die meisten Länder haben ihre eigene Art Würstchen zu machen,
           und sie sind eine Sache, die ich von zu Hause vermisse, wenn ich unterwegs bin!

@@ -2,7 +2,7 @@
 title: Tour durch mein Land 2.0
 hero_image: images/banner.png
 description: Erweitere Deine Fähigkeiten im Bereich Website-Design!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: rot #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -10,7 +10,7 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: Coderdojo, Projekte
 hardware: ''
 software: html-css-javascript
 version: 1
@@ -29,7 +29,7 @@ steps:
   - 
     title: Individueller Stil
   - 
-    title: Sieh den Code auf anderen Websiten!
+    title: Untersuche den Code auf anderen Websiten!
   - 
     title: Passe die Größe automatisch an
   - 

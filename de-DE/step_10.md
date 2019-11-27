@@ -27,7 +27,7 @@ Pseudoklassen sind In HTML-Elementen schon integriert: Du kannst jedem Element, 
 
 + Was glaubst Du, wird passieren? Überprüfe, auf welchen Seiten Deiner Website Bilder angezeigt werden (füge ein Bild hinzu, falls es keine gibt!), bewege dann den Mauszeiger über ein Bild, um es herauszufinden!
 
-+ Lass uns diese neue `:hover` Pseudoklasse zusammen mit einer CSS-Klasse verwenden, um Links leuchten zu lassen, wenn du über ihnen schwebst! Füge einen Link zu Deiner Webseite hinzu und füge ein Attribut hinzu, um den Klassennamen anzugeben. Denk daran, Links werden mit dem `<a>` Tag definiert, und zwar so:
++ Lass uns diese neue `:hover` Pseudoklasse zusammen mit einer CSS-Klasse verwenden, um Links leuchten zu lassen, wenn Du über ihnen schwebst! Füge einen Link zu Deiner Webseite hinzu und füge ein Attribut hinzu, um den Klassennamen anzugeben. Denk daran, Links werden mit dem `<a>` Tag definiert, und zwar so:
 
 ```html
     <p>
@@ -51,7 +51,7 @@ Pseudoklassen sind In HTML-Elementen schon integriert: Du kannst jedem Element, 
 
 Du kannst all diese Tricks auch mit Animationen kombinieren!
 
-+ Such nochmal den CSS-Block für das Bild von Tito (oder für das Bild, an dem Du vorhin gearbeitet hast). Füge folgenden Code in dein Sylesheet ein:
++ Such nochmal den CSS-Block für das Bild von Tito (oder für das Bild, an dem Du vorhin gearbeitet hast). Füge folgenden Code in Dein Sylesheet ein:
 
 ```css
   #titoPicture {
@@ -75,13 +75,13 @@ Du kannst all diese Tricks auch mit Animationen kombinieren!
 
 + Kannst Du dir vorstellen, was passieren wird?
 
-+ Rufe jetzt "Roll dich!", während Du den Mauszeiger über das Bild bewegst!
++ Rufe jetzt "Roll Dich!", während Du den Mauszeiger über das Bild bewegst!
 
 \--- challenge \---
 
 ## Herausforderung: Erstelle leuchtende Regenbogen Links
 
-+ Kannst du die `rainbowGlow` Animation von der vorherigen Karte verwenden, um zu bewirken, dass die Links in deinem Menü ihre Farben ändern, wenn sich der Mauszeiger darüber befindet?
++ Kannst Du die `rainbowGlow` Animation von der vorherigen Karte verwenden, um zu bewirken, dass die Links in deinem Menü ihre Farben ändern, wenn sich der Mauszeiger darüber befindet?
 
 \--- hints \---
 
@@ -113,7 +113,7 @@ Unten ist der Code für die `rainbowGlow` Animation. Es sind fünf Stufen defini
 
 \--- hint \---
 
-Um etwas zu animieren, fügst Du die drei `animation` Eigenschaften zu den Stilregeln hinzu, wie Du es oben schon getan haben. Achte immer darauf, dass `animation-name` mit dem Namen der Animation übereinstimmt, die Du verwenden möchtest.
+Um etwas zu animieren, fügst Du die drei `animation` Eigenschaften zu den Stilregeln hinzu, wie Du es oben schon getan hast. Achte immer darauf, dass `animation-name` mit dem Namen der Animation übereinstimmt, die Du verwenden möchtest.
 
 \---/hint\---
 

@@ -1,6 +1,6 @@
 ## Bringe Tito bei, sich zu drehen!
 
-Du kannst Deine Website **interaktiver** gestalten, indem du coole Sachen passieren lässt, wenn Du mit dem Mauszeiger über Dinge schwebst!
+Du kannst Deine Website **interaktiver** gestalten, indem Du coole Sachen passieren lässt, wenn Du mit dem Mauszeiger über Dinge schwebst!
 
 + Suche Deine CSS-Regeln für die `img ` Elemente oder erstelle welche, falls Du keine hast. Füge einen Rand (border) hinzu und füge dann einen neuen Regelblock direkt darunter hinzu:
 
@@ -25,7 +25,7 @@ Pseudoklassen sind In HTML-Elementen schon integriert: Du kannst jedem Element, 
 
 \--- /collapse \---
 
-+ Was glaubst du, wird passieren? Überprüfe, auf welchen Seiten Deiner Website Bilder angezeigt werden (füge ein Bild hinzu, falls es keine gibt!), bewege dann den Mauszeiger über ein Bild, um es herauszufinden!
++ Was glaubst Du, wird passieren? Überprüfe, auf welchen Seiten Deiner Website Bilder angezeigt werden (füge ein Bild hinzu, falls es keine gibt!), bewege dann den Mauszeiger über ein Bild, um es herauszufinden!
 
 + Lass uns diese neue `:hover` Pseudoklasse zusammen mit einer CSS-Klasse verwenden, um Links leuchten zu lassen, wenn du über ihnen schwebst! Füge einen Link zu Deiner Webseite hinzu und füge ein Attribut hinzu, um den Klassennamen anzugeben. Denk daran, Links werden mit dem `<a>` Tag definiert, und zwar so:
 

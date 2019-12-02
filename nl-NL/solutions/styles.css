@@ -36,7 +36,7 @@ nav ul li a {
   text-decoration: none;
   color: #880055;
 }
-/* Add hover effects to the nav menu directly instead of with a class */
+/* Voeg hover-effecten direct aan het nav-menu toe in plaats van met een class */
 nav ul li a:hover {
   animation-name: glowPulse;
   animation-duration: 1.5s;
@@ -101,7 +101,7 @@ article {
   width: 200px;
 }
 
-/* hover effects on links using a CSS class */
+/* hover-effecten voor links gebruik makend van een CSS class */
 .niceLinks {
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ article {
 }
 
 
-/* Styling for individual elements by ID */
+/* Styling voor individuele elementen op basis van ID */
 
 #myCoolText {
   color: #000080;
@@ -125,7 +125,7 @@ article {
 #frontPage {
   background: #48D1CC;
   
-  /*pastel colours version*/
+  /*pastelkleurenversie*/
   /*background: repeating-linear-gradient(-45deg, #eeafbf 0%,*/
   /*#eeeeaf 7.14%, #afeeaf 14.28%,*/
   /*#afeeee 21.42%, #afeeee 28.56%, */
@@ -138,7 +138,7 @@ article {
   #afeeaf 0%, #afeeaf 40%, #afeeee 50%);
   /*, #eeeeaf 50%);*
   
-  /*bright colours version*/
+  /*heldere kleurenversie*/
   /*background: repeating-linear-gradient(-45deg, red 0%, */
   /*yellow 7.14%, lime 14.28%,*/
   /*cyan 21.42%, cyan 28.56%, */
@@ -191,7 +191,7 @@ td {
 /********************************/
 
 
-/* Animations */
+/* Animaties */
 
 @keyframes myFirstAnimation {
   from {

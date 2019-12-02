@@ -1,6 +1,6 @@
 ## Opstarten
 
-- Ga naar het trinket-startproject op [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start) {:target="_blank"}. De voorbeelden in deze Sushi Cards zijn voornamelijk gebaseerd op dit project.
+- Ga naar het trinket-startproject op [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start) {:target="_blank"}. De voorbeelden in deze Sushi-Kaarten zijn voornamelijk gebaseerd op dit project.
 
 - Als je wilt, kun je werken met een website die je al hebt gemaakt.
 

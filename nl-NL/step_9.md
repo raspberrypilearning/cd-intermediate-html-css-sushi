@@ -34,7 +34,7 @@ Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEersteAnimatie)
     animation-iteration-count: 1;
 ```
 
-+ Bekijk nu wat er gebeurt op je webpagina! Probeer verschillende waarden voor `animatie-iteratie-count` om te zien wat het doet.
++ Bekijk nu wat er gebeurt op je webpagina! Probeer verschillende waarden voor `animation-iteration-count` om te zien wat het doet.
 
 + Laten we een andere animatie proberen! Voeg de volgende code toe aan het einde van je CSS-bestand:
 
@@ -66,7 +66,7 @@ Deze code maakt een animatie met de naam `myFirstAnimation` (mijnEersteAnimatie)
     }
 ```
 
-Wanneer je **procentuele waarden** gebruikt in plaats van `from` en `to`, kun je tussen waarden instellen en niet alleen begin- en eindwaarden. Je kunt net zoveel tussenliggende waarden instellen als je wilt, met verschillende percentages van `0` helemaal tot `100`.
+Wanneer je **procentuele waarden** gebruikt in plaats van `from` en `to`, kun je tussenwaarden instellen en niet alleen begin- en eindwaarden. Je kunt net zoveel tussenliggende waarden instellen als je wilt, met verschillende percentages van `0` helemaal tot `100`.
 
 + Wijzig de waarde van `animation-iteration-count` tot `infinite` (oneindig). Kijk of je kunt raden wat er zal gebeuren voordat je het test!
 
@@ -95,7 +95,7 @@ Wanneer je **procentuele waarden** gebruikt in plaats van `from` en `to`, kun je
     }
 ```
 
-Maak je geen zorgen als je bovenstaande code niet begrijpt ... leun achterover en geniet ervan!!
+Maak je geen zorgen als je bovenstaande code niet begrijpt... leun achterover en geniet ervan!!
 
 Ga naar [deze webpagina](http://dojo.soy/html2-css-animation) {: Target = "_ blank"} voor meer informatie over andere dingen die je met animatie kunt doen. Veel plezier!
 

@@ -2,7 +2,7 @@
 
 **Opmerking:** Om deze stap te voltooien, moet je een van deze webbrowsers gebruiken: Chrome, Firefox of Internet Explorer/Edge. Als je geen toegang hebt tot een van deze webbrowsers, kun je gewoon doorgaan naar de volgende kaart.
 
-Op deze kaart leer je hoe je een kijkje kunt nemen in de code van een website met behulp van de **inspectie tool**, en je zult ook ontdekken hoe je enkele wijzigingen kunt aanbrengen die alleen jij kunt zien!
+Op deze kaart leer je hoe je een kijkje kunt nemen in de code van een website met behulp van de **inspectie-tool**, en je zult ook ontdekken hoe je enkele wijzigingen kunt aanbrengen die alleen jij kunt zien!
 
 + Zorg ervoor dat voordat je begint je project is opgeslagen. Vernieuw vervolgens je website door op het vernieuwingspictogram in je browser te klikken.
 

@@ -38,7 +38,7 @@ Er verschijnt een heel nieuw vak in je webbrowser met veel tabbladen en code: de
 
 ![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-+ In de `#myCoolText` regels, klik op de waarde naast het `color` eigendom. Probeer een andere waarde in te typen. Kijk hoe de tekst op je webpagina van kleur verandert! 
++ In de `#myCoolText` regels, klik op de waarde naast de `color` eigenschap. Probeer een andere waarde in te typen. Kijk hoe de tekst op je webpagina van kleur verandert! 
 
 ![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
@@ -58,9 +58,9 @@ Je zou de achtergrond van dat stuk tekst moeten zien veranderen.
 
 ## title: Hoe werkt het?
 
-Wanneer je de websitecode wijzigt met de ontwikkelaar tools, verander je **tijdelijk** datgene wat je **in je browser ziet**. Je verandert eigenlijk niet de bestanden waaruit de website bestaat.
+Wanneer je de websitecode wijzigt met de ontwikkelaar-tools, verander je **tijdelijk** datgene wat je **in je browser ziet**. Je verandert eigenlijk niet de bestanden waaruit de website bestaat.
 
-Wanneer je de pagina vernieuwt, laadt je de website opnieuw in vanuit de bestanden (vanaf internet of je computer). Dat is waarom je veranderingen verdwijnen.
+Wanneer je de pagina vernieuwt, laad je de website opnieuw in vanuit de bestanden (vanaf internet of je computer). Dat is waarom je veranderingen verdwijnen.
 
 Nu je dat weet, kun je leuke dingen doen met de code op andere websites!
 

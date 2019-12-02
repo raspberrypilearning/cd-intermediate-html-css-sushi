@@ -85,13 +85,13 @@ Met het `section` (sectie) element kunt je verwante inhoud verdelen in kleinere 
 
 ### Andere containers bestaan ook nog!
 
-Dit zijn niet de enige container elementen in HTML. Als je ooit een menu hebt gemaakt en vervolgens tussen `<nav> </nav>` tags hebt geplaatst, is dat een ander voorbeeld van een type container. Dat geldt ook voor `<main> </main>` en `<header> </header>` \--- kan jij er nog meer bedenken?
+Dit zijn niet de enige container-elementen in HTML. Als je ooit een menu hebt gemaakt en vervolgens tussen `<nav> </nav>` tags hebt geplaatst, is dat een ander voorbeeld van een type container. Dat geldt ook voor `<main> </main>` en `<header> </header>` \--- kun jij er nog meer bedenken?
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Je webpagina ziet er misschien nog niet zo anders uit, maar zodra de inhoud is georganiseerd in container tags, kunt je er met CSS leuke dingen mee doen. Onthoud dat HTML bepaalt hoe je website is georganiseerd en CSS bepaalt hoe het eruit ziet.
+Je webpagina ziet er misschien nog niet zo anders uit, maar zodra de inhoud is georganiseerd in container-tags, kunt je er met CSS leuke dingen mee doen. Onthoud dat HTML bepaalt hoe je website is georganiseerd en CSS bepaalt hoe het eruit ziet.
 
 ## Uitdaging: organiseer je website
 

@@ -2,9 +2,9 @@
 
 Tot nu toe heb je **pixels** gebruikt om de grootte van dingen in te stellen, bijv. `10px`. Op deze kaart leer je over andere afmetingen die je kunt gebruiken.
 
-+ Ga naar `index.html` en zoek het `img` element met de afbeelding van Tito, of zoek een andere `afbeelding` tag op je website.
++ Ga naar `index.html` en zoek het `img` element met de afbeelding van Tito, of zoek een andere `img` tag op je website.
 
-+ Verwijder het `with` attribuut als het er is, en geef het element een `id` als het er nog geen heeft.
++ Verwijder het `width` attribuut als het er is, en geef het element een `id` als het er nog geen heeft.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />

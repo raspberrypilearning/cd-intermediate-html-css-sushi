@@ -2,7 +2,7 @@
 
 Zoals je al eerder hebt gezien, kun je veel verschillende kleurnamen typen als woorden en de browser herkent ze. Maar een meer gebruikelijke manier om kleuren in te stellen is om iets te gebruiken dat **hex-codes** heet ('hex' is een afkorting van **hexadecimaal**, een speciale manier om te tellen).
 
-+ Bekijk je **style sheet**. Dat is het bestand met `.css` in de naam.
++ Bekijk je **stylesheet**. Dat is het bestand met `.css` in de naam.
 
 + Zet binnen de CSS-regels voor `body`, de achtergrondkleur op de hex-code `#7B68EE`:
 
@@ -30,7 +30,7 @@ Met kleurcodes kunt je elke kleur maken, zelfs als deze niet in een lijst met kl
 
 Elke kleur wordt gemaakt door verschillende hoeveelheden **rood**, **groen** en **blauw** te mengen. Dit wordt soms als **RGB** geschreven. Elk van deze kleuren wordt weergegeven door twee van de zes cijfers in je HEX-code. `00` is het minimum en `FF` is het maximum.
 
-**Hexadecimal** is een manier van tellen die nummers korter maakt om te schrijven door de letters A-F als extra tekens te gebruiken. Het nummer `255` wordt in hexadecimaal geschreven als `FF`. Je hoeft je geen zorgen te maken over het leren tellen met hexadecimale getallen. Experimenteer in plaats daarvan met verschillende hex-codes om te wennen aan het gebruik ervan.
+**Hexadecimaal** is een manier van tellen die nummers korter maakt om te schrijven door de letters A-F als extra tekens te gebruiken. Het nummer `255` wordt in hexadecimaal geschreven als `FF`. Je hoeft je geen zorgen te maken over het leren tellen met hexadecimale getallen. Experimenteer in plaats daarvan met verschillende hex-codes om te wennen aan het gebruik ervan.
 
 + Hier zijn enkele basiskleuren om op je website uit te proberen. Probeer kleinere getallen in te voeren in plaats van `FF` om te zien hoe de tinten veranderen.
 
@@ -46,7 +46,7 @@ Elke kleur wordt gemaakt door verschillende hoeveelheden **rood**, **groen** en 
 
 \--- /collapse \---
 
-Het mengen van de perfecte kleur betekend veel experimenteren. Gelukkig zijn er tal van online kleurenkiezer tools waar je voor elke gewenste kleur de hex-code kunt vinden.
+Het mengen van de perfecte kleur betekent veel experimenteren. Gelukkig zijn er tal van online kleurenkiezer-tools waar je voor elke gewenste kleur de hex-code kunt vinden.
 
 ![](images/W3ColorPicker.png)
 

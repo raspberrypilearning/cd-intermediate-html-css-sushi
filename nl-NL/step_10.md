@@ -25,7 +25,7 @@ Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor
 
 \--- /collapse \---
 
-+ Wat denk je dat het zal doen? Controleer welke pagina's op je website afbeeldingen bevatten (voeg een afbeelding toe als die er niet zijn!) En beweeg je cursor over een afbeelding om erachter te komen!
++ Wat denk je dat het zal doen? Controleer welke pagina's op je website afbeeldingen bevatten (voeg een afbeelding toe als die er niet zijn!) en beweeg je cursor over een afbeelding om erachter te komen!
 
 + Laten we deze nieuwe `:hover` pseudo-class samen met een CSS class gebruiken om links te laten oplichten als je eroverheen beweegt! Voeg een link toe aan je webpagina en voeg een attribuut toe om de klasse naam op te geven. Vergeet niet, koppelingen zijn gedefinieerd met behulp van de `<a>` tag, zoals:
 
@@ -35,7 +35,7 @@ Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor
     </p>
 ```
 
-+ Voeg de volgende code toe aan je style sheet en voer vervolgens je code uit om je mooie links in actie te zien.
++ Voeg de volgende code toe aan je stylesheet en voer vervolgens je code uit om je mooie links in actie te zien.
 
 ```css
   .niceLinks {
@@ -51,7 +51,7 @@ Pseudo-klassen zijn ingebouwde HTML-elementen: je kunt `:hover` stijlregels voor
 
 Je kunt al deze trucs ook combineren met animaties!
 
-+ Zoek opnieuw het CSS-blok op voor de afbeelding van Tito (of welke afbeelding je eerder aan het bewerken was). Voeg de volgende code aan je style sheet bestand toe:
++ Zoek opnieuw het CSS-blok op voor de afbeelding van Tito (of welke afbeelding je eerder aan het bewerken was). Voeg de volgende code aan je stylesheet-bestand toe:
 
 ```css
   #titoPicture {
@@ -79,7 +79,7 @@ Je kunt al deze trucs ook combineren met animaties!
 
 \--- challenge \---
 
-## Uitdaging: oplichtende regenboog links maken
+## Uitdaging: oplichtende regenboog-links maken
 
 + Kun je de `rainbowGlow` animatie van de vorige kaart gebruiken om ervoor te zorgen dat de koppelingen in je menu van kleur blijven veranderen wanneer de cursor eroverheen zweeft?
 
@@ -113,7 +113,7 @@ Hieronder staat de code voor de `rainbowGlow` animatie. Er zijn vijf fasen gedef
 
 \--- hint \---
 
-Als je iets wilt animeren, voeg je zoals je hierboven hebt gedaan de drie `animatie` eigenschappen toe aan de stijlregels. Zorg er altijd voor dat de `animatienaam` overeen komt met de naam van de animatie die je wilt gebruiken.
+Als je iets wilt animeren, voeg je zoals je hierboven hebt gedaan de drie `animation` eigenschappen toe aan de stijlregels. Zorg er altijd voor dat de `animation-name` overeen komt met de naam van de animatie die je wilt gebruiken.
 
 \--- /hint \---
 

@@ -45,7 +45,7 @@ Je `main` element zou er nu ongeveer zo uit moeten zien (jij hebt mogelijk ander
   </main>
 ```
 
-+ Bekijk nu de inhoud in je `artikel` en probeer het op te splitsen in secties. Plaats de volgende nieuwe tags rond elk deel: `<section> </section>`. Hier is een voorbeeld van hoe het eruit zou kunnen zien:
++ Bekijk nu de inhoud in je `article` en probeer het op te splitsen in secties. Plaats de volgende nieuwe tags rond elk deel: `<section> </section>`. Hier is een voorbeeld van hoe het eruit zou kunnen zien:
 
 ```html
   <article>
@@ -77,11 +77,11 @@ Alles kan tussen de tags staan. Meestal zal het meer dan één element zijn, maa
 
 ### Article
 
-Het `article`(artikel) element is een container voor een heel stuk inhoud, in dit geval een verzameling informatie over bezienswaardigheden in Nederland. Als je verschillende stukjes inhoud hebt die geen verband met elkaar hebben, moet je elke stuk in een eigen `article` element plaatsen in plaats van de tags rond de gehele inhoud zetten.
+Het `article` (artikel) element is een container voor een heel stuk inhoud, in dit geval een verzameling informatie over bezienswaardigheden in Ierland. Als je verschillende stukjes inhoud hebt die geen verband met elkaar hebben, moet je elk stuk in een eigen `article` element plaatsen in plaats van de tags rond de gehele inhoud zetten.
 
 ### Section
 
-Met het `section` element kunt je verwante inhoud verdelen in kleinere delen en elk deel in een eigen container plaatsen.
+Met het `section` (sectie) element kunt je verwante inhoud verdelen in kleinere delen en elk deel in een eigen container plaatsen.
 
 ### Andere containers bestaan ook nog!
 

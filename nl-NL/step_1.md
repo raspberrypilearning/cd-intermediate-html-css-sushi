@@ -21,7 +21,7 @@ Hier is een voorbeeld van hoe je website eruit zou kunnen zien na het voltooien 
 + Het met verschillende soorten afmetingen bepalen van de grootte van elementen
 + Dingen laten gebeuren als je de muisaanwijzer over elementen op je pagina beweegt
 + Animeren van elementen op je website met CSS
-+ Hoe de ontwikkelaars tools te gebruiken om een ​​kijkje te nemen in de code van een website en om delen van die website te testen
++ Hoe de ontwikkelaars-tools te gebruiken om een ​​kijkje te nemen in de code van een website en om delen van die website te testen
 
 \--- /collapse \---
 

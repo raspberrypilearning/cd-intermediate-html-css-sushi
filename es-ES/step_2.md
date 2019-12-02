@@ -36,6 +36,6 @@ Si deseas crear una cuenta en Trinket, sigue los siguientes pasos. Esto te permi
 
 - Ingresa tu dirección de correo electrónico y elige una contraseña, o pide a alguien que lo haga por ti.
 
-- Ahora puedes acceder a todos tus proyectos guardados o remixados haciendo clic en tu nombre de usuario y yendo a **My Trinkets**. ![elemento del menú "My Trinkets"](images/myTrinketsMenu.png)
+- Ahora puedes acceder a todos tus proyectos guardados o remixados haciendo clic en tu nombre de usuario y yendo a **My Trinkets**. !["My Trinkets" elemento de menú](images/myTrinketsMenu.png)
 
 \--- /collapse \---

@@ -1,8 +1,8 @@
 ## Ontwerp enkele thema's
 
-CSS-regels schrijven voor elementen zoals `section` en `p` is geweldig, maar wat als je wilt dat sommige ervan er anders uitzien dan andere? Op deze kaart leer je hoe je verschillende sets stijl regels toepast op elementen van hetzelfde type en een ander thema maakt voor elke pagina op je website!
+CSS-regels schrijven voor elementen zoals `section` en `p` is geweldig, maar wat als je wilt dat sommige ervan er anders uitzien dan andere? Op deze kaart leer je hoe je verschillende verzamelingen stijlregels toepast op elementen van hetzelfde type en een ander thema maakt voor elke pagina op je website!
 
-+ Ga naar je style sheet bestand en voeg het volgende toe \--- zorg ervoor dat je de punt aan het begin ook typt!
++ Ga naar je stylesheet-bestand en voeg het volgende toe \--- zorg ervoor dat je de punt aan het begin ook typt!
 
 ```css
   .topDivider {
@@ -33,7 +33,7 @@ Onthoud dat wanneer je een CSS **selector** zoals `section`, `p` of `nav ul` geb
 
 Met CSS **classes**, kun je de stijl van slechts **enkele** elementen veranderen.
 
-Door een punt vóór je selector te plaatsen, wordt deze een **class selector** (klasse selectie). Een klasse kan elke naam hebben, dus het hoeft niet de naam van een HTML-element te zijn. Bijvoorbeeld:
+Door een punt vóór je selector te plaatsen, wordt deze een **class selector** (klasseselectie). Een klasse kan elke naam hebben, dus het hoeft niet de naam van een HTML-element te zijn. Bijvoorbeeld:
 
 ```css
   .mijnGeweldigeClass {
@@ -62,7 +62,7 @@ Om te kiezen op welke elementen de stijl regels van toepassing zijn, voeg je de 
   }
 ```
 
-+ Voeg vervolgens op een andere pagina van je website de class toe aan enkele elementen daar. Ik ga het toevoegen aan de `section` elementen op de Food pagina van mijn website, zoals deze: `<section class="stylishBox">`.
++ Voeg vervolgens op een andere pagina van je website de class toe aan enkele elementen daar. Ik ga het toevoegen aan de `section` elementen op de Eten pagina van mijn website, zoals deze: `<section class="stylishBox">`.
 
 Het ziet er goed uit, maar nu zijn mijn secties allemaal samengeknepen.
 
@@ -103,7 +103,7 @@ Dit is hoe mijn startpagina eruit ziet met de CSS class. Ik heb ook de `topDivid
 
 ## Uitdaging: maak enkele nieuwe classes
 
-+ Gebruik CSS **classes** om een ​​paar verschillende foto formaten voor je website te definiëren, bijvoorbeeld `.smallPictures` (kleine foto's) en `.mediumPictures` (medium foto's). Verwijder vervolgens het `width` attribuut van elk van je `img` elementen en voeg in plaats daarvan de juiste class toe.
++ Gebruik CSS **classes** om een ​​paar verschillende fotoformaten voor je website te definiëren, bijvoorbeeld `.smallPictures` (kleine foto's) en `.mediumPictures` (medium foto's). Verwijder vervolgens het `width` attribuut van elk van je `img` elementen en voeg in plaats daarvan de juiste class toe.
 
 \--- hints \---
 

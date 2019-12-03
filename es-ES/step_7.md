@@ -16,7 +16,7 @@ Aparecerá un cuadro completamente nuevo en tu navegador web con muchas pestaña
 
 + Busca la pestaña que te muestra el código HTML de la página (podría llamarse 'Elementos' o 'Inspector'). ¡El código debería ser muy similar a como lo escribiste en tu archivo HTML! Puedes hacer clic en los pequeños triángulos en el lado derecho para expandir el código que está oculto.
 
-![Inspector que muestra un elemento de texto](images/inspectTextHtml.png)
+![Inspector mostrando un elemento de texto](images/inspectTextHtml.png)
 
 + Haz doble clic en el texto entre las etiquetas. ¡Deberías poder editarlo ahora! Escribe algo y presiona <kbd>Enter</kbd>.
 

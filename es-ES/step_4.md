@@ -35,31 +35,31 @@ Tu elemento `main` debe ser algo como esto (es posible que tenga un contenido di
         <h2>The Cliffs of Moher</h2>
         <p>
         Los acantilados de Moher se encuentran en el condado de Clare, de donde soy. ¡Mira qué geniales son!</p>
-<img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-<h2>Achill Island</h2>
-<p>Esta es una gran isla frente a la costa del Condado de Mayo. Tiene un paisaje salvaje y
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+        <h2>Achill Island</h2>
+        <p>Esta es una gran isla frente a la costa del Condado de Mayo. Tiene un paisaje salvaje y
 hermoso de montañas, pantanos y acantilados.
         </p>
-<img src="achill.JPG" width="200px" />
-</article>
-</main>
+        <img src="achill.JPG" width="200px" />
+    </article>
+  </main>
 ```
 
 + Ahora mira el contenido de tu `article` y trata de dividirlo en secciones. Coloque este nuevo par de etiquetas alrededor de cada parte: `<section> </section>`. Aquí hay un ejemplo de cómo podría verse:
 
 ```html
   <article>
-<h1>Mis lugares favoritos para ver en Irlanda</h1>
-<section>
-<h2>The Cliffs of Moher</h2>
-<p>
-Los acantilados de Moher se encuentran en el condado de Clare, de donde soy. ¡Mira qué geniales son!</p>
-<img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-</section>
-<section>
-<h2>Achill Island</h2>
-<p>Esta es una gran isla frente a la costa del Condado de Mayo. Tiene un paisaje salvaje y
-hermoso de montañas, pantanos y acantilados.
+    <h1>Mis lugares favoritos para ver en Irlanda</h1>
+    <section>
+      <h2>The Cliffs of Moher</h2>
+      <p>
+      The Cliffs of Moher se encuentran en el condado de Clare, de donde soy. ¡Mira qué geniales son!</p>
+      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+    </section>
+    <section>
+      <h2>Achill Island</h2>
+      <p>Esta es una gran isla frente a la costa del Condado de Mayo. Tiene un paisaje salvaje y
+        hermoso de montañas, pantanos y acantilados.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>

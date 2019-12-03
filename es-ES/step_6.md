@@ -10,7 +10,7 @@
     </p> 
 ```
 
-El `id` es un nombre que le das a un elemento particular para **identificarlo**. ¡No debe haber dos elementos en una página que tengan el mismo `id`!
+El `id` es un nombre que le das a un elemento en particular para **identificarlo**. ¡No debe haber dos elementos en una página que tengan el mismo `id`!
 
 + Ahora ve a tu hoja de estilos y agrega el siguiente código:
 
@@ -84,7 +84,7 @@ Para definir reglas de estilo para un elemento específico, usa el símbolo `#` 
   }
 ```
 
-Nota: El nombre que escribas en frente de las reglas CSS deberían coincidir **exactamente** con el nombre que pusiste en el atributo `id` del elemento.
+Nota: El nombre que escribas en frente de las reglas CSS debería coincidir **exactamente** con el nombre que pusiste en el atributo `id` del elemento.
 
 \--- /hint \---
 

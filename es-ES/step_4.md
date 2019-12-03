@@ -1,6 +1,6 @@
 ## Organizando tu página
 
-Hasta ahora se han utilizado **epígrafes** y **párrafos** para hacer que el **contenido** tenga un aspecto ordenado y fácil de leer. Vamos a hacerlo aún más organizado al agrupar las cosas.
+Hasta ahora has utilizado **epígrafes** y **párrafos** para hacer que el **contenido** tenga un aspecto ordenado y fácil de leer. Vamos a hacerlo aún más organizado al agrupar las cosas.
 
 ## \--- collapse \---
 
@@ -14,7 +14,7 @@ Hasta ahora se han utilizado **epígrafes** y **párrafos** para hacer que el **
 
 ```html
   <main>
-    <article>
+<article>
 ```
 
 + Si tu editor añadió automáticamente una etiqueta de cierre `</article>`, elimínala.

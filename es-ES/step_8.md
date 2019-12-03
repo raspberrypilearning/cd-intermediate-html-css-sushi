@@ -2,7 +2,7 @@
 
 Hasta ahora has estado usando **píxeles** para establecer el tamaño de las cosas, por ejemplo, `10px`. En esta tarjeta, aprenderás sobre otras medidas que puedes usar.
 
-+ Ve a `index.html` y encuentra el elemento `img` con la imagen de Tito, o encuentra otra etiqueta `img` en su sitio web.
++ Ve a `index.html` y encuentra el elemento `img` con la imagen de Tito, o encuentra otra etiqueta `img` en tu sitio web.
 
 + Elimina el atributo `width` si está allí, y dale al elemento un `id` si aún no tiene uno.
 

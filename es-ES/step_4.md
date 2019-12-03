@@ -106,64 +106,59 @@ Mira la página de Comida del proyecto de ejemplo. Verás que añadí un `articl
 
 ```html
   <main>
-<article>
-<h1>Comida en Irlanda</h1>
-<p>
-¡Estas son algunas de mis comidas irlandesas favoritas!
+    <article>
+      <h1>Comida en Irlanda</h1>
+      <p>
+        ¡Estas son algunas de mis comidas irlandesas favoritas!
       </p>  
-<section>
-<h2>Desayuno irlandés tradicional</h2>
-<p>
-El desayuno "irlandés completo" consiste en salchichas, lonchas (tocino),
-huevos, morcilla, budín blanco y pan tostado.
+      <section>
+        <h2>Desayuno irlandés tradicional</h2>
+        <p>
+          El desayuno "irlandés completo" consiste en salchichas, lonchas (tocino),
+          huevos, morcilla, budín blanco y pan tostado.
         </p>
-<p>
-A menudo habrá un tomate asado, así como 
-champiñones,
-y judías horneadas.
+        <p>
+          A menudo habrá un tomate asado, así como champiñones 
+          y judías horneadas.
         </p>
-<p>
-Y por supuesto, ¡ningún desayuno está completo sin una hermosa taza
-de té!
+        <p>
+          Y por supuesto, ¡ningún desayuno está completo sin una hermosa taza
+          de té!
         </p>
-</section>
+      </section>
 
-<section>
-<h2>Bangers y Mash</h2>
-<p>
-Este clásico de salchichas, puré de patatas 
-y salsa no es
-exclusivo de Irlanda, pero lo que lo hace especial es las salchichas
-irlandesas. La mayoría de los países tienen su propia forma de hacer salchichas,
-¡y son una cosa que extraño de casa si estoy de viaje!
+      <section>
+        <h2>Bangers y Mash</h2>
+        <p>
+          Este clásico de salchichas, puré de patatas y salsa no es
+          exclusivo de Irlanda, pero lo que lo hace especial es las salchichas
+          irlandesas. La mayoría de los países tienen su propia forma de hacer salchichas,
+         ¡y son una cosa que extraño de casa si estoy de viaje!
         </p>
-</section>
+      </section>
 
-<section>
-<h2>Bacon y repollo</h2>
-<p>
-¡No podría hacer una lista de comida irlandesa sin incluir
-este plato tan tradicional!
+      <section>
+        <h2>Bacon y repollo</h2>
+        <p>
+          ¡No podría hacer una lista de comida irlandesa sin incluir
+          este plato tan tradicional!
         </p>
-<p>
-Puede que no parezca muy interesante, pero esta abundante comida de
-jamón cocido, patatas y repollo verde es sabrosa y abundante.
+        <p>
+          Puede que no parezca muy interesante, pero esta abundante comida de
+          jamón cocido, patatas y repollo verde es sabrosa y abundante.
           Me encanta bañar las patatas en mantequilla, y también me gusta
-un poco de mostaza con el tocino.
+          un poco de mostaza con el tocino.
         </p>
-<p>
-Mi madre siempre lo hizo muy especial cocinando 
-el repollo en
-el agua en la que se hirvió el jamón.
+        <p>
+          Mi madre siempre lo hizo muy especial cocinando el repollo en
+          el agua en la que se hirvió el jamón.
         </p>
-<p>
-¡Si hay sobras, puedes hacer otro 
-de mis 
-favoritos: <strong>repollo frito</strong>!
+        <p>
+          ¡Si hay sobras, puedes hacer otro de mis favoritos: <strong>repollo frito</strong>!
         </p>
-</section>
-</article>     
-</main>
+      </section>
+    </article>     
+  </main>
 ```
 
 \--- /hint \---

@@ -76,7 +76,7 @@ Esto hace que tu sitio web sea amigable para los lectores de pantalla, te da má
 
 Cualquier cosa puede ir entre las etiquetas. Por lo general, será más de un elemento, pero no tiene por qué serlo. Pueden ser elementos HTML de cualquier tipo. Lo que estás haciendo es decirle al navegador que todo lo que hay entre estas etiquetas debe estar unido.
 
-### Article
+### Artículo
 
 El elemento `article` es un contenedor para una pieza completa de contenido, en este caso un conjunto de información sobre atracciones en Irlanda. Si tienes diferentes fragmentos de contenido que no están relacionados, debes poner cada uno en su propio elemento `article` en lugar de poner un conjunto de etiquetas alrededor del lote completo.
 
@@ -86,7 +86,7 @@ El elemento `section` permite dividir el contenido relacionado en trozos más pe
 
 ### ¡Existen más elementos!
 
-Estos no son los únicos elementos contenedores en HTML. Si alguna vez creaste un menú y luego lo pusiste entre etiquetas `<nav> </nav>`, ese es otro ejemplo de un tipo de contenedor. También lo son `<main> </main>` y `<header> </header>` - ¿Puedes pensar en algo más?
+Estos no son los únicos elementos contenedores en HTML. Si alguna vez creaste un menú y luego lo pusiste entre etiquetas `<nav> </nav>`, ese es otro ejemplo de un tipo de contenedor. También lo son `<main> </main>` y `<header> </header>` - ¿Puedes pensar en algunos más?
 
 \--- /collapse \---
 
@@ -106,16 +106,16 @@ Mira la página de Comida del proyecto de ejemplo. Verás que añadí un `articl
 
 ```html
   <main>
-    <article>
-      <h1>Comida en Irlanda</h1>
-      <p>
-        Estas son algunas de mis comidas irlandesas favoritas!
+<article>
+<h1>Comida en Irlanda</h1>
+<p>
+¡Estas son algunas de mis comidas irlandesas favoritas!
       </p>  
-      <section>
-        <h2>Desayuno irlandés tradicional</h2>
-        <p>
-          El desayuno "irlandés completo" consiste en salchichas, lonchas (tocino),
-          huevos, morcilla, budín blanco y pan tostado.
+<section>
+<h2>Desayuno irlandés tradicional</h2>
+<p>
+El desayuno "irlandés completo" consiste en salchichas, lonchas (tocino),
+huevos, morcilla, budín blanco y pan tostado.
         </p>
         <p>
           A menudo habrá un tomate asado, así como champiñones 

@@ -31,11 +31,11 @@ Deberías ver que la imagen se hace más grande y más pequeña cuando haces que
 
 Cuando estableces el tamaño de algo en píxeles, estás configurando un tamaño exacto y no cambia. Esto se llama una medida **absoluta**.
 
-Otra forma de establecer el tamaño de las cosas es usando **medidas relativas**, de modo que el tamaño depende de cuán grandes sean los elementos comparados entre sí. Entonces, cada vez que una cosa cambia de tamaño, todo lo demás va a cambiar automáticamente el tamaño para así mantener las mismas **proporciones**.
+Otra forma de establecer el tamaño de las cosas es usando **medidas relativas**, de modo que el tamaño depende de cuán grandes sean los elementos comparados entre sí. Entonces, cada vez que una cosa cambia de tamaño, todo lo demás va a cambiar automáticamente de tamaño para así mantener las mismas **proporciones**.
 
 Cuando usas **medidas relativas**, es importante saber cuál es el **padre** de su elemento. El padre es el elemento en el que se encuentra tu elemento, y la medida será en relación con ese elemento. Por ejemplo, el padre de la imagen de arriba es el elemento `article`, porque el elemento `img` está entre las etiquetas `<article></article>`.
 
-Si se establece el `width` de un elemento a `100%`, hará que sea la misma anchura que el contenedor primario en que se encuentra.
+Si se establece el `width` de un elemento a `100%`, hará que sea la misma anchura que el contenedor padre en el que se encuentra.
 
 \--- /collapse \---
 

@@ -36,7 +36,7 @@ nav ul li a {
   text-decoration: none;
   color: #880055;
 }
-/* Add hover effects to the nav menu directly instead of with a class */
+/ * Agregar efectos hover al menú de navegación directamente en lugar de con una clase * /
 nav ul li a:hover {
   animation-name: glowPulse;
   animation-duration: 1.5s;
@@ -167,9 +167,9 @@ article {
   animation-iteration-count: 1;
 }
 
-/**********************************
-This section is for styling tables
-***********************************/
+/************************************************
+Esta sección es para el estilo de las tablas
+************************************************ /
 table, th, td {
   border: 1px solid #F0FFF0;
   border-collapse: collapse;

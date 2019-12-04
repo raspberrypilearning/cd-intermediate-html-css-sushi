@@ -101,7 +101,7 @@ article {
   width: 200px;
 }
 
-/* hover effects on links using a CSS class */
+/ * efectos hover en enlaces que usan una clase CSS * /
 .niceLinks {
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ article {
 }
 
 
-/* Styling for individual elements by ID */
+/* Estilo de elementos individuales por ID */
 
 #myCoolText {
   color: #000080;

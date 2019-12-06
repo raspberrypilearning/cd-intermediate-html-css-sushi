@@ -30,7 +30,7 @@ Los códigos de color te permiten crear cualquier color, incluso si no está en 
 
 Cada color se fabrica mezclando diferentes cantidades de **rojo**, **verde** y **azul**. A veces verás esto escrito como **RGB**. Cada uno de estos colores está representado por dos de los seis dígitos en tu código HEX. `00` es el mínimo, y `FF` es el máximo.
 
-**Hexadecimal** es una forma de contar que hace que los números sean más cortos para escribir utilizando las letras AF como dígitos adicionales. El número `255` se escribe como `FF` en hexadecimal. No necesitas preocuparte por aprender a contar números hexadecimales. En cambio, experimenta con diferentes códigos hexadecimales para acostumbrarte a usarlos.
+**Hexadecimal** es una forma de contar que hace que los números sean más cortos para escribir utilizando las letras A-F como dígitos adicionales. El número `255` se escribe como `FF` en hexadecimal. No necesitas preocuparte por aprender a contar números hexadecimales. En cambio, experimenta con diferentes códigos hexadecimales para acostumbrarte a usarlos.
 
 + Aquí hay algunos colores básicos para probar en tu sitio web. Intenta poner números más pequeños en lugar de `FF` para ver cómo cambian los tonos.
 
@@ -39,7 +39,7 @@ Cada color se fabrica mezclando diferentes cantidades de **rojo**, **verde** y *
 | \# | FF | 00 | 00 |      Rojo      |
 | \# | 00 | FF | 00 |     Verde      |
 | \# | 00 | 00 | FF |      Azul      |
-| \# | FF | FF | 00 |     Yellow     |
+| \# | FF | FF | 00 |    Amarillo    |
 | \# | FF | 00 | FF |    Magenta     |
 | \# | 00 | FF | FF |      Cian      |
 | \# | FF | 8c | 00 | Naranja oscuro |

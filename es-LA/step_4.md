@@ -1,6 +1,6 @@
 ## Organizando tu página
 
-Hasta ahora se han utilizado **epígrafes** y **párrafos** para hacer que el **contenido** tenga un aspecto ordenado y fácil de leer. Vamos a hacerlo aún más organizado al agrupar las cosas.
+Hasta ahora has utilizado **epígrafes** y **párrafos** para hacer que el **contenido** tenga un aspecto ordenado y fácil de leer. Vamos a hacerlo aún más organizado al agrupar las cosas.
 
 ## \--- collapse \---
 
@@ -14,7 +14,7 @@ Hasta ahora se han utilizado **epígrafes** y **párrafos** para hacer que el **
 
 ```html
   <main>
-    <article>
+<article>
 ```
 
 + Si tu editor añadió automáticamente una etiqueta de cierre `</article>`, elimínala.
@@ -23,10 +23,10 @@ Hasta ahora se han utilizado **epígrafes** y **párrafos** para hacer que el **
 
 ```html
     </article>
-  </main>
+</main>
 ```
 
-Tu elemento `main` debe ser algo como esto (es posible que tenga un contenido diferente entre las etiquestas `article`):
+Tu elemento `main` debe ser algo como esto (es posible que tenga un contenido diferente entre las etiquetas `article`):
 
 ```html
   <main>
@@ -38,7 +38,7 @@ Tu elemento `main` debe ser algo como esto (es posible que tenga un contenido di
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
         <h2>Achill Island</h2>
         <p>Esta es una gran isla frente a la costa del Condado de Mayo. Tiene un paisaje salvaje y
-        hermoso de montañas, pantanos y acantilados.
+hermoso de montañas, pantanos y acantilados.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
@@ -86,7 +86,7 @@ El elemento `section` permite dividir el contenido relacionado en trozos más pe
 
 ### ¡Existen más elementos!
 
-Estos no son los únicos elementos contenedores en HTML. Si alguna vez creaste un menú y luego lo pusiste entre etiquetas `<nav> </nav>`, ese es otro ejemplo de un tipo de contenedor. También lo son `<main> </main>` y `<header> </header>` - ¿Puedes pensar en algo más?
+Estos no son los únicos elementos contenedores en HTML. Si alguna vez creaste un menú y luego lo pusiste entre etiquetas `<nav> </nav>`, ese es otro ejemplo de un tipo de contenedor. También lo son `<main> </main>` y `<header> </header>` - ¿Puedes pensar en algunos más?
 
 \--- /collapse \---
 
@@ -109,7 +109,7 @@ Mira la página de Comida del proyecto de ejemplo. Verás que añadí un `articl
     <article>
       <h1>Comida en Irlanda</h1>
       <p>
-        Estas son algunas de mis comidas irlandesas favoritas!
+        ¡Estas son algunas de mis comidas irlandesas favoritas!
       </p>  
       <section>
         <h2>Desayuno irlandés tradicional</h2>
@@ -165,6 +165,6 @@ Mira la página de Comida del proyecto de ejemplo. Verás que añadí un `articl
 
 \--- /hints \---
 
-En la próxima tarjeta, ¡diseñarás un tema diferente para cada página organizada en artículos y secciones!
+En la próxima tarjeta, ¡diseñarás un tema diferente para cada página, organizada en artículos y secciones!
 
 \--- /challenge \---

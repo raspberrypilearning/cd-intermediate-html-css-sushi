@@ -18,7 +18,7 @@ Aquí hay un ejemplo de cómo podría verse tu sitio web después de completar e
 + Cómo crear tus propios colores usando código
 + Maneras de organizar el contenido en tu sitio web para que puedas aplicar estilos y hacerlo amigable para los lectores de pantalla
 + Cómo utilizar el estilo de CSS para crear temas, así como elementos individuales de estilo
-+ Controlar el tamaño de los elementos con diferentes tipos de mediciones
++ Controlar el tamaño de los elementos con diferentes tipos de medidas
 + Hacer que las cosas sucedan cuando pasas el mouse sobre los elementos en tu página
 + Animar elementos de su sitio web con CSS
 + Cómo utilizar las herramientas de desarrollador para echar un vistazo al código de cualquier sitio web, y para probar partes del tuyo

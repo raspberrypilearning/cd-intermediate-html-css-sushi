@@ -87,9 +87,9 @@ Puedes aplicar tantas clases de CSS a un elemento como desees. Simplemente escri
 
 ![Secciones con margen y relleno añadidos](images/sectionsWithSpacing.png)
 
-Así que las clases de CSS te permiten **elegir** qué elementos de estilo, y te permiten **reutilizar** el mismo conjunto de reglas de estilo en cualquier elemento que desees.
+De esta forma las clases de CSS te permiten **elegir** a que elementos dar estilo, y te permiten **reutilizar** el mismo conjunto de reglas de estilo en cualquier elemento que desees.
 
-+ Ve a `index.html` y añade la clase `stylishBox` al elemento `main`, u otro elemento en la página. ¡Puedes eliminarlo nuevamente después!
++ Ve a `index.html` y añade la clase `stylishBox` al elemento `main`, u a otro elemento en la página. ¡Puedes eliminarlo nuevamente después!
 
 ```html
     <main class="stylishBox">   

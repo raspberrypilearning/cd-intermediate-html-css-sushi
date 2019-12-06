@@ -1,4 +1,4 @@
-## Preparándote
+## Preparación
 
 - Ve al proyecto de trinket inicial en [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. Los ejemplos en estas tarjetas de sushi se basan principalmente en este proyecto.
 
@@ -8,7 +8,7 @@
 
 ## title: Tengo una cuenta en Trinket
 
-- Haz clic en el botón **Remix** en la esquina superior derecha del proyecto (si no has iniciado sesión, se te pedirá que lo hagas. Una vez que hayas iniciado sesión, deberás hacer clic en el botón **Remix** nuevamente). Esto crea una copia del proyecto para que puedas trabajar. 
+- Haz clic en el botón **Remix** en la esquina superior derecha del proyecto (si no has iniciado sesión, se te pedirá que lo hagas). Una vez que hayas iniciado sesión, deberás hacer clic en el botón **Remix** nuevamente). Esto crea una copia del proyecto para que puedas trabajar. 
 
 ![Botón Remix](images/tktRemixButtonArrow.png)
 
@@ -28,7 +28,7 @@ Incluso si no tienes una cuenta, puedes seguir trabajando con Trinket.
 
 Puedes guardar tu trabajo utilizando una de las opciones en el menú **Compartir**. Puedes descargar el proyecto u obtener un enlace que puedes guardar, por ejemplo, en un documento o enviar por correo electrónico. **Nota**: cada vez que realices un cambio en el proyecto, obtendrás un nuevo enlace.
 
-### Cómo hacerse una cuenta
+### Cómo hacerte una cuenta
 
 Si deseas crear una cuenta en Trinket, sigue los siguientes pasos. Esto te permitirá acceder fácilmente a tu trabajo desde cualquier ordenador, y a hacer **remix** a proyectos que otra persona haya compartido contigo (es decir, guardar una copia para poder hacer cambios).
 
@@ -36,6 +36,6 @@ Si deseas crear una cuenta en Trinket, sigue los siguientes pasos. Esto te permi
 
 - Ingresa tu dirección de correo electrónico y elige una contraseña, o pide a alguien que lo haga por ti.
 
-- Ahora puedes acceder a todos tus proyectos guardados o remixados haciendo clic en tu nombre de usuario y yendo a **My Trinkets**. ![elemento del menú "My Trinkets"](images/myTrinketsMenu.png)
+- Ahora puedes acceder a todos tus proyectos guardados o remixados haciendo clic en tu nombre de usuario y yendo a **My Trinkets**. !["My Trinkets" elemento de menú](images/myTrinketsMenu.png)
 
 \--- /collapse \---

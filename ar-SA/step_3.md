@@ -16,7 +16,7 @@
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ لست من محبي اللون البنفسجي؟ اذهب الى [صفحة الويب هذه](http://dojo.soy/html2-colors){:target="_blank"} واختر لون جديد لورقة الانماط الخاصة بك - بدلا منكتابة اسم اللون، اكتب الرمز السداسي. 
++ لست من محبي اللون البنفسجي؟ اذهب الى [صفحة الويب هذه](http://dojo.soy/html2-colors){:target="_blank"} واختر لون جديد لورقة الانماط الخاصة بك - بدلا من كتابة اسم اللون، اكتب الرمز السداسي. 
 
 ![](images/ColorNamesHex.png)
 

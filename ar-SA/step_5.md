@@ -121,7 +121,7 @@
 
 \--- hint \---
 
-إليك صغحة ` img ` بخاصية عرض `width `:
+إليك وسم ` img ` بخاصية عرض `width `:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       

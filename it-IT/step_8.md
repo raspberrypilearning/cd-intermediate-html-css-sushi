@@ -27,7 +27,7 @@ You should see that the picture gets bigger and smaller when you make the window
 
 ## \--- collapse \---
 
-## title: Come funziona?
+## title: How does it work?
 
 When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
 

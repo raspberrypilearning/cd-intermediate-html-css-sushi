@@ -65,7 +65,7 @@ article {
 }
 
 
-/ * صنفCSS / /
+/* CSS Classes */
 
 .purpleBackground {
   background-color: #ccb3ff;
@@ -101,7 +101,7 @@ article {
   width: 200px;
 }
 
-/ * تأثيرات التحويم على الارتباطات باستخدام صنف CSS * /
+/* hover effects on links using a CSS class */
 .niceLinks {
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ article {
 }
 
 
-/ * التصميم للعناصر الفردية بواسطة المعرّف ID* /
+/* Styling for individual elements by ID */
 
 #myCoolText {
   color: #000080;
@@ -188,10 +188,10 @@ th {
 td {
   color: #800080;
 }
-/ ******************************** /
+/********************************/
 
 
-/* الرسوم المتحركة */
+/* Animations */
 
 @keyframes myFirstAnimation {
   from {

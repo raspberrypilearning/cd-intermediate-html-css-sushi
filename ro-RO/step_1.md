@@ -1,10 +1,10 @@
-## Introducere
+## Introduction
 
-Construiți-vă pe abilitățile HTML / CSS existente pentru a crea un site web și a obține mai mult control asupra modului în care arată.
+Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### Ce veți face
+### What you will make
 
-Iată un exemplu de modul în care site-ul dvs. ar putea avea grijă de completarea acestor cărți de sushi:
+Here is an example of how your website might look after completing these Sushi Cards:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,13 +15,13 @@ Iată un exemplu de modul în care site-ul dvs. ar putea avea grijă de completa
 
 ## title: What you will learn
 
-+ Cum puteți crea propriile culori utilizând codul
-+ Modalități de organizare a conținutului pe site-ul dvs. web, astfel încât să puteți aplica stiluri și să îl faceți prietenos pentru cititorii de ecran
-+ Cum se utilizează stilul CSS pentru a crea teme și elemente individuale de stil
-+ Controlul dimensiunii elementelor cu diferite tipuri de măsurători
-+ Realizarea lucrurilor atunci când plasați cursorul peste elementele de pe pagina dvs.
-+ Elementele de animație ale site-ului dvs. web cu CSS
-+ Cum să utilizați instrumentele pentru dezvoltatori pentru a vă arunca o privire la codul oricărui site web și pentru a testa anumite părți ale dvs.
++ How to create your own colours using code
++ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
++ How to use CSS styling to create themes as well as style individual elements
++ Controlling the size of elements with different kinds of measurements
++ Making things happen when you hover over elements on your page
++ Animating elements of your website with CSS
++ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
 
 \--- /collapse \---
 

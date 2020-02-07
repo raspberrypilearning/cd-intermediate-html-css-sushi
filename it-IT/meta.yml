@@ -1,7 +1,7 @@
 ---
 title: Guide to my country 2.0
 hero_image: images/banner.png
-description: Migliora ulteriormente le tue capacità di progettazione di siti web!
+description: Take your website design skills further!
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,7 +17,7 @@ version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduzione
+    title: Introduction
   - 
     title: Getting set up
   - 

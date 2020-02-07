@@ -1,8 +1,8 @@
 ---
-title: Guía de mi país 2.0
+title: Guide to my country 2.0
 hero_image: images/banner.png
-description: '¡Lleva las habilidades de diseño de tu sitio web aún más lejos!'
-theme: rojo #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: Take your website design skills further!
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -10,29 +10,29 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: proyectos de CoderDojo
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Robot parlanchín
+    title: Introduction
   - 
-    title: Preparación
+    title: Getting set up
   - 
-    title: '¡Todos los colores!'
+    title: All the colours!
   - 
-    title: Organizando tu página
+    title: Organising your page
   - 
-    title: Diseña algunos temas
+    title: Design some themes
   - 
-    title: Estilo individual
+    title: Individual style
   - 
-    title: '¡Mira el código en otros sitios web!'
+    title: See the code on other websites!
   - 
-    title: Ajustar automáticamente el tamaño
+    title: Automatically adjust the size
   - 
-    title: Animación
+    title: Animation
   - 
-    title: '¡Enséñale a Tito a darse la vuelta!'
+    title: Teach Tito to roll over!

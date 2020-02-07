@@ -1,53 +1,53 @@
-## ¡Todos los colores!
+## All the colours!
 
-Como ya has visto, puedes escribir muchos nombres de colores diferentes como palabras, y el navegador los reconocerá. Pero una forma más común de establecer colores es usar algo llamado **códigos hexadecimales** ('hex' es la abreviatura de **hexadecimales**, una manera especial de contar).
+As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
 
-+ Echa un vistazo a tu **hoja de estilo**. Es el archivo que tiene `.css` en el nombre.
++ Take a look at your **style sheet**. That's the file that has `.css` in the name.
 
-+ Dentro de las reglas de CSS para `body`, establece el color de fondo en el código hexadecimal `#7B68EE`:
++ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
 
 ```html
   background-color: #7B68EE;
 ```
 
-Nota: Si está usando un Mac, puede escribir `#` presionando las teclas <kbd>alt</kbd> y <kbd>3</kbd> al mismo tiempo.
+Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
 
-Tu sitio web debería tener ahora un fondo morado.
+Your website should now have a purple background.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ ¿No eres fan del morado? Ve a [esta página web](http://dojo.soy/html2-colors){:target="_blank"} y elige otro color para tu hoja de estilo: en lugar de escribir el nombre del color, escribe el código hexadecimal. 
++ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
 
 ![](images/ColorNamesHex.png)
 
-Los códigos de color te permiten crear cualquier color, incluso si no está en ninguna lista de nombres de colores.
+Colour codes allow you to create any colour, even if it's not on any list of colour names.
 
-+ Intenta inventar tu propio código de color. Debe comenzar con un `#`. Esto le dice al navegador que es un código hexadecimal en lugar del nombre de un color. El resto del código está compuesto por seis caracteres. Pueden ser cualquier número de **0 a 9** y cualquier letra de **la A a la F**.
++ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
 
 ## \--- collapse \---
 
-## title: ¿Cómo funciona?
+## title: How does it work?
 
-Cada color se fabrica mezclando diferentes cantidades de **rojo**, **verde** y **azul**. A veces verás esto escrito como **RGB**. Cada uno de estos colores está representado por dos de los seis dígitos en tu código HEX. `00` es el mínimo, y `FF` es el máximo.
+Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
 
-**Hexadecimal** es una forma de contar que hace que los números sean más cortos para escribir utilizando las letras A-F como dígitos adicionales. El número `255` se escribe como `FF` en hexadecimal. No necesitas preocuparte por aprender a contar números hexadecimales. En cambio, experimenta con diferentes códigos hexadecimales para acostumbrarte a usarlos.
+**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
 
-+ Aquí hay algunos colores básicos para probar en tu sitio web. Intenta poner números más pequeños en lugar de `FF` para ver cómo cambian los tonos.
++ Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
 
-|      | R  | G  | B  |   Resultado    |
-| ---- | -- | -- | -- |:--------------:|
-| \# | FF | 00 | 00 |      Rojo      |
-| \# | 00 | FF | 00 |     Verde      |
-| \# | 00 | 00 | FF |      Azul      |
-| \# | FF | FF | 00 |    Amarillo    |
-| \# | FF | 00 | FF |    Magenta     |
-| \# | 00 | FF | FF |      Cian      |
-| \# | FF | 8c | 00 | Naranja oscuro |
+|      | R  | G  | B  |   Result    |
+| ---- | -- | -- | -- |:-----------:|
+| \# | FF | 00 | 00 |     Red     |
+| \# | 00 | FF | 00 |    Green    |
+| \# | 00 | 00 | FF |    Blue     |
+| \# | FF | FF | 00 |   Yellow    |
+| \# | FF | 00 | FF |   Magenta   |
+| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 8c | 00 | Dark orange |
 
 \--- /collapse \---
 
-Mezclar el color perfecto puede requerir mucha experimentación. Afortunadamente, hay muchas herramientas de selección de colores en línea que te ayudan a obtener el código hexadecimal para cualquier color que desees.
+Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
 
 ![](images/W3ColorPicker.png)
 
-+ Prueba [este selector de color](http://dojo.soy/html2-color-picker){:target="_blank"} para elegir algunos códigos de color hexadecimales para usar para el resto de los estilos en tu sitio web.
++ Try out [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.

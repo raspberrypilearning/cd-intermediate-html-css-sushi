@@ -1,8 +1,8 @@
 ---
-title: 우리나라 가이드 2.0
-hero_image: images / banner.png
-description: 본인의 웹 사이트 디자인 기술을 더 발전시켜 보세요!
-theme: 빨강색 #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+title: Guide to my country 2.0
+hero_image: images/banner.png
+description: Take your website design skills further!
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -10,29 +10,29 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: 코도 도조 프로젝트
+site_areas: coderdojo, projects
 hardware: ''
 software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: 소개
+    title: Introduction
   - 
     title: Getting set up
   - 
-    title: 모든 색상들!
+    title: All the colours!
   - 
-    title: 내 페이지 구성하기
+    title: Organising your page
   - 
-    title: 몇가지 테마의 디자인
+    title: Design some themes
   - 
-    title: 개별 스타일
+    title: Individual style
   - 
     title: See the code on other websites!
   - 
     title: Automatically adjust the size
   - 
-    title: 애니메이션
+    title: Animation
   - 
     title: Teach Tito to roll over!

@@ -25,7 +25,7 @@ You should see a line appear above each section on the page. Congratulations —
 
 + Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
 
-## \--- kollaps \---
+## \--- collapse \---
 
 ## title: How does it work?
 

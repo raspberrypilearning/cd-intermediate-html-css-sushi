@@ -86,7 +86,7 @@ To define style rules for a specific element, you use the `#` symbol, and the na
 
 Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
 
-\--- /tip \---
+\--- /hint \---
 
 \--- /hints \---
 

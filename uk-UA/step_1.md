@@ -1,10 +1,10 @@
-## Вступ
+## Introduction
 
-Створіть існуючі навички HTML / CSS, щоб створити веб-сайт і отримати більше контролю над тим, як він виглядає.
+Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### Що ви робитимете
+### What you will make
 
-Ось приклад того, як ваш веб-сайт може виглядати після завершення цих карт суші:
+Here is an example of how your website might look after completing these Sushi Cards:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,13 +15,13 @@
 
 ## title: What you will learn
 
-+ Як створити власні кольори за допомогою коду
-+ Способи організації вмісту на вашому веб-сайті, щоб можна було застосувати стилі та зробити його зручним для читачів екрану
-+ Як використовувати CSS styling для створення тем, а також стилю окремих елементів
-+ Контроль розмірів елементів з різними видами вимірювань
-+ Створення речей відбувається, коли ви наводите курсор на елементи на своїй сторінці
-+ Анімація елементів вашого сайту за допомогою CSS
-+ Як використовувати інструменти розробника, щоб підібрати приклад коду будь-якого веб-сайту, і перевірити ваші частини
++ How to create your own colours using code
++ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
++ How to use CSS styling to create themes as well as style individual elements
++ Controlling the size of elements with different kinds of measurements
++ Making things happen when you hover over elements on your page
++ Animating elements of your website with CSS
++ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
 
 \--- /collapse \---
 

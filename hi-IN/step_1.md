@@ -1,10 +1,10 @@
-## परिचय
+## Introduction
 
-वेबसाइट बनाने के लिए अपने मौजूदा HTML / CSS कौशल का निर्माण करें और यह कैसे दिखता है पर अधिक नियंत्रण प्राप्त करें।
+Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### आप क्या बनाएँगे
+### What you will make
 
-यहाँ एक उदाहरण है कि आपकी वेबसाइट इन सुशी कार्डों को पूरा करने के बाद कैसे देख सकती है:
+Here is an example of how your website might look after completing these Sushi Cards:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,13 +15,13 @@
 
 ## title: What you will learn
 
-+ कोड का उपयोग करके अपने खुद के रंग कैसे बनाएं
-+ अपनी वेबसाइट पर सामग्री व्यवस्थित करने के तरीके ताकि आप शैलियों को लागू कर सकें, और स्क्रीन पाठकों के लिए इसे अनुकूल बना सकें
-+ सीएसएस स्टाइलिंग का उपयोग कैसे करें थीम बनाने के साथ-साथ व्यक्तिगत तत्वों को स्टाइल करने के लिए
-+ विभिन्न प्रकार के माप के साथ तत्वों के आकार को नियंत्रित करना
-+ जब आप अपने पृष्ठ पर तत्वों पर होवर करते हैं, तो चीजें बनती हैं
-+ सीएसएस के साथ अपनी वेबसाइट के तत्वों को एनिमेटेड
-+ किसी भी वेबसाइट के कोड पर एक झलक पाने के लिए, और आप के कुछ हिस्सों का परीक्षण करने के लिए डेवलपर टूल का उपयोग कैसे करें
++ How to create your own colours using code
++ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
++ How to use CSS styling to create themes as well as style individual elements
++ Controlling the size of elements with different kinds of measurements
++ Making things happen when you hover over elements on your page
++ Animating elements of your website with CSS
++ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
 
 \--- /collapse \---
 

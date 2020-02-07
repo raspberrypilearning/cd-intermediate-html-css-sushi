@@ -1,10 +1,10 @@
-## はじめに
+## Introduction
 
-既存のHTML / CSSスキルを踏襲して、ウェブサイトを作り、見た目をより詳細に制御する。
+Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### 作るもの
+### What you will make
 
-あなたのウェブサイトがこれらの寿司カードを完成した後の見方の例です：
+Here is an example of how your website might look after completing these Sushi Cards:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,13 +15,13 @@
 
 ## title: What you will learn
 
-+ コードを使用して独自の色を作成する方法
-+ あなたのウェブサイトにコンテンツを整理してスタイルを適用し、スクリーンリーダーにやさしい方法
-+ CSSスタイルを使ってテーマを作成する方法と個々の要素のスタイルを設定する方法
-+ さまざまな種類の測定値による要素のサイズの制御
-+ ページ上の要素にカーソルを合わせると、何かが起きる
-+ CSSであなたのウェブサイトの要素をアニメーション化する
-+ どのウェブサイトのコードを覗いたり、あなたの一部をテストするために開発者ツールを使用するか
++ How to create your own colours using code
++ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
++ How to use CSS styling to create themes as well as style individual elements
++ Controlling the size of elements with different kinds of measurements
++ Making things happen when you hover over elements on your page
++ Animating elements of your website with CSS
++ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
 
 \--- /collapse \---
 

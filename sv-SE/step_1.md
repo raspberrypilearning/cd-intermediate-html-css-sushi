@@ -1,8 +1,8 @@
-## Inledning
+## Introduction
 
 Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### Vad du kommer att göra
+### What you will make
 
 Here is an example of how your website might look after completing these Sushi Cards:
 

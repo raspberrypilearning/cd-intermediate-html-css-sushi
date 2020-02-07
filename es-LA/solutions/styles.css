@@ -36,7 +36,7 @@ nav ul li a {
   text-decoration: none;
   color: #880055;
 }
-/ * Agregar efectos hover al menú de navegación directamente en lugar de con una clase * /
+/* Add hover effects to the nav menu directly instead of with a class */
 nav ul li a:hover {
   animation-name: glowPulse;
   animation-duration: 1.5s;
@@ -101,7 +101,7 @@ article {
   width: 200px;
 }
 
-/ * efectos hover en enlaces que usan una clase CSS * /
+/* hover effects on links using a CSS class */
 .niceLinks {
   text-decoration: none;
 }
@@ -110,7 +110,7 @@ article {
 }
 
 
-/* Estilo de elementos individuales por ID */
+/* Styling for individual elements by ID */
 
 #myCoolText {
   color: #000080;
@@ -167,9 +167,9 @@ article {
   animation-iteration-count: 1;
 }
 
-/************************************************
-Esta sección es para el estilo de las tablas
-************************************************ /
+/**********************************
+This section is for styling tables
+***********************************/
 table, th, td {
   border: 1px solid #F0FFF0;
   border-collapse: collapse;

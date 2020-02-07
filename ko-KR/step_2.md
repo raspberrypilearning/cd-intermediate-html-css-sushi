@@ -1,41 +1,41 @@
-## 설정하기
+## Getting set up
 
-- [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}에 있는 스타터 Trinket 프로젝트로 이동하세요. 이 스시카드에 있는 예제들은 대부분 이 프로젝트를 기반으로 합니다.
+- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
 
-- 원하는 경우 여러분이 이미 만들어 놓은 웹 사이트로 작업해도 됩니다.
+- If you prefer, you can work with a website that you already made.
 
 ## \--- collapse \---
 
-## title: Trinket에 이미 계정이 있습니다
+## title: I have an account on Trinket
 
-- 이 프로젝트의 오른쪽 상단에 있는 **리믹스** 버튼을 클릭하세요. (로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다.) 로그인을 한 후 **리믹스** 버튼을 다시 클릭합니다. 이 버튼을 클릭하면 자신의 계정에 프로젝트 복사본이 생성됩니다. 
+- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
 
-![리믹스 버튼](images/tktRemixButtonArrow.png)
+![Remix button](images/tktRemixButtonArrow.png)
 
-버튼을 클릭하면 **remixed**가 아래와 같이 표시됩니다:
+It should say **remixed** after you click it:
 
-![이제 버튼에 "Remixed" 가 표시됩니다.](images/tktRemixedSmall.png)
+![Button now says "remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Trinket에 계정이 없습니다
+## title: I don't have an account on Trinket
 
-계정이 없더라도 Trinket으로 작업할 수 있습니다.
+Even if you don't have an account, you can still work with Trinket.
 
-### 작업 저장
+### Saving your work
 
-**공유** 메뉴에서 작업을 저장할 수 있습니다. 프로젝트는 문서로 다운로드하거나 혹은 프로젝트를 저장할 수 있는 링크를 이메일로 보낼 수 있습니다. **참고**: 프로젝트를 수정할 때마다 새로운 링크가 생성됩니다.
+You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
 
-### 새로운 계정을 생성하는 방법
+### How to sign up for an account
 
-Trinket에 계정을 만들려면 다음 단계를 따르십시오. 이렇게 하면 다른 컴퓨터에서도 내 프로젝트에 쉽게 액세스할 수 있고, 다른 사람이 나와 공유한 프로젝트를 **Remix**할 수 있습니다.
+If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
 
-- 스타터 Trinket 프로젝트의 브라우저탭에서 **무료 계정 등록**을 클릭하세요. 가입하려면 이메일 주소가 필요합니다.
+- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
 
-- 이메일 주소를 입력하고 암호를 입력하세요. 혹은 다른 사람에게 요청하세요.
+- Enter your email address and choose a password, or ask somebody to do this for you.
 
-- 이제 사용자 이름을 클릭하여 **My Trinkets**에서 저장 혹은 Remix된 모든 프로젝트에 액세스할 수 있습니다. !["내 Trinket" 메뉴 항목](images/myTrinketsMenu.png)
+- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
 
 \--- /collapse \---

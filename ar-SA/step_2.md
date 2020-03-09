@@ -1,6 +1,6 @@
 ## هيا بنا لنبدأ
 
-- اذهب الى مشروع البداية في trinket عبر الرابط [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. وتستند الأمثلة في بطاقات السوشي أساسا على هذا المشروع.
+- اذهب الى مشروع البداية في trinket عبر الرابط [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. تستند الأمثلة في بطاقات السوشي هذه أساسا على هذا المشروع.
 
 - إذا كنت تفضل ذلك، يمكنك العمل مع موقع ويب قمت بإنشائه من قبل.
 

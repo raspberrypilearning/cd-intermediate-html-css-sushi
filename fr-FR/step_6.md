@@ -10,7 +10,7 @@ Améliorons un peu la page d'accueil! Avec un autre type de sélecteur CSS, tu p
     </p> 
 ```
 
-L'`id` est un nom que tu attribues à un élément particulier pour l' **identifier**. Deux éléments d’une page ne doivent jamais avoir le même `id`!
+L'`id` est un nom que tu attribues à un élément particulier pour l'**identifier**. Deux éléments d’une page ne doivent jamais avoir le même `id`!
 
 + Maintenant, va à ta feuille de style et ajoute le code suivant:
 

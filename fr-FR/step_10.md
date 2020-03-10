@@ -22,7 +22,7 @@ title: Comment ça marche?
 
 Une **pseudo-classe** est un peu différente d'une **classe** que tu peux créer toi-même. Tu peux la reconnaître par le `:`.
 
-Les pseudo-classes sont intégrées aux éléments HTML: tu peux ajouter les règles de style `:hover` pour tout élément, classe ou sélecteur d' `id` dans ta feuille de style sans avoir besoin d'ajouter quoi que ce soit dans ton code HTML.
+Les pseudo-classes sont intégrées aux éléments HTML: tu peux ajouter les règles de style `:hover` pour tout élément, classe ou sélecteur d'`id` dans ta feuille de style sans avoir besoin d'ajouter quoi que ce soit dans ton code HTML.
 
 --- /collapse ---
 

@@ -1,6 +1,6 @@
 ## Voir le code sur d'autres sites!
 
-**Note:** Pour terminer cette étape, tu dois utiliser un de ces navigateurs web : Chrome, Firefox, ou Internet Explorer/Edge. Si tu n'as pas accès à l'un d'entre eux, tu peux simplement passer à la carte suivante.
+**Note:** Pour terminer cette étape, tu dois utiliser un de ces navigateurs web: Chrome, Firefox, ou Internet Explorer/Edge. Si tu n'as pas accès à l'un d'entre eux, tu peux simplement passer à la carte suivante.
 
 Sur cette carte, tu apprendras à jeter un coup d'œil sur le code d'un site Web à l'aide de **l'outil inspection** et tu découvriras également comment apporter des modifications que toi seul peux voir!
 
@@ -22,7 +22,7 @@ Une toute nouvelle boîte apparaîtra dans ton navigateur Web avec beaucoup d'on
 
 ![Modification de texte à l'aide de l'outil d'inspection](images/inspectEditHtmlText.png)
 
-+ Vois-tu la mise à jour du texte sur ton site Web? Note : toi seul peux voir ces changements.
++ Vois-tu la mise à jour du texte sur ton site Web? Note: toi seul peux voir ces changements.
 
 ![Site avec texte édité](images/inspectEditHtmlTextResult.png)
 

@@ -36,7 +36,7 @@ Ton élément `main` devrait ressembler à ceci maintenant (tu pourrais avoir un
         <h2>Les Falaises de Mother</h2>
         <p>
         Les Falaises de Mother se trouvent dans le comté de Clare, d'où je viens. Regarde comme ils sont cool!</p>
-        <1 />
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
         <h2>Île Achill</h2>
         <p>Il s’agit d’une grande île au large du comté de Mayo. Il y a un magnifique
         paysage sauvage de montagnes, de tourbières et de falaises.

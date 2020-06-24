@@ -45,7 +45,7 @@ hermoso de montañas, pantanos y acantilados.
   </main>
 ```
 
-+ Ahora mira el contenido de tu `article` y trata de dividirlo en secciones. Coloque este nuevo par de etiquetas alrededor de cada parte: `<section> </section>`. Aquí hay un ejemplo de cómo podría verse:
++ Ahora mira el contenido de tu `article` y trata de dividirlo en secciones. Put this new pair of tags around each bit: `<section> </section>`. Aquí hay un ejemplo de cómo podría verse:
 
 ```html
   <article>
@@ -68,7 +68,7 @@ hermoso de montañas, pantanos y acantilados.
 
 ## \--- collapse \---
 
-## title: ¿De qué se tratan las nuevas etiquetas?
+## title: What are the new tags all about?
 
 Piensa en estos nuevos elementos como **contenedores**. Se usan para agrupar cosas. ¡Es un poco como organizar cosas en cajas y estantes en tu casa!
 
@@ -112,10 +112,10 @@ Mira la página de Comida del proyecto de ejemplo. Verás que añadí un `articl
         ¡Estas son algunas de mis comidas irlandesas favoritas!
       </p>  
       <section>
-        <h2>Desayuno irlandés tradicional</h2>
+        <h2>Traditional Irish Breakfast</h2>
         <p>
-          El desayuno "irlandés completo" consiste en salchichas, lonchas (tocino),
-          huevos, morcilla, budín blanco y pan tostado.
+          A "Full Irish" breakfast consists of sausages, rashers (bacon),
+          eggs, black pudding, white pudding and toast.
         </p>
         <p>
           A menudo habrá un tomate asado, así como champiñones 
@@ -138,20 +138,20 @@ Mira la página de Comida del proyecto de ejemplo. Verás que añadí un `articl
       </section>
 
       <section>
-        <h2>Bacon y repollo</h2>
+        <h2>Bacon and Cabbage</h2>
         <p>
-          ¡No podría hacer una lista de comida irlandesa sin incluir
-          este plato tan tradicional!
+          I couldn't possibly make a list of Irish food without including
+          this very traditional dish!
         </p>
         <p>
           Puede que no parezca muy interesante, pero esta abundante comida de
           jamón cocido, patatas y repollo verde es sabrosa y abundante.
-          Me encanta bañar las patatas en mantequilla, y también me gusta
-          un poco de mostaza con el tocino.
+          I love to smother the potatoes in butter, and I also like a
+          little mustard with the bacon.
         </p>
         <p>
-          Mi madre siempre lo hizo muy especial cocinando el repollo en
-          el agua en la que se hirvió el jamón.
+          My mum always made it extra special by cooking the cabbage in
+          the water that the ham was boiled in.
         </p>
         <p>
           ¡Si hay sobras, puedes hacer otro de mis favoritos: <strong>repollo frito</strong>!

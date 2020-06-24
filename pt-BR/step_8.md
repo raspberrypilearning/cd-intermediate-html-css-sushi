@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## Ajuste automaticamente o tamanho
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Até agora você estava usando **pixels** para definir o tamanho das coisas, por exemplo `10px`. Neste cartão, você aprenderá sobre outras medidas que você pode usar.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Vá para `index.html` e encontre o elemento `img` com a imagem de Tito, ou encontre outra tag `img` no seu site.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ Exclua o atributo `width`, se houver, e forneça ao elemento um `id` se ainda não tiver um.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ No seu arquivo CSS, defina a propriedade `width` para sua imagem, como mostrado abaixo (pode ser necessário criar um bloco CSS com o seletor `id` se você ainda não o fez em um cartão anterior).
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+Nota: 50% (50 por cento) é **metade**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ Tente redimensionar a janela do seu navegador e observe o que acontece com a imagem.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+Você deve ver que a imagem aumenta e diminui quando você aumenta ou diminui a janela. Isso ocorre porque ocupa 50% da largura do elemento **main** (que é aproximadamente a largura da página).
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Como isso funciona?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+Quando você define o tamanho de algo em pixels, está definindo um tamanho exato e ele não muda. Isso é chamado de medida **absoluta**.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+Outra maneira de definir o tamanho das coisas é usar medidas **relativas**, para que o tamanho dependa do tamanho dos elementos comparados entre si. Então, sempre que algo mudar de tamanho, todo o resto mudará automaticamente de tamanho para manter as mesmas **proporções**.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Quando você está usando medidas **relativas**, é importante saber qual é o **pai** do seu elemento. O pai é a coisa da qual o seu elemento está dentro, e é a isso que a medida será em relação. Por exemplo, o pai da imagem acima é o elemento `article`, porque o elemento `img` está entre as tags `<article></article>`.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+Se você definir o `width` de um elemento para `100%`, isso fará com que tenha a mesma largura do contêiner pai.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ Experimente números diferentes na frente da `%`.

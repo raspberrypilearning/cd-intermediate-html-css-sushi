@@ -1,95 +1,96 @@
-## Individual style
+## व्यक्तिगत शैली
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+चलो मुख पृष्ठ थोड़ा सा सजाये! दूसरे प्रकार के CSS चयनकर्ता के साथ, आप CSS नियमों का एक अनूठा सेट लागू कर सकते हैं बस ** एक विशिष्ट तत्व के लिए ** ।
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ ` index.html पर जाएँ ` और एक पैराग्राफ तत्व ढूंढें(` p `), या यदि आपके पास कोई नहीं है तो एक जोड़ें। निम्नलिखित ** विशेषता जोड़ें ** टैग के लिए:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+    My website is about Ireland.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+` आईडी ` यह एक ऐसा नाम है जिसे आप ** पहचान के लिए एक विशेष तत्व को देते हैं **। एक पृष्ठ पर कोई दो तत्व कभी भी समान ` आईडी नहीं होने चाहिए `!
 
-+ Now go to your style sheet and add the following code:
++ अब अपनी स्टाइल शीट पर जाएं और निम्न कोड जोड़ें:
 
 ```css
     #myCoolText {
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-    }
+        रंग: # 003366;
+        सीमा: 
+ पीएक्स रिज #ccffff;
+        पैडिंग: 15 पीएक्स;
+        पाठ-संरेखित करें: केंद्र;
+}
 ```
 
-Your text should look like this now:
+आपका कोड इस प्रकार दिखना चाहिए:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![एक अलग रंग और उसके चारों ओर एक सीमा के साथ पाठ](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+` # के साथ एक चयनकर्ता ` इसके सामने आपकी वेबसाइट पर एक विशिष्ट तत्व के लिए सीएसएस नियम लागू करने के लिए उपयोग किया जाता है। आप तत्व को उस नाम की मदद से निर्दिष्ट करते हैं जिसे आपने तत्व ` को निर्दिष्ट किया था `।
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ चलो ` मुख पृष्ठ के शरीर के लिए कुछ करते हैं ` । ` index.html पर जाएँ ` और ` शरीर ` टैग में एक ` आईडी जोड़ें ` ।
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ स्टाइल शीट में, निम्नलिखित सीएसएस नियम जोड़ें:
 
 ```css
     #frontPage {
-        background: #48D1CC;
-        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
-    }
+        पृष्ठभूमि: # 48D1CC;
+        पृष्ठभूमि: रैखिक-ढाल (# fea3aa, # f8b88b, # faf884, # baed91, # baed91, # b2cefe, # f2a2e8, # fea3aa);
+}
 ```
 
-You should get something that looks like this:
+आपका वेबपेज कुछ इस तरह दिखाई देना चाहिए:
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![इंद्रधनुष ग्रैडिएंट पृष्ठभूमि](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+आपने अभी ** ग्रेडिएंट का उपयोग किया है **! यह नाम उस प्रभाव को दिया गया है जहां एक रंग दूसरे में रंग जाता है। नोट: पहला ` पृष्ठभूमि ` ग्रेडिएंट से ऊपर की संपत्ति उन ब्राउज़रों के लिए एक डिफ़ॉल्ट रंग निर्धारित करती है जो ग्रेडिएंट का समर्थन नहीं करते हैं।
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+यदि आपने कोड पूरी तरह से टाइप किया है और आपको ऊपर प्यारा इंद्रधनुष प्रभाव नहीं मिला है, तो हो सकता है कि आपका ब्राउज़र ग्रेडिएंट का समर्थन न करे।
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+आप ग्रेडिएंट के साथ बहुत सारे अलग-अलग प्रभाव डाल सकते हैं। यदि आप और अधिक सीखना चाहते हैं, तो [ यहाँ पर जाएं ](http://dojo.soy/html2-css-gradients){:target="_blank"}.
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## चुनौती: कुछ और तत्वों को स्टाइल करें
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ एक और तत्व को` आईडी `देने की कोशिश करें और ऊपरोक्त अनुसार उस तत्व को ` # के साथ आईडी चयनकर्ता का उपयो करके स्टाइल करें `। क्या ख्याल है एक तस्वीर बनाने के बारे में जिनमे` सीमा-त्रिज्या ` ` 100% है ` ताकि यह पूरी तरह से गोल हो? वेबसाइट पर कोई भी अन्य चित्र वैसा ही रहेगा जैसा वे हैं। 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+आप HTML टैग से` आईडी जोड़कर ` एक तत्व को ` आईडी देते हैं `, इस प्रकार:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+कोई ` आईडी चुनें ` आपको पसंद है
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+किसी विशिष्ट तत्व के लिए शैली नियमों को परिभाषित करने के लिए, आप ` # प्रतीक का उपयोग करते हैं `, और वह नाम जिसे आपने तत्व को इसके ` आईडी के रूप में दिया था ` ।
 
 ```css
   #titoPicture {
-    border-radius: 100%;
-  }
+    सीमा-त्रिज्या: 100%;
+}
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+नोट: सीएसएस नियमों के सामने आप जो नाम लिखते हैं, वह ठीक **उसी तरह होना चाहिए **आपके द्वारा डाले गए तत्व के नाम` आईडी में `।
 
 \--- /hint \---
 
 \--- /hints \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![सफेद सीमा के साथ टीटो की एक गोल तस्वीर](images/titoPictureIdStyle.png)
 
 \--- /challenge \---

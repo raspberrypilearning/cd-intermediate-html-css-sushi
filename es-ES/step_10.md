@@ -79,7 +79,7 @@ Las pseudo-clases vienen integradas en elementos HTML: puedes añadir reglas de 
 
 \--- challenge \---
 
-## Desafío: hacer enlaces de brillantes arco iris
+## Challenge: make glowing rainbow links
 
 + ¿Puedes usar la animación `rainbowGlow` de la tarjeta anterior para hacer que los enlaces en tu menú sigan cambiando de color cuando el cursor está sobre ellos?
 

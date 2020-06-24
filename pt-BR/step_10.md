@@ -1,8 +1,8 @@
-## Teach Tito to roll over!
+## Ensine Tito a rolar!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+Você pode tornar seu site mais **interativo** fazendo coisas legais acontecerem quando você passa com o cursor do mouse sobre alguns elementos!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ Encontre suas regras de CSS para os elementos `img`, ou crie alguma se você não tiver nenhuma. Adicione uma borda e também um novo bloco de regras logo abaixo:
 
 ```css
   img {
@@ -13,21 +13,21 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+Você acabou de usar um tipo especial de bloco CSS chamado **pseudo-classe**.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Como isso funciona?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+Uma **pseudo-classe** é um pouco diferente de uma **classe** que você mesmo cria. Você pode reconhecê-la pelo `:`.
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+As pseudo-classes são incorporadas aos elementos HTML: você pode adicionar regras de estilo `:hover` para qualquer elemento, classe ou seletor `id` na sua folha de estilos, sem precisar adicionar nada extra ao seu código HTML.
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ O que você acha que vai acontecer? Verifique quais páginas do seu site têm fotos (adicione uma foto, se não houver!) e mova o cursor sobre uma foto para descobrir!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ Vamos usar esta nova pseudo-classe `:hover` junto com uma classe CSS para fazer os links brilharem quando você passar o mouse sobre eles! Adicione um link à sua página da web e inclua um atributo para especificar o nome da classe. Lembre-se, os links são definidos usando a tag `<a>`, assim:
 
 ```html
     <p>
@@ -35,7 +35,7 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ Adicione o seguinte código à sua folha de estilos, e execute o código para ver seus links adoráveis em ação.
 
 ```css
   .niceLinks {
@@ -47,11 +47,11 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ Por que não adicionar também o atributo `class="niceLinks"` para todos os links da barra de menu?
 
-You can combine all of these tricks with animations too!
+Você pode combinar todos esses truques com as animações também!
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Encontre o bloco CSS da imagem do Tito novamente (ou qualquer imagem em que você estava trabalhando anteriormente). Adicione o seguinte código ao seu arquivo de folha de estilos:
 
 ```css
   #titoPicture {
@@ -73,21 +73,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ Você consegue adivinhar o que vai acontecer?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ Agora grite "Role!" enquanto você move o cursor sobre a imagem!
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## Desafio: faça links brilhantes nas cores de um arco-íris
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ Você pode usar a animação `rainbowGlow` do cartão anterior para fazer com que os links em seu menu continuem mudando de cor quando o cursor estiver sobre eles?
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+Abaixo está o código para a animação `rainbowGlow`. Existem cinco estágios definidos, e uma cor de texto diferente é definida em cada estágio. Você pode adicionar mais ou alterá-los como quiser!
 
 ```css
     @keyframes rainbowGlow {
@@ -113,13 +113,13 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+Para animar algo, você precisará adicionar as três propriedades de `animação` às regras de estilo, como você fez acima. Sempre verifique se `animation-name` corresponde ao nome da animação que você deseja usar.
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+Você pode adicionar o efeito `hover` diretamente ao menu `nav` assim:
 
 ```css
   nav ul li a:hover {
@@ -129,7 +129,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+Ou, se você também quiser criar outros links em seu site com as cores do arco-íris, adicione a animação a classe `.niceLinks`, assim:
 
 ```css
   .niceLinks:hover {

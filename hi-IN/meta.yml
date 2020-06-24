@@ -1,38 +1,38 @@
 ---
-title: Guide to my country 2.0
+title: मेरे देश के लिए गाइड 2.0
 hero_image: images/banner.png
-description: Take your website design skills further!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: अपनी वेबसाइट डिजाइन कौशल को और आगे ले जाएं!
+theme: लाल #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html-css-javascript
-site_areas: coderdojo, projects
+technologies: html/css
+site_areas: कोडरडोज़ो, प्रोजेक्ट्स
 hardware: ''
-software: html-css-javascript
+software: htmp-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Getting set up
+    title: शुरू करने के लिए
   - 
-    title: All the colours!
+    title: सभी रंग!
   - 
-    title: Organising your page
+    title: अपने पृष्ठ का आयोजन
   - 
-    title: Design some themes
+    title: कुछ थीम डिजाइन करें
   - 
-    title: Individual style
+    title: व्यक्तिगत शैली
   - 
-    title: See the code on other websites!
+    title: अन्य वेबसाइटों पर कोड देखें!
   - 
-    title: Automatically adjust the size
+    title: स्वचालित रूप से आकार समायोजित करें
   - 
-    title: Animation
+    title: एनीमेशन
   - 
-    title: Teach Tito to roll over!
+    title: टीटो को उलटना सिखाएं!

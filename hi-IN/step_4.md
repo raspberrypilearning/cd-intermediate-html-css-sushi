@@ -1,65 +1,63 @@
-## Organising your page
+## अपने पृष्ठ का आयोजन
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+अब तक आपने ** कन्टेन्ट** देखने और पढ़ने में आसान बनाने के लिए ** शीर्षकों **और ** पैराग्राफ ** का उपयोग किया है। आइए इसे एक साथ चीजों को समूहीकृत करके और भी व्यवस्थित करें।
 
 ## \--- collapse \---
 
-## title: What is content?
+## शीर्षक: कन्टेन्ट क्या है?
 
-**Content** is all the stuff on your web page, such astext and pictures.
+** कन्टेन्ट** आपके वेब पेज पर सभी सामान है, इस तरह के एस्टेक्स्ट और चित्र।
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ ` attractions.html फ़ाइल में जाएं।` (या यदि आप उदाहरण प्रोजैक्टका उपयोग नहीं कर रहे हैं तो अपने स्वयं के पृष्ठों में से एक) और, शीर्ष के पास, बस ** नीचे ** उद्घाटन `<main>` टैग, नई लाइन पर निम्नलिखित टाइप करें: 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ यदि आपका संपादक स्वचालित रूप से एक समापन ` में जोड़ा गया है </article>` आपके लिए टैग, इसे हटाएं।
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ फ़ाइल के निचले भाग में, बस ** ऊपर ** समापन ` </main>` टैग, एक नई पंक्ति जोड़ें और ` लेख ` तत्व: बंद करें
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+आपका ` main ` को अब इस तरह से देखना चाहिए (आपके पास ` लेख ` टैग के बीच भिन्न सामग्री हो सकती है ):
 
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
+      <h1>आयरलैंड में देखने के लिए मेरी पसंदीदा जगहें </h1>
+        <h2> मोहेर की चट्टानें </h2>
         <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        मोहेर की चट्टानें काउंटी क्लेयर में पाई जाती हैं, जहां से मैं हूं। देखो वे कितने शांत हैं! </p>
+        <img src="cliffs.JPG" height="200px"  alt="The cliffs of Meher"/>
+        <h2> अकिल द्वीप </h2>
+        <p> यह काउंटी मेयो के तट से एक बड़ा द्वीप है। इसमें पहाड़ों, दलदल और चट्टानों का एक जंगली और
+        सुंदर परिदृश्य है।
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ अब अपने ` लेख` में कन्टेन्टको देखें और इसे खंडों में तोड़ने का प्रयास करें। टैग की इस नई जोड़ी को प्रत्येक बिट के आसपास रखें: `<section> </section>` । यहाँ एक उदाहरण है कि यह कैसा दिख सकता है:
 
 ```html
   <article>
-    <h1>My favourite places to see in Ireland</h1>
-    <section>
-      <h2>The Cliffs of Moher</h2>
-      <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-    </section>
-    <section>
-      <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+    <h1>
+      </h1>आयरलैंड में देखने के लिए मेरी पसंदीदा जगहें <section>
+        <h2> मोहेर की चट्टानें </h2>
+        <p>
+        मोहेर की चट्टानें काउंटी क्लेयर में पाई जाती हैं, जहां से मैं हूं। देखो वे कितने शांत हैं! </p>
+        <img src="cliffs.JPG" height="200px"  alt="The cliffs of Meher"/>
+        <h2> अकिल द्वीप </h2>
+        <p> यह काउंटी मेयो के तट से एक बड़ा द्वीप है। इसमें पहाड़ों, दलदल और चट्टानों का एक जंगली और
+        सुंदर परिदृश्य है।
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -68,104 +66,103 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## शीर्षक: नए टैग क्या हैं?
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+इन नए तत्वों को ** कंटेनरों ** के रूप में सोचें। उनका उपयोग चीजों को एक साथ समूहित करने के लिए किया जाता है। यह आपके घर में बक्से और अलमारियों में चीजों को व्यवस्थित करने जैसा है!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+यह आपकी वेबसाइट को स्क्रीन रीडर्स के लिए अनुकूल बनाता है, आपको लेआउट पर अधिक नियंत्रण देता है, और, जैसा कि आप देखेंगे, यह आपको स्टाइल के साथ वास्तव में रचनात्मक बनाने की अनुमति देता है।
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+टैग के बीच में कुछ भी जा सकता है। आमतौर पर यह एक से अधिक तत्व होगा, लेकिन यह होना जरूरी नहीं है। यह किसी भी तरह का HTML एलिमेंट हो सकता है। आप जो कर रहे हैं वह ब्राउज़र को बता रहा है कि इन टैगों के बीच सब कुछ एक साथ है।
 
-### Article
+### आर्टिकल
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+` आर्टिकल` तत्व सामग्री के एक पूरे टुकड़े के लिए एक कंटेनर है, इस मामले में आयरलैंड में आकर्षण के बारे में जानकारी का एक सेट है। यदि आपके पास अलग-अलग कन्टेन्ट है जो संबंधित नहीं हैं, तो आपको प्रत्येक को अपने ` आर्टिकल ` तत्व में डालना चाहिए पूरे लॉट के चारों ओर टैग का एक सेट लगाने के बजाय।
 
-### Section
+### अनुच्छेद
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+` अनुच्छेद` तत्व आपको संबंधित कन्टेन्ट को छोटे चंक्स में विभाजित करने और प्रत्येक चंक को अपने कंटेनर में रखने की सुविधा देता है।
 
-### Others exist too!
+### अन्य भी मौजूद हैं!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+ये HTML में केवल कंटेनर तत्व नहीं हैं। यदि आपने कभी मेनू बनाया है और फिर उसे `<nav></nav>` टैग के बीच में रखा है, यह एक और प्रकार का कंटेनर है। वैसे ही `<main> </main>` और `<header> </header>` हैं- क्या आप किसी और के बारे में सोच सकते हैं?
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+हो सकता है कि आपका वेब पेज अभी अलग न दिखे, लेकिन एक बार कंटेंट कंटेनर टैग में व्यवस्थित हो जाने के बाद, आप इसे सीएसएस के साथ कुछ अच्छी चीजें करने में सक्षम होंगे। याद रखें, HTML नियंत्रित करता है कि आपकी वेबसाइट कैसे व्यवस्थित है, और CSS यह कैसे दिखता है।
 
-## Challenge: organise your website
+## चुनौती: अपनी वेबसाइट व्यवस्थित करें
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ इस तरह से ` article` और ` section` कंटेनर का उपयोग करके अपनी वेबसाइट की सभी कन्टेन्ट को व्यवस्थित करने पर ध्यान दें </0>। 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+उदाहरण प्रोजैक्ट के खाद्य पृष्ठ को देखें। आप देखेंगे कि मैंने ` food.html ` फ़ाइल में कई ` article ` और </code>section ` टैग जोड़ा है:</p>
 
-```html
-  <main>
+<pre><code class="html">  आयरलैंड में <main>
     <article>
-      <h1>Food in Ireland</h1>
+      <h1> भोजन </h1>
       <p>
-        These are some of my favourite Irish foods!
+        ये मेरे पसंदीदा आयरिश खाद्य पदार्थ हैं!
       </p>  
       <section>
-        <h2>Traditional Irish Breakfast</h2>
+        <h2> पारंपरिक आयरिश नाश्ता </h2>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
+          ए "पूर्ण आयरिश" नाश्ते में सॉसेज, रैशर्स (बेकन),
+          अंडे, काले पुडिंग, सफेद पुडिंग और टोस्ट शामिल हैं।
         </p>
         <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
+          अक्सर एक ग्रील्ड टमाटर के साथ-साथ मशरूम,
+          और बेक्ड बीन्स होंगे।
         </p>
         <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
-        </p>
-      </section>
-
-      <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+          और निश्चित रूप से, कोई भी नाश्ता चाय के प्यारे बर्तन 
+          के बिना पूरा नहीं होता है!
         </p>
       </section>
 
       <section>
-        <h2>Bacon and Cabbage</h2>
+        <h2> बैंगर्स और मैश </h2>
         <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
+          सॉसेज, मसले हुए आलू और ग्रेवी का यह क्लासिक आयरलैंड के लिए
+          अद्वितीय नहीं है, लेकिन जो इसे खास बनाता है वह है आयरिश
+          सॉसेज। अधिकांश देशों में सॉसेज बनाने का अपना तरीका है,
+          और वे एक चीज है जो मुझे घर से याद आती है अगर मैं यात्रा कर रहा हूं!
+        </p>
+      </section>
+
+      <section>
+        <h2> बेकन और गोभी </h2>
+        <p>
+          मैं संभवतः
+          पारंपरिक भोजन को शामिल किए बिना आयरिश भोजन की सूची नहीं बना सकता!
         </p>
         <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          यह बहुत दिलचस्प नहीं लग सकता है, लेकिन
+          उबले हुए हैम, आलू और हरी गोभी का यह स्वादिष्ट भोजन स्वादिष्ट और भरने वाला है।
+          मुझे मक्खन में आलू को चिकना करना पसंद है, और मुझे बेकन के साथ
+          थोड़ा सरसों भी पसंद है।
         </p>
         <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
+          मेरी मां ने हमेशा गोभी को
+          पानी में पकाने से अतिरिक्त विशेष बना दिया था जिसमें हैम उबला हुआ था।
         </p>
         <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
+          यदि कोई बचा है तो आप मेरे
+          पसंदीदा में से एक बना सकते हैं: <strong> तली हुई गोभी </strong> !
         </p>
       </section>
     </article>     
   </main>
-```
+`</pre> 
 
 \--- /hint \---
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+अगले कार्ड पर, आप प्रत्येक पृष्ठ के लिए एक अलग थीम डिज़ाइन करेंगे जो लेखों और अनुभागों में व्यवस्थित है!
 
 \--- /challenge \---

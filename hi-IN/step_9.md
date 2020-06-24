@@ -1,8 +1,8 @@
-## Animation
+## एनीमेशन
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+क्या आप जानते हैं कि आप चीजों को घूमने के लिए CSS का उपयोग कर सकते हैं? आप इस कार्ड से यही सीखेंगे!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ आरंभ करने से पहले, सुनिश्चित करें कि आपके पास ` आईडी के साथ आपकी वेबसाइट पर एक तस्वीर है ` और एक संगत सीएसएस ब्लॉक जो ` की चौड़ाई ` को ` 100px निर्धारित करता है ` । मैं पहले से टीटो की तस्वीर के साथ जा रहा हूं, और मेरा सीएसएस ब्लॉक इस तरह दिखता है:
 
 ```css
     #titoPicture {
@@ -11,92 +11,93 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ स्क्रिप्ट के नीचे जाएँ और निम्न कोड जोड़ें:
 
 ```css
     @keyframes myFirstAnimation {
-        from {
-            width: 100px;
+        से {
+            चौड़ाई: 100px;
         }
-        to {
-            width: 300px;
+        से {
+            चौड़ाई: 300px;
         }
-    }
+}
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+यह कोड ` myFirstAnimation नामक एक एनीमेशन बनाता है ` जिसको आप अपनी वेबसाइट पर किसी भी तत्व से जोड़ सकते हैं। आपको क्या लगता है क्या होगा?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ चित्र के लिए अपने सीएसएस नियम खोजें और निम्नलिखित तीन गुण जोड़ें:
 
 ```css
-    animation-name: myFirstAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+    एनीमेशन-नाम: myFirstAnimation;
+    एनीमेशन-अवधि: 2 एस;
+    एनीमेशन-पुनरावृत्ति-गणना: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ अब देखें कि आपके वेब पेज पर क्या होता है! ` एनीमेशन-पुनरावृत्ति-गणना के लिए अलग-अलग मान आज़माएं ` देखना है कि यह क्या करता है।
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ चलो एक और एनीमेशन की कोशिश करो! निम्नलिखित कोड को अपनी स्क्रिप्ट के आखिर में जोड़ें:
 
 ```css
-    @keyframes rainbowGlow {
+    @keyframes इंद्रधनुषगोला {
         0% {
-            color: #FFD700;
+            रंग: # FFD700;
         }
         50% {
-            color: #663399;
+            रंग: # 663399;
         }
         100% {
-            color: #FFD700;
+            रंग: # FFD700;
         }
-    }
+}
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ अब ` #myCoolText ` ढूंढें पहले से है CSS नियम और एनीमेशन कोड में जोड़ें:
 
 ```css
     #myCoolText {        
-        color: #003366;
-        border: 2px ridge #ccffff;
-        padding: 15px;
-        text-align: center;
-        animation-name: rainbowGlow;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-    }
+        रंग: # 003366;
+        सीमा: 
+ पीएक्स रिज #ccffff;
+        पैडिंग: 15 पीएक्स;
+        पाठ-संरेखित करें: केंद्र;
+        एनीमेशन-नाम: इंद्रधनुषगोला;
+        एनीमेशन-अवधि: 1.5 s;
+        एनीमेशन-पुनरावृत्ति-गणना: 1;
+}
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+जब आप ** प्रतिशत मान का उपयोग करते हैं **` से ` और ` को ` के बजाय , आप मूल्यों के बीच में और साथ ही शुरू और अंत मूल्यों सेट करने में सक्षम हैं। आप ` 0 से अलग-अलग प्रतिशत मानों का उपयोग करते हुए जितने चाहें उतने मूल्य के बीच सेट कर सकते हैं ` ` 100 तक ` सभी तरह से ।
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ ` एनीमेशन-पुनरावृत्ति-गणना का मान ` को ` अनंत तक बदलें `। देखें कि क्या आप अनुमान लगा सकते हैं कि आपके परीक्षण करने से पहले क्या होगा!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ अपने एनीमेशन को गति देने या धीमा करने के लिए ` एनीमेशन-अवधि के लिए अलग-अलग मान आज़माएं `।
 
-+ One final trick! Add this animation code:
++ एक अंतिम चाल! इस एनीमेशन कोड को जोड़ें:
 
 ```css
-    @keyframes slide {
+    @keyframes स्लाइड {
         0% {
-            background-position-x: 0;
+            पृष्ठभूमि-स्थिति-x: 0;
         }
         100% {
-            background-position-x: 600vw;
+            पृष्ठभूमि-स्थिति-x: 600vw;
         }
-    }
+}
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ अब ` #frontPage ` सीएसएस नियम जो आपने पहले लिखे थे ढूंढें और उन्हें इसमें बदलें:
 
 ```css
     #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-        background-size: 600vw 600vw;
-        animation: slide 10s infinite linear forwards;
-    }
+        पृष्ठभूमि: दोहराव-रैखिक-ढाल (-45deg, लाल 0%, पीला 7.14%, चूना 14.28%, सियान 21.42%, सियान 28.56%, नीला 35.7%, मैजेंटा 42.84%, लाल 50%);
+        पृष्ठभूमि-आकार: 600vw 600vw;
+        एनीमेशन: स्लाइड 10 एस अनंत रैखिक आगे की ओर;
+}
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+उपरोक्त सभी कोड को समझने की चिंता न करें ... बस वापस बैठो और आनंद लें !!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+और अधिक चीज़ें एनीमेशन के साथ आप कर सकते हैं उनके बारे में जानने के लिए, इस वेब पेज [ पर जाएं ](http://dojo.soy/html2-css-animation) {: लक्ष्य = "_ blank"}। आनंद लें!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+अगले कार्ड पर आप सीखेंगे कि जब आप चीजों पर माउस कर्सर घुमाते हैं तो रोचक चीजें कैसे होती हैं!

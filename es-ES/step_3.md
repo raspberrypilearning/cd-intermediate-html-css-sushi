@@ -10,7 +10,7 @@ Como ya has visto, puedes escribir muchos nombres de colores diferentes como pal
   background-color: #7B68EE;
 ```
 
-Nota: Si está usando un Mac, puede escribir `#` presionando las teclas <kbd>alt</kbd> y <kbd>3</kbd> al mismo tiempo.
+Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
 
 Tu sitio web debería tener ahora un fondo morado.
 
@@ -46,7 +46,7 @@ Cada color se fabrica mezclando diferentes cantidades de **rojo**, **verde** y *
 
 \--- /collapse \---
 
-Mezclar el color perfecto puede requerir mucha experimentación. Afortunadamente, hay muchas herramientas de selección de colores en línea que te ayudan a obtener el código hexadecimal para cualquier color que desees.
+Mezclar el color perfecto puede requerir mucha experimentación. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
 
 ![](images/W3ColorPicker.png)
 

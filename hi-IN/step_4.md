@@ -4,60 +4,62 @@
 
 ## \--- collapse \---
 
-## शीर्षक: कन्टेन्ट क्या है?
+## title: कन्टेन्ट क्या है?
 
 ** कन्टेन्ट** आपके वेब पेज पर सभी सामान है, इस तरह के एस्टेक्स्ट और चित्र।
 
 \--- /collapse \---
 
-+ ` attractions.html फ़ाइल में जाएं।` (या यदि आप उदाहरण प्रोजैक्टका उपयोग नहीं कर रहे हैं तो अपने स्वयं के पृष्ठों में से एक) और, शीर्ष के पास, बस ** नीचे ** उद्घाटन `<main>` टैग, नई लाइन पर निम्नलिखित टाइप करें: 
++ `attractions.html` फ़ाइल में जाएं। (या यदि आप उदाहरण प्रोजैक्ट का उपयोग नहीं कर रहे हैं तो अपने स्वयं के पृष्ठों में से एक) और, शीर्ष के पास, बस ** नीचे ** उद्घाटन टैग `<main>`, नई लाइन पर निम्नलिखित टाइप करें: 
 
 ```html
   <main>
     <article>
 ```
 
-+ यदि आपका संपादक स्वचालित रूप से एक समापन ` में जोड़ा गया है </article>` आपके लिए टैग, इसे हटाएं।
++ यदि आपका संपादक स्वचालित रूप से एक समापन टैग `</article>` जोड़ा गया है, इसे हटाएं।
 
-+ फ़ाइल के निचले भाग में, बस ** ऊपर ** समापन ` </main>` टैग, एक नई पंक्ति जोड़ें और ` लेख ` तत्व: बंद करें
++ फ़ाइल के निचले भाग में, बस ** ऊपर ** समापन ` </main>` टैग, एक नई पंक्ति जोड़ें और ` article` तत्व: बंद करें
 
 ```html
     </article>
   </main>
 ```
 
-आपका ` main ` को अब इस तरह से देखना चाहिए (आपके पास ` लेख ` टैग के बीच भिन्न सामग्री हो सकती है ):
+आपका `main` को अब इस तरह से देखना चाहिए (आपके पास `article` टैग के बीच भिन्न सामग्री हो सकती है):
 
 ```html
   <main>
     <article>
-      <h1>आयरलैंड में देखने के लिए मेरी पसंदीदा जगहें </h1>
-        <h2> मोहेर की चट्टानें </h2>
+      <h1>My favourite places to see in Ireland</h1>
+        <h2>The Cliffs of Moher</h2>
         <p>
-        मोहेर की चट्टानें काउंटी क्लेयर में पाई जाती हैं, जहां से मैं हूं। देखो वे कितने शांत हैं! </p>
-        <img src="cliffs.JPG" height="200px"  alt="The cliffs of Meher"/>
-        <h2> अकिल द्वीप </h2>
-        <p> यह काउंटी मेयो के तट से एक बड़ा द्वीप है। इसमें पहाड़ों, दलदल और चट्टानों का एक जंगली और
-        सुंदर परिदृश्य है।
+        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+        <h2>Achill Island</h2>
+        <p>This is a large island off the coast of County Mayo. It has a wild and
+        beautiful landscape of mountains, bogs and cliffs.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ अब अपने ` लेख` में कन्टेन्टको देखें और इसे खंडों में तोड़ने का प्रयास करें। टैग की इस नई जोड़ी को प्रत्येक बिट के आसपास रखें: `<section> </section>` । यहाँ एक उदाहरण है कि यह कैसा दिख सकता है:
++ अब अपने `article` में कन्टेन्ट को देखें और इसे खंडों में तोड़ने का प्रयास करें। टैग की इस नई जोड़ी को प्रत्येक बिट के आसपास रखें: `<section> </section>` । यहाँ एक उदाहरण है कि यह कैसा दिख सकता है:
 
 ```html
   <article>
-    <h1>
-      </h1>आयरलैंड में देखने के लिए मेरी पसंदीदा जगहें <section>
-        <h2> मोहेर की चट्टानें </h2>
-        <p>
-        मोहेर की चट्टानें काउंटी क्लेयर में पाई जाती हैं, जहां से मैं हूं। देखो वे कितने शांत हैं! </p>
-        <img src="cliffs.JPG" height="200px"  alt="The cliffs of Meher"/>
-        <h2> अकिल द्वीप </h2>
-        <p> यह काउंटी मेयो के तट से एक बड़ा द्वीप है। इसमें पहाड़ों, दलदल और चट्टानों का एक जंगली और
-        सुंदर परिदृश्य है।
+    <h1>My favourite places to see in Ireland</h1>
+    <section>
+      <h2>The Cliffs of Moher</h2>
+      <p>
+      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
+    </section>
+    <section>
+      <h2>Achill Island</h2>
+      <p>This is a large island off the coast of County Mayo. It has a wild and
+      beautiful landscape of mountains, bogs and cliffs.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -66,7 +68,7 @@
 
 ## \--- collapse \---
 
-## शीर्षक: नए टैग क्या हैं?
+## title: नए टैग क्या हैं?
 
 इन नए तत्वों को ** कंटेनरों ** के रूप में सोचें। उनका उपयोग चीजों को एक साथ समूहित करने के लिए किया जाता है। यह आपके घर में बक्से और अलमारियों में चीजों को व्यवस्थित करने जैसा है!
 
@@ -76,11 +78,11 @@
 
 ### आर्टिकल
 
-` आर्टिकल` तत्व सामग्री के एक पूरे टुकड़े के लिए एक कंटेनर है, इस मामले में आयरलैंड में आकर्षण के बारे में जानकारी का एक सेट है। यदि आपके पास अलग-अलग कन्टेन्ट है जो संबंधित नहीं हैं, तो आपको प्रत्येक को अपने ` आर्टिकल ` तत्व में डालना चाहिए पूरे लॉट के चारों ओर टैग का एक सेट लगाने के बजाय।
+`article` तत्व सामग्री के एक पूरे टुकड़े के लिए एक कंटेनर है, इस मामले में आयरलैंड में आकर्षण के बारे में जानकारी का एक सेट है। यदि आपके पास अलग-अलग कन्टेन्ट है जो संबंधित नहीं हैं, तो आपको प्रत्येक को अपने `article` तत्व में डालना चाहिए पूरे लॉट के चारों ओर टैग का एक सेट लगाने के बजाय।
 
 ### अनुच्छेद
 
-` अनुच्छेद` तत्व आपको संबंधित कन्टेन्ट को छोटे चंक्स में विभाजित करने और प्रत्येक चंक को अपने कंटेनर में रखने की सुविधा देता है।
+`section` तत्व आपको संबंधित कन्टेन्ट को छोटे चंक्स में विभाजित करने और प्रत्येक चंक को अपने कंटेनर में रखने की सुविधा देता है।
 
 ### अन्य भी मौजूद हैं!
 
@@ -90,11 +92,11 @@
 
 \--- challenge \---
 
-हो सकता है कि आपका वेब पेज अभी अलग न दिखे, लेकिन एक बार कंटेंट कंटेनर टैग में व्यवस्थित हो जाने के बाद, आप इसे सीएसएस के साथ कुछ अच्छी चीजें करने में सक्षम होंगे। याद रखें, HTML नियंत्रित करता है कि आपकी वेबसाइट कैसे व्यवस्थित है, और CSS यह कैसे दिखता है।
+हो सकता है कि आपका वेब पेज अभी अलग न दिखे, लेकिन एक बार कंटेंट कंटेनर टैग में व्यवस्थित हो जाने के बाद, आप इसे CSS के साथ कुछ अच्छी चीजें करने में सक्षम होंगे। याद रखें, HTML नियंत्रित करता है कि आपकी वेबसाइट कैसे व्यवस्थित है, और CSS यह कैसे दिखता है।
 
 ## चुनौती: अपनी वेबसाइट व्यवस्थित करें
 
-+ इस तरह से ` article` और ` section` कंटेनर का उपयोग करके अपनी वेबसाइट की सभी कन्टेन्ट को व्यवस्थित करने पर ध्यान दें </0>। 
++ इस तरह से `article` और `section` कंटेनर का उपयोग करके अपनी वेबसाइट की सभी कन्टेन्ट को व्यवस्थित करने पर ध्यान दें। 
 
 \--- hints \---
 
@@ -102,57 +104,57 @@
 
 उदाहरण प्रोजैक्ट के खाद्य पृष्ठ को देखें। आप देखेंगे कि मैंने ` food.html ` फ़ाइल में कई ` article ` और </code>section ` टैग जोड़ा है:</p>
 
-<pre><code class="html">  आयरलैंड में <main>
+<pre><code class="html">  <main>
     <article>
-      <h1> भोजन </h1>
+      <h1>Food in Ireland</h1>
       <p>
-        ये मेरे पसंदीदा आयरिश खाद्य पदार्थ हैं!
+        These are some of my favourite Irish foods!
       </p>  
       <section>
-        <h2> पारंपरिक आयरिश नाश्ता </h2>
+        <h2>Traditional Irish Breakfast</h2>
         <p>
-          ए "पूर्ण आयरिश" नाश्ते में सॉसेज, रैशर्स (बेकन),
-          अंडे, काले पुडिंग, सफेद पुडिंग और टोस्ट शामिल हैं।
+          A "Full Irish" breakfast consists of sausages, rashers (bacon),
+          eggs, black pudding, white pudding and toast.
         </p>
         <p>
-          अक्सर एक ग्रील्ड टमाटर के साथ-साथ मशरूम,
-          और बेक्ड बीन्स होंगे।
+          Often there will be a grilled tomato as well as mushrooms,
+          and baked beans.
         </p>
         <p>
-          और निश्चित रूप से, कोई भी नाश्ता चाय के प्यारे बर्तन 
-          के बिना पूरा नहीं होता है!
-        </p>
-      </section>
-
-      <section>
-        <h2> बैंगर्स और मैश </h2>
-        <p>
-          सॉसेज, मसले हुए आलू और ग्रेवी का यह क्लासिक आयरलैंड के लिए
-          अद्वितीय नहीं है, लेकिन जो इसे खास बनाता है वह है आयरिश
-          सॉसेज। अधिकांश देशों में सॉसेज बनाने का अपना तरीका है,
-          और वे एक चीज है जो मुझे घर से याद आती है अगर मैं यात्रा कर रहा हूं!
+          And of course, no breakfast is complete without a lovely pot 
+          of tea!
         </p>
       </section>
 
       <section>
-        <h2> बेकन और गोभी </h2>
+        <h2>Bangers and Mash</h2>
         <p>
-          मैं संभवतः
-          पारंपरिक भोजन को शामिल किए बिना आयरिश भोजन की सूची नहीं बना सकता!
+          This classic of sausages, mashed potato and gravy is not
+          unique to Ireland, but what makes it special is the Irish
+          sausages. Most countries have their own way of making sausages,
+          and they are one thing I miss from home if I'm away travelling!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bacon and Cabbage</h2>
+        <p>
+          I couldn't possibly make a list of Irish food without including
+          this very traditional dish!
         </p>
         <p>
-          यह बहुत दिलचस्प नहीं लग सकता है, लेकिन
-          उबले हुए हैम, आलू और हरी गोभी का यह स्वादिष्ट भोजन स्वादिष्ट और भरने वाला है।
-          मुझे मक्खन में आलू को चिकना करना पसंद है, और मुझे बेकन के साथ
-          थोड़ा सरसों भी पसंद है।
+          It might not sound very interesting, but this hearty meal of
+          boiled ham, potatoes and green cabbage is tasty and filling.
+          I love to smother the potatoes in butter, and I also like a
+          little mustard with the bacon.
         </p>
         <p>
-          मेरी मां ने हमेशा गोभी को
-          पानी में पकाने से अतिरिक्त विशेष बना दिया था जिसमें हैम उबला हुआ था।
+          My mum always made it extra special by cooking the cabbage in
+          the water that the ham was boiled in.
         </p>
         <p>
-          यदि कोई बचा है तो आप मेरे
-          पसंदीदा में से एक बना सकते हैं: <strong> तली हुई गोभी </strong> !
+          If there are any leftovers you can make another one of my
+          favourites: <strong>fried cabbage</strong>!
         </p>
       </section>
     </article>     

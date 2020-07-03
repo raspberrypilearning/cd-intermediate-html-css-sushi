@@ -2,17 +2,17 @@
 title: मेरे देश के लिए गाइड 2.0
 hero_image: images/banner.png
 description: अपनी वेबसाइट डिजाइन कौशल को और आगे ले जाएं!
-theme: लाल #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html/css
-site_areas: कोडरडोज़ो, प्रोजेक्ट्स
+technologies: html-css-javascript
+site_areas: coderdojo, projects
 hardware: ''
-software: htmp-css-javascript
+software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:

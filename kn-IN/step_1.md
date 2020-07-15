@@ -1,10 +1,10 @@
-## Introduction
+## ಪರಿಚಯ
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+ನಿಮ್ಮ HTML/CSS ಕೌಶಲ್ಯಗಳನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳಿ ಇದರಿಂದ ನೀವು ವೆಬ್‌ಸೈಟ್ ನಿರ್ಮಿಸಬಹುದು ಮತ್ತು ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಮೇಲೆ ನಿಯಂತ್ರಣವನ್ನು ಪಡೆಯಬಹುದು.
 
-### What you will make
+### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
-Here is an example of how your website might look after completing these Sushi Cards:
+ಈ ಸುಶಿ ಕಾರ್ಡ್‌ಗಳನ್ನು(Sushi Cards) ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಉದಾಹರಣೆ ಇಲ್ಲಿದೆ:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-+ How to create your own colours using code
-+ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-+ How to use CSS styling to create themes as well as style individual elements
-+ Controlling the size of elements with different kinds of measurements
-+ Making things happen when you hover over elements on your page
-+ Animating elements of your website with CSS
-+ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
++ ಕೋಡ್ ಬಳಸಿ ನಿಮ್ಮ ಸ್ವಂತ ಬಣ್ಣಗಳನ್ನು ಹೇಗೆ ರಚಿಸುವುದು
++ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ವಿಷಯವನ್ನು ಸಂಘಟಿಸುವ ಮಾರ್ಗಗಳು ಇದರಿಂದ ನೀವು ಶೈಲಿಗಳನ್ನು ಅನ್ವಯಿಸಬಹುದು ಮತ್ತು ಪರದೆಯ ಓದುಗರಿಗೆ ಸ್ನೇಹಪರವಾಗಿಸಬಹುದು
++ ಥೀಮ್‌ಗಳನ್ನು ರಚಿಸಲು ಮತ್ತು ವೈಯಕ್ತಿಕ ಅಂಶಗಳನ್ನು ರಚಿಸಲು CSS ಸ್ಟೈಲಿಂಗ್ ಅನ್ನು ಹೇಗೆ ಬಳಸುವುದು
++ ವಿಭಿನ್ನ ರೀತಿಯ ಅಳತೆಗಳೊಂದಿಗೆ ಅಂಶಗಳ ಗಾತ್ರವನ್ನು ನಿಯಂತ್ರಿಸುವುದು
++ ನಿಮ್ಮ ಪುಟದಲ್ಲಿನ ಅಂಶಗಳ ಮೇಲೆ ನೀವು ಸುಳಿದಾಡಿದಾಗ ವಿಷಯಗಳನ್ನು ಆಗುವಂತೆ ಮಾಡುತ್ತದೆ
++ CSS ನೊಂದಿಗೆ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನ ಅಂಶಗಳನ್ನು ಅನಿಮೇಟ್(Animate) ಮಾಡಲಾಗುತ್ತಿದೆ
++ ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನ ಕೋಡ್‌ನಲ್ಲಿ ಇಣುಕಿ ನೋಡಲು ಡೆವಲಪರ್(developer) ಪರಿಕರಗಳನ್ನು ಹೇಗೆ ಬಳಸುವುದು, ಮತ್ತು ನಿಮ್ಮ ಭಾಗಗಳನ್ನು ಪರೀಕ್ಷಿಸುವುದು
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ನಿಮಗೆ ಬೇಕಾದುದು
 
-### Hardware
+### ಯಂತ್ರಾಂಶ (hardware)
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ [trinket.io](https://trinket.io){:target="_blank"} ಪ್ರವೇಶಿಸಲು ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
-### Software
+### ಸಾಫ್ಟ್ವೇರ್(Software)
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+[ trinket.io](https://trinket.io){:target="_blank"} ಅನ್ನು ಬಳಸಿ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಈ ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಬಹುದು.
 
 \--- /collapse \---

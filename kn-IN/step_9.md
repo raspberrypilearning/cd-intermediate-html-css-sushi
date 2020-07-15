@@ -1,8 +1,8 @@
-## Animation
+## ಅನಿಮೇಷನ್(Animation)
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+ವಸ್ತುಗಳನ್ನು ತಿರುಗಿಸಲು ನೀವು CSS ಅನ್ನು ಬಳಸಬಹುದು ಎಂದು ನಿಮಗೆ ತಿಳಿದಿದೆಯೇ? ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಹೇಗೆ ಎಂದು ನೀವು ಕಲಿಯುವಿರಿ!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ ನೀವು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ `id` ಇರುವ ಚಿತ್ರವನ್ನು ಮತ್ತು `width` ಅನ್ನು `100px` ಗೆ ಹೊಂದಿಸುವ ಅನುಗುಣವಾದ CSS ಬ್ಲಾಕ್ ಹೊಂದಿರುವಿರಾ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನಾನು ಮೊದಲಿನಿಂದಲೂ Tito ಚಿತ್ರದೊಂದಿಗೆ ಹೋಗುತ್ತಿದ್ದೇನೆ ಮತ್ತು ನನ್ನ CSS ಬ್ಲಾಕ್ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ ನಿಮ್ಮ CSS ಫೈಲ್‌ನ ಕೆಳಭಾಗಕ್ಕೆ ಹೋಗಿ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+ಈ ಕೋಡ್ ` myFirstAnimation` ಎಂಬ ಅನಿಮೇಷನ್(Animation) ಅನ್ನು ರಚಿಸುತ್ತದೆ, ಇದನ್ನು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಯಾವುದೇ ಅಂಶಕ್ಕೆ ನೀವು ಸೇರಿಸಬಹುದು. ಅದು ಏನು ಮಾಡುತ್ತದೆ ಎಂದು ನೀವು ಯೋಚಿಸುತ್ತೀರಿ?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ ಚಿತ್ರಕ್ಕೆ ನಿಮ್ಮ CSS ನಿಯಮಗಳನ್ನು ಹುಡುಕಿ ಮತ್ತು ಕೆಳಗಿನ ಮೂರು ಗುಣಲಕ್ಷಣಗಳನ್ನು ಸೇರಿಸಿ:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ ನಿಮ್ಮ ವೆಬ್ ಪುಟದಲ್ಲಿ ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಈಗ ನೋಡಿ! ಅದು ಏನು ಮಾಡುತ್ತದೆ ಎಂದು ನೋಡಲು `animation-iteration-count` ಗೆ ವಿಭಿನ್ನ ಮೌಲ್ಯಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ ಮತ್ತೊಂದು ಅನಿಮೇಷನ್ ಪ್ರಯತ್ನಿಸೋಣ! ನಿಮ್ಮ CSS ಫೈಲ್ ನ ಕೊನೆಯಲ್ಲಿ ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ ಈಗ ಮೊದಲಿನಿಂದ `#myCoolText` CSS ನಿಯಮಗಳನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅನಿಮೇಷನ್ ಕೋಡ್‌ನಲ್ಲಿ ಸೇರಿಸಿ:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+`from` ಮತ್ತು `to` ನ ಬದಲು **percentage values** ಅನ್ನು ಬಳಸಿದ್ದಲ್ಲಿ, ನಿಮಗೆ ಪ್ರಾರಂಭದ ಮತ್ತು ಕೊನೆಯ ಮೌಲ್ಯಗಳ ಜೊತೆಗೆ ನಡುವಿನ ಮೌಲ್ಯಗಳನ್ನು ಹೊಂದಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ವಿಭಿನ್ನ ಶೇಕಡಾವಾರು ಮೌಲ್ಯಗಳನ್ನು ಬಳಸಿ ನೀವು ಇಷ್ಟಪಡುವ `0` ಇಂದ `100` ರವರೆಗಿನ ಮೌಲ್ಯಗಳ ನಡುವೆ ಹೊಂದಿಸಬಹುದು.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ `animation-iteration-count` ನ ಮೌಲ್ಯವನ್ನು `infinite` ಗೆ ಬದಲಾಯಿಸಿ. ಅದನ್ನು ಪರೀಕ್ಷಿಸುವ ಮೊದಲು ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಊಹಿಸಬಲ್ಲಿರಾ!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ ನಿಮ್ಮ ಅನಿಮೇಷನ್ ವೇಗಗೊಳಿಸಲು ಅಥವಾ ನಿಧಾನಗೊಳಿಸಲು `animation-duration` ಗೆ ವಿಭಿನ್ನ ಮೌಲ್ಯಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ.
 
-+ One final trick! Add this animation code:
++ ಒಂದು ಅಂತಿಮ ಟ್ರಿಕ್! ಈ ಅನಿಮೇಷನ್ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ ಈಗ ನೀವು ಮೊದಲೇ ಬರೆದ `#frontPage` CSS ನಿಯಮಗಳನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅವುಗಳನ್ನು ಇದಕ್ಕೆ ಬದಲಾಯಿಸಿ:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+ಮೇಲಿನ ಎಲ್ಲಾ ಕೋಡ್‌ಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ ಬಗ್ಗೆ ಚಿಂತಿಸಬೇಡಿ... ಸುಮ್ಮನೆ ಕುಳಿತು ಆನಂದಿಸಿ!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+ಅನಿಮೇಷನ್‌ನೊಂದಿಗೆ ನೀವು ಮಾಡಬಹುದಾದ ಹೆಚ್ಚಿನ ವಿಷಯಗಳ ಬಗ್ಗೆ ತಿಳಿಯಲು, [this web page](http://dojo.soy/html2-css-animation){:target="_blank"} ಗೆ ಭೀಟಿ ನೀಡಿ. ಆನಂದಿಸಿ!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+ಮುಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ ನೀವು ಮೌಸ್ ಕರ್ಸರ್ ಅನ್ನು ವಿಷಯಗಳ ಮೇಲೆ ಸುಳಿದಾಡಿದಾಗ ಸಂಗತಿಗಳನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ಕಲಿಯುವಿರಿ!

@@ -1,38 +1,38 @@
-## All the colours!
+## ಎಲ್ಲಾ ಬಣ್ಣಗಳು!
 
-As you have seen before, you can type in many different colour names as words, and the browser will recognise them. But a more common way to set colours is to use something called **hex codes** ('hex' is short for **hexadecimal**, a special way of counting).
+ನೀವು ಮೊದಲು ನೋಡಿದಂತೆ, ನೀವು ವಿವಿಧ ಬಣ್ಣಗಳ ಹೆಸರುಗಳನ್ನು ಪದಗಳಾಗಿ ಟೈಪ್ ಮಾಡಬಹುದು ಮತ್ತು ಬ್ರೌಸರ್ ಅವುಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ. ಆದರೆ ಬಣ್ಣಗಳನ್ನು ಹೊಂದಿಸಲು ಹೆಚ್ಚು ಸಾಮಾನ್ಯವಾದ ಮಾರ್ಗವೆಂದರೆ **hex codes** ಬಳಸುವುದು (**hexadecimal** 'hex' ನ ಸಂಕ್ಷಿಪ್ತ, ಎಣಿಸುವ ಒಂದು ವಿಶೇಷ ವಿಧಾನ).
 
-+ Take a look at your **style sheet**. That's the file that has `.css` in the name.
++ ನಿಮ್ಮ **style sheet** ಅನ್ನು ನೋಡಿ. ಅದು ಹೆಸರಿನಲ್ಲಿ `.css` ಅನ್ನು ಹೊಂದಿರುವ ಫೈಲ್ ಆಗಿದೆ.
 
-+ Inside the CSS rules for `body`, set the background colour to the hex code `#7B68EE`:
++ `body` ಗಾಗಿ CSS ನಿಯಮಗಳ ಒಳಗೆ, `#7B68EE`ಎನ್ನುವ hex code ಗೆ ಹಿನ್ನೆಲೆ ಬಣ್ಣವನ್ನು ಜೋಡಿಸಿ:
 
 ```html
   background-color: #7B68EE;
 ```
 
-Note: If you are using a Mac, you can type `#` by press the <kbd>alt</kbd> and the <kbd>3</kbd> keys at the same time.
+ಗಮನಿಸಿ: ನೀವು Mac ಬಳಸುತ್ತಿದ್ದರೆ, ಒಂದೇ ಸಮಯದಲ್ಲಿ <kbd>alt</kbd> ಮತ್ತು <kbd>3</kbd> ಕೀಗಳನ್ನು ಒತ್ತುವ ಮೂಲಕ ನೀವು `#` ಎಂದು ಟೈಪ್ ಮಾಡಬಹುದು.
 
-Your website should now have a purple background.
+ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಈಗ ನೇರಳೆ ಹಿನ್ನೆಲೆ ಹೊಂದಿರಬೇಕು.
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ Not a fan of purple? Go to [this web page](http://dojo.soy/html2-colors){:target="_blank"} and choose another colour for your style sheet — instead of typing the name of the colour, type in the hex code. 
++ ನೇರಳೆ ಬಣ್ಣದ ಅಭಿಮಾನಿಯಲ್ಲವೇ? [ ವೆಬ್ ಪುಟಕ್ಕೆ ಹೋಗಿ](http://dojo.soy/html2-colors){:target="_blank"} ಮತ್ತು ನಿಮ್ಮ ಸ್ಟೈಲ್ ಶೀಟ್ ಗೆ ಮತ್ತೊಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ - ಬಣ್ಣದ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡುವ ಬದಲು, hex code ಅನ್ನು ಟೈಪ್ ಮಾಡಿ. 
 
 ![](images/ColorNamesHex.png)
 
-Colour codes allow you to create any colour, even if it's not on any list of colour names.
+ಬಣ್ಣದ ಕೋಡ್ ಗಳು ಯಾವುದೇ ಬಣ್ಣಗಳ ಹೆಸರುಗಳ ಪಟ್ಟಿಯಲ್ಲಿಲ್ಲದಿದ್ದರೂ ಸಹ, ಯಾವುದೇ ಬಣ್ಣವನ್ನು ರಚಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.
 
-+ Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
++ ನಿಮ್ಮ ಸ್ವಂತ ಬಣ್ಣದ ಕೋಡ್ ಅನ್ನು ರಚಿಸಲು ಪ್ರಯತ್ನಿಸಿ. ಇದು `#` ನೊಂದಿಗೆ ಪ್ರಾರಂಭವಾಗಬೇಕು. ಇದು ಬಣ್ಣದ ಹೆಸರಿನ ಬದಲು hex code ಎಂದು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುತ್ತದೆ. ಉಳಿದ ಕೋಡ್ ಆರು ಅಕ್ಷರಗಳಿಂದ ಕೂಡಿದೆ. ಅವು **0 ರಿಂದ 9** ರವರೆಗೆ ಯಾವುದೇ ಸಂಖ್ಯೆಯಾಗಿರಬಹುದು ಮತ್ತು **A ಇಂದ F** ವರೆಗೆ ಯಾವುದೇ ಅಕ್ಷರರವಾಗಿರಬಹುದು.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
+ಪ್ರತಿಯೊಂದು ಬಣ್ಣವನ್ನು ವಿಭಿನ್ನ ಪ್ರಮಾಣದ **ಕೆಂಪು**, **ಹಸಿರು** ಮತ್ತು **ನೀಲಿ** ಬಣ್ಣದಿಂದ ಬೆರೆಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಕೆಲವೊಮ್ಮೆ **RGB** ಎಂದು ಬರೆದಿರುವುದನ್ನು ನೋಡುತ್ತೀರಿ. ಈ ಪ್ರತಿಯೊಂದು ಬಣ್ಣಗಳನ್ನು ನಿಮ್ಮ HEX ಕೋಡ್‌ನಲ್ಲಿರುವ ಆರು ಅಂಕೆಗಳಲ್ಲಿ ಎರಡು ಅಂಕೆಗಳು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. `00` ಕನಿಷ್ಠ, ಮತ್ತು `FF` ಗರಿಷ್ಠ.
 
-**Hexadecimal** is a way of counting that makes numbers shorter to write by using the letters A-F as extra digits. The number `255` is written as `FF` in hexadecimal. You don't need to worry about learning to count with hexadecimal numbers. Instead, experiment with different hex codes to get used to using them.
+**Hexadecimal** ಎಣಿಸುವ ವಿಧಾನವೆಂದರೆ A-F ಅಕ್ಷರಗಳನ್ನು ಹೆಚ್ಚುವರಿ ಅಂಕೆಗಳಾಗಿ ಬಳಸುವ ಮೂಲಕ ಸಂಖ್ಯೆಗಳನ್ನು ಬರೆಯಲು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಸಂಖ್ಯೆ `255` ಎಂಬುದನ್ನು hexadecimal ನಲ್ಲಿ `FF` ಎಂದು ಬರೆಯಲಾಗಿದೆ. hexadecimal ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ಎಣಿಸಲು ಕಲಿಯುವುದರ ಬಗ್ಗೆ ನೀವು ಚಿಂತಿಸಬೇಕಾಗಿಲ್ಲ. ಬದಲಾಗಿ, ವಿಭಿನ್ನ hex ಕೋಡ್‌ಗಳನ್ನು ಬಳಸಿ ಅವುಗಳನ್ನು ಬಳಸಲು ಪ್ರಯೋಗಿಸಿ.
 
-+ Here are some basic colours to try out on your website. Try putting in smaller numbers instead of `FF` to see how the shades change.
++ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪ್ರಯತ್ನಿಸಲು ಕೆಲವು ಮೂಲ ಬಣ್ಣಗಳು ಇಲ್ಲಿವೆ. ಬಣ್ಣದ ಮಟ್ಟ(shades) ಹೇಗೆ ಬದಲಾಗುತ್ತದೆ ಎಂದು ನೋಡಲು `FF` ಬದಲು ಸಣ್ಣ ಸಂಖ್ಯೆಯನ್ನು ಇರಿಸಲು ಪ್ರಯತ್ನಿಸಿ.
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
@@ -46,8 +46,8 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 \--- /collapse \---
 
-Mixing the perfect colour can take a lot of experimenting. Luckily, there are plenty of online colour picking tools that help you get the hex code for any colour you want.
+ಪರಿಪೂರ್ಣ ಬಣ್ಣವನ್ನು ಬೆರೆಸುವುದು ಸಾಕಷ್ಟು ಪ್ರಯೋಗಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ. ಅದೃಷ್ಟವಶಾತ್, ನಿಮಗೆ ಬೇಕಾದ ಯಾವುದೇ ಬಣ್ಣಕ್ಕೆ hex ಕೋಡ್ ಪಡೆಯಲು ಸಹಾಯ ಮಾಡುವ ಸಾಕಷ್ಟು ಆನ್‌ಲೈನ್ ಬಣ್ಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡುವ ಸಾಧನಗಳಿವೆ.
 
 ![](images/W3ColorPicker.png)
 
-+ Try out [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} to choose some hex colour codes to use for the rest of the styles on your website.
++ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಉಳಿದ ಶೈಲಿಗಳಿಗೆ ಬಳಸಲು ಕೆಲವು hex ಬಣ್ಣದ ಕೋಡ್ ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಈ [ಈ ಬಣ್ಣ ಆಯ್ದುಕೊಳ್ಳುವಿಕೆಯನ್ನು](http://dojo.soy/html2-color-picker){:target="_blank"} ಪ್ರಯತ್ನಿಸಿ.

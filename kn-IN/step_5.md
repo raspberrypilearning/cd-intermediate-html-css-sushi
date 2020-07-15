@@ -1,8 +1,8 @@
-## Design some themes
+## ಕೆಲವು ವಿಷಯಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+`section` ಮತ್ತು `p` ವಿಭಾಗದಂತಹ ಅಂಶಗಳಿಗೆ CSS ನಿಯಮಗಳನ್ನು ಬರೆಯುವುದು ಅದ್ಭುತವಾಗಿದೆ, ಆದರೆ ಅವುಗಳಲ್ಲಿ ಕೆಲವು ಇತರರಿಗಿಂತ ಭಿನ್ನವಾಗಿ ಕಾಣುವಂತೆ ನೀವು ಬಯಸಿದರೆ ಹೇಗೆ? ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಒಂದೇ ರೀತಿಯ ಅಂಶಗಳಿಗೆ ವಿಭಿನ್ನ ರೀತಿಯ ವಿನ್ಯಾಸದ ನಿಯಮಗಳನ್ನು ಹೇಗೆ ಅನ್ವಯಿಸಬೇಕು ಮತ್ತು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಪ್ರತಿ ಪುಟಕ್ಕೂ ವಿಭಿನ್ನ ಥೀಮ್ ಅನ್ನು ಹೇಗೆ ರಚಿಸುವುದು ಎಂದು ನೀವು ಕಲಿಯುವಿರಿ!
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ ನಿಮ್ಮ style sheet ಫೈಲ್‌ಗೆ ಹೋಗಿ ಮತ್ತು ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಸೇರಿಸಿ - ಮುಂದೆ ಡಾಟ್(.) ಅನ್ನು ಸೇರಿಸಲು ಮರೆಯದಿರಿ!
 
 ```css
   .topDivider {
@@ -13,27 +13,27 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
   }
 ```
 
-+ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ ಈಗ `attractions.Html` ಗೆ ಹೋಗಿ (ಅಥವಾ ನೀವು ನಿಮ್ಮ ಸ್ವಂತ ಯೋಜನೆಯನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ನೀವು ಕೆಲಸ ಮಾಡುತ್ತಿರುವ HTML ಫೈಲ್), ಮತ್ತು ಕೆಳಗಿನ **attribute** ಅನ್ನು ಪ್ರತಿಯೊಂದು `section` ಟ್ಯಾಗ್ ಗೆ ಸೇರಿಸಿ:
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+ಪುಟದಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ವಿಭಾಗದ ಮೇಲೆ ಒಂದು ಸಾಲು ಕಾಣಿಸಿಕೊಳ್ಳುವುದನ್ನು ನೀವು ನೋಡಬೇಕು. ಅಭಿನಂದನೆಗಳು - ನಿಮ್ಮ ಮೊದಲ **CSS class** ಅನ್ನು ನೀವು ಇದೀಗ ಬಳಸಿದ್ದೀರಿ!
 
 ![Page with lines in between the sections](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ ನಿಮ್ಮ ವೆಬ್ ಪುಟ ಈಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ ಮತ್ತು ಅದನ್ನು `section` ಅಂಶಗಳನ್ನು ಹೊಂದಿರುವ ಇತರ ಪುಟಗಳೊಂದಿಗೆ ಹೋಲಿಕೆ ಮಾಡಿ. ನೀವು ಸೇರಿಸಿರುವ `class="topDivider"` ಗುಣಲಕ್ಷಣಗಳಿಗೆ ಮಾತ್ರ ಮೇಲಿನ ರೇಖೆಯನ್ನು ಹೊಂದಿರುತ್ತದೆ ಎಂದು ನೀವು ನೋಡುತ್ತಿರಿ.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+ನೀವು `section` ಅಥವಾ `p` ಅಥವಾ `nav ul` ಎನ್ನುವ CSS **selector** ಅನ್ನು ಬಳಸುವುದನ್ನು ನೆನಪಿಡಿ, ಸ್ಟೈಲ್ ನಿಯಮಗಳು ನಿಮ್ಮ ವೆಬ್ಸೈಟ್ ನಲ್ಲಿ ಅದೇ ರೀತಿಯ **ಎಲ್ಲ** ಅಂಶಗಳಿಗೂ ಅನ್ವಯವಾಗುತ್ತದೆ.
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+CSS **classes** ನೊಂದಿಗೆ, ನೀವು ಕೇವಲ **ಕೆಲವು** ಅಂಶಗಳ ಶೈಲಿಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+ನಿಮ್ಮ ಸೆಲೆಕ್ಟರ್ ಮುಂದೆ ಡಾಟ್ ಹಾಕುವುದರಿಂದ ಅದನ್ನು **class selector** ಆಗಿ ಮಾಡುತ್ತದೆ. ಒಂದು ವರ್ಗವು(class) ಯಾವುದೇ ಹೆಸರನ್ನು ಹೊಂದಬಹುದು, ಆದ್ದರಿಂದ ಇದು HTML ಅಂಶದ ಹೆಸರಾಗಿರಬೇಕಾಗಿಲ್ಲ. ಉದಾಹರಣೆಗೆ:
 
 ```css
   .myAwesomeClass {
@@ -41,7 +41,7 @@ Putting a dot in front of your selector makes it into a **class selector**. A cl
   }
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+ಶೈಲಿಯ ನಿಯಮಗಳು ಯಾವ ಅಂಶಗಳಿಗೆ ಅನ್ವಯಿಸುತ್ತವೆ ಎಂಬುದನ್ನು ಆಯ್ಕೆ ಮಾಡಲು, HTML ಕೋಡ್‌ನಲ್ಲಿರುವ ಆ ಅಂಶಗಳಿಗೆ `class` **attribute** ಅನ್ನು ಸೇರಿಸಿ: ವರ್ಗದ ಹೆಸರನ್ನು ಗುಣಲಕ್ಷಣದ ಮೌಲ್ಯವಾಗಿ ಇರಿಸಿ, ಡಾಟ್(.) **ಇಲ್ಲದೆ**, ಈ ರೀತಿಯಾಗಿ:
 
 ```html
   class="myAwesomeClass"
@@ -49,7 +49,7 @@ To choose which elements the style rules apply to, you add the `class` **attribu
 
 \--- /collapse \---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ ಇನ್ನೊಂದು ವರ್ಗವನ್ನು ಪ್ರಯತ್ನಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಾ? ಈ ಕೆಳಗಿನ CSS ಕೋಡ್ ಅನ್ನು `styles.css` ಗೆ ಸೇರಿಸಿ:
 
 ```css
   .stylishBox {
@@ -62,15 +62,15 @@ To choose which elements the style rules apply to, you add the `class` **attribu
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ ನಂತರ, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನ ಬೇರೆ ಪುಟದಲ್ಲಿ, ಅಲ್ಲಿನ ಕೆಲವು ಅಂಶಗಳಿಗೆ ವರ್ಗವನ್ನು ಸೇರಿಸಿ. ನಾನು ಇದನ್ನು ನನ್ನ ವೆಬ್‌ಸೈಟ್‌ನ Food page ನಲ್ಲಿನ `section` ಅಂಶಗಳಿಗೆ ಸೇರಿಸಲಿದ್ದೇನೆ, ಈ ರೀತಿಯಾಗಿ: `<section class="stylishBox">`.
 
-It looks great, but now my sections are all squashed together.
+ಇದು ಉತ್ತಮವಾಗಿ ಕಾಣುತ್ತದೆ, ಆದರೆ ಈಗ ನನ್ನ ವಿಭಾಗಗಳೆಲ್ಲವೂ ಒಟ್ಟಿಗೆ ಜೋಡಿಸಲ್ಪಟ್ಟಿವೆ.
 
 ![Nice looking sections squashed together](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+ನಿಮಗೆ ಇಷ್ಟಬಂದಂತೆ ಒಂದು ಅಂಶಕ್ಕೆ ನೀವು ಅನೇಕ CSS classes ಗಳನ್ನು ಅನ್ವಯಿಸಬಹುದು. `class` ಗುಣಲಕ್ಷಣಗಳಲ್ಲಿ ನೀವು ಬಳಸಲು ಬಯಸುವ ಎಲ್ಲಾ ವರ್ಗಗಳ ಹೆಸರುಗಳನ್ನು ಬರೆಯಿರಿ (ನೆನಪಿಡಿ, ಡಾಟ್ ಇಲ್ಲದೆ!), ಅವುಗಳನ್ನು ಖಾಲಿ ಜಾಗಗಳೊಂದಿಗೆ ಬೇರ್ಪಡಿಸುತ್ತದೆ.
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ ವಿಭಾಗಗಳಿಗೆ ಕೆಲವು ಅಂಚು ಮತ್ತು ಪ್ಯಾಡಿಂಗ್ ನೀಡಲು ಮತ್ತೊಂದು CSS ವರ್ಗವನ್ನು ಮಾಡೋಣ. `style.css` ಫೈಲ್ ನಲ್ಲಿ, ಕೆಳಗಿನ CSS ವರ್ಗವನ್ನು ರಚಿಸಿ:
 
 ```css
   .someSpacing {
@@ -79,7 +79,7 @@ You can apply as many CSS classes to an element as you like. Just write the name
   }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ ನಿಮ್ಮ `HTML` ಕೋಡ್ ನಲ್ಲಿ, ಈ ರೀತಿಯಾಗಿ ನೀವು ಕೆಲಸ ಮಾಡುತ್ತಿರುವ ಪ್ರತಿಯೊಂದು ಅಂಶಗಳಿಗೆ ಹೊಸ ವರ್ಗವನ್ನು ಸೇರಿಸಿ:
 
 ```html
   <section class="stylishBox someSpacing">
@@ -87,29 +87,29 @@ You can apply as many CSS classes to an element as you like. Just write the name
 
 ![Sections with margin and padding added](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+CSS ವರ್ಗಗಳು ನಿಮಗೆ ಯಾವ ಅಂಶವನ್ನು ವಿನ್ಯಾಸ ಮಾಡಬೇಕು ಎಂದು **ಆಯ್ಕೆ** ಮಾಡಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತದೆ, ನಿಮಗೆ ಬೇಕಾದ ಅಂಶಗಳ ಮೇಲೆ ಅದೇ ನಿಯಮವನ್ನು **ಮರುಆಯ್ಕೆ** ಮಾಡಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತದೆ.
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ `index.html` ಗೆ ಹೋಗಿ ಮತ್ತು `main` ಅಂಶಕ್ಕೆ `stylishBox` ಅನ್ನು ಸೇರಿಸಿ, ಅಥವಾ ಪುಟದಲ್ಲಿನ ಇನ್ನೊಂದು ಅಂಶ. ನೀವು ಅದನ್ನು ಮತ್ತೆ ತೆಗೆದುಹಾಕಬಹುದು!
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+CSS ವರ್ಗದೊಂದಿಗೆ ನನ್ನ ಮುಖಪುಟ(homepage) ಹೇಗಿದೆ ಎಂಬುದು ಇಲ್ಲಿದೆ. ನಾನು ಟಿಟೋ(Tito) ಚಿತ್ರದೊಂದಿಗೆ `img` ಟ್ಯಾಗ್ ಗೆ `topDivider` ಕ್ಲಾಸ್ ಅನ್ನು ಸೇರಿಸಿದ್ದೇನೆ.
 
 ![CSS classes being used on the home page](images/homePageWithClasses.png)
 
 \--- challenge \---
 
-## Challenge: make some new classes
+## ಸವಾಲು: ಕೆಲವು ಹೊಸ ತರಗತಿಗಳನ್ನು ಮಾಡಿ
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗಾಗಿ ಕೆಲವು ವಿಭಿನ್ನ ಚಿತ್ರ ಗಾತ್ರಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು CSS **classes** ಗಳನ್ನು ಬಳಸಿ, ಉದಾಹರಣೆಗೆ `.smallPictures` ಮತ್ತು `.mediumPictures`. ನಿಮ್ಮ ಪ್ರತಿ `img` ಅಂಶಗಳಿಂದ `width` ಗುಣಲಕ್ಷಣಗಳನ್ನು ತೆಗೆಯಿರಿ ಮತ್ತು ಬದಲಿಗೆ ಸೂಕ್ತವಾದ ವರ್ಗವನ್ನು ಸೇರಿಸಿ.
 
 \--- hints \---
 
 \--- hint \---
 
-You can make a CSS class that defines just the width of an element like this:
+ಈ ರೀತಿಯ ಅಂಶದ ಅಗಲವನ್ನು ವ್ಯಾಖ್ಯಾನಿಸುವ CSS ವರ್ಗವನ್ನು ನೀವು ಮಾಡಬಹುದು:
 
 ```css
   .smallPictures {
@@ -121,19 +121,19 @@ You can make a CSS class that defines just the width of an element like this:
 
 \--- hint \---
 
-Here's an `img` tag with a `width` attribute:
+`width` ಗುಣಲಕ್ಷಣಗಳೊಂದಿಗೆ `img` ಟ್ಯಾಗ್ ಇಲ್ಲಿದೆ:
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+ನೀವು `width` ಗುಣಲಕ್ಷಣಗಳನ್ನು ತೆಗೆದಾಗ ಮತ್ತು CSS ನೊಂದಿಗೆ ಗಾತ್ರವನ್ನು ನಿಯಂತ್ರಿಸಿದಾಗ, ಅದು ಈ ರೀತಿ ಕಾಣುತ್ತದೆ:
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+CSS ವರ್ಗವನ್ನು ಬಳಸುವ ಮೂಲಕ, ನಿಮ್ಮ ಸ್ಟೈಲ್ ಶೀಟ್‌ನಲ್ಲಿ ಕೇವಲ ಒಂದು ಸಾಲಿನ ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸುವ ಮೂಲಕ ನೀವು ಎಲ್ಲಾ ಚಿತ್ರಗಳ ಅಗಲವನ್ನು ಸುಲಭವಾಗಿ ಬದಲಾಯಿಸಬಹುದು!
 
 \--- /hint \---
 

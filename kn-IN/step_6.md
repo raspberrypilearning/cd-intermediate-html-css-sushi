@@ -1,8 +1,8 @@
-## Individual style
+## ವೈಯಕ್ತಿಕ ಶೈಲಿ
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+ಮುಖಪುಟವನ್ನು(homepage) ಸ್ವಲ್ಪ jazz ಆಗಿ ಮಾಡೋಣ! ಮತ್ತೊಂದು ರೀತಿಯ CSS selector ನೊಂದಿಗೆ, ನೀವು ಕೇವಲ **one specific element** ಗೆ ವಿಶಿಷ್ಟವಾದ CSS ನಿಯಮಗಳನ್ನು ಅನ್ವಯಿಸಬಹುದು.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ `index.html` ಗೆ ಹೋಗಿ ಮತ್ತು ಪ್ಯಾರಾಗ್ರಾಫ್ (`p`) ಅಂಶವನ್ನು ಹುಡುಕಿ, ಅಥವಾ ನಿಮ್ಮಲ್ಲಿ ಯಾವುದೂ ಇಲ್ಲದಿದ್ದರೆ ಒಂದನ್ನು ಸೇರಿಸಿ. ಟ್ಯಾಗ್ ಗೆ ಕೆಳಗಿನ **attribute** ಅನ್ನು ಸೇರಿಸಿ:
 
 ```html
     <p id="myCoolText">
@@ -10,9 +10,9 @@ Let's jazz up the home page a bit! With another kind of CSS selector, you can ap
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id` ಎನ್ನುವುದು **identify** ಮಾಡಲು ನೀವು ನಿರ್ದಿಷ್ಟ ಅಂಶಕ್ಕೆ ನೀಡುವ ಹೆಸರು. ಪುಟದಲ್ಲಿನ ಯಾವುದೇ ಎರಡು ಅಂಶಗಳು ಒಂದೇ `id` ಅನ್ನು ಹೊಂದಿರಬಾರದು!
 
-+ Now go to your style sheet and add the following code:
++ ಈಗ ನಿಮ್ಮ style sheet ಗೆ ಹೋಗಿ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+ನಿಮ್ಮ ಪಠ್ಯವು ಈಗ ಈ ರೀತಿ ಕಾಣಿಸಬೇಕು:
 
 ![Text with a different colour and a border around it](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+`#` ಹೊಂದಿರುವ ಸೆಲೆಕ್ಟರ್ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಅಂಶಕ್ಕೆ CSS ನಿಯಮಗಳನ್ನು ಅನ್ವಯಿಸಲು ಅದರ ಮುಂದೆ ಬಳಸಲಾಗುತ್ತದೆ. ಅಂಶದ `id` ಗುಣಲಕ್ಷಣಗಳನ್ನು ನೀವು ನಿಯೋಜಿಸಿದ ಹೆಸರಿನ ಸಹಾಯದಿಂದ ಅಂಶವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸುತ್ತೀರಿ.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ ಮುಖಪುಟದ `body` ಗಾಗಿ ಒಂದನ್ನು ಮಾಡೋಣ. `index.html` ಗೆ ಹೋಗಿ ಮತ್ತು `body` ಟ್ಯಾಗ್ ಗೆ `id` ಅನ್ನು ಸೇರಿಸಿ.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ ಸ್ಟೈಲ್ ಶೀಟ್‌ನಲ್ಲಿ, ಈ ಕೆಳಗಿನ CSS ನಿಯಮಗಳನ್ನು ಸೇರಿಸಿ:
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+ಈ ರೀತಿ ಕಾಣುವಂತಹದನ್ನು ನೀವು ಪಡೆಯಬೇಕು:
 
 ![Rainbow gradient background](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+ನೀವು ಇದೀಗ **gradient** ಅನ್ನು ಬಳಸಿದ್ದೀರಿ! ಒಂದು ಬಣ್ಣವು ಇನ್ನೊಂದಕ್ಕೆ ಮಸುಕಾಗುವ ಪರಿಣಾಮಕ್ಕೆ ನೀಡಿದ ಹೆಸರು ಅದು. ಗಮನಿಸಿ: ಮೊದಲ `background` ಲಕ್ಷಣದ ಗ್ರೇಡಿಯಂಟ್(gradient), ಮೇಲಿನ ಗ್ರೇಡಿಯಂಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸದ ಬ್ರೌಸರ್‌ಗಳಿಗೆ ಡೀಫಾಲ್ಟ್ ಬಣ್ಣವನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+ನೀವು ಕೋಡ್ ಅನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಟೈಪ್ ಮಾಡಿದ್ದರೆ ಮತ್ತು ಮೇಲಿನ ಸುಂದರವಾದ ಮಳೆಬಿಲ್ಲಿನ ಪರಿಣಾಮವನ್ನು ನೀವು ಪಡೆಯದಿದ್ದರೆ, ನಿಮ್ಮ ಬ್ರೌಸರ್ ಗ್ರೇಡಿಯಂಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲವಾಗಿರಬಹುದು.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+ಗ್ರೇಡಿಯೆಂಟ್ ನೊಂದಿಗೆ ನೀವು ಸಾಕಷ್ಟು ವಿಭಿನ್ನ effect ಗಳನ್ನು ಮಾಡಬಹುದು. ನೀವು ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಲು ಬಯಸಿದರೆ, [ಇಲ್ಲಿಗೆ](http://dojo.soy/html2-css-gradients){:target="_blank"} ಹೋಗಿ.
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## ಸವಾಲು: ಇನ್ನಷ್ಟು ಅಂಶಗಳನ್ನು ಸ್ಟೈಲ್ ಮಾಡಿ
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ ಮತ್ತೊಂದು ಅಂಶಕ್ಕೆ `id` ನೀಡಲು ಪ್ರಯತ್ನಿಸಿ ಮತ್ತು ಮೇಲಿನಂತೆ ID selector ಅನ್ನು ಬಳಸಿಕೊಂಡು `#` ನೊಂದಿಗೆ ಆ ಅಂಶವನ್ನು ಸ್ಟೈಲಿಂಗ್ ಮಾಡಿ. ಸಂಪೂರ್ಣವಾಗಿ ದುಂಡಾಗುವುದಕ್ಕೆ ಒಂದು ಚಿತ್ರವನ್ನು `100%` `border-radius` ಆಗಿ ಮಾಡುವುದು ಹೀಗೆ? ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿನ ಇತರ ಯಾವುದೇ ಚಿತ್ರಗಳು ಹಾಗೆಯೇ ಇರುತ್ತವೆ. 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+HTML ಟ್ಯಾಗ್‌ಗೆ `id` ಗುಣಲಕ್ಷಣಗಳನ್ನು ಸೇರಿಸುವ ಮೂಲಕ ನೀವು ಒಂದು ಅಂಶಕ್ಕೆ ಒಂದು `id` ನೀಡಿ, ಈ ರೀತಿಯಾಗಿ:
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+ನೀವು ಇಷ್ಟಪಡುವ ಯಾವುದೇ `id` ಹೆಸರನ್ನು ಆಯ್ಕೆಮಾಡಿ.
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+ನಿರ್ದಿಷ್ಟ ಅಂಶಕ್ಕಾಗಿ ಶೈಲಿಯ ನಿಯಮಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು, ನೀವು `#` ಚಿಹ್ನೆಯನ್ನು ಬಳಸಿರಿ, ಮತ್ತು ನೀವು ಅಂಶವನ್ನು ಅದರ `id` ಆಗಿ ನೀಡಿದ ಹೆಸರು.
 
 ```css
   #titoPicture {
@@ -84,7 +84,7 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+ಗಮನಿಸಿ: CSS ನಿಯಮಗಳ ಮುಂದೆ ನೀವು ಟೈಪ್ ಮಾಡುವ ಹೆಸರು, ಅಂಶದ `id` ಗುಣಲಕ್ಷಣದಲ್ಲಿ ನೀವು ಹಾಕಿದ ಹೆಸರುನ್ನು **ನಿಖರವಾಗಿ** ಹೊಲಬೇಕು.
 
 \--- /hint \---
 

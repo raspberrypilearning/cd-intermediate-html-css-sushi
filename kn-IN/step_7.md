@@ -1,69 +1,69 @@
-## See the code on other websites!
+## ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ಕೋಡ್ ನೋಡಿ!
 
-**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+**ಗಮನಿಸಿ:** ಈ ಹಂತವನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು, ನೀವು ಈ ವೆಬ್ ಬ್ರೌಸರ್‌ಗಳಲ್ಲಿ ಒಂದನ್ನು ಬಳಸಬೇಕಾಗುತ್ತದೆ: ಕ್ರೋಮ್(chrome), ಫೈರ್‌ಫಾಕ್ಸ್(Firefox) ಅಥವಾ ಇಂಟರ್ನೆಟ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್(internet explorer) / ಎಡ್ಜ್(Edge). ಅವುಗಳಲ್ಲಿ ಒಂದಕ್ಕೆ ನಿಮಗೆ ಪ್ರವೇಶವಿಲ್ಲದಿದ್ದರೆ, ನೀವು ಮುಂದಿನ ಕಾರ್ಡ್‌ಗೆ ಮುಂದುವರಿಯಬಹುದು.
 
-On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+**inspector** ಉಪಕರಣವನ್ನು ಬಳಸಿಕೊಂಡು ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನ ಕೋಡ್‌ನಲ್ಲಿ ಇಣುಕಿ ನೋಡುವುದು ಹೇಗೆ ಎಂದು ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ ನೀವು ಕಲಿಯುವಿರಿ, ಮತ್ತು ನೀವು ಮಾತ್ರ ನೋಡಬಹುದಾದ ಕೆಲವು ಬದಲಾವಣೆಗಳನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ಸಹ ನೀವು ಕಂಡುಕೊಳ್ಳುವಿರಿ!
 
-+ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
++ ನೀವು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು, ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಸೇವ್(save) ಮಾಡಲಾಗಿದೆಯೇ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ refresh ಐಕಾನ್(icon) ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
++ ನಿಮ್ಮ ವೆಬ್ ಪುಟದಲ್ಲಿ (ನಿಜವಾದ ಪುಟ, ಕೋಡ್ ಅಲ್ಲ) ಹಿಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ ನೀವು ಸೇರಿಸಿದ ಗಡಿಯೊಂದಿಗೆ ಪಠ್ಯವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ, ನಂತರ ಕಾಣಿಸಿಕೊಳ್ಳುವ ಮೆನುವಿನಿಂದ ಅದರ ಮೇಲೆ ಬಲ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು **inspect** ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ. (ನೀವು ಯಾವ ಬ್ರೌಸರ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ ಎಂಬುದರ ಆಧಾರದ ಮೇಲೆ ಆಯ್ಕೆಯನ್ನು 'Inspect Element' ಅಥವಾ ಅಂತಹುದೇ ಎಂದು ಕರೆಯಬಹುದು. ಮೆನು ಆಯ್ಕೆಯನ್ನು ಕಂಡುಹಿಡಿಯುವಲ್ಲಿ ನಿಮಗೆ ತೊಂದರೆ ಇದ್ದರೆ, ಸಹಾಯಕ್ಕಾಗಿ ನಿಮ್ಮ Dojo ದಲ್ಲಿ ಯಾರನ್ನಾದರೂ ಕೇಳಿ.)
 
 ![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
 
-A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+ನಿಮ್ಮ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸಾಕಷ್ಟು ಹೊಸ ಟ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಕೋಡ್‌ಗಳೊಂದಿಗೆ ಸಂಪೂರ್ಣ ಹೊಸ ಬಾಕ್ಸ್ ಕಾಣಿಸುತ್ತದೆ: ಸಂಕ್ಷಿಪ್ತವಾಗಿ **developer tools**, ಅಥವಾ **dev tools**. ಇಲ್ಲಿ ನೀವು ಕ್ಲಿಕ್ ಮಾಡಿದ ವಿಷಯದ ಕೋಡ್ ಮತ್ತು ಇಡೀ ಪುಟದ ಕೋಡ್ ಅನ್ನು ನೀವು ನೋಡಬಹುದು!
 
-### Inspecting the HTML code
+### HTML ಕೋಡ್ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ
 
-+ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
++ ಪುಟಕ್ಕಾಗಿ HTML ಕೋಡ್ ಅನ್ನು ನಿಮಗೆ ತೋರಿಸುವ ಟ್ಯಾಬ್‌ಗಾಗಿ ನೋಡಿ (ಇದನ್ನು 'Elements' ಅಥವಾ 'Inspector' ಎಂದು ಕರೆಯಬಹುದು). ನಿಮ್ಮ HTML ಫೈಲ್‌ನಲ್ಲಿ ನೀವು ಅದನ್ನು ಹೇಗೆ ಟೈಪ್ ಮಾಡಿದ್ದೀರಿ ಎಂಬುದರಂತೆಯೇ ಕೋಡ್ ಬಹುಮಟ್ಟಿಗೆ ಕಾಣುತ್ತದೆ! ಮರೆಮಾಡಲಾಗಿರುವ ಕೋಡ್ ಅನ್ನು ವಿಸ್ತರಿಸಲು ನೀವು ಬಲಭಾಗದಲ್ಲಿರುವ ಸಣ್ಣ ತ್ರಿಕೋನಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಬಹುದು.
 
 ![Inspector showing a text element](images/inspectTextHtml.png)
 
-+ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
++ ಟ್ಯಾಗ್‌ಗಳ ನಡುವಿನ ಪಠ್ಯದ ಮೇಲೆ ಡಬಲ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ನೀವು ಈಗ ಅದನ್ನು ಸಂಪಾದಿಸಲು ಸಾಧ್ಯವಾಗಬೇಕು! ಏನನ್ನಾದರೂ ಟೈಪ್ ಮಾಡಿ ಮತ್ತು <kbd>Enter</kbd> ಒತ್ತಿರಿ.
 
 ![Editing text using the inspector tool](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪಠ್ಯ ನವೀಕರಣವನ್ನು ನೀವು ನೋಡುತ್ತೀರಾ? ಗಮನಿಸಿ: ನೀವು ಮಾತ್ರ ಈ ಬದಲಾವಣೆಗಳನ್ನು ನೋಡಬಹುದು.
 
 ![Website with edited text](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ ಈಗ **reload** ಮಾಡಿ ಮತ್ತು ಪುಟ ಮತ್ತು ಏನಾಗುತ್ತದೆ ನೋಡಿ. ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಕಣ್ಮರೆಯಾಗಬೇಕು!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ dev tools ಪೆಟ್ಟಿಗೆಯ ಮೇಲಿನ ಎಡ ಮೂಲೆಯಲ್ಲಿ, ಬಾಣದೊಂದಿಗೆ ಸಣ್ಣ ಆಯತದಂತೆ ಕಾಣುವ ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ಈಗ ನೀವು ನಿಮ್ಮ ಕರ್ಸರ್ ಅನ್ನು ವೆಬ್ ಪುಟದ ಮೂಲಕ ಚಲಿಸಬಹುದು, ಮತ್ತು ಅದನ್ನು ವಿವರಿಸುವ ಕೋಡ್ ಅನ್ನು HTML inspector ನಿಮಗೆ ತೋರಿಸುತ್ತದೆ.
 
 ![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### CSS ಕೋಡ್ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ
 
-+ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++ ಮುಂದಿನ CSS ಕೋಡ್ ಅನ್ನು ನೋಡೋಣ. developer tools ನಲ್ಲಿ **Styles** ಟ್ಯಾಬ್ ಗಾಗಿ ನೋಡಿ (ಇದನ್ನು 'Style Editor' ಅಥವಾ ಅಂತಹುದೇ ಎಂದು ಕರೆಯಬಹುದು). ಆ ವಾಕ್ಯಖಂಡಕ್ಕಾಗಿ ನೀವು ರಚಿಸಿದ ನಿಯಮಗಳನ್ನು ಸೇರಿದಂತೆ ನೀವು CSS ನಿಯಮಗಳ ಗುಂಪನ್ನು ನೋಡಬೇಕು, `#myCoolText`.
 
 ![Viewing the CSS code for an element](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
++ `#myCoolText` ನಿಯಮಗಳಲ್ಲಿ, `color` ಗುಣದ ಮುಂದಿನ ಮೌಲ್ಯದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. ಬೇರೆ ಮೌಲ್ಯದಲ್ಲಿ ಟೈಪ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ. ನಿಮ್ಮ ವೆಬ್ ಪುಟದಲ್ಲಿನ ಪಠ್ಯದ ಬಣ್ಣವನ್ನು ನೇರವಾಗಿ ಬದಲಾಯಿಸಿ ನೋಡಿ! 
 
 ![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+ಗಮನಿಸಿ: colour picker ಉಪಕರಣವನ್ನು ಬಳಸಿಕೊಂಡು ಬಣ್ಣವನ್ನು ಬದಲಾಯಿಸಲು ನೀವು ಬಣ್ಣದ ಚೌಕವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಬಹುದು.
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ ಬಣ್ಣದ ನಂತರ ಜಾಗದಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ. ಹೊಸ ಸಾಲು ಪ್ರಾರಂಭವಾಗುತ್ತದೆ, ಅಲ್ಲಿ ನೀವು ಹೆಚ್ಚು CSS ಅನ್ನು ಟೈಪ್ ಮಾಡಬಹುದು. ಕೆಳಗಿನವುಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ ಮತ್ತು <kbd>Enter</kbd> ಒತ್ತಿರಿ:
 
 ```css
   background-color: #660066;
 ```
 
-You should see the background change on that piece of text.
+ಆ ಪಠ್ಯದ ಹಿನ್ನೆಲೆ ಬದಲಾವಣೆಯನ್ನು ನೀವು ನೋಡಬೇಕು.
 
 ![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+ಡೆವಲಪರ್ ಪರಿಕರಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ವೆಬ್‌ಸೈಟ್ ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿದಾಗ, ನೀವು **ತಾತ್ಕಾಲಿಕವಾಗಿ** **ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ** ತೋರುತ್ತಿರುವಂತೆ ಬದಲಾಯಿಸುತ್ತಿರುವಿರಿ. ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ರಚಿಸುವ ಫೈಲ್‌ಗಳನ್ನು ನೀವು ನಿಜವಾಗಿಯೂ ಬದಲಾಯಿಸುತ್ತಿಲ್ಲ.
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+ನೀವು ಪುಟವನ್ನು ರಿಫ್ರೆಶ್(refresh) ಮಾಡಿದಾಗ, ನೀವು ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಅದರ ಫೈಲ್‌ಗಳಿಂದ ಮತ್ತೆ ಲೋಡ್ ಮಾಡುತ್ತಿದ್ದೀರಿ (ಇಂಟರ್ನೆಟ್ ಅಥವಾ ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ). ಅದಕ್ಕಾಗಿಯೇ ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಕಣ್ಮರೆಯಾಗುತ್ತವೆ.
 
-Now that you know that, you can have some fun messing with the code on other websites!
+ಈಗ ಅದು ನಿಮಗೆ ತಿಳಿದಿದೆ, ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿನ ಕೋಡ್‌ನೊಂದಿಗೆ ನೀವು ಸ್ವಲ್ಪ ಮೋಜು ಮಾಡಬಹುದು!
 
 \--- /collapse \---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ ಮತ್ತೊಂದು ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಕೋಡ್ ನೋಡಲು ಈ ಪರಿಕರಗಳನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ. ನೀವು ಬಯಸಿದರೆ ನೀವು ಬದಲಾವಣೆಗಳನ್ನು ಸಹ ಮಾಡಬಹುದು! ನೆನಪಿಡಿ, ನೀವು ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ನೀವು ಮಾತ್ರ ನೋಡಬಹುದು, ಮತ್ತು ನೀವು ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿದಾಗ ಎಲ್ಲವೂ ಮರುಹೊಂದಿಸುತ್ತದೆ.

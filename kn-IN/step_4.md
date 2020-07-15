@@ -1,32 +1,32 @@
-## Organising your page
+## ನಿಮ್ಮ ಪುಟವನ್ನು ಆಯೋಜಿಸಲಾಗುತ್ತಿದೆ
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+ಇಲ್ಲಿಯವರೆಗೂ ನೀವು ನಿಮ್ಮ **content** ಅನ್ನು ಅಚ್ಚುಕಟ್ಟಾಗಿ ಮತ್ತು ಓದಲು ಸುಲಭವಾಗಲು **headings** ಮತ್ತು **paragraphs** ಅನ್ನು ಬಳಸಿದ್ದೀರಿ. ವಿಷಯಗಳನ್ನು ಒಟ್ಟಿಗೆ ಗುಂಪು ಮಾಡುವ ಮೂಲಕ ಅದನ್ನು ಇನ್ನಷ್ಟು ಸಂಘಟಿಸೋಣ.
 
 ## \--- collapse \---
 
-## title: What is content?
+## title: ವಿಷಯ ಏನು?
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**content** ನಿಮ್ಮ ವೆಬ್ ಪುಟದಲ್ಲಿನ ಎಲ್ಲಾ ವಿಷಯಗಳು, ಉದಾಹರಣೆಗಾಗಿ ಪಠ್ಯ ಮತ್ತು ಚಿತ್ರಗಳು.
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ `attractions.html` ಫೈಲ್‌ಗೆ ಹೋಗಿ (ಅಥವಾ ನೀವು ಉದಾಹರಣೆ ಯೋಜನೆಯನ್ನು ಬಳಸದಿದ್ದರೆ ನಿಮ್ಮ ಸ್ವಂತ ಪುಟಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ) ಮತ್ತು, ಮೇಲ್ಭಾಗದ ಹತ್ತಿರ, ಆರಂಭಿಕ **ಕೆಳಗೆ** `<main>` ಟ್ಯಾಗ್, ಹೊಸ ಸಾಲಿನಲ್ಲಿ ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ: 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ ನಿಮ್ಮ ಸಂಪಾದಕವು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮುಕ್ತಾಯದ `</article>` ಟ್ಯಾಗ್ ಅನ್ನು ನಿಮಗಾಗಿ ಸೇರಿಸಿದರೆ, ಅದನ್ನು ಅಳಿಸಿ.
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ ಫೈಲ್‌ನ ಕೆಳಭಾಗದಲ್ಲಿ, ಕೇವಲ ಮುಕ್ತಾಯದ `</main>` ಟ್ಯಾಗ್ **ಮೇಲೆ**, ಹೊಸ ಸಾಲನ್ನು ಸೇರಿಸಿ ಮತ್ತು `article` ಅಂಶವನ್ನು ಮುಚ್ಚಿ:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+ನಿಮ್ಮ `main` ಅಂಶವು ಈಗ ಈ ರೀತಿ ಕಾಣಬೇಕು (`article` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ನೀವು ವಿಭಿನ್ನ ವಿಷಯವನ್ನು ಹೊಂದಿರಬಹುದು):
 
 ```html
   <main>
@@ -45,7 +45,7 @@ Your `main` element should look something like this now (you might have differen
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ ಈಗ ನಿಮ್ಮ `article` ವಿಷಯವನ್ನು ನೋಡಿ ಮತ್ತು ಅದನ್ನು ವಿಭಾಗಗಳಾಗಿ ವಿಭಜಿಸಲು ಪ್ರಯತ್ನಿಸಿ. ಈ ಹೊಸ ಟ್ಯಾಗ್‌ಗಳ ಜೋಡಿಯನ್ನ ಪ್ರತಿ ಬಿಟ್(bit)‌ನ ಸುತ್ತಲೂ ಇರಿಸಿ: `<section> </section>`. ಅದು ಹೇಗಿರಬಹುದು ಎಂಬುದಕ್ಕೆ ಉದಾಹರಣೆ ಇಲ್ಲಿದೆ:
 
 ```html
   <article>
@@ -68,41 +68,41 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## title: ಹೊಸ ಟ್ಯಾಗ್‌ಗಳು ಯಾವುವು?
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+ಈ ಹೊಸ ಅಂಶಗಳನ್ನು **containers** ಎಂದು ಯೋಚಿಸಿ. ವಿಷಯಗಳನ್ನು ಒಟ್ಟಿಗೆ ಗುಂಪು ಮಾಡಲು ಅವುಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಇದು ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಪೆಟ್ಟಿಗೆಗಳು ಮತ್ತು ಕಪಾಟಿನಲ್ಲಿ ವಸ್ತುಗಳನ್ನು ಸಂಘಟಿಸುವಂತಿದೆ!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+ಇದು ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಸ್ಕ್ರೀನ್ ಓದುಗರಿಗೆ ಸ್ನೇಹಪರವಾಗಿಸುತ್ತದೆ, ಲೇಔಟ್(layout) ಮೇಲೆ ಹೆಚ್ಚಿನ ನಿಯಂತ್ರಣವನ್ನು ನೀಡುತ್ತದೆ, ಮತ್ತು ನೀವು ನೋಡುವಂತೆ, ಸ್ಟೈಲಿಂಗ್‌ನೊಂದಿಗೆ ನಿಜವಾಗಿಯೂ ಸೃಜನಶೀಲತೆಯನ್ನು ಪಡೆಯಲು ಇದು ನಿಮ್ಮನ್ನು ಅನುಮತಿಸುತ್ತದೆ.
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಏನು ಬೇಕಾದರೂ ಹೋಗಬಹುದು. ಸಾಮಾನ್ಯವಾಗಿ ಇದು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಅಂಶಗಳಾಗಿರುತ್ತದೆ, ಆದರೆ ಅದು ಇರಬೇಕಾಗಿಲ್ಲ. ಇದು ಯಾವುದೇ ರೀತಿಯ HTML ಅಂಶಗಳಾಗಿರಬಹುದು. ನೀವು ಮಾಡುತ್ತಿರುವುದು ಏನೆಂದರೆ ಈ ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಎಲ್ಲವೂ ಒಟ್ಟಿಗೆ ಸೇರಿದೆ ಎಂದು ಬ್ರೌಸರ್‌ಗೆ ಹೇಳುವುದು.
 
-### Article
+### ಲೇಖನ
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+`article` ಅಂಶವು ಇಡೀ ವಿಷಯದ ಒಂದು ಧಾರಕವಾಗಿದೆ, ಈ ಸಂದರ್ಭದಲ್ಲಿ ಐರ್ಲೆಂಡ್‌ನಲ್ಲಿನ ಆಕರ್ಷಣೆಗಳ ಬಗ್ಗೆ ಮಾಹಿತಿಯ ಒಂದು ಸೆಟ್. ನೀವು ಸಂಬಂಧವಿಲ್ಲದ ವಿಭಿನ್ನ ಬಿಟ್‌ಗಳನ್ನು ಹೊಂದಿದ್ದರೆ, ಸ್ಥಳದ ಸುತ್ತ ಟ್ಯಾಗ್ ಗಳ ಗುಂಪನ್ನು ಹಾಕುವ ಬದಲು ಪ್ರತಿಯೊಂದನ್ನು ತನ್ನದೇ ಆದ `article` ಅಂಶದಲ್ಲಿ ಹಾಕಬೇಕು.
 
-### Section
+### ವಿಭಾಗ
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+`section` ಅಂಶಗಳ ಸಂಬಂಧಿತ ವಿಷಯವನ್ನು ಸಣ್ಣ ಭಾಗಗಳಾಗಿ ವಿಂಗಡಿಸಲು ಮತ್ತು ಪ್ರತಿಯೊಂದು ಭಾಗವನ್ನು ತನ್ನದೇ ಆದ ಪಾತ್ರೆಯಲ್ಲಿ ಇರಿಸಲು ಅಂಶವು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.
 
-### Others exist too!
+### ಇತರರು ಸಹ ಅಸ್ತಿತ್ವದಲ್ಲಿದ್ದಾರೆ!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+ಇವುಗಳು HTML ನಲ್ಲಿರುವ ಏಕೈಕ ಧಾರಕ ಅಂಶಗಳಲ್ಲ. ನೀವು ಎಂದಾದರೂ ಮೆನುವನ್ನು ರಚಿಸಿ ನಂತರ ಅದನ್ನು `<nav> </nav>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಇರಿಸಿ, ಅದು ಒಂದು ರೀತಿಯ ಧಾರಕದ(container) ಮತ್ತೊಂದು ಉದಾಹರಣೆಯಾಗಿದೆ. ಆದ್ದರಿಂದ `<main> </main>` ಮತ್ತು `<header> </header>` - ನೀವು ಇನ್ನೇನಾದರೂ ಯೋಚಿಸಬಹುದೇ?
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+ನಿಮ್ಮ ವೆಬ್ ಪುಟ ಇನ್ನೂ ವಿಭಿನ್ನವಾಗಿ ಕಾಣಿಸದೇ ಇರಬಹುದು, ಆದರೆ ವಿಷಯವನ್ನು ಕಂಟೇನರ್ ಟ್ಯಾಗ್‌ಗಳಾಗಿ ಸಂಘಟಿಸಿದ ನಂತರ, ನೀವು CSS‌ನೊಂದಿಗೆ ಅದಕ್ಕೆ ಕೆಲವು ಉತ್ತಮ ಕೆಲಸಗಳನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ. ನೆನಪಿಡಿ, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಹೇಗೆ ಸಂಘಟಿತವಾಗಿದೆ ಎಂಬುದನ್ನು HTML ನಿಯಂತ್ರಿಸುತ್ತದೆ ಮತ್ತು CSS ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ.
 
-## Challenge: organise your website
+## ಸವಾಲು: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಆಯೋಜಿಸಿ
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ `article` ಮತ್ತು </code>section</0> ನಂತಹ ಧಾರಕಗಳನ್ನು ಉಪಯೋಗಿಸಿ ಈ ಮೂಲಕ ನಿಮ್ಮ ವೆಬ್ಸೈಟ್ ನ ಎಲ್ಲ ವಿಷಯವನ್ನು ಸಂಘಟಿಸಿ. 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+ಉದಾಹರಣೆ ಯೋಜನೆಯ ಆಹಾರ ಪುಟವನ್ನು ನೋಡಿ. ನಾನು `food.html` ಫೈಲ್ ನಲ್ಲಿ `article` ನ ಜೊತೆಗೆ `section` ನ ಗುಂಪನ್ನು ಸೇರಿಸಿದ್ದೇನೆ ಎಂದು ನೀವು ನೋಡುವಿರಿ:
 
 ```html
   <main>
@@ -166,6 +166,6 @@ Look at the Food page of the example project. You'll see that I've added an `art
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+ಮುಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ, ಲೇಖನಗಳು ಮತ್ತು ವಿಭಾಗಗಳಾಗಿ ಸಂಘಟಿಸಲಾದ ಪ್ರತಿಯೊಂದು ಪುಟಕ್ಕೂ ನೀವು ವಿಭಿನ್ನ ಥೀಮ್ ಅನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸುತ್ತೀರಿ!
 
 \--- /challenge \---

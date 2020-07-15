@@ -1,8 +1,8 @@
-## Teach Tito to roll over!
+## ಉರುಳಲು ಟಿಟೊ(Tito) ಗೆ ಕಲಿಸಿ!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+ಮೌಸ್ ಕರ್ಸರ್(mouse cursor) ಜೊತೆಗೆ ನೀವು ಸುಳಿದಾಡುತ್ತಿರುವಾಗ ಸುಂದರ ಸಂಗತಿಗಳನ್ನು ಮಾಡುವುದರ ಮೂಲಕ ನೀವು ನಿಮ್ಮ ವೆಬ್ಸೈಟ್ ಅನ್ನು ಹೆಚ್ಚು **interactive** ಆಗಿ ಮಾಡಬಹುದು!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ `img` ಅಂಶಗಳಿಗಾಗಿ ನಿಮ್ಮ CSS ನಿಯಮಗಳನ್ನು ಹುಡುಕಿ, ಅಥವಾ ನಿಮ್ಮಲ್ಲಿ ಯಾವುದೂ ಇಲ್ಲದಿದ್ದರೆ ಕೆಲವನ್ನು ರಚಿಸಿ. ಗಡಿಯಲ್ಲಿ ಸೇರಿಸಿ, ತದನಂತರ ಹೊಸ ನಿಯಮಗಳ ಬ್ಲಾಕ್ ಅನ್ನು ಕೆಳಗೆ ಸೇರಿಸಿ:
 
 ```css
   img {
@@ -13,21 +13,21 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+ನೀವು **pseudo-class** ಎಂಬ ವಿಶೇಷ ರೀತಿಯ CSS ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸಿದ್ದೀರಿ.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+ನೀವು ರಚಿಸಿರುವ **class** ಗಿಂತ **pseudo-class** ಭಿನ್ನವಾಗಿದೆ. ನೀವು ಇದನ್ನು ಈ ರೀತಿ ಗುರುತಿಸಬಹುದು `:`.
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+Pseudo-class ಗಳು HTML ಅಂಶಗಳಿಗೆ ನಿರ್ಮಿಸಲ್ಪಟ್ಟಿದೆ: ನಿಮ್ಮ HTML ಕೋಡ್ ಗೆ ಹೆಚ್ಚುವರಿಯಾಗಿ ಏನೂ ಸೇರಿಸದೆ, ನಿಮ್ಮ style sheet ನಲ್ಲಿ ಯಾವುದೇ element, class ಅಥವಾ `id`selector ಗೆ `:hover` style ನಿಯಮಗಳನ್ನ ಸೇರಿಸಬಹುದು.
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ ಏನಾಗುತ್ತದೆ ಎಂದು ನೀವು ಯೋಚಿಸುತ್ತೀರಿ? ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಯಾವ ಪುಟಗಳಲ್ಲಿ ಚಿತ್ರಗಳಿವೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ (ಯಾವುದೂ ಇಲ್ಲದಿದ್ದರೆ ಚಿತ್ರವನ್ನು ಸೇರಿಸಿ!), ನಂತರ ಕಂಡುಹಿಡಿಯಲು ನಿಮ್ಮ ಕರ್ಸರ್(cursor) ಅನ್ನು ಚಿತ್ರದ ಮೇಲೆ ಸರಿಸಿ!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ ನೀವು ಅವುಗಳ ಮೇಲೆ ಸುಳಿದಾಡಿದಾಗ, ಲಿಂಕ್ ಗಳು ಹೊಳೆಯಲು ಹೊಸ CSS class ನ ಜೊತೆಗೆ ಒಟ್ಟಿಗೆ `:hover` pseudo-class ಅನ್ನು ಬಳಸೋಣ! ನಿಮ್ಮ ವೆಬ್ ಪುಟಕ್ಕೆ ಲಿಂಕ್ ಸೇರಿಸಿ ಮತ್ತು ವರ್ಗ ಹೆಸರನ್ನು ಸೂಚಿಸಲು ಗುಣಲಕ್ಷಣವನ್ನು ಸೇರಿಸಿ. ನೆನಪಿಡಿ, ಲಿಂಕ್‌ಗಳನ್ನು `<a>` ಟ್ಯಾಗ್ ಬಳಸಿ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿದೆ, ಹಾಗೆ:
 
 ```html
     <p>
@@ -35,7 +35,7 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ ನಿಮ್ಮ ಸ್ಟೈಲ್ ಶೀಟ್‌(style sheet)‌ಗೆ ಈ ಕೆಳಗಿನ ಕೋಡ್ ಸೇರಿಸಿ, ನಂತರ ನಿಮ್ಮ ಸುಂದರವಾದ ಲಿಂಕ್‌ಗಳನ್ನು ನೋಡಲು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು run ಮಾಡಿ.
 
 ```css
   .niceLinks {
@@ -47,11 +47,11 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ ನಿಮ್ಮ ಮೆನು ಬಾರ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಲಿಂಕ್‌ಗಳಿಗೆ `class="niceLinks"` ಗುಣಲಕ್ಷಣವನ್ನು ಏಕೆ ಸೇರಿಸಬಾರದು?
 
-You can combine all of these tricks with animations too!
+ಈ ಎಲ್ಲಾ ತಂತ್ರಗಳನ್ನು ನೀವು ಅನಿಮೇಷನ್‌ಗಳೊಂದಿಗೆ ಸಂಯೋಜಿಸಬಹುದು!
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ ಟಿಟೊ(Tito) ಚಿತ್ರಕ್ಕಾಗಿ ಮತ್ತೆ CSS ಬ್ಲಾಕ್ ಅನ್ನು ಹುಡುಕಿ (ಅಥವಾ ನೀವು ಮೊದಲು ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದ ಯಾವುದೇ ಚಿತ್ರ). ನಿಮ್ಮ style sheet‌ ಫೈಲ್ ಗೆ ಈ ಕೆಳಗಿನ Css ಕೋಡ್ ಸೇರಿಸಿ:
 
 ```css
   #titoPicture {
@@ -73,21 +73,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ ಏನಾಗುತ್ತದೆ ಎಂದು ನೀವು ಊಹಿಸಬಲ್ಲಿರಾ?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ ಈಗ ನೀವು ಕರ್ಸರ್ ಅನ್ನು ಚಿತ್ರದ ಮೇಲೆ ಚಲಿಸುವಾಗ "ರೋಲ್ ಓವರ್!"ಎಂದು ಕೂಗಿ ಹೇಳಿ!
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## ಸವಾಲು: ಪ್ರಜ್ವಲಿಸುವ ಮಳೆಬಿಲ್ಲು(glowing rainbow) ಲಿಂಕ್‌ಗಳನ್ನು ಮಾಡಿ
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ ಕರ್ಸರ(cursor) ಅದರಮೇಲೆ ಸುಳಿದಾಡುತ್ತಿರುವಾಗ ನಿಮ್ಮ menu ನಲ್ಲಿ ಲಿಂಕ್ ಗಳು ಬಣ್ಣಗಳನ್ನು ಬದಲಾಯಿಸುವಂತೆ ಮಾಡಲು ಹಿಂದಿನ ಕಾರ್ಡ್ ನಿಂದ ನೀವು `rainbowGlow` ಅನಿಮೇಷನ್ ಅನ್ನು ಬಳಸಬಹುದೇ?
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+ಕೆಳಗೆ `rainbowGlow` ಅನಿಮೇಷನ್ ಗಾಗಿ ಕೋಡ್ ಇದೆ. ಇದು ಐದು ಹಂತಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಿದೆ, ಮತ್ತು ಇದು ಪ್ರತಿ ಹಂತದಲ್ಲೂ ವಿಭಿನ್ನ ಪಠ್ಯ ಬಣ್ಣವನ್ನು ಹೊಂದಿಸುತ್ತದೆ. ನೀವು ಹೆಚ್ಚಿನದನ್ನು ಸೇರಿಸಬಹುದು ಅಥವಾ ನಿಮಗೆ ಬೇಕಾದರೂ ಬದಲಾಯಿಸಬಹುದು!
 
 ```css
     @keyframes rainbowGlow {
@@ -113,13 +113,13 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+ನೀವು ಏನನ್ನಾದರೂ ಅನಿಮೇಟ್ ಮಾಡಲು, ನೀವು ಮೇಲೆ ಮಾಡಿದಂತೆ ನಿಯಮಗಳನ್ನು ವಿನ್ಯಾಸ ಮಾಡುವುದಕ್ಕಾಗಿ ಮೂರು `animation` ಗುಣಲಕ್ಷಣಗಳನ್ನು ಸೇರಿಸಿ. ಇಂದಿಗೂ ನೀವು ಬಳಸಲು ಬಯಸುವ ಅನಿಮೇಷನ್ ನ ಹೆಸರು `animation-name` ಜೊತೆಗೆ ಹೋಲಿಕೆಯಾಗುತ್ತದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+ಈ ರೀತಿಯ `nav` menuಗೆ ನೀವು ನೇರವಾಗಿ `hover` effect ಗಳನ್ನು ಸೇರಿಸಬಹುದು:
 
 ```css
   nav ul li a:hover {
@@ -129,7 +129,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+ಅಥವಾ, ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಫ್ಲ್ಯಾಷ್ ರೇನ್‌ಬೋ ಬಣ್ಣಗಳಲ್ಲಿ ಇತರ ಲಿಂಕ್‌ಗಳನ್ನು ಮಾಡಲು ನೀವು ಬಯಸಿದರೆ, ನೀವು ಈ ರೀತಿಯಾಗಿ ಅನಿಮೇಷನ್ ಅನ್ನು `.niceLinks` class ಗೆ ಸೇರಿಸಬಹುದು:
 
 ```css
   .niceLinks:hover {

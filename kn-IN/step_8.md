@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## ಗಾತ್ರವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊಂದಿಸಿ
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+ಇಲ್ಲಿಯವರೆಗೆ ನೀವು ವಸ್ತುಗಳ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಲು **pixels** ಬಳಸುತ್ತಿರುವಿರಿ, ಉದಾ. `10px`. ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ ನೀವು ಬಳಸಬಹುದಾದ ಇತರ ಅಳತೆಗಳ ಬಗ್ಗೆ ನೀವು ಕಲಿಯುವಿರಿ.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ `index.html` ಗೆ ಹೋಗಿ ಮತ್ತು ಟಿಟೊ ಚಿತ್ರದೊಂದಿಗೆ `img` ಅಂಶವನ್ನು ಹುಡುಕಿ, ಅಥವಾ ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಇನ್ನೊಂದು `img` ಟ್ಯಾಗ್ ಅನ್ನು ಹುಡುಕಿ.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ ಅದು ಇದ್ದರೆ `width` ಗುಣಲಕ್ಷಣ ಅಳಿಸಿ, ಮತ್ತು ಅದು ಈಗಾಗಲೇ ಒಂದನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ ಅಂಶಕ್ಕೆ `id` ನೀಡಿ.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ ನಿಮ್ಮ CSS ಫೈಲ್‌ನಲ್ಲಿ, ನಿಮ್ಮ ಚಿತ್ರಕ್ಕಾಗಿ ಕೆಳಗೆ ತೋರಿಸಿರುವಂತೆ `width` ಗುಣವನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಿ (ನೀವು ಈಗಾಗಲೇ ಹಾಗೆ ಹಿಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಮಾಡದಿದ್ದರೆ `id` selector ನೊಂದಿಗೆ CSS ಬ್ಲಾಕ್ ಅನ್ನು ರಚಿಸಬೇಕಾಗಬಹುದು).
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+ಗಮನಿಸಿ: 50% (50 ಪ್ರತಿಶತ) ಅಂದರೆ **ಅರ್ಧ**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ ನಿಮ್ಮ ಬ್ರೌಸರ್ ವಿಂಡೋವನ್ನು(browser window) ಮರುಗಾತ್ರಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸಿ ಮತ್ತು ಚಿತ್ರಕ್ಕೆ ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+ನೀವು ವಿಂಡೋವನ್ನು ದೊಡ್ಡದಾಗಿಸಿದಾಗ ಚಿತ್ರವು ದೊಡ್ಡದಾಗುತ್ತಾ ಹೋಗುತ್ತದೆ ಎಂದು ನೀವು ನೋಡಬೇಕು. ಏಕೆಂದರೆ ಅದು **main** ಅಂಶದ ಅಗಲದ 50% ಅನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತಿದೆ (ಇದು ಸರಿಸುಮಾರು ಪುಟದ ಅಗಲ).
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+ನೀವು ಯಾವುದಾದರೂ ಗಾತ್ರವನ್ನು ಪಿಕ್ಸೆಲ್‌(pixel) ಗಳಲ್ಲಿ ಹೊಂದಿಸಿದಾಗ, ನೀವು ನಿಖರವಾದ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸುತ್ತಿದ್ದೀರಿ ಮತ್ತು ಅದು ಬದಲಾಗುವುದಿಲ್ಲ. ಇದನ್ನು **absolute** ಅಳತೆ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+ವಸ್ತುಗಳ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸುವ ಇನ್ನೊಂದು ಮಾರ್ಗವೆಂದರೆ **relative** ಅಳತೆಗಳನ್ನು ಬಳಸುವುದು, ಆದ್ದರಿಂದ ಗಾತ್ರವು ಹೇಗೆ ದೊಡ್ಡ ಅಂಶಗಳನ್ನು ಪರಸ್ಪರ ಹೋಲಿಸುತ್ತದೆ ಎಂಬುದರ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿರುತ್ತದೆ. ನಂತರ, ಒಂದು ವಿಷಯವು ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸಿದಾಗ, ಉಳಿದೆಲ್ಲವೂ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ ಮತ್ತು ಅದೇ **proportion** ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+ನೀವು **relative** ಅಳತೆಗಳನ್ನು ಬಳಸುತ್ತಿರುವಾಗ, ನಿಮ್ಮ ಅಂಶದ **parent** (ಪೋಷಕ) ಬಗ್ಗೆ ತಿಳಿಯುವುದು ಮುಖ್ಯ. ಪೋಷಕರು ನಿಮ್ಮ ಅಂಶದ ಒಳಗಿನ ವಿಷಯ, ಮತ್ತು ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಮಾಪನವು ಇರುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, ಮೇಲಿನ ಚಿತ್ರದ ಮೂಲವು `article` ಅಂಶವಾಗಿದೆ, ಏಕೆಂದರೆ `img` ಅಂಶವು `<article></article>` ಟ್ಯಾಗ್‌ಗಳ ನಡುವೆ ಇರುತ್ತದೆ.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+ನೀವು ಒಂದು ಅಂಶದ `width` (ಅಗಲವನ್ನು) `100%` ಗೆ ಹೊಂದಿಸಿದರೆ, ಅದು ಇರುವ ಪೋಷಕ ಪಾತ್ರೆಯಷ್ಟೇ ಅಗಲವಾಗಿರುತ್ತದೆ.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ `%` ನ ಮುಂದೆ ವಿಭಿನ್ನ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ಪ್ರಯೋಗಿಸಿ.

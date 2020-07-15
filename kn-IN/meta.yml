@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 2.0
+title: ನನ್ನ ದೇಶಕ್ಕೆ ಮಾರ್ಗದರ್ಶನ 2.0
 hero_image: images/banner.png
-description: Take your website design skills further!
+description: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ವಿನ್ಯಾಸ ಕೌಶಲ್ಯಗಳನ್ನು ಮತ್ತಷ್ಟು ತೆಗೆದುಕೊಳ್ಳಿ!
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,22 +17,22 @@ version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Getting set up
+    title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
   - 
-    title: All the colours!
+    title: ಎಲ್ಲಾ ಬಣ್ಣಗಳು!
   - 
-    title: Organising your page
+    title: ನಿಮ್ಮ ಪುಟವನ್ನು ಆಯೋಜಿಸಲಾಗುತ್ತಿದೆ
   - 
-    title: Design some themes
+    title: ಕೆಲವು ವಿಷಯಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ
   - 
-    title: Individual style
+    title: ವೈಯಕ್ತಿಕ ಶೈಲಿ
   - 
-    title: See the code on other websites!
+    title: ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ಕೋಡ್ ನೋಡಿ!
   - 
-    title: Automatically adjust the size
+    title: ಗಾತ್ರವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊಂದಿಸಿ
   - 
-    title: Animation
+    title: ಅನಿಮೇಷನ್(Animation)
   - 
-    title: Teach Tito to roll over!
+    title: ಉರುಳಲು ಟಿಟೊ(Tito) ಗೆ ಕಲಿಸಿ!

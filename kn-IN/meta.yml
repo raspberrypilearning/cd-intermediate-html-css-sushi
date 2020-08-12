@@ -1,0 +1,28 @@
+---
+title: ನನ್ನ ದೇಶಕ್ಕೆ ಮಾರ್ಗದರ್ಶನ 2.0
+hero_image: images/banner.png
+description: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ವಿನ್ಯಾಸ ಕೌಶಲ್ಯಗಳನ್ನು ಮತ್ತಷ್ಟು ತೆಗೆದುಕೊಳ್ಳಿ!
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - title: ಪರಿಚಯ
+  - title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
+  - title: ಎಲ್ಲಾ ಬಣ್ಣಗಳು!
+  - title: ನಿಮ್ಮ ಪುಟವನ್ನು ಆಯೋಜಿಸಲಾಗುತ್ತಿದೆ
+  - title: ಕೆಲವು ವಿಷಯಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ
+  - title: ವೈಯಕ್ತಿಕ ಶೈಲಿ
+  - title: ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ಕೋಡ್ ನೋಡಿ!
+  - title: ಗಾತ್ರವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊಂದಿಸಿ
+  - title: ಅನಿಮೇಷನ್(Animation)
+  - title: ಉರುಳಲು ಟಿಟೊ(Tito) ಗೆ ಕಲಿಸಿ!

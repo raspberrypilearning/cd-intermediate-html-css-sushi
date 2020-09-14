@@ -1,32 +1,32 @@
-## Organising your page
+## आपले पृष्ठ आयोजित करणे
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+आपल्या ** content ** ला नीटनेटके आणि वाचण्यास सुलभ करण्यासाठी आपण आतापर्यंत ** headings ** आणि **paragraphs** वापरली आहेत. गोष्टी एकत्रित करून त्यास अधिक व्यवस्थित बनवू या.
 
 ## \--- collapse \---
 
-## title: What is content?
+## title: मजकूर म्हणजे काय?
 
-**Content** is all the stuff on your web page, such astext and pictures.
+** Content ** ही आपल्या वेब पृष्ठावरील सर्व मजकूर आहे, जसे की पुढील गोष्टी आणि चित्रे.
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ `attractions.html`फाइलवर जा (किंवा आपल्या स्वत: च्या पृष्ठावर जर आपण उदाहरणार्थ प्रोजेक्ट वापरत नसल्यास) आणि वर, एकदम सुरुवातीच्या `<main>`टॅगच्या **below**, एका नवीन लाइन वर, खालील टाइप करा: 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ जर आपला एडिटरने आपोआप एक बंद होणारा `</article>` टॅग जोडला असेल तर, ते हटवा.
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ फाईलच्या तळाशी, एकदुम बंद होणार्‍या `</main>` टॅग ** above**, एक नवीन ओळ जोडा आणि `article` घटक बंद करा:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+आपला `main` घटकाला आता यासारखे काहीतरी दिसले पाहिजे (`article` टॅग दरम्यान आपल्याकडे नक्कीच भिन्न मजकूर असू शकते):
 
 ```html
   <main>
@@ -45,7 +45,7 @@ Your `main` element should look something like this now (you might have differen
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ आता आपल्या `article` मजकूर पहा आणि विभागांमध्ये तोडण्याचा प्रयत्न करा. ह्या नवीन टॅगची जोडी प्रत्येका तुकड्या भवती ठेवा: `<section></section>`. हे कसे दिसतील त्याचे उदाहरण येथे आहे:
 
 ```html
   <article>
@@ -68,41 +68,41 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## title: नवीन टॅग कष्याबद्दल आहेत?
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+या नवीन घटकांचा **containers** म्हणून विचार करा. ते गोष्टी एकत्र करण्यासाठी वापरले जातात. हे आपल्या घरामधील बॉक्स आणि शेल्फमध्ये गोष्टी आयोजित करण्यासारखे आहे!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+हे आपली वेबसाइट स्क्रीन वाचकांसाठी अनुकूल बनवते, लेआउटवर आपल्याला अधिक नियंत्रण देते आणि जसे की आपण पहाल ते आपल्याला स्टाईलसह खरोखर सर्जनशील बनण्याची परवानगी देते.
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+टॅग दरम्यान काहीही जाऊ शकते. सामान्यत: ते एकापेक्षा जास्त घटक असतील, परंतु तसे होणे आवश्यक नाही. हे कोणत्याही प्रकारच्या HTML घटक असू शकतात. तुम्ही हे करतायेत की, तुम्ही ब्राऊजर ल सांगता आहेत की हे सघळे टॅग्ज एकत्र आहेत.
 
-### Article
+### लेख
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+`article` घटक संपूर्ण मजकुरासाठी एक कंटेनर आहे, या प्रकरणात आयर्लंडमधील आकर्षणांविषयी माहितीचा एक संच आहे. जर तुमच्याकडे मजकुराचे भिन्न अंश असतील जे संभंधित नाहीयेत, तर एक टॅग्जचा संच पूर्ण वाट्यात ठेवण्याच्या ऐवेजी, प्रत्येकी तेच्या स्वतःच्या `article` मध्ये ठेवा.
 
-### Section
+### विभाग
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+`section` घटक आपल्याला संबंधित मजकूर लहान भागांमध्ये विभागू देतो आणि प्रत्येक भाग त्याच्या स्वत: च्या कंटेनरमध्ये ठेवू देतो.
 
-### Others exist too!
+### इतरही अस्तित्वात आहेत!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+HTML मधील हे केवळ कंटेनर घटक नाहीत. आपण कधी मेनू तयार केला असेल आणि नंतर त्यास दरम्यान `<nav></nav>`टॅग्ज ठेवला असेल, तर हे कंटेनरच्या प्रकाराचे आणखी एक उदाहरण आहे. त्यासारखे `<main> </main>` आणि `<header> </header>` आहेत - आणखी काही आहेत का हे आपण विचार करू शकता का?
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+आपले वेबपृष्ठ अद्याप कदाचित भिन्न दिसत नाही परंतु कन्टेन्ट एकदा कंटेनर टॅगमध्ये व्यवस्थित केली गेल्यानंतर आपण त्यास CSS सह काही छान गोष्टी करण्यास सक्षम व्हाल. लक्षात ठेवा, आपली वेबसाइट कशी व्यवस्थित केली जाते हे HTML नियंत्रित करते आणि ती कशी दिसते हे CSS नियंत्रित करते.
 
-## Challenge: organise your website
+## आव्हान: आपली वेबसाइट आयोजित करा
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ आपल्या वेबसाइटवरील सर्व मजकूर आयोजित करण्यासाठी `article` आणि `section` कंटेनरचा वापर अशा प्रकारे करुन पाहा. 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+उदाहरणार्थ प्रोजेक्टचे फूड पेज पहा. आपल्याला हे दिसेल की `food.html` फाईलमध्ये `article` सोबत `section` चा घड जोडला आहे:
 
 ```html
   <main>
@@ -166,6 +166,6 @@ Look at the Food page of the example project. You'll see that I've added an `art
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+पुढील कार्डवर, लेख आणि विभागांमध्ये आयोजित केलेल्या प्रत्येक पृष्ठासाठी आपण एक भिन्न थीम डिझाइन कराल!
 
 \--- /challenge \---

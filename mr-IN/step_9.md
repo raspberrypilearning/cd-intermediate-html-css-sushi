@@ -1,8 +1,8 @@
-## Animation
+## अ‍ॅनिमेशन
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+आपल्याला माहित आहे की आपण गोष्टी हलविण्यासाठी CSS वापरू शकता? आपण या कार्डवर कसे हे शिकणार!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ आपण प्रारंभ करण्यापूर्वी, आपल्या वेबसाइटवर ` id` आपल्याकडे एक चित्र आणि संबंधित CSS ब्लॉक जो `width` सेट करतो ते `100px` असल्याची खात्री करा. मी पूर्वीपासून टिटोच्या चित्रासह जात आहे, आणि माझा CSS (सीएसएस) ब्लॉक असे दिसते:
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ आपल्या CSS फाईलच्या तळाशी जा आणि खालील कोड जोडा:
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+हा कोड `myFirstAnimation` नावाचा अ‍ॅनिमेशन तयार करतो जे आपण आपल्या वेबसाइटवरील कोणत्याही घटकास जोडू शकता. आपणास काय वाटते की ते काय करेल?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ चित्रासाठी आपले CSS नियम शोधा आणि खालील तीन गुणधर्म जोडा:
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ आता आपल्या वेब पृष्ठावर काय होते ते पहा! `animation-iteration-count` साठी भिन्न मूल्ये वापरून ते काय करते ते पहा.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ चला आणखी एक अ‍ॅनिमेशन वापरुया! CSS फाईलमधे सघल्यात शेवटी हे खालील कोड जोडा:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ आता पूर्वीचे CSS नियम `#myCoolText` शोधा आणि अ‍ॅनिमेशन कोडमध्ये जोडा:
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+जेहवा आपण `from` आणि `to` च्याऐवजी **percentage values** वापरता तेव्हा, आपण फक्त प्रारंभ आणि अंत मूल्ये मध्येच मूल्ये सेट करू शकता. आपण `0` पासून `100` पर्यंत जे तुम्हाला आवडतील ते भिन्न टक्केवारी मूल्ये अंतर्भूत मूल्ये म्हणून सेट करू शकता.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ `animation-iteration-count` चे मूल्य `infinite` असे बदला. आपण चाचणी घेण्यापूर्वी काय होईल याचा अंदाज लावू शकता का ते पहा!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ आपले अ‍ॅनिमेशन वेग किंवा कमी करण्यासाठी `animation-duration` ची भिन्न मूल्ये वापरून पहा.
 
-+ One final trick! Add this animation code:
++ एक अंतिम युक्ती! हा अ‍ॅनिमेशन कोड जोडा:
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ आता आपण आधी लिहिलेले CSS नियम `#frontPage` शोधा आणि त्यांना असे बदला:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+वरील सर्व कोड समजून घेण्याची चिंता करू नका ... फक्त बसून आनंद घ्या!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+अ‍ॅनिमेशनसह आपण आणखी काय गोष्टी शकता हे जाणून घेण्यासाठी, [this web page](http://dojo.soy/html2-css-animation){:target="_blank"} वर जा. मजा करा!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+पुढील कार्डावर तुम्ही शिकाल की आपण जेव्हा गोष्टींवर माउस कर्सर फिरवतो तेव्हा मजेदार गोष्टी कशा घडवायच्या!

@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 2.0
+title: माझ्या देशासाठी मार्गदर्शक २. ०
 hero_image: images/banner.png
-description: Take your website design skills further!
+description: आपली वेबसाइट डिझाइन कौशल्य पुढे न्या!
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -17,22 +17,22 @@ version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Getting set up
+    title: सुरुवात अशी करा
   - 
-    title: All the colours!
+    title: सर्व रंग!
   - 
-    title: Organising your page
+    title: आपले पृष्ठ आयोजित करा
   - 
-    title: Design some themes
+    title: काही थीम डिझाइन करा
   - 
-    title: Individual style
+    title: वैयक्तिक शैली
   - 
-    title: See the code on other websites!
+    title: इतर वेबसाइटवर कोड पहा!
   - 
-    title: Automatically adjust the size
+    title: आकार आपोआप समायोजित करा
   - 
-    title: Animation
+    title: अ‍ॅनिमेशन
   - 
-    title: Teach Tito to roll over!
+    title: टिटोला पलटी करायला शिकवा!

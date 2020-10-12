@@ -29,7 +29,7 @@ Os códigos de cores permitem criar qualquer cor, mesmo que não esteja em nenhu
 title: Como isso funciona?
 ---
 
-Cada cor é feita misturando diferentes quantidades de **vermelho**, **verde ** e ** azul**. Às vezes você verá isso escrito como **RGB**. Cada uma dessas cores é representada por dois dos seis dígitos no seu código HEX. `00` é o mínimo, e `FF` é o máximo.
+Cada cor é feita misturando diferentes quantidades de **vermelho**, **verde** e **azul**. Às vezes você verá isso escrito como **RGB**. Cada uma dessas cores é representada por dois dos seis dígitos no seu código HEX. `00` é o mínimo, e `FF` é o máximo.
 
 **Hexadecimal** é uma forma reduzida de escrever os números usando letras de A a F e dígitos. O número `255` é escrito como `FF` em hexadecimal. Você não precisa se preocupar em aprender a contar com números hexadecimais. Em vez disso, experimente diferentes códigos hexadecimais para se acostumar a usá-los.
 

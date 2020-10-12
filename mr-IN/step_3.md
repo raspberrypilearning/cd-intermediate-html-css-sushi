@@ -16,7 +16,7 @@
 
 ![](images/HexColourFirst.png) ![](images/HexColourFirstResult.png)
 
-+ जांभळ्या रंगाचे चाहते नाही? या [ this web page](http://dojo.soy/html2-colors){:target="_blank"} वर जा आणि आपल्या स्टईल शीट साठी त्याऐवजी दुसरा रंग निवडा - रंगाचं नाव टाइप करण्याऐवेजी, हेक्स कोड टाइपकरा. 
++ जांभळ्या रंगाचे चाहते नाही? या [हे वेब पृष्ठ](http://dojo.soy/html2-colors){:target="_blank"} वर जा आणि आपल्या स्टईल शीट साठी त्याऐवजी दुसरा रंग निवडा - रंगाचं नाव टाइप करण्याऐवेजी, हेक्स कोड टाइपकरा. 
 
 ![](images/ColorNamesHex.png)
 
@@ -50,4 +50,4 @@
 
 ![](images/W3ColorPicker.png)
 
-+ आपल्या वेबसाइटवरील उर्वरित शैलींसाठी वापरण्यासाठी काही हेक्स रंग कोड निवडण्यासाठी [this colour picker](http://dojo.soy/html2-color-picker){:target="_blank"} वापरून पहा.
++ आपल्या वेबसाइटवरील उर्वरित शैलींसाठी वापरण्यासाठी काही हेक्स रंग कोड निवडण्यासाठी [हा कलर पिकिंग टूल](http://dojo.soy/html2-color-picker){:target="_blank"} वापरून पहा.

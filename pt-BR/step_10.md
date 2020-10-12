@@ -31,7 +31,7 @@ As pseudo-classes são incorporadas aos elementos HTML: você pode adicionar reg
 
 ```html
     <p>
-      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+      Visite a <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">página da Wikipedia</a> para aprender ainda mais sobre a Irlanda!
     </p>
 ```
 

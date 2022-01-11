@@ -1,8 +1,8 @@
 ---
 title: Guía de mi país 2.0
 hero_image: images/banner.png
-description: '¡Lleva las habilidades de diseño de tu sitio web aún más lejos!'
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: "¡Lleva las habilidades de diseño de tu sitio web aún más lejos!"
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -16,13 +16,15 @@ software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
-  - title: Introducción
-  - title: Preparación
-  - title: '¡Todos los colores!'
-  - title: Organizando tu página
-  - title: Diseña algunos temas
-  - title: Estilo individual
-  - title: '¡Mira el código en otros sitios web!'
-  - title: Ajustar automáticamente el tamaño
-  - title: Animación
-  - title: '¡Enséñale a Tito a darse la vuelta!'
+- title: Introducción
+  completion: engaged
+- title: Preparación
+- title: "¡Todos los colores!"
+- title: Organizando tu página
+- title: Diseña algunos temas
+- title: Estilo individual
+- title: "¡Mira el código en otros sitios web!"
+- title: Ajustar automáticamente el tamaño
+- title: Animación
+  completion: internal
+- title: "¡Enséñale a Tito a darse la vuelta!"

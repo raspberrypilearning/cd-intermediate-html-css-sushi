@@ -2,7 +2,7 @@
 title: Guide de mon pays 2.0
 hero_image: images/banner.png
 description: Amène tes compétences en conception de sites Web plus loin!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -16,13 +16,15 @@ software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
-  - title: Introduction
-  - title: Mise en place
-  - title: Toutes les couleurs!
-  - title: Organiser ta page
-  - title: Concevoir des thèmes
-  - title: Style individuel
-  - title: Voir le code sur d'autres sites!
-  - title: Ajuster automatiquement la taille
-  - title: Animation
-  - title: Apprends à Tito à se retourner!
+- title: Introduction
+  completion: engaged
+- title: Mise en place
+- title: Toutes les couleurs!
+- title: Organiser ta page
+- title: Concevoir des thèmes
+- title: Style individuel
+- title: Voir le code sur d'autres sites!
+- title: Ajuster automatiquement la taille
+- title: Animation
+  completion: internal
+- title: Apprends à Tito à se retourner!

@@ -2,7 +2,7 @@
 title: माझ्या देशासाठी मार्गदर्शक २. ०
 hero_image: images/banner.png
 description: आपली वेबसाइट डिझाइन कौशल्य पुढे न्या!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -16,13 +16,17 @@ software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: सुरुवात अशी करा
-  - title: सर्व रंग!
-  - title: आपले पृष्ठ आयोजित करा
-  - title: काही थीम डिझाइन करा
-  - title: वैयक्तिक शैली
-  - title: इतर वेबसाइटवर कोड पहा!
-  - title: आकार आपोआप समायोजित करा
-  - title: अ‍ॅनिमेशन
-  - title: टिटोला पलटी करायला शिकवा!
+- title: परिचय
+- title: सुरुवात अशी करा
+- title: सर्व रंग!
+- title: आपले पृष्ठ आयोजित करा
+  completion:
+  - engaged
+- title: काही थीम डिझाइन करा
+- title: वैयक्तिक शैली
+- title: इतर वेबसाइटवर कोड पहा!
+- title: आकार आपोआप समायोजित करा
+- title: अ‍ॅनिमेशन
+- title: टिटोला पलटी करायला शिकवा!
+  completion:
+  - internal

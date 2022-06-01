@@ -2,7 +2,7 @@
 title: Guia para o meu país 2.0
 hero_image: images/banner.png
 description: Melhore suas habilidades em criar página da web ainda mais!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -16,13 +16,17 @@ software: html-css-javascript
 version: 1
 last_tested: 01/01/2017
 steps:
-  - title: Introdução
-  - title: Preparando
-  - title: Todas as cores!
-  - title: Organizando sua página
-  - title: Crie alguns temas
-  - title: Estilo individual
-  - title: Veja o código em outros sites!
-  - title: Ajuste automaticamente o tamanho
-  - title: Animação
-  - title: Ensine Tito a rolar!
+- title: Introdução
+- title: Preparando
+- title: Todas as cores!
+- title: Organizando sua página
+  completion:
+  - engaged
+- title: Crie alguns temas
+- title: Estilo individual
+- title: Veja o código em outros sites!
+- title: Ajuste automaticamente o tamanho
+- title: Animação
+- title: Ensine Tito a rolar!
+  completion:
+  - internal

@@ -16,13 +16,17 @@ software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Opstarten
-  - title: Alle kleuren!
-  - title: Je pagina organiseren
-  - title: Ontwerp enkele thema's
-  - title: Eigen stijl
-  - title: Bekijk de code van andere websites!
-  - title: Automatisch de grootte aanpassen
-  - title: Animatie
-  - title: Leer Tito om te rollen!
+- title: Inleiding
+- title: Opstarten
+- title: Alle kleuren!
+- title: Je pagina organiseren
+  completion:
+  - engaged
+- title: Ontwerp enkele thema's
+- title: Eigen stijl
+- title: Bekijk de code van andere websites!
+- title: Automatisch de grootte aanpassen
+- title: Animatie
+- title: Leer Tito om te rollen!
+  completion:
+  - internal

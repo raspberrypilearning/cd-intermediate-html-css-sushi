@@ -2,7 +2,7 @@
 title: Tour durch mein Land 2.0
 hero_image: images/banner.png
 description: Erweitere Deine Fähigkeiten im Bereich Website-Design!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -16,13 +16,17 @@ software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
-  - title: Einleitung
-  - title: Vorbereitungen
-  - title: Alle Farben!
-  - title: Organisiere Deine Seite
-  - title: Entwirf einige Themen
-  - title: Individueller Stil
-  - title: Untersuche den Code auf anderen Websiten!
-  - title: Passe die Größe automatisch an
-  - title: Animationen
-  - title: Bringe Tito bei, sich zu drehen!
+- title: Einleitung
+- title: Vorbereitungen
+- title: Alle Farben!
+- title: Organisiere Deine Seite
+  completion:
+  - engaged
+- title: Entwirf einige Themen
+- title: Individueller Stil
+- title: Untersuche den Code auf anderen Websiten!
+- title: Passe die Größe automatisch an
+- title: Animationen
+- title: Bringe Tito bei, sich zu drehen!
+  completion:
+  - internal

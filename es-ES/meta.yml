@@ -17,14 +17,16 @@ version: 1
 last_tested: 2017-01-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Preparación
 - title: "¡Todos los colores!"
 - title: Organizando tu página
+  completion:
+  - engaged
 - title: Diseña algunos temas
 - title: Estilo individual
 - title: "¡Mira el código en otros sitios web!"
 - title: Ajustar automáticamente el tamaño
 - title: Animación
-  completion: internal
 - title: "¡Enséñale a Tito a darse la vuelta!"
+  completion:
+  - internal

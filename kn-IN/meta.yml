@@ -17,14 +17,16 @@ version: 1
 last_tested: 2017-01-01
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
 - title: ಎಲ್ಲಾ ಬಣ್ಣಗಳು!
 - title: ನಿಮ್ಮ ಪುಟವನ್ನು ಆಯೋಜಿಸಲಾಗುತ್ತಿದೆ
+  completion:
+  - engaged
 - title: ಕೆಲವು ವಿಷಯಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ
 - title: ವೈಯಕ್ತಿಕ ಶೈಲಿ
 - title: ಇತರ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ಕೋಡ್ ನೋಡಿ!
 - title: ಗಾತ್ರವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊಂದಿಸಿ
 - title: ಅನಿಮೇಷನ್(Animation)
-  completion: internal
 - title: ಉರುಳಲು ಟಿಟೊ(Tito) ಗೆ ಕಲಿಸಿ!
+  completion:
+  - internal

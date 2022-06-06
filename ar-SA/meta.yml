@@ -17,14 +17,16 @@ version: 1
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: هيا بنا لنبدأ
 - title: كل الألوان!
 - title: تنظيم صفحتك
+  completion:
+  - engaged
 - title: صمم بعض المواضيع
 - title: أسلوب فردي
 - title: انظر الكود على المواقع الأخرى!
 - title: ضبط الحجم تلقائيًا
 - title: الرسوم المتحركة
-  completion: internal
 - title: علّم تيتو ليتدحرج!
+  completion:
+  - internal

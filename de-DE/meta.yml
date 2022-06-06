@@ -17,14 +17,16 @@ version: 1
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Vorbereitungen
 - title: Alle Farben!
 - title: Organisiere Deine Seite
+  completion:
+  - engaged
 - title: Entwirf einige Themen
 - title: Individueller Stil
 - title: Untersuche den Code auf anderen Websiten!
 - title: Passe die Größe automatisch an
 - title: Animationen
-  completion: internal
 - title: Bringe Tito bei, sich zu drehen!
+  completion:
+  - internal

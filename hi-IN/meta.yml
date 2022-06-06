@@ -17,14 +17,16 @@ version: 1
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: शुरू करने के लिए
 - title: सभी रंग!
 - title: अपने पृष्ठ का आयोजन
+  completion:
+  - engaged
 - title: कुछ थीम डिजाइन करें
 - title: व्यक्तिगत शैली
 - title: अन्य वेबसाइटों पर कोड देखें!
 - title: स्वचालित रूप से आकार समायोजित करें
 - title: एनीमेशन
-  completion: internal
 - title: टीटो को उलटना सिखाएं!
+  completion:
+  - internal

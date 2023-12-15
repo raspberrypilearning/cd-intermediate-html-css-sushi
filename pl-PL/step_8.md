@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## Automatyczne dopasowanie rozmiarów
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Do tej pory używałeś **pikseli** aby ustawić rozmiar rzeczy, np. `10px`. Na tej karcie poznasz inne pomiary, których możesz użyć.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Przejdź do `index.html` i znajdź element `img` z obrazem Tito, lub znajdź inny tag `img` na swojej stronie.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ Usuń atrybut `width` jeśli jest tam i nadaj temu elementowi `id` jeśli go jeszcze nie posiada.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ W pliku CSS zdefiniuj właściwość `width` (szerokość) dla swojego obrazu, jak pokazano poniżej (może być konieczne utworzenie bloku CSS z selektorem `id`, jeśli jeszcze tego nie zrobiłeś na poprzedniej karcie).
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+Uwaga: 50% (50 procent) to **połowa**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ Spróbuj zmienić rozmiar okna przeglądarki i obserwuj, co dzieje się z obrazem.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+Powinieneś zobaczyć, że obraz staje się większy i mniejszy, gdy powiększasz i zmniejszasz okno. Dzieje się tak, ponieważ zajmuje 50% szerokości elementu **main** (który jest w przybliżeniu szerokością strony).
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Jak to działa?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+Kiedy ustawiasz rozmiar czegoś w pikselach, ustawiasz dokładny rozmiar i to się nie zmienia. Jest to wymiar **bezwzględny**.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+Innym sposobem na ustawienie rozmiaru rzeczy jest użycie **względnych** pomiarów, więc rozmiar zależy od tego, jak duże elementy są porównywane ze sobą. Następnie, gdy jedna rzecz zmieni rozmiar, wszystkie inne zmiany również automatycznie zmienią rozmiar, aby zachować te same **proporcje**.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Gdy używasz **względnych** pomiarów, ważne jest, aby wiedzieć, jaki jest **element nadrzędny** twojego elementu. Element nadrzędny jest tym, w czym znajduje się twój element i do tego zmierza pomiar. Na przykład elementem nadrzędnym powyższego obrazu jest element `article`, ponieważ element `img` znajduje się pomiędzy tagami `<article></article>`.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+SzerokośćJeśli ustawisz `width`(szerokość) elementu na `100%`, to sprawi, że będzie to taka sama szerokość jak kontener nadrzędny.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ Eksperymentuj z różnymi liczbami przed `%`.

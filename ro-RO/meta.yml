@@ -2,7 +2,7 @@
 title: Guide to my country 2.0
 hero_image: images/banner.png
 description: Take your website design skills further!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: All the colours!
   - 
     title: Organising your page
+    completion:
+      - engaged
   - 
     title: Design some themes
   - 
@@ -36,3 +38,5 @@ steps:
     title: Animation
   - 
     title: Teach Tito to roll over!
+    completion:
+      - internal

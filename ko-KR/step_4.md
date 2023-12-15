@@ -1,65 +1,65 @@
-## Organising your page
+## 내 페이지 구성하기
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+지금까지 **heading** 과 **paragraph** 을 사용하여 **content** 를 깔끔하고 읽기 쉽게 만들었습니다. 이것들을 모두 그룹화하여 더욱 체계적으로 만들어 봅시다.
 
 ## \--- collapse \---
 
-## title: What is content?
+## 제목: content란 무엇입니까?
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**Content** 는 텍스트 및 그림과 같은 웹 페이지의 모든 항목입니다.
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ `attractions.html` 파일 (또는 예제 프로젝트를 사용하지 않을 경우 자신의 페이지 중 하나)로 이동합니다. 그리고 파일 상단 근처 바로 **아래에 위치한** `<main>`의 여는 태그에 다음과 같은 새 라인을 입력하세요: 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ 만약 편집기가 자동으로 `</article>` 을 닫는 태그를 추가한 경우, 삭제합니다.
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ 파일 맨 아래 부분 `</main>` 의 닫는 태그 바로 **위**, 새 라인을 추가하고 `article` 요소를 닫습니다:
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+`main` 요소는 이제 다음과 같이 보여야 합니다. (`article` 태그 사이에 다른 내용이 있을 수 있음):
 
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
+      <h1>아일랜드에서 제가 가장 좋아하는 곳</h1>
+        <h2>모허 절벽</h2>
         <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        모허절벽은 저의 고향인 클레어 카운티에서 볼 수 있습니다. 얼마나 멋진지 보세요!</p>
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        <h2>애칠 섬</h2>
+        <p>마요 카운티 앞바다의 큰 섬입니다. 산, 늪지대, 절벽 등 야생의
+        경치를 자랑합니다.
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ 이제 `article`의 내용을보고 섹션으로 나누십시오. 이 새로운 태그 쌍을 각각의 비트 주위에 넣으십시오. `<section> </section>`. 다음의 예시와 같이 보일 수 있습니다:
 
 ```html
   <article>
-    <h1>My favourite places to see in Ireland</h1>
+    <h1>아일랜드에서 제가 가장 좋아하는 곳</h1>
     <section>
-      <h2>The Cliffs of Moher</h2>
+      <h2>모허 절벽</h2>
       <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+      모허절벽은 저의 고향인 클레어 카운티에서 볼 수 있습니다. 얼마나 멋진지 보세요!</p>
       <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
     </section>
     <section>
-      <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      <h2>애칠 섬</h2>
+      <p>마요 카운티 앞바다의 큰 섬입니다. 산, 늪지대, 절벽 등 야생의
+      경치를 자랑합니다.
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -68,94 +68,94 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## title: 새로운 태그는 무엇입니까?
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+이러한 새로운 요소들을 **컨테이너**라고 생각하세요. 컨테이너는 그룹화하는 데 사용됩니다. 상자와 선반에 집 안 물건을 정리하는 것과 비슷합니다!
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+이렇게 하면 웹 사이트가 사용자에게 친밀감을 주고, 레이아웃을 더 잘 제어 할 수 있게 하며, 보시다시피 스타일을 창의적으로 사용할 수 있습니다.
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+태그 사이에는 어떤 것이든지 들어갈 수 있습니다. 보통 하나 이상의 요소가 들어가지만, 반드시 그럴 필요는 없습니다. 모든 종류의 HTML 요소면 가능합니다. 당신이 지금 하는 일은 이러한 태그들 사이의 모든 것들이 합쳐져 전체를 이룬다는 것을 브라우저에 알리는 중 입니다.
 
 ### Article
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+`article` 요소는 전체 콘텐츠의 컨테이너 입니다. (이 경우, 아일랜드 명소에 대한 정보) 관련 없는 다른 콘텐츠가 있는 경우, 전체 집단 주위에 한 세트의 태그를 배치하는 대신, 각 콘텐츠를 자체 `article` 요소에 배치해야 합니다.
 
 ### Section
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+`section` 요소를 사용하면 관련 콘텐츠를 더 작은 덩어리로 분할하고, 각각의 덩어리를 자체 컨테이너에 넣을 수 있습니다.
 
-### Others exist too!
+### 다른 요소들도 존재합니다!
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+이것들은 HTML의 유일한 컨테이너 요소가 아닙니다. 혹시 이전에 메뉴를 생성하여 `<nav> </nav>` 태그 사이에 넣은 적이 있다면, 그것은 컨테이너 종류의 또 다른 예입니다. `<main> </main>` 과 `<header> </header>` 도 마찬가지 입니다. — 더 많은 예시들을 떠올릴 수 있나요?
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+웹 페이지가 아직 변화가 없어 보일지도 모릅니다. 하지만, 콘텐츠가 컨테이너 태그로 구성되면, CSS를 사용하여 멋진 작업을 수행 할 수 있습니다. HTML은 웹 사이트 구성 방식을 제어하고, CSS는 웹 사이트의 모양을 제어한다는 것을 기억하세요.
 
-## Challenge: organise your website
+## 과제: 웹 사이트 구성하기
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ 이러한 방식으로 `article` 과 `section` 컨테이너를 사용하여 웹 사이트의 모든 콘텐츠를 구성하십시오. 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+예제 프로젝트의 음식 페이지를 보십시오. `food.html`파일에 여러 개의 `section` 태그가 포함 된 `article` 이 추가 된 것을 볼 수 있습니다:
 
 ```html
   <main>
     <article>
-      <h1>Food in Ireland</h1>
+      <h1>아일랜드의 음식</h1>
       <p>
-        These are some of my favourite Irish foods!
+        제가 가장 좋아하는 음식들 입니다!
       </p>  
       <section>
-        <h2>Traditional Irish Breakfast</h2>
+        <h2>전통 아일랜드식 조식</h2>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
+          완전한 아일랜드식 조식은 소세지, 베이컨,
+          달걀, 블랙 푸딩, 화이트 푸딩, 그리고 토스트로 구성된다.
         </p>
         <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
+          거기에 버섯과 구운 콩 뿐만 아니라,
+          구운 토마토까지 종종 있을 것 입니다.
         </p>
         <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
-        </p>
-      </section>
-
-      <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+          물론, 사랑스러운 찻잔까지 있어야 
+          조식이 완벽해집니다!
         </p>
       </section>
 
       <section>
-        <h2>Bacon and Cabbage</h2>
+        <h2>뱅어 앤 매쉬</h2>
         <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
+          전통 소시지, 으깬 감자와 그레이비 소스는
+          아일랜드 특유의 것이 아니지만, 그것을 특별하게 만드는 것은
+          아일랜드식 소시지 입니다. 대부분 국가마다 고유의 소시지 제조법이 있고,
+          그것들은 제가 멀리 여행 가게 된다면, 그리워할 음식 중 하나 입니다.
+        </p>
+      </section>
+
+      <section>
+        <h2>베이컨과 양배추</h2>
+        <p>
+          이러한 전형적인 요리를 포함하지 않고서는
+          아일랜드 음식 목록을 작성할 수 없을 정도로 중요한 음식 입니다.
         </p>
         <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          별로 흥미롭게 들리지 않을지 모르지만,
+          이 따뜻한 햄, 감자, 그리고 녹색 양배추를 먹는 것은 맛있고 배부릅니다.
+          저는 감자를 버터에 넣고 비벼먹는 것을 좋아하고,
+          베이컨에 겨자를 살짝 찍어 먹는 것도 좋아합니다.
         </p>
         <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
+          저희 어머니께서는 햄을 삶는 물에 양배추를 요리함으로써
+          매번 더욱 특별하게 만드십니다.
         </p>
         <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
+          만약 남은 음식이 있다면, 또 다른 제가 좋아하는 음식 중 하나를
+          만들 수 있습니다: <strong>양배추 튀김</strong>!
         </p>
       </section>
     </article>     
@@ -166,6 +166,6 @@ Look at the Food page of the example project. You'll see that I've added an `art
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+다음 카드에서 article과 section으로 구성된 각각의 페이지에 대해 다른 테마를 디자인 할 것 입니다!
 
 \--- /challenge \---

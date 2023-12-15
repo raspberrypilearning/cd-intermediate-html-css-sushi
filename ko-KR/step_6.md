@@ -1,18 +1,18 @@
-## Individual style
+## 개별 레이아웃
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+홈페이지를 조금 더 생생하게 채워봅시다! CSS 선택기의 또 다른 종류로, 당신은 고유의 CSS 규칙들을 오직 **하나의 특정 요소**에 적용 할 수 있습니다.
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ `index.html`로 이동하여 단락 (`p`) 요소를 찾거나, 없는 경우 하나를 추가하십시오. 다음의 **속성**을 태그에 추가하십시오:
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+        저의 웹사이트는 아일랜드에 대해 다룹니다.
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id`는 **식별**하기 위한 특정 요소를 부여하는 이름입니다. 한 페이지 안의 두 요소들이 동일한 `id`를 가져서는 안됩니다!
 
-+ Now go to your style sheet and add the following code:
++ 이제 스타일 시트로 이동하여 다음의 코드를 추가하십시오:
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+다음과 같은 코드가 될 것입니다:
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![다른 색상과 테두리가 있는 텍스트](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+앞에 `#` 있는 선택기는 웹 사이트의 특정 요소에 CSS 규칙을 적용하는 데 사용됩니다. 당신은 요소의 `id` 속성을 할당 한 이름을 사용하여 요소를 지정합니다.
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ 홈페이지의 `body` 에 대해 한번 해보겠습니다. `index.html`로 이동하여 `body` 태그에 `id`를 추가합니다.
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ 스타일 시트에서 다음의 CSS 규칙을 추가하세요:
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+아래와 같이 출력될 것입니다.
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![무지개 그라데이션 배경](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+방금 **그래디언트**를 사용했습니다! 그래디언트는 한 색상이 다른 색상으로 스며드는 효과를 줍니다. 참고: 그래디언트 위의 첫 번째 `배경` 속성은 그래디언트를 지원하지 않는 브라우저의 기본 색상을 결정합니다.
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+코드를 완벽하게 입력했지만 위의 멋진 무지개 효과를 얻지 못했다면, 브라우저가 그래디언트를 지원하지 않는 것일 수 있습니다.
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+경사도를 사용하여 다양한 효과를 만들 수 있습니다. 더 배우고 싶다면, [여기](http://dojo.soy/html2-css-gradients){:target="_blank"}로 이동하세요.
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## 과제: 더 많은 요소의 스타일링
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ 또 다른 요소에 `id`와 위와 같은 ID 선택기를 `#` 과 함께 사용하여 해당 요소의 스타일을 지정하십시오. 완전히 둥글게 하기 위해 `border-radius`값이 `100 %`인 하나의 그림을 만드는 것은 어떻습니까? 웹 사이트의 다른 모든 사진들은 그대로 유지됩니다. 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+다음과 같이 HTML 태그에 `id` 속성을 추가하여 요소에 `id` 을 부여합니다.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+원하는 `id` 이름을 선택하십시오.
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+특정 요소에 대한 스타일 규칙을 정의하려면, `#` 기호와 `id`로써 요소에 부여한 이름을 사용합니다.
 
 ```css
   #titoPicture {
@@ -84,12 +84,12 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+참고: CSS 규칙 앞에 입력한 이름은 요소의 `id` 속성에 넣은 값과 **정확히** 일치해야 합니다.
 
 \--- /hint \---
 
 \--- /hints \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![흰색 테두리가 있는 둥근 티토 사진](images/titoPictureIdStyle.png)
 
 \--- /challenge \---

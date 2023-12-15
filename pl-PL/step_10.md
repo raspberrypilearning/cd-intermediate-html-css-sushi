@@ -1,8 +1,8 @@
-## Teach Tito to roll over!
+## Zadanie: naucz Tito turlać się!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+Możesz uczynić swoją stronę bardziej **interaktywną** powodując, że fajne rzeczy dzieją się, gdy najedziesz kursorem myszy na rzeczy!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ Znajdź swoje reguły CSS dla elementów `img` lub utwórz jakieś jeśli nie masz żadnych elementów. Dodaj obramowanie, a następnie dodaj nowy blok reguł bezpośrednio poniżej:
 
 ```css
   img {
@@ -13,29 +13,29 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+Właśnie użyłeś specjalnego typu bloku CSS o nazwie **pseudo-class**(pseudo klasa).
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Jak to działa?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+**pseudo-klasa** różni się nieco od **klasy**, którą tworzysz. Możesz to rozpoznać przez `:`.
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+Pseudoklasy zostały wbudowane w elementy HTML: możesz dodać `:hover` reguły stylu do dowolnego elementu, klasy, lub selektora `id` w arkuszu stylów bez konieczności dodawania czegokolwiek dodatkowego do kodu HTML.
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ Jak myślisz, co się stanie? Sprawdź, które strony w Twojej witrynie zawierają zdjęcia (dodaj zdjęcie, jeśli ich nie ma!), A następnie przesuń kursor nad zdjęciem, aby się dowiedzieć!
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ Użyjmy tej nowej pseudoklasy `:hover` razem z klasą CSS, aby sprawić, że linki się świeciły po najechaniu na nie kursorem! Dodaj link do swojej strony internetowej i dołącz atrybut określający nazwę klasy. Pamiętaj, linki są zdefiniowane za pomocą tagu `<a>`, jak tak:
 
 ```html
     <p>
-      Visit the <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">Wikipedia page</a> to learn even more about Ireland!
+      Odwiedź <a class="niceLinks" href="https://en.wikipedia.org/wiki/Ireland">stronę Wikipedia</a>, aby dowiedzieć się więcej o Irlandii!
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ Dodaj następujący kod do arkusza stylów, a następnie uruchom kod, aby zobaczyć swoje piękne linki w akcji.
 
 ```css
   .niceLinks {
@@ -47,11 +47,11 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ Dlaczego nie dodać atrybutu `class="niceLinks"` do wszystkich linków w pasku menu?
 
-You can combine all of these tricks with animations too!
+Możesz również połączyć wszystkie te sztuczki z animacjami!
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Znajdź ponownie blok CSS dla zdjęcia Tito (lub dowolny obrazek nad którym pracowałeś wcześniej). Dodaj następujący kod do pliku arkusza stylów:
 
 ```css
   #titoPicture {
@@ -73,21 +73,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ Czy potrafisz zgadnąć, co się stanie?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ Teraz krzycz „Przewróć się!” gdy przesuwasz kursor nad zdjęciem!
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## Wyzwanie: wykonaj świecące tęczowe linki
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ Czy możesz użyć animacji `RinbowGlow` z poprzedniej karty, aby linki w menu nadal zmieniały kolory, gdy kursor nad nimi znajduje się nad nimi?
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+Poniżej znajduje się kod dla animacji `rainbowGlow`. Ma pięć zdefiniowanych etapów i ustawia inny kolor tekstu na każdym etapie. Możesz dodać więcej lub zmienić je, jak chcesz!
 
 ```css
     @keyframes rainbowGlow {
@@ -113,13 +113,13 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+Aby coś animować, dodajesz trzy właściwości `animation` do jego reguł stylu, tak jak to zrobiłeś powyżej. Zawsze upewnij się, że `animation-name` pasuje do nazwy animacji, której chcesz użyć.
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+Możesz dodać efekty `hover` bezpośrednio do menu `nav`:
 
 ```css
   nav ul li a:hover {
@@ -129,7 +129,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+Albo, jeśli chcesz również spowodować, żeby inne linki na swojej stronie internetowej świeciły kolorami tęczy, możesz zamiast tego dodać animację do klasy `.niceLinks` w następujący sposób:
 
 ```css
   .niceLinks:hover {

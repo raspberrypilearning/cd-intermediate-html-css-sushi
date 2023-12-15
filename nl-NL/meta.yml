@@ -2,7 +2,7 @@
 title: Gids voor mijn land 2.0
 hero_image: images/banner.png
 description: Vergroot je vaardigheden op het gebied van website-ontwikkeling!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -24,6 +24,8 @@ steps:
     title: Alle kleuren!
   - 
     title: Je pagina organiseren
+    completion:
+      - engaged
   - 
     title: Ontwerp enkele thema's
   - 
@@ -36,3 +38,5 @@ steps:
     title: Animatie
   - 
     title: Leer Tito om te rollen!
+    completion:
+      - internal

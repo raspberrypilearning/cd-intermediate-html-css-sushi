@@ -1,10 +1,10 @@
-## Introduction
+## 들어가며
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+기존의 HTML/CSS 지식을 바탕으로 웹 사이트를 제작해 보고 웹 사이트 외관 구현능력을 향상시킵니다.
 
-### What you will make
+### 만들 작품
 
-Here is an example of how your website might look after completing these Sushi Cards:
+다음은 스시 카드를 완성한 후 귀하의 웹 사이트가 어떻게 보일지 보여주는 예입니다.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 배우게 될 것
 
-+ How to create your own colours using code
-+ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-+ How to use CSS styling to create themes as well as style individual elements
-+ Controlling the size of elements with different kinds of measurements
-+ Making things happen when you hover over elements on your page
-+ Animating elements of your website with CSS
-+ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
++ 코드를 사용해 자신만의 색깔을 만드는 법
++ 웹 사이트 방문자가 보기 편하도록 웹 사이트의 콘텐츠를 구성하는 방법
++ CSS 스타일링을 사용하여 테마와 스타일 개별요소(element) 를 생성하는 방법
++ 다양한 수단으로 요소(element)의 크기를 조절하는 방법
++ 웹페이지의 요소(element) 위에 마우스를 올리면 다른 작업이 실행되도록 하는 방법
++ CSS로 웹 사이트의 요소에 애니메이션을 적용하는 방법
++ 개발자 도구를 사용하여 다른 웹 사이트의 소스코드를 살펴보고, 이를 활용하여 내 웹사이트를 테스트하는 방법
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ [trinket.io](https://trinket.io){:target="_blank"} 에 접속 가능한 컴퓨터
 
-### Software
+### 소프트웨어
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+이 프로젝트는 [trinket.io](https://trinket.io){:target="_blank"}를 사용하는 웹 브라우저에서 완성할 수 있습니다.
 
 \--- /collapse \---

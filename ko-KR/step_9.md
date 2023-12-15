@@ -1,8 +1,8 @@
-## Animation
+## 애니메이션
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+CSS를 사용하여 사물을 움직일 수 있다는 것을 알고 계셨습니까? 이 섹션에서 방법을 배우게 됩니다!
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ 시작하기 전에, 웹 사이트에 `id`와 `폭`이 `100px`로 설정된 해당 CSS 블록 사진이 있는 지 확인하세요. 저는 전에 썼던 Tito 사진으로 쓸 것 입니다. 저의 CSS 블록은 다음과 같습니다.
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ CSS 파일 하단으로 이동하여 다음 코드를 추가합니다.
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+이 코드는 웹 사이트의 모든 요소에 추가 할 수있는 `myFirstAnimation` 이라는 애니메이션을 만듭니다. 어떤 일이 일어날 것 같습니까?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ 그림에 대한 CSS 규칙을 찾고 다음 세 가지 속성을 추가합니다.
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ 이제 웹 페이지에서 무슨 일이 일어나는지보세요! `animation-iteration-count` 에 대해 다른 값을 시도하여 무슨일이 일어나는지 확인하십시오.
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ 또 다른 애니메이션을 시도해 봅시다! CSS 파일 스크립트의 끝에 다음 코드를 추가하십시오:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ 이제 이전의 `#myCoolText` CSS 규칙을 찾아 애니메이션 코드를 추가합니다.
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+` from ` 과 ` to `대신 **퍼센트 값** 을 사용하면 시작 및 종료 값뿐 아니라 중간 값도 설정할 수 있습니다. `0` 에서 최대 `100`까지 다른 백분율 값을 사용하여 원하는만큼 중간 값을 설정할 수 있습니다.
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ `animation-iteration-count` 값을 `infinite`으로 설정하세요. 테스트하기 전에 어떤 일이 일어날 지 추측해 보세요!
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ 애니메이션 속도를 높이거나 낮추려면 `animation-duration` 에 대해 다른 값을 시도하십시오.
 
-+ One final trick! Add this animation code:
++ 마지막 트릭입니다! 이 애니메이션 코드를 추가하십시오.
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ 이제 이전에 작성한 `#frontPage` CSS 규칙을 찾아 다음과 같이 변경합니다.
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+위의 모든 코드를 이해해야 된다는 걱정은 하지 마세요... 그냥 보고 즐기세요!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+애니메이션으로 할 수있는 작업에 대해 자세히 알아 보려면 [이 웹 페이지](http://dojo.soy/html2-css-animation){: target = "_ blank"}를 방문하세요. 즐기세요!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+다음 챕터에서는 마우스 커서를 어떤 곳 위로 가져갈 때 멋진 일이 일어나도록하는 방법을 배울 것 입니다!

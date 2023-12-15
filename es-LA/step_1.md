@@ -1,10 +1,10 @@
-## Introduction
+## Introducción
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+Mejora tus habilidades HTML/CSS para hacer un sitio web y gana mayor control sobre cómo se ve.
 
-### What you will make
+### Lo que harás
 
-Here is an example of how your website might look after completing these Sushi Cards:
+Este es un ejemplo de cómo tu sitio web puede verse después de completar estas Tarjetas Sushi:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## Título: Lo que vas a aprender
 
-+ How to create your own colours using code
-+ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-+ How to use CSS styling to create themes as well as style individual elements
-+ Controlling the size of elements with different kinds of measurements
-+ Making things happen when you hover over elements on your page
-+ Animating elements of your website with CSS
-+ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
++ Cómo crear tus propios colores usando código
++ Formas de organizar contenido en tu sitio web para que puedas aplicar estilos, y para hacerla amigable a lectores
++ Cómo usar estilo CSS para crear temas así como elementos individuales de estilo
++ Controlando el tamaño de elementos con diferente tipo de unidades de medida
++ Haciendo que las cosas sucedan cuando desplazas elementos en tu página
++ Dar animación a elementos de tu página con CSS
++ Cómo usar las herramientas de desarrollo para dar un vistazo al código de cualquier página web, y para probar partes del tuyo
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## Título: Lo que vas a necesitar
 
-### Hardware
+### Equipo
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Un ordenador capaz de acceder a [trinket.io](https://trinket.io){:target="_blank"}
 
-### Software
+### Programa
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Este proyecto se puede completar en un navegador web usando [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---

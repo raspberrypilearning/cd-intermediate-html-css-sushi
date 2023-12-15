@@ -1,8 +1,8 @@
 ---
 title: मेरे देश के लिए गाइड 2.0
 hero_image: images/banner.png
-description: अपनी वेबसाइट डिजाइन कौशल को और आगे ले जाएं!
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: अपनी वेबसाइट डिजाइन स्किल को और आगे ले जाएं!
+theme: red
 duration: 2
 listed: true
 ingredient: false
@@ -19,20 +19,24 @@ steps:
   - 
     title: परिचय
   - 
-    title: शुरू करने के लिए
+    title: शुरुआत करें
   - 
     title: सभी रंग!
   - 
-    title: अपने पृष्ठ का आयोजन
+    title: अपने पेज का आयोजन
+    completion:
+      - engaged
   - 
-    title: कुछ थीम डिजाइन करें
+    title: कुछ विषय डिज़ाइन करें
   - 
     title: व्यक्तिगत शैली
   - 
     title: अन्य वेबसाइटों पर कोड देखें!
   - 
-    title: स्वचालित रूप से आकार समायोजित करें
+    title: खुद ब खुद आकार एडजस्ट करना
   - 
     title: एनीमेशन
   - 
     title: टीटो को उलटना सिखाएं!
+    completion:
+      - internal

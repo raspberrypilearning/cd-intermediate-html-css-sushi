@@ -1,69 +1,69 @@
-## See the code on other websites!
+## 다른 웹 사이트에서 코드를 확인하세요!
 
-**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+**참고:** 이 단계를 완료하려면 Chrome, Firefox 또는 Internet Explorer / Microsoft Edge 웹 브라우저 중 하나를 사용해야 합니다. 그 중 하나에 접근할 수 없는 경우, 그냥 다음 섹션으로 계속 진행할 수 있습니다.
 
-On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+이 카드에서는 **개발자 도구**를 사용하여 웹 사이트의 코드를 살짝 들여다 보는 방법을 배우고, 자신 만 볼 수 있는 몇 가지 변화를 수행하는 방법도 알아볼 것입니다!
 
-+ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
++ 시작하기 전에 프로젝트가 저장되었는지 확인하십시오. 그런 다음 브라우저에서 새로 고침 아이콘을 클릭하여 웹 사이트를 새로 고칩니다.
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
++ 웹 페이지 (코드가 아닌 실제 페이지) 에서 이전 카드에 추가 한 테두리가 있는 텍스트를 강조 표시 한 다음, 마우스 오른쪽 버튼으로 클릭하고 나타나는 메뉴에서 **Inspect** 옵션을 선택합니다. (이 옵션은 사용 중인 브라우저에 따라 '요소 검사' 또는 이와 유사 할 수 있습니다. 메뉴 옵션을 찾는 데 문제가 있으면 Dojo의 누군가 에게 도움을 요청하십시오.)
 
-![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
+![강조 표시된 텍스트에서 검사 옵션 선택](images/highlightTextAndInspect.png)
 
-A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+많은 탭과 코드가 있는 완전히 새로운 상자가 웹 브라우저에 나타납니다: **개발자 도구** 입니다. 여기에서 클릭 한 항목에 대한 코드와 전체 페이지에 대한 코드를 볼 수 있습니다!
 
-### Inspecting the HTML code
+### HTML 코드 검사
 
-+ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
++ 페이지의 HTML 코드를 표시하는 탭을 찾습니다 ( 'Elements' 또는 'Inspector' 탭 일지도 모릅니다). 코드는 HTML 파일에 입력 한 것과 거의 동일해야 합니다! 오른쪽에 있는 작은 삼각형을 클릭하여 숨겨진 코드를 확장 할 수 있습니다.
 
-![Inspector showing a text element](images/inspectTextHtml.png)
+![텍스트 요소를 보여주는 검사기](images/inspectTextHtml.png)
 
-+ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
++ 태그 사이의 텍스트를 더블 클릭 합니다. 당신은 이제 그것을 수정할 수 있습니다! 무언가를 입력하고 <kbd>Enter</kbd>를 누르십시오.
 
-![Editing text using the inspector tool](images/inspectEditHtmlText.png)
+![검사 도구를 사용하여 텍스트 편집](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ 웹 사이트에 업데이트한 텍스트가 표시됩니까? 참고: 이러한 변경 사항은 본인만 볼 수 있고, 실제 웹사이트에 수정내용이 반영되지는 않습니다.
 
-![Website with edited text](images/inspectEditHtmlTextResult.png)
+![편집된 텍스트가 있는 웹 사이트](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ 이제 페이지를 **새로고침**하고 무엇이 일어나는지 봅시다. 위에서 언급한 대로 웹페이지가 변경되지 않을 것입니다!
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ 개발 도구 상자의 왼쪽 상단에서, 화살표가 있는 작은 직사각형 모양의 아이콘을 클릭합니다. 이제 웹 페이지 위로 커서를 이동할 수 있으며, HTML 검사기가 이를 설명하는 코드를 표시합니다.
 
-![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
+![요소를 선택하는 아이콘](images/inspectorSelectIcon.png) ![요소 선택](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### CSS 코드 검사
 
-+ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++ 다음으로 CSS 코드를 살펴 보겠습니다. 개발자 도구에서 **스타일** 탭을 찾습니다 ( '스타일 편집기' 또는 이와 유사한 이름으로 불릴 수 있음). 해당 단락에 대해 만든 규칙을 포함하여 여러 CSS 규칙이 표시되어야 합니다. `#myCoolText`.
 
-![Viewing the CSS code for an element](images/inspectCssBlock.png)
+![요소에 대한 CSS 코드보기](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
++ `#myCoolText` 규칙에서 `색상` 속성 옆에 있는 값을 클릭합니다. 다른 값을 입력 해보십시오. 웹 페이지의 글자 색이 바로 바뀐 것을 보십시오! 
 
-![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
+![CSS 검사기를 사용하여 텍스트 색상 편집](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+참고: 또한 색상을 변경하기 위해 색상 선택 도구를 사용하여 색상이 있는 사각형을 클릭 할 수도 있습니다.
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ 색상 뒤의 공간을 클릭하십시오. 더 많은 CSS를 입력할 수 있는 새 줄이 시작됩니다. 무언가를 입력하고 <kbd>Enter</kbd>를 누르십시오:
 
 ```css
   background-color: #660066;
 ```
 
-You should see the background change on that piece of text.
+해당 글자 부분의 배경이 변경되는 것을 볼 수 있습니다.
 
-![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
+![배경색 속성 추가](images/inspectorEditingBgCol.png) ![새로운 배경색](images/inspectorEditBgResult.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: 어떻게 동작하나요?
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+당신이 개발자 도구를 사용하여 웹 사이트의 코드를 변경하는 경우는 **일시적으로** **본인의 브라우저에** 보여지는 것을 변경하는 것 입니다. 실제로 웹 사이트를 구성하는 파일을 변경하는 것이 아닙니다.
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+페이지 새로고침을 할 때, html 파일 (인터넷 서버 또는 컴퓨터에 저장된 파일) 에서 웹 사이트를 리로드 하게 됩니다. 이것이 당신이 만든 변화가 나타나지 않는 이유 입니다.
 
-Now that you know that, you can have some fun messing with the code on other websites!
+이제 그걸 알게 되었으니, 다른 웹 사이트의 코드를 재미있게 다룰 수 있습니다!
 
 \--- /collapse \---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ 이 도구들을 사용하여 또 다른 웹 사이트의 코드를 살펴보십시오. 원하는 경우 변경할 수도 있습니다! 변경 사항은 본인만 볼 수 있으며, 페이지를 새로고침 하면 모든 항목이 재설정 됩니다.

@@ -1,18 +1,18 @@
-## Getting set up
+## Налаштування
 
-- Go to the starter trinket project at [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. The examples in these Sushi Cards are mainly based on this project.
+- Перейдіть до початкового трінкету за посиланням [dojo.soy/html2-website-start](http://dojo.soy/html2-website-start){:target="_blank"}. Приклади, що ви зустрінете в цих Sushi картах, в основному базуються на цьому проекті.
 
-- If you prefer, you can work with a website that you already made.
+- Якщо бажаєте, ви можете працювати з вебсайтом, який ви вже зробили.
 
 ## \--- collapse \---
 
-## title: I have an account on Trinket
+## title: Я маю обліковий запис на Trinket
 
-- Click the **Remix** button in the top right-hand corner of the project (if you are not signed in, you will be prompted to do so. Once you've signed in, you will then need to click the **Remix** button again). This creates a copy of the project for you to work with. 
+- Натисніть кнопку **Remix** у верхньому правому куті проекту (якщо ви не ввійшли в систему, вам буде запропоновано це зробити. Яктільки ви виконаєте вхід у систему, вам потрібно буде натиснути кнопку **Remix** знову). Ця дія створить копію проекту для подальшої роботи. 
 
-![Remix button](images/tktRemixButtonArrow.png)
+![Кнопка Remix](images/tktRemixButtonArrow.png)
 
-It should say **remixed** after you click it:
+Після натискання кнопки повинен висвітитися текст **remixed**:
 
 ![Button now says "remixed"](images/tktRemixedSmall.png)
 
@@ -20,22 +20,22 @@ It should say **remixed** after you click it:
 
 ## \--- collapse \---
 
-## title: I don't have an account on Trinket
+## title: Я не маю облікового запису на Trinket
 
-Even if you don't have an account, you can still work with Trinket.
+Навіть, якщо у вас немає облікового запису, ви все ж можете працювати з Trinket.
 
-### Saving your work
+### Збереження вашої роботи
 
-You can save your work by using one of the options in the **Share** menu. You can either download the project or get a link that you can save, for example in a document, or send via email. **Note**: each time you make a change to the project, you will get a new link.
+Ви можете зберегти свою роботу, використовуючи один із пунктів меню **Share**. Ви можете або завантажити проект, або отримати посилання, яке можна зберегти, наприклад в документі, чи надіслати електронною поштою. **Зауважте**: кожен раз, коли ви вносите зміни до проекту, ви будете отримувати нове посилання.
 
-### How to sign up for an account
+### Як зареєструвати обліковий запис
 
-If you want to create an account on Trinket, follow the steps below. This will allow you to access your work easily from any computer, and to **remix** projects somebody else has shared with you (meaning save a copy to which you can make changes).
+Якщо ви хочете створити обліковий запис на Trinket, ви повинні виконати наведені нижче кроки. Це дозволить вам легко отримувати доступ до вашої роботи з будь-якого комп'ютера, а також виконувати **remix** проектів, якими хтось інший поділився з вами (тобто зберегти копію, яку ви можете змінювати).
 
-- In browser tab with the starter trinket project, click **Sign Up For Your Free Account**. You will need an email address to sign up.
+- У вкладці браузера з початковим проектом, натисніть **Sign Up For Your Free Account**. Для реєстрації вам знадобиться електронна пошта.
 
-- Enter your email address and choose a password, or ask somebody to do this for you.
+- Введіть адресу своєї електронної пошти та оберіть пароль, або попросіть когось зробити це за вас.
 
-- You can now access all your saved or remixed projects by clicking on your username and going to **My Trinkets**. !["My Trinkets" menu item](images/myTrinketsMenu.png)
+- Тепер ви можете отримувати доступ до всіх ваших збережених або змінених проектів, натиснувши на ваше ім'я користувача і перейшовши на **My Trinkets**. !["My Trinkets" пункт меню](images/myTrinketsMenu.png)
 
 \--- /collapse \---

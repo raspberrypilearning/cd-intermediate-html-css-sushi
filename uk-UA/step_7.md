@@ -56,7 +56,7 @@ You should see the background change on that piece of text.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Як це працює?
 
 When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
 

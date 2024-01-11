@@ -1,8 +1,8 @@
-## Design some themes
+## 设计一些主题
 
-Writing CSS rules for elements such as `section` and `p` is great, but what if you want to make some of them look different from others? On this card you will learn how to apply different sets of style rules to elements of the same type and create a different theme for each page on your website!
+为诸如 `section` 和 `p` 等元素编写CSS规则很棒，但是如果您想使它们中的一些看起来与众不同怎么办？ 在这张卡片上，您将学习如何对同类元素应用不同的样式规则，并在您的网站上为每个页面创建一个不同的主题！
 
-+ Go to your style sheet file and add the following — be sure to include the dot in front!
++ 转到样式表文件并添加以下内容-确保在前面加上点！
 
 ```css
   .topDivider {
@@ -13,27 +13,27 @@ Writing CSS rules for elements such as `section` and `p` is great, but what if y
   }
 ```
 
-+ Now go to `attractions.html` (or the HTML file you're working on if you're using your own project), and add the following **attribute** to each `section` tag:
++ 现在转到` attractions.html ` （如果您使用自己的项目，则为正在处理的HTML文件），然后添加以下** attribute **到每个` section `标签：
 
 ```html
   <section class="topDivider">
 ```
 
-You should see a line appear above each section on the page. Congratulations — you've just used your first **CSS class**!
+您应该在页面的每个部分上方看到一行。 祝贺您-您刚刚使用了第一个** CSS类** ！
 
-![Page with lines in between the sections](images/sectionsWithTopBorder.png)
+![各部分之间有线条的页面](images/sectionsWithTopBorder.png)
 
-+ Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
++ 查看您的网页现在是如何看的，并将其与其他有` section `元素的页面进行比较。 您会看到只有那些添加了属性` class =“ topDivider”的属性`将在最上面。
 
 ## \--- collapse \---
 
-## title: How does it work?
+## 标题：它是如何工作的？
 
-Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
+请记住，当您使用CSS ** 选择器 **如` section `或` p `或` nav ul ` ，样式规则适用于** all **您网站上该类型的元素。
 
-With CSS **classes**, you're able to change the style of just **some** of the elements.
+使用 CSS ** 类 **, 你能够更改一些元素的风格。
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+将点置于您的选择器前面，使它变成一个**类选择器**。 一个类可以有任何名称，因此它不必是 HTML 元素的名称。 例如：
 
 ```css
   .myAwesomeClass {
@@ -41,7 +41,7 @@ Putting a dot in front of your selector makes it into a **class selector**. A cl
   }
 ```
 
-To choose which elements the style rules apply to, you add the `class` **attribute** to those elements in the HTML code: put the name of the class in as the value for the attribute, **without** the dot, like this:
+要选择样式规则应用于哪些元素，请添加` 类 ` ** 属性 **到HTML代码中的那些元素：将类的名称作为属性的值，**不带**点，像这样：
 
 ```html
   class="myAwesomeClass"
@@ -49,7 +49,7 @@ To choose which elements the style rules apply to, you add the `class` **attribu
 
 \--- /collapse \---
 
-+ Ready to try another class? Add the following CSS code to `styles.css`:
++ 准备尝试另一堂课吗？ 将下面的样式添加到`styles.css`
 
 ```css
   .stylishBox {
@@ -62,15 +62,15 @@ To choose which elements the style rules apply to, you add the `class` **attribu
   }
 ```
 
-+ Then, on a different page of your website, add the class to some elements there. I'm going to add it to the `section` elements on the Food page of my website, like this: `<section class="stylishBox">`.
++ 然后，在您网站的其他页面上，将该类添加到那里的某些元素中。 我将把它添加到我网站食物页面的`部分` 中，就像这样： `<section class="stylishBox">`。
 
-It looks great, but now my sections are all squashed together.
+看起来不错，但现在我的各个部分都被压在一起了。
 
-![Nice looking sections squashed together](images/squashedSections.png)
+![看起来很好的部分被冲到一起了](images/squashedSections.png)
 
-You can apply as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute (remember, without the dot!), separating them with spaces.
+您可以随意将尽可能多的 CSS 类应用于某个元素。 只需在`类`属性中写下您想要使用的所有类的名称(请记住，没有点！)，用空格分隔它们。
 
-+ Let's make another CSS class to give the sections some margin and padding. In the `styles.css` file, create the following CSS class:
++ 让我们创建另一个CSS类，为各部分提供一些边距和填充。 在` styles.css中`文件，创建以下CSS类：
 
 ```css
   .someSpacing {
@@ -79,37 +79,37 @@ You can apply as many CSS classes to an element as you like. Just write the name
   }
 ```
 
-+ In your `html` code, add the new class to each of the elements you were working on, like this:
++ 在你的`html`代码中，将新类添加到你正在处理的每个元素中，例如：
 
 ```html
   <section class="stylishBox someSpacing">
 ```
 
-![Sections with margin and padding added](images/sectionsWithSpacing.png)
+![添加了边距和填充的部分](images/sectionsWithSpacing.png)
 
-So CSS classes let you **choose** which elements to style, and they let you **reuse** the same set of style rules on any elements you want.
+因此CSS类让您**选择**样式哪些元素，它们可以让您**重用**您想要的任何元素上具有相同的样式规则集。
 
-+ Go to `index.html` and add the `stylishBox` class to the `main` element, or another element on the page. You can remove it again afterwards!
++ 转到` index.html `并添加` stylishBox ` `主类`元素或页面上的另一个元素。 之后您可以再次将其删除！
 
 ```html
     <main class="stylishBox">   
 ```
 
-Here's what my home page looks like with the CSS class. I've also added the `topDivider` class to the `img` tag with the picture of Tito.
+这是我的 CSS 类的主页。 我还将`topDivider`类添加到Tito图片的`img`标签中。
 
-![CSS classes being used on the home page](images/homePageWithClasses.png)
+![主页上正在使用的 CSS 类](images/homePageWithClasses.png)
 
 \--- challenge \---
 
-## Challenge: make some new classes
+## 挑战：做一些更改
 
-+ Use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the `width` attribute from each of your `img` elements and add the appropriate class instead.
++ 使用CSS **类**为您的网站定义一些不同的图片大小，例如` .smallPictures `和` .mediumPictures ` 。 然后从您的`img`元素中删除`width`属性，然后添加相应的类。
 
 \--- hints \---
 
 \--- hint \---
 
-You can make a CSS class that defines just the width of an element like this:
+您可以创建一个CSS类，该类仅定义元素的宽度，如下所示：
 
 ```css
   .smallPictures {
@@ -121,19 +121,19 @@ You can make a CSS class that defines just the width of an element like this:
 
 \--- hint \---
 
-Here's an `img` tag with a `width` attribute:
+这里有一个`img`标签，带有`宽`属性：
 
 ```html
   <img src="tito.png" alt="Tito the dog" width="100px" />       
 ```
 
-When you remove the `width` attribute and control the size with the CSS class instead, it looks like this:
+当您移除`width`属性并使用CSS类控制大小时，它看起来就像这样：
 
 ```html
   <img src="tito.png" class="smallPictures" alt="Tito the dog" />       
 ```
 
-By using a CSS class, you can easily change the width of all the pictures at once by changing only one line of code in your style sheet!
+通过使用CSS类，只需更改样式表中的一行代码，即可轻松地一次更改所有图片的宽度！
 
 \--- /hint \---
 

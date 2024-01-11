@@ -36,10 +36,10 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
+| \# | FF | 00 | 00 |     Röd     |
+| \# | 00 | FF | 00 |    Grön     |
+| \# | 00 | 00 | FF |     Blå     |
+| \# | FF | FF | 00 |     Gul     |
 | \# | FF | 00 | FF |   Magenta   |
 | \# | 00 | FF | FF |    Cyan     |
 | \# | FF | 8c | 00 | Dark orange |

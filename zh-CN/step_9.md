@@ -1,8 +1,8 @@
-## Animation
+## 动画
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+你知道你可以使用 CSS 来移动东西吗？ 您将学习如何使用此卡！
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ 在您开始之前， 请确保您网站上有一张图片，上面有一个 `id` 和一个相应的 CSS 块，它将`width` 设置为 `100px`。 我要用以前的Tito的图片，我的CSS块如下所示：
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ 转到CSS文件的底部，然后添加以下代码：
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+此代码创建了一个名为 `myFirstAnimation` 的动画，您可以添加到您网站上的任何元素。 你认为他会怎样做？
 
-+ Find your CSS rules for the picture and add the following three properties:
++ 查找图片的 CSS 规则并添加以下三个属性：
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ 现在看看您网页上发生的事情！ 为` animation-iteration-count` 尝试不同的值，看看它做什么。
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ 让我们尝试另一个动画！ 将以下代码添加到CSS文件的末尾：
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ 现在找到更早的`#myCoolText` CSS 规则并添加到动画代码中：
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+当您使用**百分比值**，而不是`从`和`到`时，您可以在值之间以及刚刚开始和结束值之间设定。 您可以在两个值之间设置像您喜欢使用`0`的不同百分比值一样多。直到`100`。
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ 更改` animation-iteration-count`的值到`无限` 。 测试之前，看看是否可以猜测会发生什么！
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ 试用不同的数值为 `animation-duration`，以加速或减缓您的动画。
 
-+ One final trick! Add this animation code:
++ 最后一招！ 添加此动画代码：
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ 现在找到您先前写过的 `#frontPage` CSS 规则，并将其更改为:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+不用担心理解上面的所有代码... 只是坐下来享受！
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+要了解更多的动画，请访问[这个网页](http://dojo.soy/html2-css-animation){:target="_blank"}。 享受快乐
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+在下一张卡片上，当鼠标光标悬停在鼠标上时，你会学习如何使事情变得很酷！

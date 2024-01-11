@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 2.0
+title: Ghidul țării mele 2.0
 hero_image: images/banner.png
-description: Take your website design skills further!
+description: Luați-vă abilitățile de design de site web în continuare!
 theme: red
 duration: 2
 listed: true
@@ -9,17 +9,17 @@ ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html-css-javascript
-site_areas: coderdojo, projects
+technologies: html-css-JavaScript
+site_areas: coderdojo, proiecte
 hardware: ''
-software: html-css-javascript
+software: html-css-JavaScript
 version: 1
-last_tested: 2017-01-01
+last_tested: 01-01-2017
 steps:
   - 
-    title: Introduction
+    title: Introducere
   - 
-    title: Getting set up
+    title: Pregătire
   - 
     title: All the colours!
   - 

@@ -1,32 +1,32 @@
-## Organising your page
+## ページを整理する
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+これまで**見出し**と**段落**を使用して、**コンテンツ**を整理して読みやすくしました。 物事をまとめてまとめることで、さらに整理してみましょう。
 
 ## \--- collapse \---
 
-## title: What is content?
+## タイトル：Contentとは何ですか？
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**content**は、あなたのウェブページのすべてのもの、例えばastextやpicturesです。
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ ` attractions.html` ファイル（またはサンプルプロジェクトを使用していない場合は自分のページの1つ）に移動し、上部にある openingタグの**下**で、新しい行に次のように入力します。 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ エディタが閉じる`</article>`タグに自動的に追加された場合は、削除してください。
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ ファイルの一番下にある**上記**閉じる`</main>`タグ、新しい行を追加し、`記事`要素を閉じます。
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+`main`要素は以下のようになります。（もちろん、`article`タグの間に異なるコンテンツがあるかもしれません）：
 
 ```html
   <main>
@@ -37,15 +37,14 @@ Your `main` element should look something like this now (you might have differen
         The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
         <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
         <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        <p>This is a large island off the coast of County Mayo. 山や沼、崖などの自然豊かな景観が美しい。
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ 次に、`article`の内容を見て、セクションに分けてみてください。 この新しいタグのペアを各ビットの周りに配置します：`<section> </section>` 。 次のようになります。
 
 ```html
   <article>
@@ -58,8 +57,7 @@ Your `main` element should look something like this now (you might have differen
     </section>
     <section>
       <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      <p>This is a large island off the coast of County Mayo. 山や沼、崖などの自然豊かな景観が美しい。
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -68,41 +66,41 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## タイトル：新しいタグとは何ですか？
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+これらの新しい要素を**containers**と考えてください。 それらは、物事をグループ化するために使用されます。 まるで家の箱や棚に物を整理するようなものです。
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+これにより、ウェブサイトがスクリーンリーダーにとって使いやすくなり、レイアウトをより細かく制御できるようになります。また、おわかりのように、スタイリングを使って本当にクリエイティブになることができます。
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+タグの間に何でも入れることができます。 通常は複数の要素になりますが、そうである必要はありません。 任意の種類のHTML要素にすることができます。 あなたがやっていることは、これらのタグの間にあるすべてが一緒に属していることをブラウザに伝えることです。
 
 ### Article
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+`article`要素は、コンテンツ全体のコンテナであり、この場合、アイルランドのアトラクションに関する情報のセットです。 関連のないさまざまなコンテンツがある場合は、全体に一つのタグセットを置くのではなく、それぞれを独自の`article`要素に入れる必要があります。
 
 ### Section
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+`section`要素では、関連するコンテンツを小さなチャンクに分割し、それぞれのチャンクをそれぞれのコンテナに入れることができます。
 
-### Others exist too!
+### 他の要素にも存在する！
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+これらは、HTMLの唯一のコンテナー要素ではありません。 メニューを作成し、`<nav> </nav>` タグの間に入れたことがある場合は、コンテナのタイプのもう一つの例です。 `<main></main>`と`<header></header>`も——これ以上考えられますか？
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+Webページの外観はまだ変わらないかもしれませんが、コンテンツがコンテナータグに整理されると、CSSを使用していくつかの素晴らしいことができるようになります。 HTMLはWebサイトの編成方法を制御し、CSSはWebサイトの外観を制御します。
 
-## Challenge: organise your website
+## チャレンジ：ウェブサイトを整理する
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ `article`と`section`コンテナを使用して、ウェブサイト上のすべてのコンテンツを整理してください。 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+サンプルプロジェクトのフードページを見てください。 `food.html`ファイルに`section`タグの束を付けた`article`を追加しました。
 
 ```html
   <main>
@@ -132,8 +130,7 @@ Look at the Food page of the example project. You'll see that I've added an `art
         <p>
           This classic of sausages, mashed potato and gravy is not
           unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+          sausages. ほとんどの国には独自のソーセージの作り方がありますが、それは私が旅行に出かけているときに家から懐かしくなるものです!
         </p>
       </section>
 
@@ -146,8 +143,7 @@ Look at the Food page of the example project. You'll see that I've added an `art
         <p>
           It might not sound very interesting, but this hearty meal of
           boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          ジャガイモをバターでくすぶるのが好きで、ベーコンにからしを少しつけるのも好きです。
         </p>
         <p>
           My mum always made it extra special by cooking the cabbage in
@@ -166,6 +162,6 @@ Look at the Food page of the example project. You'll see that I've added an `art
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+次のカードでは、articlesやsectionsに整理されたページごとに異なるテーマをデザインしましょう!
 
 \--- /challenge \---

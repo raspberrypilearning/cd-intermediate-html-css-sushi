@@ -36,12 +36,12 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 00 | 00 |   Červená   |
+| \# | 00 | FF | 00 |   Zelená    |
+| \# | 00 | 00 | FF |    Modrá    |
+| \# | FF | FF | 00 |    Žlutá    |
+| \# | FF | 00 | FF |  Purpurová  |
+| \# | 00 | FF | FF |   Azurová   |
 | \# | FF | 8c | 00 | Dark orange |
 
 \--- /collapse \---

@@ -1,18 +1,18 @@
-## Individual style
+## 单个样式
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+让我们看看主页！ 使用另一种CSS选择器，您可以将一组唯一的CSS规则应用于**一个特定元素** 。
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ 转到` index.html `并找到一个段落（` p ` ）元素，如果没有则添加一个。 添加以下**属性**到标签：
 
 ```html
     <p id="myCoolText">
-        My website is about Ireland.
+    我的网站关于爱尔兰 。
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id`是你给**特定**元素的名称。 页面上不应该有两个元素相同的`id`!
 
-+ Now go to your style sheet and add the following code:
++ 现在转到您的样式表并添加以下代码：
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+你的代码应该像这样：
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![具有不同颜色和边框的文本](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+一个在网站前面有 `#` 的选择器用于对您网站上的一个特定元素应用CSS 规则。 您在指定元素的`id`属性的名称帮助下指定元素。
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ 让我们为主页的` body `做一个。 转到` index.html `并添加一个` id `到`body` 标签。
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ 在样式表中，添加以下CSS规则：
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+你应该看到类似下面的内容：
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![彩虹渐变背景](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+您刚刚使用了**渐变** ！ 这是指一种颜色转向另一种颜色时的名称。 注意：第一个`背景`渐变上方的属性确定了不支持渐变的浏览器的默认颜色。
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+如果您完美地键入了代码，但是上面没有得到漂亮的彩虹效果，则可能是您的浏览器不支持渐变。
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+您可以使用渐变来制作许多不同的效果。 如果您想了解更多，请在这里[ ](http://dojo.soy/html2-css-gradients) {：target =“ _ blank”}。
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## 挑战：设计更多元素
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ 尝试给另一个元素一个` id `并使用ID选择器和`＃对该元素进行样式设置`如上。 如何制作一张图片`边界半径``100%`，以便它完全旋转？ 网站上的任何其他图片将保持不变。 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+您给元素一个` id `通过添加` id ` HTML标签的属性，如下所示：
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+选择任何` id `喜欢的名字
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+要为特定元素定义样式规则，请使用`＃ `符号，以及您为元素指定的名称作为其` id ` 。
 
 ```css
   #titoPicture {
@@ -84,12 +84,12 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+注意：您在 CSS 规则前输入的名称应**精确** 匹配您在 `id`属性中的名称。
 
 \--- /hint \---
 
 \--- /hints \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![Tito的圆形图片带有白色边框](images/titoPictureIdStyle.png)
 
 \--- /challenge \---

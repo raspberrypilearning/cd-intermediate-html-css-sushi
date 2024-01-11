@@ -25,7 +25,7 @@ Note: 50% (50 percent) is **half**.
 
 You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
 
-## \--- collapse \---
+## \--- kollaps \---
 
 ## title: How does it work?
 

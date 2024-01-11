@@ -36,12 +36,12 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 00 | 00 |  Punainen   |
+| \# | 00 | FF | 00 |   Vihreä    |
+| \# | 00 | 00 | FF |   Sininen   |
+| \# | FF | FF | 00 |  Keltainen  |
+| \# | FF | 00 | FF |  Purppura   |
+| \# | 00 | FF | FF | Sinivihreä  |
 | \# | FF | 8c | 00 | Dark orange |
 
 \--- /collapse \---

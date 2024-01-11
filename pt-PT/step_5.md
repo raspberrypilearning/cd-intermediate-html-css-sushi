@@ -33,7 +33,7 @@ Remember that when you use a CSS **selector** such as `section` or `p` or `nav u
 
 With CSS **classes**, you're able to change the style of just **some** of the elements.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. Por exemplo:
 
 ```css
   .myAwesomeClass {

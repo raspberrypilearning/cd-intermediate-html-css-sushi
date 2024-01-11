@@ -13,7 +13,7 @@ Ecco un esempio di come potrebbe apparire il tuo sito dopo aver completato quest
 
 ## \--- collapse \---
 
-## title: What you will learn
+## titolo: Cosa imparerai
 
 + Come creare i tuoi colori usando il codice
 + Modi per organizzare i contenuti sul tuo sito Web in modo da poter applicare stili diversi e renderli compatibili con gli screen reader
@@ -27,14 +27,14 @@ Ecco un esempio di come potrebbe apparire il tuo sito dopo aver completato quest
 
 ## \--- collapse \---
 
-## title: What you will need
+## titolo: Cosa ti serve
 
 ### Hardware
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Un computer in grado di accedere al sito [trinket.io](https://trinket.io){:target="_blank"}
 
 ### Software
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Questo progetto può essere completato in un web browser utilizzando [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---

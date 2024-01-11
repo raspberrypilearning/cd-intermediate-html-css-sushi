@@ -1,8 +1,8 @@
-## Animation
+## アニメーション
 
-Did you know you can use CSS to make things move around? You'll learn how on this card!
+CSSを使って表示物を動かすことができることを知っていましたか? このカードでその方法を学びます！
 
-+ Before you get started, make sure you have a picture on your website with an `id` and a corresponding CSS block which sets the `width` to `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ 作業を開始する前に、`id`が付いた画像と、`width`を`100px`に設定した`id`が一致するCSSブロックをWebサイトに用意してください。 以前のティートの画像を使用しますが、CSSブロックは以下のようになります。
 
 ```css
     #titoPicture {
@@ -11,7 +11,7 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-+ Go to the bottom of your CSS file and add the following code:
++ CSSファイルの一番下に移動し、次のコードを追加します。
 
 ```css
     @keyframes myFirstAnimation {
@@ -24,9 +24,9 @@ Did you know you can use CSS to make things move around? You'll learn how on thi
     }
 ```
 
-This code creates an animation called `myFirstAnimation` that you can add to any element on your website. What do you think it will do?
+このコードは `myFirstAnimation` というアニメーションを作成し、ウェブサイト上の任意の要素に追加できます。 どうすると思う?
 
-+ Find your CSS rules for the picture and add the following three properties:
++ 画像のCSSルールを見つけて、次の3つのプロパティを追加します。
 
 ```css
     animation-name: myFirstAnimation;
@@ -34,9 +34,9 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     animation-iteration-count: 1;
 ```
 
-+ Now watch what happens on your web page! Try different values for `animation-iteration-count` to see what it does.
++ Webページで何が起こるか見てみましょう！ `animation-iteration-count`に別の値を試してください。
 
-+ Let's try another animation! Add the following code to the end of your CSS file:
++ 別のアニメーションを試してみましょう！ CSS ファイルの最後に次のコードを追加しましょう:
 
 ```css
     @keyframes rainbowGlow {
@@ -52,7 +52,7 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-+ Now find the `#myCoolText` CSS rules from earlier and add in the animation code:
++ 以前の`#myCoolText`というCSSルールを見つけて、アニメーションコードを追加してください。
 
 ```css
     #myCoolText {        
@@ -66,13 +66,13 @@ This code creates an animation called `myFirstAnimation` that you can add to any
     }
 ```
 
-When you use **percentage values** instead of `from` and `to`, you're able to set in-between values as well as just start and end values. You can set as many in-between values as you like using different percentage values from `0` all the way up to `100`.
+`from`と`to`の代わりに**percentage values**を使用する場合、開始値と終了値だけでなく、中間の値も設定できます。 `0`から`100`まで異なるパーセント値を使用して、好きなように幾らの中間値を設定できます。
 
-+ Change the value of `animation-iteration-count` to `infinite`. See if you can guess what will happen before you test it!
++ `animation-iteration-count`の値を`infinite`に変更します。 確認する前に、何が起こるかを推測してください。
 
-+ Try out different values for `animation-duration` to speed up or slow down your animation.
++ `animation-duration`に異なる値を設定して、アニメーションの速度を上げたり下げたりしてみてください。
 
-+ One final trick! Add this animation code:
++ 最後のトリック！ 次のアニメーションコードを追加します。
 
 ```css
     @keyframes slide {
@@ -85,7 +85,7 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-+ Now find the `#frontPage` CSS rules you wrote earlier and change them to:
++ ここでは、以前に書いた`#frontPage`のCSSルールを見つけて、次のように変更します:
 
 ```css
     #frontPage {
@@ -95,8 +95,8 @@ When you use **percentage values** instead of `from` and `to`, you're able to se
     }
 ```
 
-Don't worry about understanding all of the code above... just sit back and enjoy!!
+上記のコードをすべて理解する必要はありません。 ただ座って楽しんでください!!
 
-To learn about more things you can do with animation, visit [this web page](http://dojo.soy/html2-css-animation){:target="_blank"}. Have fun!
+アニメーションでできることの詳細については、[このWebページにアクセスしてください](http://dojo.soy/html2-css-animation) {：target = "_ blank"}。 楽しんで!
 
-On the next card you'll learn how to make cool things happen when you hover the mouse cursor over things!
+次のカードでは、マウスカーソルを物の上に置いたときにクールなことが起こるようにする方法を学びます。

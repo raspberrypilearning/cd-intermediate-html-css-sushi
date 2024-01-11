@@ -1,10 +1,10 @@
-## Introduction
+## 简介
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+利用您现有的HTML / CSS技能来建立网站并更好地控制其外观。
 
-### What you will make
+### 你将制作：
 
-Here is an example of how your website might look after completing these Sushi Cards:
+以下是完成这些寿司卡后您的网站外观的示例：
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## 标题: 你将学到什么
 
-+ How to create your own colours using code
-+ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-+ How to use CSS styling to create themes as well as style individual elements
-+ Controlling the size of elements with different kinds of measurements
-+ Making things happen when you hover over elements on your page
-+ Animating elements of your website with CSS
-+ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
++ 如何使用代码创建您自己的颜色
++ 在网站上组织内容的方式，以便您可以应用样式并使其对屏幕阅读器友好
++ 如何使用CSS样式创建主题以及设置单个元素的样式
++ 通过不同类型的测量来控制元素的大小
++ 当您将鼠标悬停在页面上的元素上时，事情就会发生
++ 使用CSS制作网站的动画元素
++ 如何使用开发人员工具来窥视任何网站的代码，并测试部分内容
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## 标题: 你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ 一台能够访问[trinket.io](https://trinket.io){:target="_blank"}的计算机
 
-### Software
+### 软件
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+该项目可以在Web浏览器中使用[trinket.io](https://trinket.io){:target="_blank"}来完成。
 
 \--- /collapse \---

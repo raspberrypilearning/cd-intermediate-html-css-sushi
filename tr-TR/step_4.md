@@ -2,7 +2,7 @@
 
 So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
 
-## \--- collapse \---
+## \--- küçült \---
 
 ## title: What is content?
 

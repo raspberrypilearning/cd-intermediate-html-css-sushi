@@ -26,7 +26,7 @@ Colour codes allow you to create any colour, even if it's not on any list of col
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Cum funcționează?
 
 Every colour is made by mixing different amounts of **red**, **green**, and **blue**. You will sometimes see this written down as **RGB**. Each of these colours is represented by two of the six digits in your HEX code. `00` is the minimum, and `FF` is the maximum.
 
@@ -36,12 +36,12 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 00 | 00 |    Roșu     |
+| \# | 00 | FF | 00 |    Verde    |
+| \# | 00 | 00 | FF |  Albastru   |
+| \# | FF | FF | 00 |   Galben    |
+| \# | FF | 00 | FF |  Purpuriu   |
+| \# | 00 | FF | FF |   Turcoaz   |
 | \# | FF | 8c | 00 | Dark orange |
 
 \--- /collapse \---

@@ -1,8 +1,8 @@
-## Teach Tito to roll over!
+## 教 Tito 翻转！
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+您可以使您的网站更具互动性** **当您将鼠标悬停在事物上时，可以使事物变酷！
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ 查找`img`元素的 CSS 规则，或在您没有任何元素时创建一些规则。 添加一个边框，然后在下面添加一个新的规则块：
 
 ```css
   img {
@@ -13,21 +13,21 @@ You can make your website more **interactive** by making cool stuff happen when 
   }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+您刚刚使用了一种特殊的CSS块，称为** 伪类 ** 。
 
 ## \--- collapse \---
 
-## title: How does it work?
+## 标题：它是如何工作的？
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+一个 **伪类** 与您自己创建的 **class** 略有不同。 您可以通过`:`来识别它。
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+伪类被编入HTML元素: 你可以添加`:hover`样式规则到任何元素, 类, 或 `id` 选择器在您的样式表中无需添加额外的 HTML 代码。
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ 你觉得会发生什么？ 检查您网站上的哪些页面上有图片（如果没有图片，请添加图片！），然后将光标移到图片上查找！
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ 让我们使用这个新的 `:hover` 伪类和一个 CSS 类来在你悬停时显示链接！ 将链接添加到您的网页，并包含一个属性以指定类名称。 记住，链接使用`<a>`标签定义，如：
 
 ```html
     <p>
@@ -35,7 +35,7 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ 将以下代码添加到您的样式表中，然后运行您的代码来查看您的可爱链接。
 
 ```css
   .niceLinks {
@@ -47,11 +47,11 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
   }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ 为什么不将属性`class="niceLinks"`添加到菜单栏中的所有链接？
 
-You can combine all of these tricks with animations too!
+你也可以将所有这些技巧和动画结合起来！
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ 再次找到Tito图片的 CSS 块 (或您先前工作的任何图片)。 将以下代码添加到样式表文件中：
 
 ```css
   #titoPicture {
@@ -73,21 +73,21 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ 你能猜会发生什么吗？
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ 现在大喊“翻滚！”当您将光标移到图片上时！
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## 挑战：建立发光的彩虹链接
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ 您是否可以使用上一张卡片中的`rainbowGlow`动画来使您菜单中的链接在鼠标悬停在它们上面时保持颜色变化？
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+下面是`rainbowGlow`动画的代码。 它定义了五个阶段，并且每个阶段都设置了不同的文本颜色。 您可以随意添加更多或更改他们！
 
 ```css
     @keyframes rainbowGlow {
@@ -113,13 +113,13 @@ Below is the code for the `rainbowGlow` animation. It has five stages defined, a
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+要制作动画，请添加三个`动画`属性，就像您在上面所做的一样。 始终确保`动画名称`与您要使用的动画名称匹配。
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+您可以添加`悬停`直接影响` nav `像这样的菜单：
 
 ```css
   nav ul li a:hover {
@@ -129,7 +129,7 @@ You can add `hover` effects directly to the `nav` menu like this:
   }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+或者，如果您也想使网站上的其他链接也闪烁彩虹色，则可以将动画添加到`.niceLinks `类，就像这样：
 
 ```css
   .niceLinks:hover {

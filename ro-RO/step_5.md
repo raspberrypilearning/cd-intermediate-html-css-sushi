@@ -27,13 +27,13 @@ You should see a line appear above each section on the page. Congratulations —
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Cum funcționează?
 
 Remember that when you use a CSS **selector** such as `section` or `p` or `nav ul`, the style rules apply to **all** the elements of that type on your website.
 
 With CSS **classes**, you're able to change the style of just **some** of the elements.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. De exemplu:
 
 ```css
   .myAwesomeClass {

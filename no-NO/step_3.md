@@ -24,7 +24,7 @@ Colour codes allow you to create any colour, even if it's not on any list of col
 
 + Try making up your own colour code. It must start with a `#`. This tells the browser that it is a hex code instead of a colour name. The rest of the code is made up of six characters. They can be any number from **0 to 9** and any letter from **A to F**.
 
-## \--- collapse \---
+## \--- kollaps \---
 
 ## title: How does it work?
 
@@ -36,10 +36,10 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
+| \# | FF | 00 | 00 |     Rød     |
+| \# | 00 | FF | 00 |    Grønn    |
+| \# | 00 | 00 | FF |     Blå     |
+| \# | FF | FF | 00 |     Gul     |
 | \# | FF | 00 | FF |   Magenta   |
 | \# | 00 | FF | FF |    Cyan     |
 | \# | FF | 8c | 00 | Dark orange |

@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## Regola automaticamente le dimensioni
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+Fino ad ora hai usato i **pixel** per impostare la dimensione delle cose, ad esempio `10px`. In questa scheda imparerai altre unità di misura che puoi usare.
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ Vai a `index.html` e trova l'elemento `img` con l'immagine di Tito o trova un altro tag `img` sul tuo sito web.
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ Elimina l'attributo `width` se c'è e assegna all'elemento un `id` se non ne ha già uno.
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ Nel tuo file CSS, definisci la proprietà `width` per la tua immagine come mostrato di seguito (potresti aver bisogno di creare il blocco CSS con il selettore `id` se non lo hai già fatto in una scheda precedente).
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+Nota: 50% (50 percento) vuol dire **metà**.
 
-+ Try resizing your browser window and watch what happens to the picture.
++ Prova a ridimensionare la finestra del browser e guarda cosa succede alla foto.
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+Dovresti vedere che l'immagine diventa sempre più piccola quando ingrandisci e riduci la finestra. Questo accade perché occupa il 50% della larghezza dell'elemento **main** (che è approssimativamente la larghezza della pagina).
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Come funziona?
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+Quando si imposta la dimensione di qualcosa in pixel, si imposta una dimensione esatta che non cambia. Questa è chiamata una misura **assoluta**.
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+Un altro modo per impostare la dimensione delle cose consiste nell'utilizzare misurazioni **relative**, in modo che la dimensione dipenda da quanto sono grandi gli elementi confrontati l'uno con l'altro. Quindi, ogni volta che una cosa cambia dimensione, tutto il resto cambierà automaticamente anche le dimensioni per mantenere le stesse proporzioni ****.
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+Quando utilizzi misurazioni **relative**, è importante sapere qual è il **genitore** del tuo elemento. Il genitore è la cosa in cui si trova il tuo elemento, ed è rispetto a questo che la misura sarà in relazione. Ad esempio, il genitore dell'immagine sopra è l'elemento `article`, perché l'elemento `img` è tra i tag `<article></article>`.
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+Se si imposta la larghezza (`width`) di un elemento su `100%`, ciò lo renderà della stessa larghezza del contenitore genitore in cui si trova.
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ Sperimenta con numeri diversi di fronte al `%`.

@@ -25,7 +25,7 @@ You should see a line appear above each section on the page. Congratulations —
 
 + Look at how your web page looks now and compare it to the other pages that have `section` elements. You'll see that only the ones where you added the attribute `class="topDivider"` will have the line on top.
 
-## \--- collapse \---
+## - - 自動隱藏選單 - -
 
 ## title: How does it work?
 
@@ -33,7 +33,7 @@ Remember that when you use a CSS **selector** such as `section` or `p` or `nav u
 
 With CSS **classes**, you're able to change the style of just **some** of the elements.
 
-Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. For example:
+Putting a dot in front of your selector makes it into a **class selector**. A class can have any name, so it doesn't have to be the name of a HTML element. 例如：
 
 ```css
   .myAwesomeClass {

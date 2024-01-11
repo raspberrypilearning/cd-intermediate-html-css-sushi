@@ -36,12 +36,12 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 00 | 00 |   Κόκκινο   |
+| \# | 00 | FF | 00 |   Πράσινο   |
+| \# | 00 | 00 | FF |    Μπλε     |
+| \# | FF | FF | 00 |   Κίτρινο   |
+| \# | FF | 00 | FF |  Ματζέντα   |
+| \# | 00 | FF | FF |    Κυανό    |
 | \# | FF | 8c | 00 | Dark orange |
 
 \--- /collapse \---

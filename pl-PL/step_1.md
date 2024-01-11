@@ -1,10 +1,10 @@
 ## Wprowadzenie
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+Rozwiń swoje umiejętności HTML / CSS, aby stworzyć stronę internetową i uzyskać większą kontrolę nad jej wyglądem.
 
-### What you will make
+### Co będziesz robić
 
-Here is an example of how your website might look after completing these Sushi Cards:
+Oto przykład tego, jak twoja witryna może wyglądać po wykonaniu tego projektu:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Czego się nauczysz
 
-+ How to create your own colours using code
-+ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-+ How to use CSS styling to create themes as well as style individual elements
-+ Controlling the size of elements with different kinds of measurements
-+ Making things happen when you hover over elements on your page
-+ Animating elements of your website with CSS
-+ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
++ Jak tworzyć własne kolory za pomocą kodu
++ Jak uporządkować zawartość strony, aby można było zastosować style i żeby była bardziej przyjazna dla czytników ekranu
++ Jak używać stylów CSS do tworzenia motywów, a także stylów poszczególnych elementów
++ Różnych sposobów zmieniania rozmiaru elementów
++ Jak sprawić, żeby coś się stało po najechaniu na element na stronie
++ Animować elementy witryny za pomocą CSS
++ Jak korzystać z narzędzi deweloperskich, aby podejrzeć kod dowolnej witryny i przetestować fragmenty twojej strony
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Czego będziesz potrzebować
 
-### Hardware
+### Sprzęt
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Komputer, na którym jest dostęp do strony [trinket.io](https://trinket.io){:target="_blank"}
 
-### Software
+### Oprogramowanie
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Ten projekt można wykonać w przeglądarce internetowej za pomocą [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---

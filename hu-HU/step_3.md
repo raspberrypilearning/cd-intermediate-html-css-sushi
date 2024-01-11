@@ -36,12 +36,12 @@ Every colour is made by mixing different amounts of **red**, **green**, and **bl
 
 |      | R  | G  | B  |   Result    |
 | ---- | -- | -- | -- |:-----------:|
-| \# | FF | 00 | 00 |     Red     |
-| \# | 00 | FF | 00 |    Green    |
-| \# | 00 | 00 | FF |    Blue     |
-| \# | FF | FF | 00 |   Yellow    |
-| \# | FF | 00 | FF |   Magenta   |
-| \# | 00 | FF | FF |    Cyan     |
+| \# | FF | 00 | 00 |    Piros    |
+| \# | 00 | FF | 00 |    Zöld     |
+| \# | 00 | 00 | FF |     Kék     |
+| \# | FF | FF | 00 |    Sárga    |
+| \# | FF | 00 | FF | Bíborvörös  |
+| \# | 00 | FF | FF |    Cián     |
 | \# | FF | 8c | 00 | Dark orange |
 
 \--- /collapse \---

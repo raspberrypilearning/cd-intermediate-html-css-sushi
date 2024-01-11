@@ -2,7 +2,7 @@
 title: Guía de mi país 2.0
 hero_image: images/banner.png
 description: '¡Lleva tus habilidades de diseño de páginas web más allá!'
-theme: red
+theme: rojo
 duration: 2
 listed: true
 ingredient: false
@@ -10,7 +10,7 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: proyectos de CoderDojo
 hardware: ''
 software: html-css-javascript
 version: 1

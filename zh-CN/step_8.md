@@ -1,16 +1,16 @@
-## Automatically adjust the size
+## 自动调整大小
 
-Up until now you've been using **pixels** to set the size of things, e.g. `10px`. On this card you will learn about other measurements you can use.
+到目前为止，您一直在使用**像素**设置事物的大小，例如` 10px ` 。 在这张卡片上，您将会了解您可以使用的其他度量方式。
 
-+ Go to `index.html` and find the `img` element with the picture of Tito, or find another `img` tag on your website.
++ 转到`index.html`并找到Tito图片中的`img`元素，或在您的网站上找到另一个`img`标签。
 
-+ Delete the `width` attribute if it's there, and give the element an `id` if it doesn't already have one.
++ 删除`宽度`属性（如果存在），并为元素赋予` id `如果还没有。
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />
 ```
 
-+ In your CSS file, define the `width` property for your picture as shown below (you might need to create the CSS block with the `id` selector if you haven't already done so on a previous card).
++ 在您的 CSS 文件中， 定义您图片的 `width` 属性。(如果您在上张卡上还没有创建一个 `id` 选择器，您可能需要创建一个 CSS 块)。
 
 ```css
   #titoPicture {
@@ -19,24 +19,24 @@ Up until now you've been using **pixels** to set the size of things, e.g. `10px`
   }
 ```
 
-Note: 50% (50 percent) is **half**.
+注意：50％（50％）为**一半** 。
 
-+ Try resizing your browser window and watch what happens to the picture.
++ 尝试调整浏览器窗口的大小，然后观察图片发生了什么。
 
-You should see that the picture gets bigger and smaller when you make the window bigger and smaller. That is because it is taking up 50% of the width of the **main** element (which is roughly the width of the page).
+你应该看到，当你使窗口变得更大和更小时，图片会变得更大和更小。 这是因为它占用了**main**元素宽度的50%(大约是页面宽度)。
 
 ## \--- collapse \---
 
-## title: How does it work?
+## 标题：它是如何工作的？
 
-When you set the size of something in pixels, you are setting an exact size and it doesn't change. This is called an **absolute** measurement.
+当您设置某些东西的大小像素时，您正在设置一个精确的大小并且它不会改变。 这被称为**绝对** 计量。
 
-Another way to set the size of things is using **relative** measurements, so that size depends on how big elements are compared to each other. Then, whenever one thing changes size, everything else will automatically change size as well to keep the same **proportions**.
+另一种设定物品大小的方法是使用**相对**的计量，所以大小取决于各元素之间的比较。 然后，只要一件事改变大小，其他所有东西也会自动改变大小，以保持相同的**比例** 。
 
-When you're using **relative** measurements, it's important to know what the **parent** of your element is. The parent is the thing that your element is inside of, and that's what the measurement will be in relation to. For example, the parent of the image above is the `article` element, because the `img` element is in between the `<article></article>` tags.
+当你正在使用**相对**测量时，知道你的元素的 **父级** 是什么是重要的。 父元素就是您元素所在的东西，这就是与之相关的度量。 例如，上图的父级是` article` 元素，因为` img `元素在`<article></article>`标签。
 
-If you set the `width` of an element to `100%`, that will make it be the same width as the parent container it's in.
+如果您将元素的`宽`设置为 `100%`，这将使其与父容器中的宽度相同。
 
 \--- /collapse \---
 
-+ Experiment with different numbers in front of the `%`.
++ 在`%`前用不同数字进行实验。

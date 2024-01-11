@@ -10,7 +10,7 @@ En esta tarjeta, aprenderás cómo echarle un vistazo al código de cualquier si
 
 ![Seleccionar la opción Inspeccionar en el texto resaltado](images/highlightTextAndInspect.png)
 
-Aparecerá un cuadro completamente nuevo en tu navegador web con muchas pestañas y códigos: las **herramientas de desarrollador**, o **herramientas de desarrollo** para abreviar. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+Aparecerá un cuadro completamente nuevo en tu navegador web con muchas pestañas y códigos: las **herramientas de desarrollador**, o **herramientas de desarrollo** para abreviar. ¡Aquí puedes ver el código de la zona en la que hiciste clic, así como el código de toda la página!
 
 ### Inspeccionando el código HTML
 
@@ -60,7 +60,7 @@ Deberías ver el cambio de fondo en ese fragmento de texto.
 
 Cuando se cambia el código del sitio web utilizando las herramientas de desarrollo, estás cambiando **temporalmente** lo que aparece **en tu navegador**. En realidad, no estás cambiando los archivos que componen el sitio web.
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). Es por eso que tus cambios desaparecen.
+Cuando actualizas la página, estás cargando nuevamente el sitio web desde sus archivos (en Internet o en tu ordenador). Es por eso que tus cambios desaparecen.
 
 ¡Ahora que lo sabes, puedes divertirte jugando con el código en otros sitios web!
 

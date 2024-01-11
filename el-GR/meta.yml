@@ -17,7 +17,7 @@ version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
     title: Getting set up
   - 

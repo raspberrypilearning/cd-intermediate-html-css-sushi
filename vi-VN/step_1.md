@@ -1,8 +1,8 @@
-## Introduction
+## Giới thiệu
 
 Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### What you will make
+### Những gì bạn sẽ làm
 
 Here is an example of how your website might look after completing these Sushi Cards:
 
@@ -13,7 +13,7 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## tiêu đề: bạn sẽ học được gì
 
 + How to create your own colours using code
 + Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
@@ -27,14 +27,14 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will need
+## tiêu đề: Những gì bạn sẽ cần
 
-### Hardware
+### Phần cứng
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Máy tính có khả năng truy cập [trinket.io](https://trinket.io){: target = "_ blank"}
 
-### Software
+### Phần mềm
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Dự án này có thể được hoàn thành trong một trình duyệt web sử dụng [trinket.io](https://trinket.io){: target="_blank"}.
 
 \--- /collapse \---

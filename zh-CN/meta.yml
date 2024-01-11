@@ -1,42 +1,42 @@
 ---
-title: Guide to my country 2.0
+title: 我的国家2.0指南
 hero_image: images/banner.png
-description: Take your website design skills further!
-theme: red
+description: 进一步提升您的网站设计技能！
+theme: 红色
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: ''
 interests: ''
-technologies: html-css-javascript
+technologies: html/css
 site_areas: coderdojo, projects
 hardware: ''
-software: html-css-javascript
+software: html/css
 version: 1
-last_tested: 2017-01-01
+last_tested: 2017年1月1日
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
-    title: Getting set up
+    title: 调整好设置
   - 
-    title: All the colours!
+    title: 所有颜色！
   - 
-    title: Organising your page
+    title: 组织您的页面
     completion:
       - engaged
   - 
-    title: Design some themes
+    title: 设计一些主题
   - 
-    title: Individual style
+    title: 单个样式
   - 
-    title: See the code on other websites!
+    title: 查看其他网站上的代码！
   - 
-    title: Automatically adjust the size
+    title: 自动调整大小
   - 
-    title: Animation
+    title: 动画
   - 
-    title: Teach Tito to roll over!
+    title: 教 Tito 翻转！
     completion:
       - internal

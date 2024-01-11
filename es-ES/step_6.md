@@ -48,7 +48,7 @@ Deberías obtener algo que se vea así:
 
 ![Fondo degradado del arco iris](images/frontPageIdStyles.png)
 
-You just used a **gradient**! Ese es el nombre dado al efecto donde un color se desvanece en otro. Nota: La primera propiedad `background` sobre el gradiente determina un color predeterminado para los navegadores que no admiten gradientes.
+¡Has usado un **gradiente**! Ese es el nombre dado al efecto donde un color se desvanece en otro. Nota: La primera propiedad `background` sobre el gradiente determina un color predeterminado para los navegadores que no admiten gradientes.
 
 Si escribiste el código a la perfección y no obtuviste el encantador efecto arco iris anterior, es posible que tu navegador no admita degradados.
 

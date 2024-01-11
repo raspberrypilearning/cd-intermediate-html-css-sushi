@@ -1,8 +1,8 @@
-## Introduction
+## Увод
 
 Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### What you will make
+### Шта ћеш направити
 
 Here is an example of how your website might look after completing these Sushi Cards:
 
@@ -13,7 +13,7 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Шта ћеш научити
 
 + How to create your own colours using code
 + Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
@@ -27,14 +27,14 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Шта ће ти бити потребно
 
-### Hardware
+### Хардвер
 
 + A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
 
-### Software
+### Софтвер
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Овај пројекат може бити завршен у веб браузеру користећи [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---

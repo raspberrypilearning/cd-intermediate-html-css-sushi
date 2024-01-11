@@ -1,8 +1,8 @@
-## Introduction
+## 介紹
 
 Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
 
-### What you will make
+### 你會做出:
 
 Here is an example of how your website might look after completing these Sushi Cards:
 
@@ -13,7 +13,7 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你會學到
 
 + How to create your own colours using code
 + Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
@@ -27,14 +27,14 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你會用到
 
-### Hardware
+### 硬體
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ 一台能夠連到 [trinket.io](https://trinket.io){:target="_blank"} 網站的電腦
 
-### Software
+### 軟體
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+此專案可直接用瀏覽器在 [trinket.io](https://trinket.io){:target="_blank"} 裡完成。
 
 \--- /collapse \---

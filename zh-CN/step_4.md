@@ -1,65 +1,63 @@
-## Organising your page
+## 组织您的页面
 
-So far you've used **headings** and **paragraphs** to make your **content** look tidy and easy to read. Let's make it even more organised by grouping things together.
+到目前为止，您已经使用了**headings**和**段落**来使您的**内容**看起来很简单易懂。 让我们通过将事情组合在一起来使它更具组织性。
 
 ## \--- collapse \---
 
-## title: What is content?
+## 标题：content 是什么？
 
-**Content** is all the stuff on your web page, such astext and pictures.
+**Content**是网页上的所有内容，例如文字和图片。
 
 \--- /collapse \---
 
-+ Go to the `attractions.html` file (or one of your own pages if you're not using the example project) and, near the top, just **below** the opening `<main>` tag, type the following on a new line: 
++ 转到` attractions.html` 文件（如果不使用示例项目，则转到自己的页面之一），然后靠近顶部，只需在以`<main>`</strong>标签开头下面，在新行中键入以下内容： 
 
 ```html
   <main>
     <article>
 ```
 
-+ If your editor automatically added in a closing `</article>` tag for you, delete it.
++ 如果您的编辑器在结尾处自动为你添加` </article>`标签，将其删除。
 
-+ At the bottom of the file, just **above** the closing `</main>` tag, add a new line and close the `article` element:
++ 在文件底部，仅在结束`</main>`标签的上面，添加新行，并关闭`article`元素：
 
 ```html
     </article>
   </main>
 ```
 
-Your `main` element should look something like this now (you might have different content in between the `article` tags of course):
+您的 `main` 元素现在应该看起来像这样(您可能在`article` 标签之间有不同的内容)：
 
 ```html
   <main>
     <article>
-      <h1>My favourite places to see in Ireland</h1>
-        <h2>The Cliffs of Moher</h2>
+      <h1>我在爱尔兰最喜欢看到的地方</h1>
+        <h2>莫赫悬崖</h2>
         <p>
-        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-        <h2>Achill Island</h2>
-        <p>This is a large island off the coast of County Mayo. It has a wild and
-        beautiful landscape of mountains, bogs and cliffs.
+        莫赫悬崖位于克莱尔郡，我来自那里。 看看它们有多酷！ </p>
+        <1 />
+        <h2>阿基尔岛</h2>
+        <p>这是马约郡县沿海的一个大岛。 它有一个狂野，
+        美丽的山脉，沼泽和峭壁。
         </p>
         <img src="achill.JPG" width="200px" />
     </article>
   </main>
 ```
 
-+ Now look at the content in your `article` and try to break it up into sections. Put this new pair of tags around each bit: `<section> </section>`. Here's an example of what it might look like:
++ 现在查看您的`article`中的内容，并尝试将其分为几部分。 将这对新标签放在每个位周围：`<section> </section>` 。 下面是它可能看起来像的示例：
 
 ```html
   <article>
-    <h1>My favourite places to see in Ireland</h1>
+    <h1>我在爱尔兰最喜欢看到的地发</h1>
     <section>
-      <h2>The Cliffs of Moher</h2>
+      <h2>莫赫悬崖</h2>
       <p>
-      The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
-      <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
-    </section>
-    <section>
-      <h2>Achill Island</h2>
-      <p>This is a large island off the coast of County Mayo. It has a wild and
-      beautiful landscape of mountains, bogs and cliffs.
+      莫赫悬崖位于克莱尔郡，我来自那里。 看看它们有多酷！ </p>
+        <1 />
+        <h2>阿基尔岛</h2>
+        <p>这是马约郡县沿海的一个大岛。 它有一个狂野，
+        美丽的山脉，沼泽和峭壁。
       </p>
       <img src="achill.JPG" width="200px" />
     </section>
@@ -68,94 +66,94 @@ Your `main` element should look something like this now (you might have differen
 
 ## \--- collapse \---
 
-## title: What are the new tags all about?
+## 标题：新标签到底是什么？
 
-Think of these new elements as **containers**. They are used to group things together. It's a bit like organising things in boxes and shelves in your home!
+将这些新元素视为**containers** 。 它们用于将事物分组在一起。 这有点像在家里整理箱子和架子上的东西！
 
-This makes your website friendly for screen readers, gives you more control over the layout, and, as you'll see, it allows you to really get creative with the styling.
+这使您的网站对屏幕阅读器友好，可以让您更好地控制布局，并且如您所见，它可以使您的样式真正发挥创意。
 
-Anything can go in between the tags. Usually it will be more than one element, but it doesn't have to be. It can be HTML elements of any kind. What you are doing is telling the browser that everything in between these tags belongs together.
+标签之间可以放入任何内容。 通常，它不止一个元素，但也不一定必须如此。 它可以是任何类型的HTML元素。 您正在做的就是告诉浏览器，这些标签之间的所有内容都属于同一类。
 
 ### Article
 
-The `article` element is a container for a whole piece of content, in this case a set of information about attractions in Ireland. If you have different bits of content that aren't related, you should put each one into its own `article` element instead of putting one set of the tags around the whole lot.
+`article`元素是一整条内容的容器，在这种情况下是一套关于爱尔兰景点的信息。 如果您有不相关的不同内容，则应将每个内容放到自己的`article`元素中，而不是在整个批次中放置一组标签。
 
 ### Section
 
-The `section` element lets you divide up related content into smaller chunks and put each chunk into its own container.
+`section`元素让你将相关内容分成较小的块，并将每个块放入自己的容器。
 
-### Others exist too!
+### 其它也存在！
 
-These aren't the only container elements in HTML. If you've ever created a menu and then put it in between `<nav> </nav>` tags, that's another example of a type of container. So are `<main> </main>` and `<header> </header>` — can you think of any more?
+这些不是HTML中唯一的容器元素。 如果你创建了一个菜单，然后将其放入`<nav> </nav>` 标签之间，这是另一个类型容器的例子。 `<main> </main>`和`<header> </header>` -您还能想到更多吗？
 
 \--- /collapse \---
 
 \--- challenge \---
 
-Your web page might not look different yet, but once the content has been organised into container tags, you'll be able to do some cool things to it with CSS. Remember, HTML controls how your website is organised, and CSS controls how it looks.
+您的网页可能看起来没有什么不同，但是一旦将内容组织到容器标签中，您就可以使用CSS对其进行一些出色的处理。 请记住，HTML控制网站的组织方式，而CSS控制网站的外观。
 
-## Challenge: organise your website
+## 挑战：组织您的网站
 
-+ Have a go at organising all of the content on your website using the `article` and `section` containers in this way. 
++ 使用`article`和`section`容器来组织您网站上的所有内容。 
 
 \--- hints \---
 
 \--- hint \---
 
-Look at the Food page of the example project. You'll see that I've added an `article` with a bunch of `section` tags into the file `food.html`:
+查看示例项目的“食物”页面。 您会看到我添加了`article`一堆`section`标签放入文件` food.html ` ：
 
 ```html
   <main>
     <article>
-      <h1>Food in Ireland</h1>
+      <h1>爱尔兰的食物</h1>
       <p>
-        These are some of my favourite Irish foods!
+        这些是我最喜欢的爱尔兰食物！
       </p>  
       <section>
-        <h2>Traditional Irish Breakfast</h2>
+        <h2>传统爱尔兰早餐</h2>
         <p>
-          A "Full Irish" breakfast consists of sausages, rashers (bacon),
-          eggs, black pudding, white pudding and toast.
+          “全爱尔兰式”早餐包括香肠，皮饼（培根），
+          鸡蛋，黑布丁，白布丁和烤面包。
         </p>
         <p>
-          Often there will be a grilled tomato as well as mushrooms,
-          and baked beans.
+          通常会有烤番茄，蘑菇，
+          和烤豆。
         </p>
         <p>
-          And of course, no breakfast is complete without a lovely pot 
-          of tea!
-        </p>
-      </section>
-
-      <section>
-        <h2>Bangers and Mash</h2>
-        <p>
-          This classic of sausages, mashed potato and gravy is not
-          unique to Ireland, but what makes it special is the Irish
-          sausages. Most countries have their own way of making sausages,
-          and they are one thing I miss from home if I'm away travelling!
+          当然，如果没有可爱的 
+          杯茶，早餐是不完整的！
         </p>
       </section>
 
       <section>
-        <h2>Bacon and Cabbage</h2>
+        <h2>香肠和土豆泥</h2>
         <p>
-          I couldn't possibly make a list of Irish food without including
-          this very traditional dish!
+          这种经典的香肠，土豆泥和肉汁并不是爱尔兰独有的
+          种，但与众不同的是爱尔兰
+          香肠。 大多数国家/地区都有自己的制作香肠的方式，即
+          ，如果我出门旅行，那是我在家想念的一件事！
+        </p>
+      </section>
+
+      <section>
+        <h2>培根和白菜</h2>
+        <p>
+          如果不包括
+          非常传统的菜肴，我将无法列出爱尔兰美食！
         </p>
         <p>
-          It might not sound very interesting, but this hearty meal of
-          boiled ham, potatoes and green cabbage is tasty and filling.
-          I love to smother the potatoes in butter, and I also like a
-          little mustard with the bacon.
+          听起来可能并不很有趣，但是这道丰盛的
+          火腿，土豆和青菜却很美味。
+          我喜欢用黄油涂土豆泥，我也喜欢培根搭配
+          芥末酱。
         </p>
         <p>
-          My mum always made it extra special by cooking the cabbage in
-          the water that the ham was boiled in.
+          我的妈妈总是通过在煮沸火腿的水
+          煮白菜来使它特别特别。
         </p>
         <p>
-          If there are any leftovers you can make another one of my
-          favourites: <strong>fried cabbage</strong>!
+          如果有剩余，您可以做我的
+          最爱之一：<strong>炒白菜</strong> ！
         </p>
       </section>
     </article>     
@@ -166,6 +164,6 @@ Look at the Food page of the example project. You'll see that I've added an `art
 
 \--- /hints \---
 
-On the next card, you'll design a different theme for each page that's organised into articles and sections!
+在下一张卡片上，您将为每个组织成文章和章节的页面设计一个不同的主题！
 
 \--- /challenge \---

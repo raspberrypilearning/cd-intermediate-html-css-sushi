@@ -17,7 +17,7 @@ version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
     title: Getting set up
   - 

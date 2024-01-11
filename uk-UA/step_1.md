@@ -1,10 +1,10 @@
-## Introduction
+## Вступ
 
-Build upon your existing HTML/CSS skills to make a website and gain more control over how it looks.
+Використовуючи існуючі навички HTML/CSS, створити вебсайт і отримати більше контролю над тим, як він виглядає.
 
-### What you will make
+### Що ви будете робити
 
-Here is an example of how your website might look after completing these Sushi Cards:
+Ось приклад того, як ваш вебсайт може виглядати після завершення цих Sushi карт:
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e7f7e6713?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -13,28 +13,28 @@ Here is an example of how your website might look after completing these Sushi C
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Чого ви навчитесь
 
-+ How to create your own colours using code
-+ Ways to organise content on your website so that you can apply styles, and to make it friendly for screen readers
-+ How to use CSS styling to create themes as well as style individual elements
-+ Controlling the size of elements with different kinds of measurements
-+ Making things happen when you hover over elements on your page
-+ Animating elements of your website with CSS
-+ How to use the developer tools to sneak a peek at the code of any website, and to test out parts of yours
++ Як створювати власні кольори за допомогою коду
++ Способам організації вмісту на вашому вебсайті, щоб можна було застосувати стилі, та зробити вебсайт зручним для читачів з екрану
++ Як використовувати CSS стилі для створення тем, а також стилізувати окремі елементи
++ Контролювати розміри елементів з різними видами вимірювань
++ Виконувати дії при наведенні курсору на елементи на вашій сторінці
++ Анімації елементів вашого вебсайту за допомогою CSS
++ Як використовувати інструменти розробника для того, щоб піддивитися код будь-якого вебсайту, та перевірити частини вашого коду
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що вам знадобиться
 
-### Hardware
+### Обладнання
 
-+ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
++ Комп'ютер, здатний отримати доступ до [trinket.io](https://trinket.io){:target="_blank"}
 
-### Software
+### Програмне забезпечення
 
-This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"}.
+Цей проект можна виконати у браузері за посиланням [trinket.io](https://trinket.io){:target="_blank"}.
 
 \--- /collapse \---

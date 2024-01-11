@@ -1,8 +1,8 @@
-## Individual style
+## 個別のスタイル
 
-Let's jazz up the home page a bit! With another kind of CSS selector, you can apply a unique set of CSS rules to just **one specific element**.
+Let's jazz up the home page a bit! 別の種類のCSSセレクタを使用すると、**1つの特定の要素**のみに一意のCSSルールのセットを適用できます。
 
-+ Go to `index.html` and find a paragraph (`p`) element, or add one in if you don't have any. Add the following **attribute** to the tag:
++ `index.html`に移動して段落(`p`)要素を探します。段落がない場合は要素を追加します。 次の**属性**をタグに追加します。
 
 ```html
     <p id="myCoolText">
@@ -10,9 +10,9 @@ Let's jazz up the home page a bit! With another kind of CSS selector, you can ap
     </p> 
 ```
 
-The `id` is a name you give a particular element to **identify** it. No two elements on a page should ever have the same `id`!
+`id`は、特定の要素を**指定**するための名前です。 ページ上の2つの要素が同じ`id`を持つことはできません。
 
-+ Now go to your style sheet and add the following code:
++ スタイルシートに移動し、次のコードを追加します。
 
 ```css
     #myCoolText {
@@ -23,19 +23,19 @@ The `id` is a name you give a particular element to **identify** it. No two elem
     }
 ```
 
-Your text should look like this now:
+テキストは次のようになります。
 
-![Text with a different colour and a border around it](images/paragraphIdStyle.png)
+![異なる色のテキストと境界線](images/paragraphIdStyle.png)
 
-A selector with a `#` in front of it is used to apply CSS rules to one specific element on your website. You specify the element with the help of the name that you assigned the element's `id` attribute.
+前に`#`が付いているセレクタは、Webサイト上の特定の要素にCSSルールを適用するために使用されます。 要素の`id`属性に割り当てた名前を使用して、要素を指定します。
 
-+ Let's do one for the `body` of the home page. Go to `index.html` and add an `id` to the `body` tag.
++ ホーム・ページの`body`に対して1つ実行します。 `index.html`に移動し、`body`タグに`id`を追加します。
 
 ```html
     <body id="frontPage">
 ```
 
-+ In the style sheet, add the following CSS rules:
++ スタイルシートで、次のCSSルールを追加します。
 
 ```css
     #frontPage {
@@ -44,39 +44,39 @@ A selector with a `#` in front of it is used to apply CSS rules to one specific 
     }
 ```
 
-You should get something that looks like this:
+次のようなものが表示されます。
 
-![Rainbow gradient background](images/frontPageIdStyles.png)
+![レインボーグラデーション背景](images/frontPageIdStyles.png)
 
-You just used a **gradient**! That's the name given to the effect where one colour fades into another. Note: The first `background` property above the gradient one determines a default colour for browsers that don't support gradients.
+**gradient**を使いました! ある色が別の色にまざりこむ効果に付けられた名前です。 注:グラデーションの上にある最初の`background`プロパティは、グラデーションをサポートしていないブラウザの既定の色を決定します。
 
-If you typed the code perfectly and you didn't get the lovely rainbow effect above, it could be that your browser doesn't support gradients.
+コードを完璧に入力して、上記のような美しい虹の効果が得られなかった場合、ブラウザーがグラデーションをサポートしていない可能性があります。
 
-You can make lots of different effects with gradients. If you want to learn more, go [here](http://dojo.soy/html2-css-gradients){:target="_blank"}.
+グラデーションを使用すると、さまざまな効果を作成できます。 詳細については、[ここ](http://dojo.soy/html2-css-gradients){:target="_blank"}を参照してください。
 
 \--- challenge \---
 
-## Challenge: style some more elements
+## Challenge: いくつかの要素をスタイル設定する
 
-+ Try giving another element an `id` and styling that element using the ID selector with a `#` as above. How about making one picture have a `border-radius` of `100%` so that it's fully rounded? Any other pictures on the website will stay the same as they are. 
++ 別の要素に`id`を指定し、上記のように`#`を持つIDセレクタを使用して、その要素のスタイルを設定します。 1枚の写真を`100%`の`border-radius`にして、完全に丸くするのはどうですか? Webサイト上の他の画像はすべて同じのままになります。 
 
 \--- hints \---
 
 \--- hint \---
 
-You give an element an `id` by adding the `id` attribute to the HTML tag, like this:
+要素に`id`を指定するには、次のように`id`属性をHTMLタグに追加します。
 
 ```html
   <img src="tito.png" id="titoPicture" alt="Tito the dog" />        
 ```
 
-Choose any `id` name you like.
+任意の`id`名を選択します。
 
 \--- /hint \---
 
 \--- hint \---
 
-To define style rules for a specific element, you use the `#` symbol, and the name that you gave the element as its `id`.
+特定の要素のスタイルルールを定義するには、`#`記号と、`id`として要素に付けた名前を使用します。
 
 ```css
   #titoPicture {
@@ -84,12 +84,12 @@ To define style rules for a specific element, you use the `#` symbol, and the na
   }
 ```
 
-Note: the name you type in front of the CSS rules should **exactly** match the name you put in the element's `id` attribute.
+注:CSSルールの前に入力する名前は、要素の`id`属性に入力した名前と**正確に**一致する必要があります。
 
-\--- /hint \---
+\--- /ヒント \---
 
 \--- /hints \---
 
-![A round picture of Tito with a white border](images/titoPictureIdStyle.png)
+![白い縁取りのティトの丸い絵](images/titoPictureIdStyle.png)
 
 \--- /challenge \---

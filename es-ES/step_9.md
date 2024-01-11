@@ -2,7 +2,7 @@
 
 ¿Sabías que puedes usar CSS para hacer que las cosas se muevan? ¡Aprenderás cómo en esta tarjeta!
 
-+ Antes de comenzar, asegúrate de tener una imagen en tu sitio web con `id` y un bloque CSS correspondiente que establezca `width` a `100px`. I'm going with the picture of Tito from before, and my CSS block looks like this:
++ Antes de comenzar, asegúrate de tener una imagen en tu sitio web con `id` y un bloque CSS correspondiente que establezca `width` a `100px`. Sigo con la imagen de Tito de antes, y mi bloque CSS se ve así:
 
 ```css
     #titoPicture {

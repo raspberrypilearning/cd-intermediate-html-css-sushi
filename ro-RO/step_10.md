@@ -17,7 +17,7 @@ You've just used a special type of CSS block called a **pseudo-class**.
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Cum funcționează?
 
 A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
 

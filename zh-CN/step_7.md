@@ -1,69 +1,69 @@
-## See the code on other websites!
+## 查看其他网站上的代码！
 
-**Note:** To complete this step, you need use one of these web browsers: Chrome, Firefox, or Internet Explorer/Edge. If you don't have access to one of them, you can just continue on to the next card.
+**注意：** 要完成这一步，您需要使用其中一个浏览器：Chrome、Firefox或Internet Explorer/Edge。 如果您无权访问其中之一，则可以继续使用下一张卡。
 
-On this card you'll learn how to sneak a peek at the code of any website using the **inspector tool**, and you'll also find out how to make some changes that only you can see!
+在这张卡片上，您将会学习如何在任何网站的代码中使用**检查器工具**， 你也会发现如何做一些只有你能看到的更改！
 
-+ Before you start, make sure your project is saved. Then refresh your website by clicking the refresh icon in your browser.
++ 在您开始之前，请确保您的项目已保存。 然后通过单击浏览器中的刷新图标来刷新您的网站。
 
-+ On your web page (the actual page, not the code) highlight the text with the border that you added on the previous card, then right-click on it and select the option **Inspect** from the menu that appears. (The option might be called 'Inspect Element' or similar, depending on what browser you are using. If you're having trouble finding a menu option, just ask someone at your Dojo for help.)
++ 在您的网页（实际页面，而不是代码）上，突出显示您在上一张卡片上添加边框的文本，然后右键单击该文本并选择选项**检查**从出现的菜单中。 （根据您使用的浏览器，该选项可能称为“检查元素”或类似名称。 如果您找不到菜单选项，只需向Dojo的某人寻求帮助。）
 
-![Selecting the Inspect option on highlighted text](images/highlightTextAndInspect.png)
+![在突出显示的文本上选择“检查”选项](images/highlightTextAndInspect.png)
 
-A whole new box will appear in your web browser with lots of tabs and code: the **developer tools**, or **dev tools** for short. Here you can see the code for the thing you clicked on, as well as the code for the whole page!
+全新的框将出现在您的网页浏览器中，包含大量标签和代码： **开发者工具**, 或**dev 工具** 。 在这里，您可以查看单击的内容的代码以及整个页面的代码！
 
-### Inspecting the HTML code
+### 检查HTML代码
 
-+ Look for the tab that shows you the HTML code for the page (it might be called 'Elements' or 'Inspector'). The code should look pretty much the same as how you typed it in your HTML file! You can click the little triangles on the right-hand side to expand code that is hidden.
++ 寻找显示页面的 HTML 代码的标签(它可以叫做“元素” 或 “检查器”)。 该代码看起来应该与您在HTML文件中键入代码的方式几乎相同！ 您可以单击右侧的小三角形以展开隐藏的代码。
 
-![Inspector showing a text element](images/inspectTextHtml.png)
+![检查器显示文本元素](images/inspectTextHtml.png)
 
-+ Double-click on the text in between the tags. You should be able to edit it now! Type something in and press <kbd>Enter</kbd>.
++ 双击标签之间的文本。 您现在应该可以对其进行编辑！ 输入内容，然后按<kbd> Enter </kbd> 。
 
-![Editing text using the inspector tool](images/inspectEditHtmlText.png)
+![使用检查器工具编辑文本](images/inspectEditHtmlText.png)
 
-+ Do you see the text update on your website? Note: only you can see these changes.
++ 您在网站上看到文本更新吗？ 注意：只有您可以看到这些更改。
 
-![Website with edited text](images/inspectEditHtmlTextResult.png)
+![具有编辑文字的网站](images/inspectEditHtmlTextResult.png)
 
-+ Now **reload** the page and watch what happens. Your changes should disappear!
++ 现在**重新加载**在页面上，看看会发生什么。 您的更改将消失！
 
-+ In the top left-hand corner of the dev tools box, click the icon that looks like a tiny rectangle with an arrow. Now you can move your cursor over the web page, and the HTML inspector will show you the code describing it.
++ 在开发工具框的左上角，单击看起来像带有箭头的小矩形的图标。 现在，您可以将光标移到网页上，HTML检查器将向您显示描述它的代码。
 
-![The icon to select elements](images/inspectorSelectIcon.png) ![Selecting an element](images/inspectorSelectElement.png)
+![选择元素的图标](images/inspectorSelectIcon.png) ![单击一个元素](images/inspectorSelectElement.png)
 
-### Inspecting the CSS code
+### 检查CSS代码
 
-+ Let's have a look at the CSS code next. Look for the **Styles** tab in the developer tools (it might be called 'Style Editor' or similar). You should see a bunch of CSS rules, including the ones you created for that paragraph, `#myCoolText`.
++ 接下来让我们看一下CSS代码。 寻找**样式**开发人员工具中的“标签”（可能称为“样式编辑器”或类似名称）。 您应该看到一堆CSS规则，包括您为该段创建的规则，` #myCoolText ` 。
 
-![Viewing the CSS code for an element](images/inspectCssBlock.png)
+![查看元素的CSS代码](images/inspectCssBlock.png)
 
-+ In the `#myCoolText` rules, click on the value next to the `color` property. Try typing in a different value. Watch the text on your web page change colour straight away! 
++ 在` #myCoolText中`规则，单击`颜色旁边的值`属性。 尝试输入不同的值。 观看网页上的文字立即更改颜色！ 
 
-![Editing the text colour using the CSS inspector](images/inspectEditCssColor.png)
+![使用CSS检查器编辑文本颜色](images/inspectEditCssColor.png)
 
-Note: you can also click the coloured square to change the colour using a colour picker tool.
+注意：您也可以单击彩色正方形以使用颜色选择器工具更改颜色。
 
-+ Click in the space after the colour. A new line starts, where you can type more CSS. Type the following and press <kbd>Enter</kbd>:
++ 单击颜色后面的空格。 新行开始，您可以在其中键入更多CSS。 输入内容，然后按<kbd> Enter </kbd> 。
 
 ```css
   background-color: #660066;
 ```
 
-You should see the background change on that piece of text.
+您应该看到该文本的背景变化。
 
-![Adding the background colour property](images/inspectorEditingBgCol.png) ![The new background colour](images/inspectorEditBgResult.png)
+![添加背景颜色属性](images/inspectorEditingBgCol.png) ![新的背景色](images/inspectorEditBgResult.png)
 
 ## \--- collapse \---
 
-## title: How does it work?
+## 标题：它是如何工作的？
 
-When you change website code using the developer tools, you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files that make up the website.
+当您使用开发者工具更改网站代码时，您将**在您的浏览器**中更改它看起来像的**临时内容**。 您实际上并没有更改构成网站的文件。
 
-When you refresh the page, you are loading up the website again from its files (on the internet or on your computer). That's why your changes disappear.
+刷新页面时，您正在从网站文件中重新加载网站（在Internet或计算机上）。 这就是为什么你的更改消失了。
 
-Now that you know that, you can have some fun messing with the code on other websites!
+现在您已经知道了，您可以将其他网站上的代码弄得很有趣！
 
 \--- /collapse \---
 
-+ Try using these tools to look at the code on another website. You can even make changes if you like! Remember, only you can see the changes you make, and everything will reset when you refresh the page.
++ 尝试使用这些工具在另一个网站上查看代码。 如果你喜欢，你甚至可以进行更改！ 请记住，只有您可以看到您所做的更改，当您刷新页面时，一切都会重置。

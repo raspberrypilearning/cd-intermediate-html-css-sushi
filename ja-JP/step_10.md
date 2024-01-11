@@ -1,33 +1,28 @@
-## Teach Tito to roll over!
+## ティートに寝返りを教えろ!
 
-You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse cursor!
+マウスカーソルを物の上に置いたときにクールなことが起こるようにすることで、Webサイトをより**インタラクティブ**にすることができます!
 
-+ Find your CSS rules for the `img` elements, or create some if you don't have any. Add in a border, and then add a new block of rules right below:
++ `img` 要素のCSSルールを探したり、ない場合は作成してください。 境界線を追加し、その下に新しい規則のブロックを追加します。
 
 ```css
-  img {
-    border: 2px solid White;
-  }
-  img:hover {
-    border: 2px dashed Navy;
-  }
+  img { border: 2px solid White; } img:hover { border: 2px dashed Navy; }
 ```
 
-You've just used a special type of CSS block called a **pseudo-class**.
+あなたは **擬似クラス**と呼ばれる特別なタイプのCSSブロックを使用しました。
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title:どのように動作するのか?
 
-A **pseudo-class** is a bit different from a **class** that you create yourself. You can recognise it by the `:`.
+**擬似クラス** は、自分で作成した **クラス** とは少し異なります。 `:`で認識できます。
 
-Pseudo-classes come built in to HTML elements: you can add `:hover` style rules to any element, class, or `id` selector in your style sheet without needing to add anything extra in your HTML code.
+疑似クラスはHTML要素に組み込まれています。HTMLコードに何も追加しなくても、スタイルシートの任意の要素、クラス、または`id`セレクタに`:hover`スタイルルールを追加できます。
 
 \--- /collapse \---
 
-+ What do you think will happen? Check what pages on your website have pictures on them (add a picture if there aren't any!), then move your cursor over a picture to find out!
++ どうなると思いますか? Webサイトのどのページに画像があるかを確認し(画像がない場合は画像を追加)、画像の上にカーソルを移動して確認します。
 
-+ Let's use this new `:hover` pseudo-class together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `<a>` tag, like so:
++ この新しい`:hover`疑似クラスをCSSクラスとともに使用して、リンク上にマウスを置いたときにリンクが光るようにしましょう。 Webページへのリンクを追加し、クラス名を指定する属性を含めます。 リンクは、次のように`<a>`タグを使用して定義されます。
 
 ```html
     <p>
@@ -35,23 +30,17 @@ Pseudo-classes come built in to HTML elements: you can add `:hover` style rules 
     </p>
 ```
 
-+ Add the following code to your style sheet, then run your code to see your lovely links in action.
++ 次のコードをスタイル・シートに追加し、コードを実行してリンクの動作を確認します。
 
 ```css
-  .niceLinks {
-    text-decoration: none;
-    color: #FFFAF0;
-  }
-  .niceLinks:hover {
-    color: #00FF7F;
-  }
+  .niceLinks {テキスト装飾：なし;色：＃FFFAF0; } .niceLinks：ホバー{色：＃00FF7F; }
 ```
 
-+ Why not add the attribute `class="niceLinks"` to all of the links in your menu bar as well?
++ メニュー・バーのすべてのリンクにも、属性`class="niceLinks"`を追加します。
 
-You can combine all of these tricks with animations too!
+これらのトリックをアニメーションと組み合わせることもできます。
 
-+ Find the CSS block for the picture of Tito again (or whatever picture you were working on earlier). Add the following code to your style sheet file:
++ Titoの画像のCSSブロックをもう一度探します(あるいは、前に作業していた画像を探します)。 スタイルシートファイルに次のコードを追加します。
 
 ```css
   #titoPicture {
@@ -73,71 +62,46 @@ You can combine all of these tricks with animations too!
   }
 ```
 
-+ Can you guess what will happen?
++ どうなるかわかりますか?
 
-+ Now shout "Roll over!" as you move the cursor over the picture!
++ 画像の上にカーソルを移動させながら、「Roll over!」と叫びます。
 
 \--- challenge \---
 
-## Challenge: make glowing rainbow links
+## Challenge：輝く虹のリンクを作る
 
-+ Can you use the `rainbowGlow` animation from the previous card to make the links in your menu keep changing colours when the cursor is hovering over them?
++ 前のカードの`rainbowGlow`アニメーションを使用して、メニュー内のリンクの上にカーソルを置いたときにリンクの色を変更し続けることができますか。
 
 \--- hints \---
 
 \--- hint \---
 
-Below is the code for the `rainbowGlow` animation. It has five stages defined, and it sets a different text colour at each stage. You can add more or change them however you want!
+`rainbowGlow`アニメーションのコードを以下に示します。 5つのステージが定義されており、各ステージで異なるテキスト色を設定します。 追加や変更は自由自在!
 
 ```css
-    @keyframes rainbowGlow {
-        0% {
-            color: #00BFFF;
-        }
-        25% {
-            color: #00FF7F;
-        }
-        50% {
-            color: #eeeeaf;
-        }
-        75% {
-            color: #eeafee;
-        }
-        100% {
-            color: #00BFFF;
-        }
-    }
+    @keyframes rainbowGlow {0％{カラー：＃00BFFF; } 25％{カラー：＃00FF7F; } 50％{カラー：#eeeeaf; } 75％{color：#eeafee; } 100％{カラー：＃00BFFF; }}
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-To animate something, you add the three `animation` properties to its style rules as you've done above. Always make sure the `animation-name` matches the name of the animation you wish to use.
+何かをアニメートするには、上記と同様に、スタイルルールに3つの`animation`プロパティを追加します。 `animation-name`が、使用するアニメーションの名前と一致していることを必ず確認してください。
 
 \--- /hint \---
 
 \--- hint \---
 
-You can add `hover` effects directly to the `nav` menu like this:
+`hover`エフェクトは、次のように`nav`メニューに直接追加できます。
 
 ```css
-  nav ul li a:hover {
-    animation-name: rainbowGlow;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-  }
+  nav ul li：hover {アニメーション名：rainbowGlow;アニメーションの持続時間：1.5秒;アニメーション反復カウント：無限; }
 ```
 
-Or, if you want to make other links on your website flash rainbow colours too, you can add the animation to the `.niceLinks` class instead, like this:
+また、Webサイト上の他のリンクをFlash虹色にする場合は、次のように`.niceLinks`クラスにアニメーションを追加することもできます。
 
 ```css
-  .niceLinks:hover {
-    color: #00BFFF;
-    animation-name: rainbowGlow;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-  }
+  .niceLinks：ホバー{色：＃00BFFF;アニメーション名：rainbowGlow;アニメーションの持続時間：1.5秒;アニメーション反復カウント：無限; }
 ```
 
 \--- /hint \---

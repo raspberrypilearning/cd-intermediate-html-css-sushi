@@ -1,7 +1,7 @@
 ---
-title: Guide to my country 2.0
+title: Guida al mio paese 2.0
 hero_image: images/banner.png
-description: Take your website design skills further!
+description: Migliora ulteriormente le tue capacità di progettazione di siti web!
 theme: red
 duration: 2
 listed: true
@@ -17,26 +17,26 @@ version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introduzione
   - 
-    title: Getting set up
+    title: Prepararsi
   - 
-    title: All the colours!
+    title: Tutti i colori!
   - 
-    title: Organising your page
+    title: Organizzare la tua pagina
     completion:
       - engaged
   - 
-    title: Design some themes
+    title: Disegna alcuni temi
   - 
-    title: Individual style
+    title: Stile individuale
   - 
-    title: See the code on other websites!
+    title: Guarda il codice su altri siti web!
   - 
-    title: Automatically adjust the size
+    title: Regola automaticamente le dimensioni
   - 
-    title: Animation
+    title: Animazione
   - 
-    title: Teach Tito to roll over!
+    title: Insegna a Tito a girarsi!
     completion:
       - internal

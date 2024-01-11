@@ -1,8 +1,8 @@
 ---
 title: 아일랜드 여행 가이드 2.0
-hero_image: images/banner.png
+hero_image: images / banner.png
 description: 본인의 웹 사이트 디자인 기술을 더 발전시켜 보세요!
-theme: red
+theme: 빨강색
 duration: 2
 listed: true
 ingredient: false
@@ -10,7 +10,7 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: 코도 도조 프로젝트
 hardware: ''
 software: html-css-javascript
 version: 1

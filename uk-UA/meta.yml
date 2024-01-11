@@ -1,7 +1,7 @@
 ---
 title: Guide to my country 2.0
 hero_image: images/banner.png
-description: Take your website design skills further!
+description: Візьміть навички дизайну веб-сайту ще більше!
 theme: red
 duration: 2
 listed: true
@@ -10,16 +10,16 @@ copyedit: true
 curriculum: ''
 interests: ''
 technologies: html-css-javascript
-site_areas: coderdojo, projects
+site_areas: coderdojo, проекти
 hardware: ''
 software: html-css-javascript
 version: 1
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: З днем народження
   - 
-    title: Getting set up
+    title: Знайомство із середовищем
   - 
     title: All the colours!
   - 

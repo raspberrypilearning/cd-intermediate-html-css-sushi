@@ -1,0 +1,32 @@
+---
+title: Przewodnik po moim kraju 2.0
+hero_image: images/banner.png
+description: Dowiedz się więcej o tworzeniu stron internetowych!
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - title: Wprowadzenie
+  - title: Przygotowanie do pracy
+  - title: Wszystko o kolorach
+  - title: Organizowanie twojej strony
+    completion:
+      - engaged
+  - title: Zaprojektuj swój motyw
+  - title: Indywidualny styl
+  - title: Podglądaj kod innych stron internetowych!
+  - title: Automatyczne dopasowanie rozmiarów
+  - title: Animacje
+  - title: 'Zadanie: naucz Tito fikać kozła!'
+    completion:
+      - internal

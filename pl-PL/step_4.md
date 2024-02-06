@@ -10,7 +10,7 @@ Do tej pory używałeś **nagłówków** i **akapitów** aby **zawartość** Two
 
 \--- /collapse \---
 
-+ Przejdź do pliku `attractions.html` (lub jednej ze swoich stron, jeśli nie korzystasz z przykładowego projektu). Na górze, tuż **poniżej** `<main>`, wpisz w nowym wierszu: 
++ Przejdź do pliku `attractions.html` (lub jednej ze swoich stron, jeśli nie korzystasz z przykładowego projektu). Na górze, **poniżej** `<main>`, wpisz w nowym wierszu: 
 
 ```html
   <main>

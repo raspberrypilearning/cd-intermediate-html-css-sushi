@@ -1,6 +1,6 @@
 ## Zaprojektuj swój motyw
 
-Pisanie reguł CSS dla elementów takich jak `section` i `p` jest świetne, Ale co jeśli chcesz sprawić, by niektóre z nich wyglądały inaczej niż inne? Na tej karcie nauczysz się, jak stosować różne zestawy reguł stylu do elementów tego samego typu i stworzyć inny szablon dla każdej strony na swojej stronie internetowej!
+Pisanie reguł CSS dla elementów takich jak `section` i `p` jest świetne, Ale co jeśli chcesz sprawić, by niektóre z nich wyglądały inaczej niż inne? Nauczysz się, jak stosować różne zestawy reguł stylu do elementów tego samego typu i stworzyć inny szablon dla każdej strony na swojej stronie internetowej!
 
 + Przejdź do pliku arkusza stylów i dodaj następujące - upewnij się, że kropka jest umieszczona z przodu!
 
@@ -95,7 +95,7 @@ Klasy CSS pozwalają więc **wybrać** które elementy stylizować, i pozwalają
     <main class="stylishBox">   
 ```
 
-Oto jak wygląda moja strona domowa z klasą CSS. Dodałem również klasę `topDivider` do tagu `img` obrazkiem Tito.
+Oto jak wygląda moja strona z klasą CSS. Dodałem również klasę `topDivider` do tagu `img` obrazkiem Tito.
 
 ![Klasy CSS używane na stronie głównej](images/homePageWithClasses.png)
 

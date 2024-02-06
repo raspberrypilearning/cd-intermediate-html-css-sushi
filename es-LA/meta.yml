@@ -1,0 +1,32 @@
+---
+title: Guía de mi país 2.0
+hero_image: images/banner.png
+description: '¡Lleva tus habilidades de diseño de páginas web más allá!'
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 1
+last_tested: 2017-01-01
+steps:
+  - title: Introducción
+  - title: Preparándote
+  - title: '¡Todos los colores!'
+  - title: Organizando tu página
+    completion:
+      - engaged
+  - title: Diseña algunos temas
+  - title: Estilo individual
+  - title: '¡Mira el código en otras páginas web!'
+  - title: Ajusta automáticamente el tamaño
+  - title: Animación
+  - title: '¡Enséñale a Tito a darse la vuelta!'
+    completion:
+      - internal

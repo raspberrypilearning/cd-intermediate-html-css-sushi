@@ -17,7 +17,7 @@ Twoja witryna powinna mieć teraz fioletowe tło.
 ![](images/HexColourFirst.png)
 ![](images/HexColourFirstResult.png)
 
-+ Nie jesteś fanem fioletu? Przejdź do [tej strony](http://dojo.soy/html2-colors){:target="_blank"} i wybierz inny kolor arkusza stylów — zamiast wpisywać nazwę koloru, wpisz kod szesnastkowy. 
++ Nie jesteś fanem fioletowego? Przejdź do [tej strony](http://dojo.soy/html2-colors){:target="_blank"} i wybierz inny kolor arkusza stylów — zamiast wpisywać nazwę koloru, wpisz kod szesnastkowy. 
 
 ![](images/ColorNamesHex.png)
 

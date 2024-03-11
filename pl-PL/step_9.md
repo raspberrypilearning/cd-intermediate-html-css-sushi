@@ -2,7 +2,7 @@
 
 Czy wiesz, że możesz użyć CSS, aby wszystko się poruszało? Dowiesz się, jak na tej karcie!
 
-+ Zanim zaczniesz, upewnij się, że masz zdjęcie na swojej stronie z `id` i odpowiednim blokiem kodu CSS, który ustawia `width` na `100px`. Ja zrobię to wykorzystując zdjęcie Tito z poprzedniej wersji, a mój blok CSS wygląda tak:
++ Zanim zaczniesz, upewnij się, że masz zdjęcie na swojej stronie z `id` i odpowiednim blokiem kodu CSS, który ustawia `width` na `100px`. Wykorzystam zdjęcie Tito z poprzedniej wersji, a mój blok CSS wygląda tak:
 
 ```css
     #titoPicture {

@@ -2,7 +2,7 @@
 
 Sviluppa le tue competenze HTML/CSS per creare un sito web ed ottenere maggiore controllo su come appare.
 
-### Cosa creerai
+### Cosa farai
 
 Ecco un esempio di come potrebbe apparire il tuo sito dopo aver completato queste Sushi Card:
 
@@ -16,11 +16,11 @@ Ecco un esempio di come potrebbe apparire il tuo sito dopo aver completato quest
 ## titolo: Cosa imparerai
 
 + Come creare i tuoi colori usando il codice
-+ Modi per organizzare i contenuti sul tuo sito Web in modo da poter applicare stili diversi e renderli compatibili con gli screen reader
-+ Come utilizzare gli stili CSS per creare temi e personalizzare singoli elementi
-+ Controllare la dimensione degli elementi con diversi tipi di misure
++ Modi per organizzare i contenuti sul tuo sito Web in modo da poter applicare gli stili e renderli compatibili per gli screen reader
++ Come utilizzare gli stili CSS per creare temi e stilizzare singoli elementi
++ Controllo della dimensione degli elementi con diversi tipi di misure
 + Far accadere delle cose quando passi con il mouse sugli elementi della tua pagina
-+ Animare elementi del tuo sito web con CSS
++ Animazione di elementi del tuo sito Web con CSS
 + Come utilizzare gli strumenti di sviluppo per dare una sbirciatina al codice di qualsiasi sito web e testare parti del tuo
 
 \--- /collapse \---

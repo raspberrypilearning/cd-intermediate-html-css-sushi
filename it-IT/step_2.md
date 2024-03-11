@@ -14,7 +14,7 @@
 
 Dovrebbe apparire **remixed** dopo aver fatto clic su questo pulsante:
 
-![Il pulsante ora dice "remixato"](images/tktRemixedSmall.png)
+![Il pulsante ora dice "remixed"](images/tktRemixedSmall.png)
 
 \--- /collapse \---
 

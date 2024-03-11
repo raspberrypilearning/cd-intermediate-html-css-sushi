@@ -44,11 +44,11 @@ Selektor z `#` przed nim jest używany do stosowania reguł CSS do jednego konkr
     }
 ```
 
-Powinieneś dostać coś, co wygląda tak:
+Powinieneś uzyskać taki efekt:
 
 ![Tło z tęczowym gradientem](images/frontPageIdStyles.png)
 
-Właśnie użyłeś **gradientu**! To jest nazwa nadana efektowi, w którym jeden kolor przenika do drugiego. Uwaga: Pierwsza właściwość `background` nad gradientem określa domyślny kolor przeglądarki, która nie obsługuje gradientów.
+Właśnie użyłeś **gradientu**! To nazwa nadana efektowi, w którym jeden kolor przenika do drugiego. Uwaga: Pierwsza właściwość `background` nad gradientem określa domyślny kolor przeglądarki, która nie obsługuje gradientów.
 
 Jeśli wpiszesz kod perfekcyjnie i nie uzyskasz powyższego efektu pięknej tęczy, być może Twoja przeglądarka nie obsługuje gradientów.
 
